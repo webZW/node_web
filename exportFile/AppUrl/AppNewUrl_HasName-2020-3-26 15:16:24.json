@@ -1,0 +1,1042 @@
+{
+   "Public": {
+      "name": "公共",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/user/get",
+            "name": "公共-获取用户信息"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/list",
+            "name": "公共-列表"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/query/alarm/count",
+            "name": "公共-获取近三个月告警数量"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/accepted/count",
+            "name": "公共-获取近三个月工单数量"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/task/query/count",
+            "name": "公共-点检任务数量"
+         },
+         {
+            "method": "GET",
+            "path": "/tradeIndexType/list",
+            "name": "公共-列表"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/list/user/apply",
+            "name": "公共-app_获取我的应用 对应菜单"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/month/list",
+            "name": "公共-获取最新月份指定行业指标数据"
+         },
+         {
+            "method": "POST",
+            "path": "/user/subscribe/delete",
+            "name": "公共-删除"
+         },
+         {
+            "method": "POST",
+            "path": "/user/subscribe/add",
+            "name": "公共-添加"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list",
+            "name": "公共-查询区域结构树"
+         },
+         {
+            "method": "GET",
+            "path": "/message/category/list",
+            "name": "公共-获取消息分类"
+         },
+         {
+            "method": "GET",
+            "path": "/message/list",
+            "name": "公共-分页获取消息"
+         },
+         {
+            "method": "GET",
+            "path": "/open/resources/tree/user",
+            "name": "公共-获取当前用户的菜单和按钮的树,用于登录后加载权限菜单信息"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list",
+            "name": "公共-物料列表"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/type/list",
+            "name": "公共-列表"
+         },
+         {
+            "method": "POST",
+            "path": "/user/password/update",
+            "name": "公共-修改密码"
+         },
+         {
+            "method": "POST",
+            "path": "/message/set/read/get",
+            "name": "公共-指定消息标记为已读"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/record/get",
+            "name": "公共-操作记录"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/sheet/item/list",
+            "name": "公共-完工查询列表查看"
+         },
+         {
+            "method": "GET",
+            "path": "/material/distribute/return/quantity/get",
+            "name": "公共-退料"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/badge",
+            "name": "公共-用户是否有收到新的回复,徽标红点显示接口"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/my/stat",
+            "name": "公共-协作统计--用户事项统计接口"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/user/list",
+            "name": "公共-用户事项列表"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/delete",
+            "name": "公共-删除事项"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/detail",
+            "name": "公共-获取详情"
+         },
+         {
+            "method": "POST",
+            "path": "/matterComment/add",
+            "name": "公共-对事项进行评论或者回复"
+         },
+         {
+            "method": "POST",
+            "path": "/matterComment/list",
+            "name": "公共-事项的评论列表,根据事项id查询事项的评论列表"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/status/modify",
+            "name": "公共-修改事项状态"
+         },
+         {
+            "method": "POST",
+            "path": "/matterReceiverMsg/list/user/new",
+            "name": "公共-用户最新的事项消息列表"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/delete/badge",
+            "name": "公共-清除徽标红点 接口"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/get",
+            "name": "公共-区域树 (去掉没有设备的区域)"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add",
+            "name": "公共-uploadFile"
+         },
+         {
+            "method": "POST",
+            "path": "/organizationUser/user/list",
+            "name": "公共-根据eid查询企业用户列表"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/add",
+            "name": "公共-发布协作事项"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/page/org",
+            "name": "公共-分页机构下的事项分页列表"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/query/alarm/count",
+            "name": "公共-获取近三个月告警数量"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/accepted/count",
+            "name": "公共-获取近三个月工单数量"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/task/query/count",
+            "name": "公共-点检任务数量"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/list/user/apply",
+            "name": "公共-app_获取我的应用 对应菜单"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/month/list",
+            "name": "公共-获取最新月份指定行业指标数据"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/badge",
+            "name": "公共-用户是否有收到新的回复,徽标红点显示接口"
+         },
+         {
+            "method": "GET",
+            "path": "/open/resources/tree/user",
+            "name": "公共-获取当前用户的菜单和按钮的树,用于登录后加载权限菜单信息"
+         },
+         {
+            "method": "POST",
+            "path": "/userApplyResources/add/apply",
+            "name": "公共-添加菜单"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId",
+            "name": "公共-查询当前页面的事项列表"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/months/list",
+            "name": "公共-获取本年所有月份指定行业指标数据"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/year/list",
+            "name": "公共-获取最新年份指定行业指标数据"
+         },
+         {
+            "method": "GET",
+            "path": "/organization/user/list",
+            "name": "公共-查询用户所在的机构列表,简要数据"
+         },
+         {
+            "method": "GET",
+            "path": "/open/resources/tree/user",
+            "name": "公共-获取当前用户的菜单和按钮的树,用于登录后加载权限菜单信息"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/list/user/apply",
+            "name": "公共-app_获取我的应用 对应菜单"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/add/apply",
+            "name": "公共-添加菜单"
+         },
+         {
+            "method": "GET",
+            "path": "/user/get/info",
+            "name": "公共-获取用户信息"
+         }
+      ]
+   },
+   "CommunicationAlarm": {
+      "name": "告警追溯",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/alarm/category/list",
+            "name": "告警追溯-查询企业告警规则类型列表（按大类）"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/alarm/history/list/app",
+            "name": "告警追溯-分页获取告警列表，默认获取当月"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId",
+            "name": "告警追溯-查询当前页面的事项列表"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/rule/index/list",
+            "name": "告警追溯-获取告警规则指标/参数数据"
+         }
+      ]
+   },
+   "EquipmentMonitoring": {
+      "name": "设备监测",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/monitor/status/list",
+            "name": "设备监测-查询监测状态列表"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list",
+            "name": "设备监测-查询区域结构树"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/list",
+            "name": "设备监测-获取app设备监测列表"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/index/list",
+            "name": "设备监测-获取app设备下对应的指标"
+         },
+         {
+            "method": "POST",
+            "path": "/monitor/product/add",
+            "name": "设备监测-添加APP监测(可多设备新增)"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/get",
+            "name": "设备监测-区域树 (去掉没有设备的区域)"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/all/index/list",
+            "name": "设备监测-获取app设备下所有的指标"
+         }
+      ]
+   },
+   "ProductionExecution": {
+      "name": "生产执行",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get",
+            "name": "生产执行-获取企业模型树"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/task/list",
+            "name": "生产执行-生产任务列表"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/task/finish/list",
+            "name": "生产执行-完工查询列表"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/open/get",
+            "name": "生产执行-任务开始"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/return/update",
+            "name": "生产执行-退回"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/stop/get",
+            "name": "生产执行-任务暂停"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/close/get",
+            "name": "生产执行-任务完成"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/sheet/get",
+            "name": "生产执行-生产报工"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/shift/list",
+            "name": "生产执行-班次下拉"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/course/list",
+            "name": "生产执行-班组下拉"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/sheet/add",
+            "name": "生产执行-新增任务报工"
+         }
+      ]
+   },
+   "MeterMonitoring": {
+      "name": "表计监测",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/monitor/status/list",
+            "name": "表计监测-查询监测状态列表"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/rule/index/list",
+            "name": "表计监测-获取告警规则指标/参数数据"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/meter/list",
+            "name": "表计监测-获取app表计监测列表"
+         },
+         {
+            "method": "POST",
+            "path": "/monitor/product/add",
+            "name": "表计监测-添加APP监测(可多设备新增)"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/meter/index/app/list",
+            "name": "表计监测-获取app表计下对应的指标"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/getMeterTypes",
+            "name": "表计监测-查询表计类型"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/oper/list",
+            "name": "表计监测-查询表计列表"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/type/list",
+            "name": "表计监测-查询表计类型"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/all/index/list",
+            "name": "表计监测-获取app设备下所有的指标"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/meter/all/index/list",
+            "name": "表计监测-获取app表计下所有的指标"
+         }
+      ]
+   },
+   "AlarmOverview": {
+      "name": "告警概览",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/alarm/realtime/list",
+            "name": "告警概览-分页获取当前告警列表"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/alarm/month/accumulate/info/get",
+            "name": "告警概览-获取月累计告警"
+         }
+      ]
+   },
+   "RegularCheck": {
+      "name": "设备点检",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/regular/check/task/info/list",
+            "name": "设备点检-APP点检任务设备列表"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/type/get",
+            "name": "设备点检-获取企业设备类型列表"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/stat/task/get",
+            "name": "设备点检-APP点检任务根据月份按天分组统计"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/equip/list",
+            "name": "设备点检-APP点检记录设备列表查询"
+         }
+      ]
+   },
+   "EnergyOverview": {
+      "name": "能源概览",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/energy/integration/area/consumption/get",
+            "name": "能源概览-能源消耗-区域消耗"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/integration/overall/consumption/get",
+            "name": "能源概览-能源消耗-整体消耗"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/integration/efficiency/level/get",
+            "name": "能源概览-能效水平 看整体"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/integration/efficiency/trend/get",
+            "name": "能源概览-能效水平 看趋势"
+         }
+      ]
+   },
+   "ProductSchedule": {
+      "name": "生产进度",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/production/analysis/list",
+            "name": "生产进度-获取生产统计信息"
+         }
+      ]
+   },
+   "ProductionAnalysis": {
+      "name": "生产综合分析",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/cement/factory/board/get",
+            "name": "生产综合分析-获取水泥全厂看板"
+         }
+      ]
+   },
+   "RotaryKilnProductionAnalysis": {
+      "name": "回转窑生产分析",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/cement/rotary/target/list",
+            "name": "回转窑生产分析-获取水泥回转窑数据(list传区域...)"
+         }
+      ]
+   },
+   "PutMateriel": {
+      "name": "物料投放",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/material/distribute/record/list",
+            "name": "物料投放-物料投放记录"
+         },
+         {
+            "method": "POST",
+            "path": "/material/distribute/update",
+            "name": "物料投放-保存物料投放"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list",
+            "name": "物料投放-查询区域结构树"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/shift/list",
+            "name": "物料投放-班次下拉"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/course/list",
+            "name": "物料投放-班组下拉"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/task/list",
+            "name": "物料投放-生产任务列表"
+         },
+         {
+            "method": "GET",
+            "path": "/material/list",
+            "name": "物料投放-获取物料管理列表"
+         },
+         {
+            "method": "GET",
+            "path": "/material/type/list",
+            "name": "物料投放-获取物料类别列表信息"
+         },
+         {
+            "method": "GET",
+            "path": "/material/distribute/delete",
+            "name": "物料投放-批量删除物料投放"
+         }
+      ]
+   },
+   "IncomingInspection": {
+      "name": "来料检验",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/quality/manage/incoming/process/list",
+            "name": "来料检验-App检验列表 【来料】---【过程】"
+         },
+         {
+            "method": "GET",
+            "path": "/quality/manage/incoming/material/get",
+            "name": "来料检验-App物料查询检验模板  【来料】"
+         },
+         {
+            "method": "POST",
+            "path": "/incoming/process/add",
+            "name": "来料检验-新增、编辑【来料】检验 【App】【web】"
+         },
+         {
+            "method": "GET",
+            "path": "/supplier/config/list",
+            "name": "来料检验-供应商列表查询"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add",
+            "name": "来料检验-uploadFile"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list",
+            "name": "来料检验-查询区域结构树"
+         },
+         {
+            "method": "POST",
+            "path": "/quality/manage/process/check/add",
+            "name": "来料检验-App过程提交数据 【过程】"
+         },
+         {
+            "method": "GET",
+            "path": "/production/task/list",
+            "name": "来料检验-获取生产任务列表"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/shift/list",
+            "name": "来料检验-班次下拉"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list",
+            "name": "来料检验-物料列表"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/get",
+            "name": "来料检验-来料检验详情【web】【App】"
+         },
+         {
+            "method": "GET",
+            "path": "/quality/manage/process/material/get",
+            "name": "来料检验-App物料查询检验模板 【过程】"
+         },
+         {
+            "method": "GET",
+            "path": "/quality/manage/process/result/get",
+            "name": "来料检验-App过程检验详情 【过程】"
+         }
+      ]
+   },
+   "ProcessInspection": {
+      "name": "过程检验",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/quality/manage/incoming/process/list",
+            "name": "过程检验-App检验列表 【来料】---【过程】"
+         },
+         {
+            "method": "POST",
+            "path": "/quality/manage/process/check/add",
+            "name": "过程检验-App过程提交数据 【过程】"
+         }
+      ]
+   },
+   "IncomingQualityStatistics": {
+      "name": "来料检验统计",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/supplier/config/type/list",
+            "name": "来料检验统计-供应商树菜单查询"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list",
+            "name": "来料检验统计-物料列表"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/inc/count/get",
+            "name": "来料检验统计-来料质量统计（按物料类别）"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/inc/count/supplier/get",
+            "name": "来料检验统计-来料质量统计（按供应商）"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/type/list",
+            "name": "来料检验统计-物料类别列表(加全部)"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/inc/count/materiel/get",
+            "name": "来料检验统计-来料质量统计（按物料）"
+         }
+      ]
+   },
+   "ProcessQualityStatistics": {
+      "name": "过程检验统计",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/materiel/get",
+            "name": "过程检验统计-过程质量统计（按物料）"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list",
+            "name": "过程检验统计-物料列表"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list",
+            "name": "过程检验统计-查询区域结构树"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/cp/get",
+            "name": "过程检验统计-过程质量统计（按项目）"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/area/get",
+            "name": "过程检验统计-过程质量统计（按区域）"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/sequence/get",
+            "name": "过程检验统计-过程质量统计（按工序）"
+         }
+      ]
+   },
+   "EquipmentLedger": {
+      "name": "设备台账",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/type/get",
+            "name": "设备台账-获取企业设备类型列表"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/list",
+            "name": "设备台账-获取设备台帐列表接口"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/describe/get",
+            "name": "设备台账-获取设备台帐详情接口"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/equip/list",
+            "name": "设备台账-APP点检记录设备列表查询"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/record/app/list",
+            "name": "设备台账-(新)获取维修记录列表-APP端 (有分页)"
+         },
+         {
+            "method": "GET",
+            "path": "/task/maintain/record/list",
+            "name": "设备台账-APP检修记录"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/record/get",
+            "name": "设备台账-查看点检任务记录详情"
+         },
+         {
+            "method": "GET",
+            "path": "/task/maintain/item/list",
+            "name": "设备台账-APP检修内容列表"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/spare/consume/list",
+            "name": "设备台账-获取备件消耗列表"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/info/get",
+            "name": "设备台账-获取单个维修工单相关信息"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/spare/consume/list",
+            "name": "设备台账-获取备件消耗列表"
+         }
+      ]
+   },
+   "FaultRepair": {
+      "name": "故障报修",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/task/repair/fault/list",
+            "name": "故障报修-（新）的获取故障报修列表-APP端（有分页）"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/hurry/up/get",
+            "name": "故障报修-催单"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/recall/update",
+            "name": "故障报修-任务撤销"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/add",
+            "name": "故障报修-添加或者更新维修任务"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add",
+            "name": "故障报修-uploadFile"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/info/get",
+            "name": "故障报修-获取单个维修工单相关信息"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/dispatch/update",
+            "name": "故障报修-派发维修任务"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/evaluate/get",
+            "name": "故障报修-维修评价"
+         },
+         {
+            "method": "GET",
+            "path": "/repair/course/list",
+            "name": "故障报修-获取维修班组列表"
+         }
+      ]
+   },
+   "MaintenanceManagement": {
+      "name": "维修管理",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/task/repair/self/list",
+            "name": "维修管理-获取自己的维修任务"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/record/app/list",
+            "name": "维修管理-(新)获取维修记录列表-APP端 (有分页)"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/finish/update",
+            "name": "维修管理-完成维修任务消耗-app端"
+         },
+         {
+            "method": "GET",
+            "path": "/model/part/spare/list",
+            "name": "维修管理-设备-部位-备件列表(通过设备id查询，备件新增列表)"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/spare/consume/list",
+            "name": "维修管理-获取备件消耗列表"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/info/get",
+            "name": "维修管理-获取单个维修工单相关信息"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add",
+            "name": "维修管理-uploadFile"
+         }
+      ]
+   },
+   "EfficiencyAnalysis": {
+      "name": "能效分析",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get",
+            "name": "能效分析-获取企业模型树"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/efcc/list",
+            "name": "能效分析-查询时间区间能效数据列表"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId",
+            "name": "能效分析-查询当前页面的事项列表"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/delete",
+            "name": "能效分析-删除事项"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/detail",
+            "name": "能效分析-获取详情"
+         }
+      ]
+   },
+   "EquipMaintenance": {
+      "name": "设备检修",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/task/maintain/list",
+            "name": "设备检修-APP检修任务"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/type/get",
+            "name": "设备检修-获取企业设备类型列表"
+         },
+         {
+            "method": "GET",
+            "path": "/task/maintain/record/list",
+            "name": "设备检修-APP检修记录"
+         }
+      ]
+   },
+   "DowntimeRecord": {
+      "name": "停机记录",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/shutdown/reason/record/list",
+            "name": "停机记录-获取停机记录列表"
+         },
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get",
+            "name": "停机记录-获取企业模型树"
+         }
+      ]
+   },
+   "RunRecord": {
+      "name": "运行记录",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/type/get",
+            "name": "运行记录-获取企业设备类型列表"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/status/list",
+            "name": "运行记录-获取设备状态列表接口"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/status/history/list",
+            "name": "运行记录-获取设备状态历史列表接口（台帐）"
+         }
+      ]
+   },
+   "EnergySavingBenefits": {
+      "name": "节能效益",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/energy/saving/benefit/get",
+            "name": "节能效益-节能效益或者节能量--查询"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/saving/benefit/detail/get",
+            "name": "节能效益-节能明细--查询"
+         }
+      ]
+   },
+   "PeakValleyAnalysis": {
+      "name": "峰谷分析",
+      "url": [
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId",
+            "name": "峰谷分析-查询当前页面的事项列表"
+         },
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get",
+            "name": "峰谷分析-获取企业模型树"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/elec/stat/get",
+            "name": "峰谷分析-获取企业区域用电总体情况--APP"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/fgp/get",
+            "name": "峰谷分析-获取企业区域峰谷平列表数据-App"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/fgp/dist/get",
+            "name": "峰谷分析-获取企业区域峰谷平用电分布情况-App"
+         }
+      ]
+   },
+   "EnergyQuality": {
+      "name": "能源质量",
+      "url": [
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId",
+            "name": "能源质量-查询当前页面的事项列表"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/oper/energy/quality/list",
+            "name": "能源质量-【App】查询能源质量数据列表"
+         }
+      ]
+   }
+}

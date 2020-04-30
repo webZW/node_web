@@ -1,0 +1,864 @@
+{
+   "Public": {
+      "name": "公共",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/user/get"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/list"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/query/alarm/count"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/accepted/count"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/task/query/count"
+         },
+         {
+            "method": "GET",
+            "path": "/tradeIndexType/list"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/list/user/apply"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/month/list"
+         },
+         {
+            "method": "POST",
+            "path": "/user/subscribe/delete"
+         },
+         {
+            "method": "POST",
+            "path": "/user/subscribe/add"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/message/category/list"
+         },
+         {
+            "method": "GET",
+            "path": "/message/list"
+         },
+         {
+            "method": "GET",
+            "path": "/open/resources/tree/user"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/type/list"
+         },
+         {
+            "method": "POST",
+            "path": "/user/password/update"
+         },
+         {
+            "method": "POST",
+            "path": "/message/set/read/get"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/record/get"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/sheet/item/list"
+         },
+         {
+            "method": "GET",
+            "path": "/material/distribute/return/quantity/get"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/badge"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/my/stat"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/user/list"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/delete"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/detail"
+         },
+         {
+            "method": "POST",
+            "path": "/matterComment/add"
+         },
+         {
+            "method": "POST",
+            "path": "/matterComment/list"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/status/modify"
+         },
+         {
+            "method": "POST",
+            "path": "/matterReceiverMsg/list/user/new"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/delete/badge"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/get"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add"
+         },
+         {
+            "method": "POST",
+            "path": "/organizationUser/user/list"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/add"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/page/org"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/query/alarm/count"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/accepted/count"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/task/query/count"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/list/user/apply"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/month/list"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/badge"
+         },
+         {
+            "method": "GET",
+            "path": "/open/resources/tree/user"
+         },
+         {
+            "method": "POST",
+            "path": "/userApplyResources/add/apply"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/months/list"
+         },
+         {
+            "method": "GET",
+            "path": "/user/subscribe/year/list"
+         },
+         {
+            "method": "GET",
+            "path": "/oauth/account/login"
+         },
+         {
+            "method": "GET",
+            "path": "/organization/user/list"
+         },
+         {
+            "method": "GET",
+            "path": "/resources/tree/user"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/list/user/apply"
+         },
+         {
+            "method": "GET",
+            "path": "/userApplyResources/add/apply"
+         },
+         {
+            "method": "GET",
+            "path": "/user/get/info"
+         }
+      ]
+   },
+   "CommunicationAlarm": {
+      "name": "告警追溯",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/alarm/category/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/alarm/history/list/app"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/rule/index/list"
+         }
+      ]
+   },
+   "EquipmentMonitoring": {
+      "name": "设备监测",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/monitor/status/list"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/list"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/index/list"
+         },
+         {
+            "method": "POST",
+            "path": "/monitor/product/add"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/get"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/all/index/list"
+         }
+      ]
+   },
+   "ProductionExecution": {
+      "name": "生产执行",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/task/list"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/task/finish/list"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/open/get"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/return/update"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/stop/get"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/task/close/get"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/sheet/get"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/shift/list"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/course/list"
+         },
+         {
+            "method": "POST",
+            "path": "/production/execution/sheet/add"
+         }
+      ]
+   },
+   "MeterMonitoring": {
+      "name": "表计监测",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/monitor/status/list"
+         },
+         {
+            "method": "GET",
+            "path": "/alarm2/rule/index/list"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/meter/list"
+         },
+         {
+            "method": "POST",
+            "path": "/monitor/product/add"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/meter/index/app/list"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/getMeterTypes"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/oper/list"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/type/list"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/equip/all/index/list"
+         },
+         {
+            "method": "GET",
+            "path": "/monitor/meter/all/index/list"
+         }
+      ]
+   },
+   "AlarmOverview": {
+      "name": "告警概览",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/alarm/realtime/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/alarm/month/accumulate/info/get"
+         }
+      ]
+   },
+   "RegularCheck": {
+      "name": "设备点检",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/regular/check/task/info/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/type/get"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/stat/task/get"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/equip/list"
+         }
+      ]
+   },
+   "EnergyOverview": {
+      "name": "能源概览",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/energy/integration/area/consumption/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/integration/overall/consumption/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/integration/efficiency/level/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/integration/efficiency/trend/get"
+         }
+      ]
+   },
+   "ProductSchedule": {
+      "name": "生产进度",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/production/analysis/list"
+         }
+      ]
+   },
+   "ProductionAnalysis": {
+      "name": "生产综合分析",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/cement/factory/board/get"
+         }
+      ]
+   },
+   "RotaryKilnProductionAnalysis": {
+      "name": "回转窑生产分析",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/cement/rotary/target/list"
+         }
+      ]
+   },
+   "PutMateriel": {
+      "name": "物料投放",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/material/distribute/record/list"
+         },
+         {
+            "method": "POST",
+            "path": "/material/distribute/update"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/shift/list"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/course/list"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/task/list"
+         },
+         {
+            "method": "GET",
+            "path": "/material/list"
+         },
+         {
+            "method": "GET",
+            "path": "/material/type/list"
+         },
+         {
+            "method": "GET",
+            "path": "/material/distribute/delete"
+         }
+      ]
+   },
+   "IncomingInspection": {
+      "name": "来料检验",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/quality/manage/incoming/process/list"
+         },
+         {
+            "method": "GET",
+            "path": "/quality/manage/incoming/material/get"
+         },
+         {
+            "method": "POST",
+            "path": "/incoming/process/add"
+         },
+         {
+            "method": "GET",
+            "path": "/supplier/config/list"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list"
+         },
+         {
+            "method": "POST",
+            "path": "/quality/manage/process/check/add"
+         },
+         {
+            "method": "GET",
+            "path": "/production/task/list"
+         },
+         {
+            "method": "GET",
+            "path": "/production/execution/shift/list"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/get"
+         },
+         {
+            "method": "GET",
+            "path": "/quality/manage/process/material/get"
+         },
+         {
+            "method": "GET",
+            "path": "/quality/manage/process/result/get"
+         }
+      ]
+   },
+   "ProcessInspection": {
+      "name": "过程检验",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/quality/manage/incoming/process/list"
+         },
+         {
+            "method": "POST",
+            "path": "/quality/manage/process/check/add"
+         }
+      ]
+   },
+   "IncomingQualityStatistics": {
+      "name": "来料检验统计",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/supplier/config/type/list"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/inc/count/get"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/inc/count/supplier/get"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/type/list"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/inc/count/materiel/get"
+         }
+      ]
+   },
+   "ProcessQualityStatistics": {
+      "name": "过程检验统计",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/materiel/get"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/area/tree/list"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/cp/get"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/area/get"
+         },
+         {
+            "method": "GET",
+            "path": "/incoming/process/pro/count/sequence/get"
+         }
+      ]
+   },
+   "EquipmentLedger": {
+      "name": "设备台账",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/type/get"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/describe/get"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/equip/list"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/record/app/list"
+         },
+         {
+            "method": "GET",
+            "path": "/task/maintain/record/list"
+         },
+         {
+            "method": "GET",
+            "path": "/regular/check/record/get"
+         },
+         {
+            "method": "GET",
+            "path": "/task/maintain/item/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/spare/consume/list"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/info/get"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/spare/consume/list"
+         }
+      ]
+   },
+   "FaultRepair": {
+      "name": "故障报修",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/task/repair/fault/list"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/hurry/up/get"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/recall/update"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/add"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/info/get"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/dispatch/update"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/evaluate/get"
+         },
+         {
+            "method": "GET",
+            "path": "/repair/course/list"
+         }
+      ]
+   },
+   "MaintenanceManagement": {
+      "name": "维修管理",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/task/repair/self/list"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/record/app/list"
+         },
+         {
+            "method": "POST",
+            "path": "/task/repair/finish/update"
+         },
+         {
+            "method": "GET",
+            "path": "/model/part/spare/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/spare/consume/list"
+         },
+         {
+            "method": "GET",
+            "path": "/task/repair/info/get"
+         },
+         {
+            "method": "POST",
+            "path": "/file/add"
+         }
+      ]
+   },
+   "EfficiencyAnalysis": {
+      "name": "能效分析",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/efcc/list"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/delete"
+         },
+         {
+            "method": "POST",
+            "path": "/matter/get/detail"
+         }
+      ]
+   },
+   "EquipMaintenance": {
+      "name": "设备检修",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/task/maintain/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/type/get"
+         },
+         {
+            "method": "GET",
+            "path": "/task/maintain/record/list"
+         }
+      ]
+   },
+   "DowntimeRecord": {
+      "name": "停机记录",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/shutdown/reason/record/list"
+         },
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get"
+         }
+      ]
+   },
+   "RunRecord": {
+      "name": "运行记录",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/equip/type/get"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/status/list"
+         },
+         {
+            "method": "GET",
+            "path": "/equip/status/history/list"
+         }
+      ]
+   },
+   "EnergySavingBenefits": {
+      "name": "节能效益",
+      "url": [
+         {
+            "method": "GET",
+            "path": "/energy/saving/benefit/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/saving/benefit/detail/get"
+         }
+      ]
+   },
+   "PeakValleyAnalysis": {
+      "name": "峰谷分析",
+      "url": [
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId"
+         },
+         {
+            "method": "GET",
+            "path": "/enterprise/structure/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/elec/stat/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/fgp/get"
+         },
+         {
+            "method": "GET",
+            "path": "/energy/area/fgp/dist/get"
+         }
+      ]
+   },
+   "EnergyQuality": {
+      "name": "能源质量",
+      "url": [
+         {
+            "method": "POST",
+            "path": "/matter/list/pageId"
+         },
+         {
+            "method": "GET",
+            "path": "/meter/oper/energy/quality/list"
+         }
+      ]
+   }
+}

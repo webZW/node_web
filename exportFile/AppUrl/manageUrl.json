@@ -1,0 +1,2082 @@
+{
+   "Public": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000170",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取用户信息",
+            "resourcesUri": "/user/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-列表",
+            "resourcesUri": "/user/subscribe/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取近三个月告警数量",
+            "resourcesUri": "/alarm2/query/alarm/count",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取近三个月工单数量",
+            "resourcesUri": "/task/repair/accepted/count",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-点检任务数量",
+            "resourcesUri": "/regular/check/task/query/count",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-列表",
+            "resourcesUri": "/tradeIndexType/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-app_获取我的应用 对应菜单",
+            "resourcesUri": "/userApplyResources/list/user/apply",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 70
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取最新月份指定行业指标数据",
+            "resourcesUri": "/user/subscribe/month/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 80
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-删除",
+            "resourcesUri": "/user/subscribe/delete",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 90
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-添加",
+            "resourcesUri": "/user/subscribe/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 100
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-查询区域结构树",
+            "resourcesUri": "/area/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 110
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取消息分类",
+            "resourcesUri": "/message/category/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 120
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-分页获取消息",
+            "resourcesUri": "/message/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 130
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取当前用户的菜单和按钮的树,用于登录后加载权限菜单信息",
+            "resourcesUri": "/open/resources/tree/user",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 140
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-物料列表",
+            "resourcesUri": "/incoming/process/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 150
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-列表",
+            "resourcesUri": "/energy/type/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 160
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-修改密码",
+            "resourcesUri": "/user/password/update",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 170
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-指定消息标记为已读",
+            "resourcesUri": "/message/set/read/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 180
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-操作记录",
+            "resourcesUri": "/production/execution/record/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 190
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-完工查询列表查看",
+            "resourcesUri": "/production/execution/sheet/item/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 200
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-退料",
+            "resourcesUri": "/material/distribute/return/quantity/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 210
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-用户是否有收到新的回复,徽标红点显示接口",
+            "resourcesUri": "/matter/get/badge",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 220
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-协作统计--用户事项统计接口",
+            "resourcesUri": "/matter/my/stat",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 230
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-用户事项列表",
+            "resourcesUri": "/matter/user/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 240
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-删除事项",
+            "resourcesUri": "/matter/delete",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 250
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取详情",
+            "resourcesUri": "/matter/get/detail",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 260
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-对事项进行评论或者回复",
+            "resourcesUri": "/matterComment/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 270
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-事项的评论列表,根据事项id查询事项的评论列表",
+            "resourcesUri": "/matterComment/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 280
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-修改事项状态",
+            "resourcesUri": "/matter/status/modify",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 290
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-用户最新的事项消息列表",
+            "resourcesUri": "/matterReceiverMsg/list/user/new",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 300
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-清除徽标红点 接口",
+            "resourcesUri": "/matter/delete/badge",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 310
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-区域树 (去掉没有设备的区域)",
+            "resourcesUri": "/area/tree/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 320
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-uploadFile",
+            "resourcesUri": "/file/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 330
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-根据eid查询企业用户列表",
+            "resourcesUri": "/organizationUser/user/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 340
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-发布协作事项",
+            "resourcesUri": "/matter/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 350
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-分页机构下的事项分页列表",
+            "resourcesUri": "/matter/page/org",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 360
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取近三个月告警数量",
+            "resourcesUri": "/alarm2/query/alarm/count",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 370
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取近三个月工单数量",
+            "resourcesUri": "/task/repair/accepted/count",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 380
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-点检任务数量",
+            "resourcesUri": "/regular/check/task/query/count",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 390
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-app_获取我的应用 对应菜单",
+            "resourcesUri": "/userApplyResources/list/user/apply",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 400
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取最新月份指定行业指标数据",
+            "resourcesUri": "/user/subscribe/month/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 410
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-用户是否有收到新的回复,徽标红点显示接口",
+            "resourcesUri": "/matter/get/badge",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 420
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取当前用户的菜单和按钮的树,用于登录后加载权限菜单信息",
+            "resourcesUri": "/open/resources/tree/user",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 430
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-添加菜单",
+            "resourcesUri": "/userApplyResources/add/apply",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 440
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-查询当前页面的事项列表",
+            "resourcesUri": "/matter/list/pageId",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 450
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取本年所有月份指定行业指标数据",
+            "resourcesUri": "/user/subscribe/months/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 460
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取最新年份指定行业指标数据",
+            "resourcesUri": "/user/subscribe/year/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 470
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-查询用户所在的机构列表,简要数据",
+            "resourcesUri": "/organization/user/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 480
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取当前用户的菜单和按钮的树,用于登录后加载权限菜单信息",
+            "resourcesUri": "/open/resources/tree/user",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 490
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-app_获取我的应用 对应菜单",
+            "resourcesUri": "/userApplyResources/list/user/apply",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 500
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-添加菜单",
+            "resourcesUri": "/userApplyResources/add/apply",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 510
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 1,
+            "resourcesName": "公共-获取用户信息",
+            "resourcesUri": "/user/get/info",
+            "resourcesRemark": "",
+            "presourcesId": "20000170",
+            "sort": 520
+         }
+      ]
+   },
+   "CommunicationAlarm": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000087",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "告警追溯-查询企业告警规则类型列表（按大类）",
+            "resourcesUri": "/equip/alarm/category/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000087",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "告警追溯-分页获取告警列表，默认获取当月",
+            "resourcesUri": "/equip/alarm/history/list/app",
+            "resourcesRemark": "",
+            "presourcesId": "20000087",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "告警追溯-查询当前页面的事项列表",
+            "resourcesUri": "/matter/list/pageId",
+            "resourcesRemark": "",
+            "presourcesId": "20000087",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "告警追溯-获取告警规则指标/参数数据",
+            "resourcesUri": "/alarm2/rule/index/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000087",
+            "sort": 40
+         }
+      ]
+   },
+   "EquipmentMonitoring": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000122",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备监测-查询监测状态列表",
+            "resourcesUri": "/monitor/status/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000122",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备监测-查询区域结构树",
+            "resourcesUri": "/area/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000122",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备监测-获取app设备监测列表",
+            "resourcesUri": "/monitor/equip/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000122",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备监测-获取app设备下对应的指标",
+            "resourcesUri": "/monitor/equip/index/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000122",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备监测-添加APP监测(可多设备新增)",
+            "resourcesUri": "/monitor/product/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000122",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备监测-区域树 (去掉没有设备的区域)",
+            "resourcesUri": "/area/tree/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000122",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备监测-获取app设备下所有的指标",
+            "resourcesUri": "/monitor/equip/all/index/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000122",
+            "sort": 70
+         }
+      ]
+   },
+   "ProductionExecution": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000094",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-获取企业模型树",
+            "resourcesUri": "/enterprise/structure/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-生产任务列表",
+            "resourcesUri": "/production/execution/task/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-完工查询列表",
+            "resourcesUri": "/production/execution/task/finish/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-任务开始",
+            "resourcesUri": "/production/execution/task/open/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-退回",
+            "resourcesUri": "/production/execution/task/return/update",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-任务暂停",
+            "resourcesUri": "/production/execution/task/stop/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-任务完成",
+            "resourcesUri": "/production/execution/task/close/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 70
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-生产报工",
+            "resourcesUri": "/production/execution/sheet/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 80
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-班次下拉",
+            "resourcesUri": "/production/execution/shift/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 90
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-班组下拉",
+            "resourcesUri": "/production/execution/course/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 100
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产执行-新增任务报工",
+            "resourcesUri": "/production/execution/sheet/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000094",
+            "sort": 110
+         }
+      ]
+   },
+   "MeterMonitoring": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000123",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-查询监测状态列表",
+            "resourcesUri": "/monitor/status/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-获取告警规则指标/参数数据",
+            "resourcesUri": "/alarm2/rule/index/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-获取app表计监测列表",
+            "resourcesUri": "/monitor/meter/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-添加APP监测(可多设备新增)",
+            "resourcesUri": "/monitor/product/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-获取app表计下对应的指标",
+            "resourcesUri": "/monitor/meter/index/app/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-查询表计类型",
+            "resourcesUri": "/meter/getMeterTypes",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-查询表计列表",
+            "resourcesUri": "/meter/oper/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 70
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-查询表计类型",
+            "resourcesUri": "/meter/type/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 80
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-获取app设备下所有的指标",
+            "resourcesUri": "/monitor/equip/all/index/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 90
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "表计监测-获取app表计下所有的指标",
+            "resourcesUri": "/monitor/meter/all/index/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000123",
+            "sort": 100
+         }
+      ]
+   },
+   "AlarmOverview": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000117",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "告警概览-分页获取当前告警列表",
+            "resourcesUri": "/equip/alarm/realtime/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000117",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "告警概览-获取月累计告警",
+            "resourcesUri": "/equip/alarm/month/accumulate/info/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000117",
+            "sort": 20
+         }
+      ]
+   },
+   "RegularCheck": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000083",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备点检-APP点检任务设备列表",
+            "resourcesUri": "/regular/check/task/info/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000083",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备点检-获取企业设备类型列表",
+            "resourcesUri": "/equip/type/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000083",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备点检-APP点检任务根据月份按天分组统计",
+            "resourcesUri": "/regular/check/stat/task/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000083",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备点检-APP点检记录设备列表查询",
+            "resourcesUri": "/regular/check/equip/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000083",
+            "sort": 40
+         }
+      ]
+   },
+   "EnergyOverview": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000081",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能源概览-能源消耗-区域消耗",
+            "resourcesUri": "/energy/integration/area/consumption/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000081",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能源概览-能源消耗-整体消耗",
+            "resourcesUri": "/energy/integration/overall/consumption/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000081",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能源概览-能效水平 看整体",
+            "resourcesUri": "/energy/integration/efficiency/level/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000081",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能源概览-能效水平 看趋势",
+            "resourcesUri": "/energy/integration/efficiency/trend/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000081",
+            "sort": 40
+         }
+      ]
+   },
+   "ProductSchedule": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000095",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产进度-获取生产统计信息",
+            "resourcesUri": "/production/analysis/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000095",
+            "sort": 10
+         }
+      ]
+   },
+   "ProductionAnalysis": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000164",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "生产综合分析-获取水泥全厂看板",
+            "resourcesUri": "/cement/factory/board/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000164",
+            "sort": 10
+         }
+      ]
+   },
+   "RotaryKilnProductionAnalysis": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000165",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "回转窑生产分析-获取水泥回转窑数据(list传区域...)",
+            "resourcesUri": "/cement/rotary/target/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000165",
+            "sort": 10
+         }
+      ]
+   },
+   "PutMateriel": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000116",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-物料投放记录",
+            "resourcesUri": "/material/distribute/record/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-保存物料投放",
+            "resourcesUri": "/material/distribute/update",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-查询区域结构树",
+            "resourcesUri": "/area/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-班次下拉",
+            "resourcesUri": "/production/execution/shift/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-班组下拉",
+            "resourcesUri": "/production/execution/course/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-生产任务列表",
+            "resourcesUri": "/production/execution/task/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-获取物料管理列表",
+            "resourcesUri": "/material/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 70
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-获取物料类别列表信息",
+            "resourcesUri": "/material/type/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 80
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "物料投放-批量删除物料投放",
+            "resourcesUri": "/material/distribute/delete",
+            "resourcesRemark": "",
+            "presourcesId": "20000116",
+            "sort": 90
+         }
+      ]
+   },
+   "IncomingInspection": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000093",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-App检验列表 【来料】---【过程】",
+            "resourcesUri": "/quality/manage/incoming/process/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-App物料查询检验模板  【来料】",
+            "resourcesUri": "/quality/manage/incoming/material/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-新增、编辑【来料】检验 【App】【web】",
+            "resourcesUri": "/incoming/process/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-供应商列表查询",
+            "resourcesUri": "/supplier/config/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-uploadFile",
+            "resourcesUri": "/file/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-查询区域结构树",
+            "resourcesUri": "/area/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-App过程提交数据 【过程】",
+            "resourcesUri": "/quality/manage/process/check/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 70
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-获取生产任务列表",
+            "resourcesUri": "/production/task/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 80
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-班次下拉",
+            "resourcesUri": "/production/execution/shift/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 90
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-物料列表",
+            "resourcesUri": "/incoming/process/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 100
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-来料检验详情【web】【App】",
+            "resourcesUri": "/incoming/process/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 110
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-App物料查询检验模板 【过程】",
+            "resourcesUri": "/quality/manage/process/material/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 120
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验-App过程检验详情 【过程】",
+            "resourcesUri": "/quality/manage/process/result/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000093",
+            "sort": 130
+         }
+      ]
+   },
+   "ProcessInspection": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000099",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验-App检验列表 【来料】---【过程】",
+            "resourcesUri": "/quality/manage/incoming/process/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000099",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验-App过程提交数据 【过程】",
+            "resourcesUri": "/quality/manage/process/check/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000099",
+            "sort": 20
+         }
+      ]
+   },
+   "IncomingQualityStatistics": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000166",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验统计-供应商树菜单查询",
+            "resourcesUri": "/supplier/config/type/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000166",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验统计-物料列表",
+            "resourcesUri": "/incoming/process/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000166",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验统计-来料质量统计（按物料类别）",
+            "resourcesUri": "/incoming/process/inc/count/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000166",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验统计-来料质量统计（按供应商）",
+            "resourcesUri": "/incoming/process/inc/count/supplier/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000166",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验统计-物料类别列表(加全部)",
+            "resourcesUri": "/incoming/process/type/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000166",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "来料检验统计-来料质量统计（按物料）",
+            "resourcesUri": "/incoming/process/inc/count/materiel/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000166",
+            "sort": 60
+         }
+      ]
+   },
+   "ProcessQualityStatistics": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000167",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验统计-过程质量统计（按物料）",
+            "resourcesUri": "/incoming/process/pro/count/materiel/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000167",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验统计-物料列表",
+            "resourcesUri": "/incoming/process/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000167",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验统计-查询区域结构树",
+            "resourcesUri": "/area/tree/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000167",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验统计-过程质量统计（按项目）",
+            "resourcesUri": "/incoming/process/pro/count/cp/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000167",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验统计-过程质量统计（按区域）",
+            "resourcesUri": "/incoming/process/pro/count/area/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000167",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "过程检验统计-过程质量统计（按工序）",
+            "resourcesUri": "/incoming/process/pro/count/sequence/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000167",
+            "sort": 60
+         }
+      ]
+   },
+   "EquipmentLedger": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000098",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-获取企业设备类型列表",
+            "resourcesUri": "/equip/type/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-获取设备台帐列表接口",
+            "resourcesUri": "/equip/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-获取设备台帐详情接口",
+            "resourcesUri": "/equip/describe/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-APP点检记录设备列表查询",
+            "resourcesUri": "/regular/check/equip/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-(新)获取维修记录列表-APP端 (有分页)",
+            "resourcesUri": "/task/repair/record/app/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-APP检修记录",
+            "resourcesUri": "/task/maintain/record/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-查看点检任务记录详情",
+            "resourcesUri": "/regular/check/record/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 70
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-APP检修内容列表",
+            "resourcesUri": "/task/maintain/item/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 80
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-获取备件消耗列表",
+            "resourcesUri": "/equip/spare/consume/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 90
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-获取单个维修工单相关信息",
+            "resourcesUri": "/task/repair/info/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 100
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备台账-获取备件消耗列表",
+            "resourcesUri": "/equip/spare/consume/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000098",
+            "sort": 110
+         }
+      ]
+   },
+   "FaultRepair": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000092",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-（新）的获取故障报修列表-APP端（有分页）",
+            "resourcesUri": "/task/repair/fault/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-催单",
+            "resourcesUri": "/task/repair/hurry/up/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-任务撤销",
+            "resourcesUri": "/task/repair/recall/update",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-添加或者更新维修任务",
+            "resourcesUri": "/task/repair/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-uploadFile",
+            "resourcesUri": "/file/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-获取单个维修工单相关信息",
+            "resourcesUri": "/task/repair/info/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-派发维修任务",
+            "resourcesUri": "/task/repair/dispatch/update",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 70
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-维修评价",
+            "resourcesUri": "/task/repair/evaluate/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 80
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "故障报修-获取维修班组列表",
+            "resourcesUri": "/repair/course/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000092",
+            "sort": 90
+         }
+      ]
+   },
+   "MaintenanceManagement": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000097",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "维修管理-获取自己的维修任务",
+            "resourcesUri": "/task/repair/self/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000097",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "维修管理-(新)获取维修记录列表-APP端 (有分页)",
+            "resourcesUri": "/task/repair/record/app/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000097",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "维修管理-完成维修任务消耗-app端",
+            "resourcesUri": "/task/repair/finish/update",
+            "resourcesRemark": "",
+            "presourcesId": "20000097",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "维修管理-设备-部位-备件列表(通过设备id查询，备件新增列表)",
+            "resourcesUri": "/model/part/spare/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000097",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "维修管理-获取备件消耗列表",
+            "resourcesUri": "/equip/spare/consume/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000097",
+            "sort": 50
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "维修管理-获取单个维修工单相关信息",
+            "resourcesUri": "/task/repair/info/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000097",
+            "sort": 60
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "维修管理-uploadFile",
+            "resourcesUri": "/file/add",
+            "resourcesRemark": "",
+            "presourcesId": "20000097",
+            "sort": 70
+         }
+      ]
+   },
+   "EfficiencyAnalysis": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000056",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能效分析-获取企业模型树",
+            "resourcesUri": "/enterprise/structure/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000056",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能效分析-查询时间区间能效数据列表",
+            "resourcesUri": "/energy/area/efcc/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000056",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能效分析-查询当前页面的事项列表",
+            "resourcesUri": "/matter/list/pageId",
+            "resourcesRemark": "",
+            "presourcesId": "20000056",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能效分析-删除事项",
+            "resourcesUri": "/matter/delete",
+            "resourcesRemark": "",
+            "presourcesId": "20000056",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能效分析-获取详情",
+            "resourcesUri": "/matter/get/detail",
+            "resourcesRemark": "",
+            "presourcesId": "20000056",
+            "sort": 50
+         }
+      ]
+   },
+   "EquipMaintenance": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000061",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备检修-APP检修任务",
+            "resourcesUri": "/task/maintain/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000061",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备检修-获取企业设备类型列表",
+            "resourcesUri": "/equip/type/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000061",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "设备检修-APP检修记录",
+            "resourcesUri": "/task/maintain/record/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000061",
+            "sort": 30
+         }
+      ]
+   },
+   "DowntimeRecord": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000088",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "停机记录-获取停机记录列表",
+            "resourcesUri": "/equip/shutdown/reason/record/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000088",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "停机记录-获取企业模型树",
+            "resourcesUri": "/enterprise/structure/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000088",
+            "sort": 20
+         }
+      ]
+   },
+   "RunRecord": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000100",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "运行记录-获取企业设备类型列表",
+            "resourcesUri": "/equip/type/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000100",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "运行记录-获取设备状态列表接口",
+            "resourcesUri": "/equip/status/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000100",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "运行记录-获取设备状态历史列表接口（台帐）",
+            "resourcesUri": "/equip/status/history/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000100",
+            "sort": 30
+         }
+      ]
+   },
+   "EnergySavingBenefits": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000082",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "节能效益-节能效益或者节能量--查询",
+            "resourcesUri": "/energy/saving/benefit/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000082",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "节能效益-节能明细--查询",
+            "resourcesUri": "/energy/saving/benefit/detail/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000082",
+            "sort": 20
+         }
+      ]
+   },
+   "PeakValleyAnalysis": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000058",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "峰谷分析-查询当前页面的事项列表",
+            "resourcesUri": "/matter/list/pageId",
+            "resourcesRemark": "",
+            "presourcesId": "20000058",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "峰谷分析-获取企业模型树",
+            "resourcesUri": "/enterprise/structure/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000058",
+            "sort": 20
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "峰谷分析-获取企业区域用电总体情况--APP",
+            "resourcesUri": "/energy/area/elec/stat/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000058",
+            "sort": 30
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "峰谷分析-获取企业区域峰谷平列表数据-App",
+            "resourcesUri": "/energy/area/fgp/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000058",
+            "sort": 40
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "峰谷分析-获取企业区域峰谷平用电分布情况-App",
+            "resourcesUri": "/energy/area/fgp/dist/get",
+            "resourcesRemark": "",
+            "presourcesId": "20000058",
+            "sort": 50
+         }
+      ]
+   },
+   "EnergyQuality": {
+      "app": "poit-management",
+      "appKey": "",
+      "version": "string01",
+      "appType": 3600,
+      "presourcesId": "20000057",
+      "operateUserId": "3340",
+      "resourcesInfoList": [
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能源质量-查询当前页面的事项列表",
+            "resourcesUri": "/matter/list/pageId",
+            "resourcesRemark": "",
+            "presourcesId": "20000057",
+            "sort": 10
+         },
+         {
+            "resourcesCode": "",
+            "resourcesType": 3,
+            "pubType": 2,
+            "resourcesName": "能源质量-【App】查询能源质量数据列表",
+            "resourcesUri": "/meter/oper/energy/quality/list",
+            "resourcesRemark": "",
+            "presourcesId": "20000057",
+            "sort": 20
+         }
+      ]
+   }
+}

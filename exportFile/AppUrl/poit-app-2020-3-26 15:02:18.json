@@ -1,0 +1,866 @@
+{
+   "/acctIUserApply/add": {
+      "type": "post",
+      "name": "添加"
+   },
+   "/acctIUserApply/addApplyMenu": {
+      "type": "post",
+      "name": "添加菜单"
+   },
+   "/acctIUserApply/modify": {
+      "type": "post",
+      "name": "修改"
+   },
+   "/appVersion/saveAppVersion": {
+      "type": "post",
+      "name": "新增、保存版本信息"
+   },
+   "/equip/shutdown/reason/record/update": {
+      "type": "post",
+      "name": "批量保存（修改/新增）停机记录"
+   },
+   "/file/add": {
+      "type": "post",
+      "name": "uploadFile"
+   },
+   "/incoming/process/add": {
+      "type": "post",
+      "name": "新增、编辑【来料】检验 【App】【web】"
+   },
+   "/material/distribute/update": {
+      "type": "post",
+      "name": "保存物料投放"
+   },
+   "/matter/add": {
+      "type": "post",
+      "name": "发布协作事项"
+   },
+   "/matter/address": {
+      "type": "post",
+      "name": "拍照事项的地址 接口"
+   },
+   "/matter/delete": {
+      "type": "post",
+      "name": "删除事项"
+   },
+   "/matter/delete/badge": {
+      "type": "post",
+      "name": "清除徽标红点 接口"
+   },
+   "/matter/get/badge": {
+      "type": "post",
+      "name": "用户是否有收到新的回复,徽标红点显示接口"
+   },
+   "/matter/get/detail": {
+      "type": "post",
+      "name": "获取详情"
+   },
+   "/matter/list": {
+      "type": "post",
+      "name": "列表"
+   },
+   "/matter/list/pageId": {
+      "type": "post",
+      "name": "查询当前页面的事项列表"
+   },
+   "/matter/my/stat": {
+      "type": "post",
+      "name": "协作统计--用户事项统计接口"
+   },
+   "/matter/page/org": {
+      "type": "post",
+      "name": "分页机构下的事项分页列表"
+   },
+   "/matter/status/modify": {
+      "type": "post",
+      "name": "修改事项状态"
+   },
+   "/matter/user/list": {
+      "type": "post",
+      "name": "用户事项列表"
+   },
+   "/matterComment/add": {
+      "type": "post",
+      "name": "对事项进行评论或者回复"
+   },
+   "/matterComment/delete": {
+      "type": "post",
+      "name": "删除事项的评论或者回复|根据评论id删除评论 接口"
+   },
+   "/matterComment/get": {
+      "type": "post",
+      "name": "根据评论id 获取评论详情"
+   },
+   "/matterComment/list": {
+      "type": "post",
+      "name": "事项的评论列表,根据事项id查询事项的评论列表"
+   },
+   "/matterComment/page": {
+      "type": "post",
+      "name": "事项的评论列表,根据事项id查询事项的评论列表"
+   },
+   "/matterReceiver/add": {
+      "type": "post",
+      "name": "添加"
+   },
+   "/matterReceiver/get": {
+      "type": "post",
+      "name": "获取详情"
+   },
+   "/matterReceiver/list/by/matterId": {
+      "type": "post",
+      "name": "根据事项id查询 事项接收者列表"
+   },
+   "/matterReceiver/page": {
+      "type": "post",
+      "name": "MatterReceiver分页列表"
+   },
+   "/matterReceiver/receiverId/list": {
+      "type": "post",
+      "name": "根据事项id查询 事项接收者id列表"
+   },
+   "/matterReceiverMsg/delete": {
+      "type": "post",
+      "name": "删除"
+   },
+   "/matterReceiverMsg/get": {
+      "type": "post",
+      "name": "获取详情"
+   },
+   "/matterReceiverMsg/list/user": {
+      "type": "post",
+      "name": "用户的事项消息列表"
+   },
+   "/matterReceiverMsg/list/user/new": {
+      "type": "post",
+      "name": "用户最新的事项消息列表"
+   },
+   "/matterReceiverMsg/page/user": {
+      "type": "post",
+      "name": "用户的事项消息分页列表"
+   },
+   "/matterStatusLog/get": {
+      "type": "post",
+      "name": "获取详情"
+   },
+   "/matterStatusLog/list": {
+      "type": "post",
+      "name": "列表"
+   },
+   "/matterStatusLog/page": {
+      "type": "post",
+      "name": "分页"
+   },
+   "/message/set/read/get": {
+      "type": "post",
+      "name": "指定消息标记为已读"
+   },
+   "/monitor/add": {
+      "type": "post",
+      "name": "添加APP监测"
+   },
+   "/monitor/delete/app": {
+      "type": "post",
+      "name": "删除app监控"
+   },
+   "/monitor/product/add": {
+      "type": "post",
+      "name": "添加APP监测(可多设备新增)"
+   },
+   "/open/resources/org/tree": {
+      "type": "post",
+      "name": "查询机构权限菜单"
+   },
+   "/open/resources/roleId/tree": {
+      "type": "post",
+      "name": "查询角色权限菜单"
+   },
+   "/open/resources/tree/user": {
+      "type": "post",
+      "name": "获取当前用户的菜单和按钮的树,用于登录后加载权限菜单信息"
+   },
+   "/open/resources/userId/tree": {
+      "type": "post",
+      "name": "查询用户权限菜单"
+   },
+   "/organization/eid/get/orgId": {
+      "type": "post",
+      "name": "通过原始组织id获取机构id"
+   },
+   "/organization/user/list": {
+      "type": "post",
+      "name": "查询用户所在的机构列表,简要数据"
+   },
+   "/organizationUser/openOrgIds/list": {
+      "type": "post",
+      "name": "原始机构用户列表"
+   },
+   "/organizationUser/orgId/list": {
+      "type": "post",
+      "name": "机构用户id列表"
+   },
+   "/organizationUser/user/list": {
+      "type": "post",
+      "name": "根据eid查询企业用户列表"
+   },
+   "/production/execution/sheet/add": {
+      "type": "post",
+      "name": "新增任务报工"
+   },
+   "/production/execution/task/close/get": {
+      "type": "post",
+      "name": "任务完成"
+   },
+   "/production/execution/task/open/get": {
+      "type": "post",
+      "name": "任务开始"
+   },
+   "/production/execution/task/return/update": {
+      "type": "post",
+      "name": "退回"
+   },
+   "/production/execution/task/stop/get": {
+      "type": "post",
+      "name": "任务暂停"
+   },
+   "/quality/manage/process/check/add": {
+      "type": "post",
+      "name": "App过程提交数据 【过程】"
+   },
+   "/regular/check/submit/item/info/update": {
+      "type": "post",
+      "name": "APP点检项列表提交"
+   },
+   "/task/maintain/item/update": {
+      "type": "post",
+      "name": "APP检修内容列表提交"
+   },
+   "/task/repair/add": {
+      "type": "post",
+      "name": "添加或者更新维修任务"
+   },
+   "/task/repair/dispatch/update": {
+      "type": "post",
+      "name": "派发维修任务"
+   },
+   "/task/repair/finish/update": {
+      "type": "post",
+      "name": "完成维修任务消耗-app端"
+   },
+   "/task/repair/recall/update": {
+      "type": "post",
+      "name": "任务撤销"
+   },
+   "/tradeIndexType/add": {
+      "type": "post",
+      "name": "添加"
+   },
+   "/tradeIndexType/modify": {
+      "type": "post",
+      "name": "修改"
+   },
+   "/user/account/login": {
+      "type": "post",
+      "name": "账号登陆"
+   },
+   "/user/get/info": {
+      "type": "post",
+      "name": "获取用户信息"
+   },
+   "/user/mobile/login": {
+      "type": "post",
+      "name": "手机登录"
+   },
+   "/user/password/reset": {
+      "type": "post",
+      "name": "重置密码"
+   },
+   "/user/password/update": {
+      "type": "post",
+      "name": "修改密码"
+   },
+   "/user/subscribe/add": {
+      "type": "post",
+      "name": "添加"
+   },
+   "/user/subscribe/delete": {
+      "type": "post",
+      "name": "删除"
+   },
+   "/user/subscribe/modify": {
+      "type": "post",
+      "name": "修改"
+   },
+   "/user/token/get": {
+      "type": "post",
+      "name": "通过token获取用户信息"
+   },
+   "/user/token/refresh": {
+      "type": "post",
+      "name": "refreshToken"
+   },
+   "/user/verification/code/get": {
+      "type": "post",
+      "name": "获取手机号验证码"
+   },
+   "/user/verification/img/get": {
+      "type": "post",
+      "name": "图形验证码"
+   },
+   "/userApplyResources/add/apply": {
+      "type": "post",
+      "name": "添加菜单"
+   },
+   "/userApplyResources/list/user/apply": {
+      "type": "post",
+      "name": "app_获取我的应用 对应菜单"
+   },
+   "/userResourceHide/modify": {
+      "type": "post",
+      "name": "修改"
+   },
+   "/userResourceHide/workplace/list": {
+      "type": "post",
+      "name": "列表"
+   },
+   "/acctIUserApply/delete": {
+      "type": "get",
+      "name": "删除"
+   },
+   "/acctIUserApply/get": {
+      "type": "get",
+      "name": "获取详情"
+   },
+   "/acctIUserApply/getMenuByUser": {
+      "type": "get",
+      "name": "获取用户对应菜单"
+   },
+   "/acctIUserApply/list": {
+      "type": "get",
+      "name": "列表"
+   },
+   "/acctIUserApply/page": {
+      "type": "get",
+      "name": "分页"
+   },
+   "/alarm2/query/alarm/count": {
+      "type": "get",
+      "name": "获取近三个月告警数量"
+   },
+   "/alarm2/rule/index/list": {
+      "type": "get",
+      "name": "获取告警规则指标/参数数据"
+   },
+   "/appVersion/deleteAppVersion": {
+      "type": "get",
+      "name": "删除版本信息"
+   },
+   "/appVersion/getLatestVersion": {
+      "type": "get",
+      "name": "获取APP最新版本信息"
+   },
+   "/appVersion/listAllAppVersion": {
+      "type": "get",
+      "name": "获取所有APP版本列表"
+   },
+   "/area/energy/get": {
+      "type": "get",
+      "name": "获取区域公式的能源类型信息"
+   },
+   "/area/tree/get": {
+      "type": "get",
+      "name": "区域树 (去掉没有设备的区域)"
+   },
+   "/area/tree/list": {
+      "type": "get",
+      "name": "查询区域结构树"
+   },
+   "/cement/factory/board/get": {
+      "type": "get",
+      "name": "获取水泥全厂看板"
+   },
+   "/cement/rotary/area/target/list": {
+      "type": "get",
+      "name": "获取水泥回转窑数据--区域(老接口...)"
+   },
+   "/cement/rotary/target/list": {
+      "type": "get",
+      "name": "获取水泥回转窑数据(list传区域...)"
+   },
+   "/common/prop/list": {
+      "type": "get",
+      "name": "获取通用属性列表"
+   },
+   "/energy/area/efcc/list": {
+      "type": "get",
+      "name": "查询时间区间能效数据列表"
+   },
+   "/energy/area/elec/stat/get": {
+      "type": "get",
+      "name": "获取企业区域用电总体情况--APP"
+   },
+   "/energy/area/fgp/dist/get": {
+      "type": "get",
+      "name": "获取企业区域峰谷平用电分布情况-App"
+   },
+   "/energy/area/fgp/get": {
+      "type": "get",
+      "name": "获取企业区域峰谷平列表数据-App"
+   },
+   "/energy/integration/area/consumption/get": {
+      "type": "get",
+      "name": "能源消耗-区域消耗"
+   },
+   "/energy/integration/cost/distribution/get": {
+      "type": "get",
+      "name": "能源成本-综合"
+   },
+   "/energy/integration/cost/trend/get": {
+      "type": "get",
+      "name": "能源成本-电"
+   },
+   "/energy/integration/efficiency/level/get": {
+      "type": "get",
+      "name": "能效水平 看整体"
+   },
+   "/energy/integration/efficiency/trend/get": {
+      "type": "get",
+      "name": "能效水平 看趋势"
+   },
+   "/energy/integration/overall/consumption/get": {
+      "type": "get",
+      "name": "能源消耗-整体消耗"
+   },
+   "/energy/saving/benefit/comprehensive/board/get": {
+      "type": "get",
+      "name": "综合能源看板--查询"
+   },
+   "/energy/saving/benefit/detail/get": {
+      "type": "get",
+      "name": "节能明细--查询"
+   },
+   "/energy/saving/benefit/get": {
+      "type": "get",
+      "name": "节能效益或者节能量--查询"
+   },
+   "/energy/type/list": {
+      "type": "get",
+      "name": "列表"
+   },
+   "/enterprise/structure/get": {
+      "type": "get",
+      "name": "获取企业模型树"
+   },
+   "/equip/alarm/category/list": {
+      "type": "get",
+      "name": "查询企业告警规则类型列表（按大类）"
+   },
+   "/equip/alarm/history/list": {
+      "type": "get",
+      "name": "分页获取告警列表，默认获取当月"
+   },
+   "/equip/alarm/history/list/app": {
+      "type": "get",
+      "name": "分页获取告警列表，默认获取当月"
+   },
+   "/equip/alarm/month/accumulate/info/get": {
+      "type": "get",
+      "name": "获取月累计告警"
+   },
+   "/equip/alarm/realtime/list": {
+      "type": "get",
+      "name": "分页获取当前告警列表"
+   },
+   "/equip/alarm/rule/list": {
+      "type": "get",
+      "name": "获取规则数据曲线接口"
+   },
+   "/equip/describe/get": {
+      "type": "get",
+      "name": "获取设备台帐详情接口"
+   },
+   "/equip/list": {
+      "type": "get",
+      "name": "获取设备台帐列表接口"
+   },
+   "/equip/shutdown/reason/record/list": {
+      "type": "get",
+      "name": "获取停机记录列表"
+   },
+   "/equip/shutdown/reason/tree/get": {
+      "type": "get",
+      "name": "查询停机原因树详情"
+   },
+   "/equip/spare/consume/list": {
+      "type": "get",
+      "name": "获取备件消耗列表"
+   },
+   "/equip/spare/list": {
+      "type": "get",
+      "name": "获取设备备品备件列表接口"
+   },
+   "/equip/status/history/list": {
+      "type": "get",
+      "name": "获取设备状态历史列表接口（台帐）"
+   },
+   "/equip/status/list": {
+      "type": "get",
+      "name": "获取设备状态列表接口"
+   },
+   "/equip/type/get": {
+      "type": "get",
+      "name": "获取企业设备类型列表"
+   },
+   "/incoming/process/delete": {
+      "type": "get",
+      "name": "来料/过程列表删除   【App】【Web】"
+   },
+   "/incoming/process/get": {
+      "type": "get",
+      "name": "来料检验详情【web】【App】"
+   },
+   "/incoming/process/inc/count/get": {
+      "type": "get",
+      "name": "来料质量统计（按物料类别）"
+   },
+   "/incoming/process/inc/count/materiel/get": {
+      "type": "get",
+      "name": "来料质量统计（按物料）"
+   },
+   "/incoming/process/inc/count/supplier/get": {
+      "type": "get",
+      "name": "来料质量统计（按供应商）"
+   },
+   "/incoming/process/pro/count/area/get": {
+      "type": "get",
+      "name": "过程质量统计（按区域）"
+   },
+   "/incoming/process/pro/count/cp/get": {
+      "type": "get",
+      "name": "过程质量统计（按项目）"
+   },
+   "/incoming/process/pro/count/materiel/get": {
+      "type": "get",
+      "name": "过程质量统计（按物料）"
+   },
+   "/incoming/process/pro/count/sequence/get": {
+      "type": "get",
+      "name": "过程质量统计（按工序）"
+   },
+   "/incoming/process/tree/list": {
+      "type": "get",
+      "name": "物料列表"
+   },
+   "/incoming/process/type/list": {
+      "type": "get",
+      "name": "物料类别列表(加全部)"
+   },
+   "/login/account": {
+      "type": "get",
+      "name": "密码登录接口"
+   },
+   "/login/mobile": {
+      "type": "get",
+      "name": "手机验证码登录接口"
+   },
+   "/login/userMenu/list": {
+      "type": "get",
+      "name": "获取用户菜单"
+   },
+   "/login/userMenu/list/by/app": {
+      "type": "get",
+      "name": "获取App用户菜单V1"
+   },
+   "/login/verCode/send": {
+      "type": "get",
+      "name": "获取手机登录验证码"
+   },
+   "/material/checking/config/list": {
+      "type": "get",
+      "name": "物料列表查询"
+   },
+   "/material/distribute/delete": {
+      "type": "get",
+      "name": "批量删除物料投放"
+   },
+   "/material/distribute/record/list": {
+      "type": "get",
+      "name": "物料投放记录"
+   },
+   "/material/distribute/return/quantity/get": {
+      "type": "get",
+      "name": "退料"
+   },
+   "/material/list": {
+      "type": "get",
+      "name": "获取物料管理列表"
+   },
+   "/material/type/list": {
+      "type": "get",
+      "name": "获取物料类别列表信息"
+   },
+   "/message/category/list": {
+      "type": "get",
+      "name": "获取消息分类"
+   },
+   "/message/list": {
+      "type": "get",
+      "name": "分页获取消息"
+   },
+   "/message/unread/count": {
+      "type": "get",
+      "name": "获取未读消息数量"
+   },
+   "/meter/equip/parameter/history/get": {
+      "type": "get",
+      "name": "获取企业表计和设备某参数的值的历史记录"
+   },
+   "/meter/getMeterTypes": {
+      "type": "get",
+      "name": "查询表计类型"
+   },
+   "/meter/oper/energy/quality/list": {
+      "type": "get",
+      "name": "【App】查询能源质量数据列表"
+   },
+   "/meter/oper/list": {
+      "type": "get",
+      "name": "查询表计列表"
+   },
+   "/meter/type/list": {
+      "type": "get",
+      "name": "查询表计类型"
+   },
+   "/model/part/spare/list": {
+      "type": "get",
+      "name": "设备-部位-备件列表(通过设备id查询，备件新增列表)"
+   },
+   "/monitor/equip/all/index/list": {
+      "type": "get",
+      "name": "获取app设备下所有的指标"
+   },
+   "/monitor/equip/index/app/list": {
+      "type": "get",
+      "name": "获取app设备下所有的指标"
+   },
+   "/monitor/equip/index/list": {
+      "type": "get",
+      "name": "获取app设备下对应的指标"
+   },
+   "/monitor/equip/list": {
+      "type": "get",
+      "name": "获取app设备监测列表"
+   },
+   "/monitor/index/delete": {
+      "type": "get",
+      "name": "删除app指标监控"
+   },
+   "/monitor/meter/all/index/list": {
+      "type": "get",
+      "name": "获取app表计下所有的指标"
+   },
+   "/monitor/meter/index/app/list": {
+      "type": "get",
+      "name": "获取app表计下对应的指标"
+   },
+   "/monitor/meter/index/list": {
+      "type": "get",
+      "name": "获取app表计下所有的指标"
+   },
+   "/monitor/meter/list": {
+      "type": "get",
+      "name": "获取app表计监测列表"
+   },
+   "/monitor/status/get": {
+      "type": "get",
+      "name": "查询APP可选监测状态"
+   },
+   "/monitor/status/list": {
+      "type": "get",
+      "name": "查询监测状态列表"
+   },
+   "/production/analysis/list": {
+      "type": "get",
+      "name": "获取生产统计信息"
+   },
+   "/production/execution/course/list": {
+      "type": "get",
+      "name": "班组下拉"
+   },
+   "/production/execution/record/get": {
+      "type": "get",
+      "name": "操作记录"
+   },
+   "/production/execution/sheet/get": {
+      "type": "get",
+      "name": "生产报工"
+   },
+   "/production/execution/sheet/item/list": {
+      "type": "get",
+      "name": "完工查询列表查看"
+   },
+   "/production/execution/shift/list": {
+      "type": "get",
+      "name": "班次下拉"
+   },
+   "/production/execution/task/finish/list": {
+      "type": "get",
+      "name": "完工查询列表"
+   },
+   "/production/execution/task/list": {
+      "type": "get",
+      "name": "生产任务列表"
+   },
+   "/production/task/list": {
+      "type": "get",
+      "name": "获取生产任务列表"
+   },
+   "/quality/manage/incoming/material/get": {
+      "type": "get",
+      "name": "App物料查询检验模板  【来料】"
+   },
+   "/quality/manage/incoming/process/list": {
+      "type": "get",
+      "name": "App检验列表 【来料】---【过程】"
+   },
+   "/quality/manage/process/material/get": {
+      "type": "get",
+      "name": "App物料查询检验模板 【过程】"
+   },
+   "/quality/manage/process/result/get": {
+      "type": "get",
+      "name": "App过程检验详情 【过程】"
+   },
+   "/regular/check/equip/list": {
+      "type": "get",
+      "name": "APP点检记录设备列表查询"
+   },
+   "/regular/check/item/info/list": {
+      "type": "get",
+      "name": "APP点检项列表"
+   },
+   "/regular/check/record/get": {
+      "type": "get",
+      "name": "查看点检任务记录详情"
+   },
+   "/regular/check/stat/task/get": {
+      "type": "get",
+      "name": "APP点检任务根据月份按天分组统计"
+   },
+   "/regular/check/status/list": {
+      "type": "get",
+      "name": "App点检任务状态值"
+   },
+   "/regular/check/task/info/list": {
+      "type": "get",
+      "name": "APP点检任务设备列表"
+   },
+   "/regular/check/task/query/count": {
+      "type": "get",
+      "name": "点检任务数量"
+   },
+   "/repair/course/list": {
+      "type": "get",
+      "name": "获取维修班组列表"
+   },
+   "/supplier/config/list": {
+      "type": "get",
+      "name": "供应商列表查询"
+   },
+   "/supplier/config/type/list": {
+      "type": "get",
+      "name": "供应商树菜单查询"
+   },
+   "/task/maintain/item/list": {
+      "type": "get",
+      "name": "APP检修内容列表"
+   },
+   "/task/maintain/list": {
+      "type": "get",
+      "name": "APP检修任务"
+   },
+   "/task/maintain/record/list": {
+      "type": "get",
+      "name": "APP检修记录"
+   },
+   "/task/repair/accepted/count": {
+      "type": "get",
+      "name": "获取近三个月工单数量"
+   },
+   "/task/repair/evaluate/get": {
+      "type": "get",
+      "name": "维修评价"
+   },
+   "/task/repair/fault/list": {
+      "type": "get",
+      "name": "（新）的获取故障报修列表-APP端（有分页）"
+   },
+   "/task/repair/hurry/up/get": {
+      "type": "get",
+      "name": "催单"
+   },
+   "/task/repair/info/get": {
+      "type": "get",
+      "name": "获取单个维修工单相关信息"
+   },
+   "/task/repair/record/app/list": {
+      "type": "get",
+      "name": "(新)获取维修记录列表-APP端 (有分页)"
+   },
+   "/task/repair/record/list": {
+      "type": "get",
+      "name": "（旧）获取维修记录列表-APP端"
+   },
+   "/task/repair/self/list": {
+      "type": "get",
+      "name": "获取自己的维修任务"
+   },
+   "/tradeIndexType/delete": {
+      "type": "get",
+      "name": "删除"
+   },
+   "/tradeIndexType/get": {
+      "type": "get",
+      "name": "获取详情"
+   },
+   "/tradeIndexType/list": {
+      "type": "get",
+      "name": "列表"
+   },
+   "/tradeIndexType/page": {
+      "type": "get",
+      "name": "分页"
+   },
+   "/user/get": {
+      "type": "get",
+      "name": "获取用户信息"
+   },
+   "/user/list": {
+      "type": "get",
+      "name": "获取企业下的用户"
+   },
+   "/user/subscribe/get": {
+      "type": "get",
+      "name": "获取详情"
+   },
+   "/user/subscribe/list": {
+      "type": "get",
+      "name": "列表"
+   },
+   "/user/subscribe/month/list": {
+      "type": "get",
+      "name": "获取最新月份指定行业指标数据"
+   },
+   "/user/subscribe/months/list": {
+      "type": "get",
+      "name": "获取本年所有月份指定行业指标数据"
+   },
+   "/user/subscribe/page": {
+      "type": "get",
+      "name": "分页"
+   },
+   "/user/subscribe/year/list": {
+      "type": "get",
+      "name": "获取最新年份指定行业指标数据"
+   }
+}

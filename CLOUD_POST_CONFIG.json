@@ -1,0 +1,15 @@
+{
+   "POST_FORMDATA": [
+      "equipmentFile/spares/equipment/add",
+      "maintain/result/maintain/update"
+   ],
+   "POST_QUERY": [
+      "areaFormulaScheme/add",
+      "areaFormulaScheme/update",
+      "areaFormulaScheme/formulaTask/add",
+      "areaFormulaScheme/formulaTask/update",
+      "manualReadMeter/data/meter/read/single/import",
+      "manualReadMeter/data/meter/read/update",
+      "message/hasRead/set"
+   ]
+}
