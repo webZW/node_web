@@ -50,6 +50,6 @@ const makeUrlConfig = (res) => {
 }
 
 const exportConfig = (urlConfig) => {
-   fs.writeFileSync(`./exportFile/poit-serving-platform-${new Date().toLocaleString()}.json`, JSON.stringify(urlConfig))
+   fs.writeFileSync(`./exportFile/poit-cloud-platform-${new Date().toLocaleString()}.json`, JSON.stringify(urlConfig))
 }
 
