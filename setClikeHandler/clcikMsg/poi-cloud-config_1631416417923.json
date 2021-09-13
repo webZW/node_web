@@ -1,0 +1,682 @@
+{
+    "isEnptyNameNum": 73,
+    "isHasNameNum": 462,
+    "specialDescNum": 76,
+    "buriedPointNum": 536,
+    "enptyNameArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/EnergyMeasurementReview/index.vue",
+            "str": "@click=\"downloadFile\">{{ fileName }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingPlan/index.vue",
+            "str": "@click=\"changeStatistical(item.value)\"\n          >\n            {{ item.label }}\n          </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingPlan/index.vue",
+            "str": "@click=\"handleExport\">\n          <i class=\"el-icon-download mr10\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/FormulaContent.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/FormulaContent.vue",
+            "str": "@click=\"formulaConfig(dialogKey.ADD)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"add1\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/FormulaContent.vue",
+            "str": "@click=\"delMaterial(scope.row)\">{{ statusList[scope.row.useStatus === 1 ? 0 : 1] }}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingQualityInspection/components/detail.vue",
+            "str": "@click=\"goBack\">\n        <i class=\"el-icon-arrow-left\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingQualityInspection/components/detail.vue",
+            "str": "@click=\"changeGrade(item.gradeId)\"\n          >\n            <span class=\"text-ellipsis\">{{ item.name }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingQualityInspection/components/detail.vue",
+            "str": "@click=\"processChange(item.factoryAreaId)\"\n          >\n            <span class=\"text-ellipsis\">{{ item.name }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/ThirdPartyFormula.vue",
+            "str": "@click=\"selectRow(scope.row)\" />\n                  </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/ThirdPartyFormula.vue",
+            "str": "@click=\"latelySelect(scope.row)\" v-else />\n                  </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/classesManagement.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/classesManagement.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/classesManagement.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule/components/FilterTableHeader.vue",
+            "str": "@click=\"visible = !visible\"/>\n    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/addOrEditAlarmRule.vue",
+            "str": "@click=\"deleteItem(index, indexs)\"\n                            />\n                          </el-col>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/addOrEditAlarmRule.vue",
+            "str": "@click=\"delClassify(item, index)\"\n        />\n      </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule/components/addAlarmRule.vue",
+            "str": "@click=\"changeType(index,item)\"  :class=\"[{'btnShow':alarmRuleConfig.isBtnShow==index}]\" class=\"w156\" v-for=\"(item,index) of ruleCategoryList\" :key=\"index\">{{item.ruleCategoryName}}</poi-button> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/dialogByadd.vue",
+            "str": "@click=\"goTo(item.type)\">\n          <img :src=\"item.imgUrl\" class=\"item_img\" />\n          <div class=\"item_content_box\">\n            <h3 class=\"item_content_title\">{{ item.title }}</h3>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule/components/alarmRecord.vue",
+            "str": "@click=\"()=>{ alarming=item; listAlarmRecord(); }\"  type=\"primary\" class=\"w156\" :class=\"[{'btnShow':alarming==item}]\" v-for=\"(item,key,index) of alarmingNowList\" :key=\"index\">{{key}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/customerInformationConfig/index.vue",
+            "str": "@clickBack=\"treeHandle\"/>\n            <RightItem ref=\"rightItem\" @callBack=\"rightHandle\" />\n        </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/customerInformationConfig/components/LeftItem.vue",
+            "str": "@click=\"clickitems(item)\">\n            <span :style=\"item.customerTypeId === chose ? 'color:#0068ff':'#000'\">\n                {{item.name.length > 12 ? `${item.name.substring(0, 12)}...` : item.name }}\n            </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/equipmentConfiguration/index.vue",
+            "str": "@click=\"onSort(-1, scope.row)\"> ↑ </poi-button>&nbsp;&nbsp;-->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/equipmentConfiguration/index.vue",
+            "str": "@click=\"onSort(1, scope.row)\"> ↓ </poi-button>-->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/ParametersConfigEdit.vue",
+            "str": "@click=\"changeChose(item,'enterParams')\">{{item.label}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/ParametersConfigEdit.vue",
+            "str": "@click=\"changeChose(item,'enterEnergy')\">{{item.label}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/hierarchicalQualityInspectionTemplate/index.vue",
+            "str": "@click=\"handleSelectTemp(list)\">\n                    <div class=\"list_name\" :title=\"list.tempName || '-'\">{{ list.tempName || '-' }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/hierarchicalQualityInspectionTemplate/index.vue",
+            "str": "@click=\"hadnleAddDefectName(item)\"><i class=\"el-icon-plus\"/></poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/PlanEdit.vue",
+            "str": "@click=\"choseItem(item, 'loss')\"\n                            :key=\"item.value\" :value=\"item.id\">{{item.fieldName}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/PlanEdit.vue",
+            "str": "@click=\"choseItem(item, 'useage')\"\n                            :key=\"item.value\" :value=\"item.id\">{{item.fieldName}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/PlanEdit.vue",
+            "str": "@click=\"choseItem(item, 'trial')\"\n                            :key=\"item.value\" :value=\"item.id\">{{item.fieldName}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/TextConfigEdit.vue",
+            "str": "@click=\"changeItem(item)\" v-for=\"item in controlsList\" >{{ item.label }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialCategoryConfig/index-new.vue",
+            "str": "@click=\"judeMaterialOnoff(data.row)\"\n          >\n            {{ statusList[data.row.useStatus === 1 ? 0 : 1] }}\n          </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialCategoryConfig/components/Content.vue",
+            "str": "@click=\"judeMaterialOnoff(data.row)\"\n            >{{ statusList[data.row.useStatus === 1 ? 0 : 1] }}</poi-button"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "str": "@click=\"callback_export\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "str": "@click=\"printsFun\" type=\"text\" class=\"poi-pc-4-text border-right w156\">\n        <icon type=\"qrcode\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "str": "@click=\"asynMaterial\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n        <icon type=\"gengduo\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "str": "@click=\"delMaterial(data.row)\">\n            {{ statusList[(data.row.useStatus === 1 ? 0 : 1).toString()] }}\n          </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "str": "@click=\"showchildlist('A')\">\n            <i class=\"el-icon-minus iconx\" v-if=\"FormulaList.openit==true\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "str": "@click=\"delchildrecipe(index,fc.xbomItemId)\" class=\"el-icon-remove dl closebtn\" :style=\"{fontSize:'15px',color:'red',cursor:'pointer'}\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "str": "@click=\"openothertabs(fc)\">\n                <p>{{fc.code}}</p>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "str": "@click=\"showchildlist('B',index)\">\n                                        <i class=\"el-icon-minus iconx\" v-if=\"fc.openit == true\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "str": "@click=\"boardisShow=!boardisShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "str": "@click=\"delchildrecipe(index,fc.bomItemId)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Head.vue",
+            "str": "@click=\"handleHeadSort(item)\">\n                  <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 2}\" />\n                  <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n              </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/ThirdPartyDialog.vue",
+            "str": "@click=\"selectRow(scope.row)\" />\n                        </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/proTaskTemplateConfig/components/editProTask.vue",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/proTaskTemplateConfig/components/editProTask.vue",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processParameter/index.vue",
+            "str": "@click=\"exportFile\"  type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n                    <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/BaseTransfer.vue",
+            "str": "@click=\"toMoveRight\" />\n                </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/BaseTransfer.vue",
+            "str": "@click=\"toMoveLeft\" />\n                </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/DraggableItem.vue",
+            "str": "@click=\"changeValue(item)\"\n                    :class=\"['sonItem cp',item.id === choseId ? 'chosed' : null ]\"> {{ index+=1 }} {{item.name}} </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "str": "@click=\"changeShow(item)\" >{{item.name}}</button> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "str": "@click=\"changeShow(item, $event)\">{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/LeftItem.vue",
+            "str": "@click=\"choseItems(item)\">【 {{item.craftNo.length > 6 ? `${item.craftNo.substring(0, 5)}...`: item.craftNo}} 】 \n                        &nbsp; {{item.craftName.length > 6 ? `${item.craftName.substring(0, 5)}...` : item.craftName}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/LeftItem.vue",
+            "str": "@click=\"choseItems(item)\" v-else>【 {{item.craftNo}} 】&nbsp; {{item.craftName}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityTrace/components/ParamsAnalysis.vue",
+            "str": "@click=\"delItems(index)\" />\n                    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/statistical/components/solutionconfig.vue",
+            "str": "@click=\"selectEnergy(index,item.energyCode,item.name)\">{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/statistical/components/solutionconfig.vue",
+            "str": "@click=\"checkedmeter(index,idx,idx1)\">{{mlm.meterName}}({{mlm.meterTagName}})</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/teamConfiguration/index.vue",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/teamConfiguration/index.vue",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/workerprogram.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/workerprogram.vue",
+            "str": "@click=\"delt(index)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/userManagement/index.vue",
+            "str": "@click=\"dataImportFn\"\n          type=\"text\"\n        >\n          <icon type=\"daoru\" classname=\"othericon\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/userManagement/index.vue",
+            "str": "@click=\"callback_downLoad\"\n          type=\"text\"\n          class=\"poi-pc-4-text border-right w100\"\n        >\n          <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        }
+    ],
+    "specialDescArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/EnergyMeasurementReview/index.vue",
+            "desc": "",
+            "str": "@click=\"downloadFile\">{{ fileName }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingPlan/index.vue",
+            "desc": "",
+            "str": "@click=\"changeStatistical(item.value)\"\n          >\n            {{ item.label }}\n          </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingPlan/index.vue",
+            "desc": "",
+            "str": "@click=\"handleExport\">\n          <i class=\"el-icon-download mr10\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/FormulaContent.vue",
+            "desc": "",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/FormulaContent.vue",
+            "desc": "",
+            "str": "@click=\"formulaConfig(dialogKey.ADD)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"add1\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/FormulaContent.vue",
+            "desc": "",
+            "str": "@click=\"delMaterial(scope.row)\">{{ statusList[scope.row.useStatus === 1 ? 0 : 1] }}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingQualityInspection/components/detail.vue",
+            "desc": "",
+            "str": "@click=\"goBack\">\n        <i class=\"el-icon-arrow-left\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingQualityInspection/components/detail.vue",
+            "desc": "",
+            "str": "@click=\"changeGrade(item.gradeId)\"\n          >\n            <span class=\"text-ellipsis\">{{ item.name }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/GradingQualityInspection/components/detail.vue",
+            "desc": "",
+            "str": "@click=\"processChange(item.factoryAreaId)\"\n          >\n            <span class=\"text-ellipsis\">{{ item.name }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/ThirdPartyFormula.vue",
+            "desc": "",
+            "str": "@click=\"selectRow(scope.row)\" />\n                  </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/CraftRecipe/components/ThirdPartyFormula.vue",
+            "desc": "",
+            "str": "@click=\"latelySelect(scope.row)\" v-else />\n                  </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/classesManagement.vue",
+            "desc": "",
+            "str": "@click=\"item.isShow=!item.isShow\"></i> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/classesManagement.vue",
+            "desc": "",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/classesManagement.vue",
+            "desc": "",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule/components/FilterTableHeader.vue",
+            "desc": "",
+            "str": "@click=\"visible = !visible\"/>\n    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/addOrEditAlarmRule.vue",
+            "desc": "且",
+            "str": "@click=\"condition.logicalOperatorType = 'OR'\"\n                    >\n                      且\n                    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/addOrEditAlarmRule.vue",
+            "desc": "或",
+            "str": "@click=\"condition.logicalOperatorType = 'AND'\"\n                    >\n                      或\n                    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/addOrEditAlarmRule.vue",
+            "desc": "且",
+            "str": "@click=\"logicalOperatorTypeChange(index)\"\n                        >\n                          <!-- @click=\"item.logicalOperatorType = 'OR'\" -->\n                          {{ item.logicalOperatorType === \"AND\" ? \"且\" : \"或\" }}\n                        </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/addOrEditAlarmRule.vue",
+            "desc": "",
+            "str": "@click=\"deleteItem(index, indexs)\"\n                            />\n                          </el-col>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/addOrEditAlarmRule.vue",
+            "desc": "",
+            "str": "@click=\"delClassify(item, index)\"\n        />\n      </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule/components/addAlarmRule.vue",
+            "desc": "",
+            "str": "@click=\"changeType(index,item)\"  :class=\"[{'btnShow':alarmRuleConfig.isBtnShow==index}]\" class=\"w156\" v-for=\"(item,index) of ruleCategoryList\" :key=\"index\">{{item.ruleCategoryName}}</poi-button> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule_new/components/dialogByadd.vue",
+            "desc": "",
+            "str": "@click=\"goTo(item.type)\">\n          <img :src=\"item.imgUrl\" class=\"item_img\" />\n          <div class=\"item_content_box\">\n            <h3 class=\"item_content_title\">{{ item.title }}</h3>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/alarmRule/components/alarmRecord.vue",
+            "desc": "",
+            "str": "@click=\"()=>{ alarming=item; listAlarmRecord(); }\"  type=\"primary\" class=\"w156\" :class=\"[{'btnShow':alarming==item}]\" v-for=\"(item,key,index) of alarmingNowList\" :key=\"index\">{{key}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/customerInformationConfig/index.vue",
+            "desc": "",
+            "str": "@clickBack=\"treeHandle\"/>\n            <RightItem ref=\"rightItem\" @callBack=\"rightHandle\" />\n        </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/customerInformationConfig/components/LeftItem.vue",
+            "desc": "",
+            "str": "@click=\"clickitems(item)\">\n            <span :style=\"item.customerTypeId === chose ? 'color:#0068ff':'#000'\">\n                {{item.name.length > 12 ? `${item.name.substring(0, 12)}...` : item.name }}\n            </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/equipmentConfiguration/index.vue",
+            "desc": "",
+            "str": "@click=\"onSort(-1, scope.row)\"> ↑ </poi-button>&nbsp;&nbsp;-->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/equipmentConfiguration/index.vue",
+            "desc": "",
+            "str": "@click=\"onSort(1, scope.row)\"> ↓ </poi-button>-->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/ParametersConfigEdit.vue",
+            "desc": "",
+            "str": "@click=\"changeChose(item,'enterParams')\">{{item.label}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/ParametersConfigEdit.vue",
+            "desc": "",
+            "str": "@click=\"changeChose(item,'enterEnergy')\">{{item.label}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "desc": "",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "desc": "",
+            "str": "@click=\"item.isShow=!item.isShow\"></i> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "desc": "",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/maintenanceClassManagement.vue",
+            "desc": "",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/hierarchicalQualityInspectionTemplate/index.vue",
+            "desc": "",
+            "str": "@click=\"handleSelectTemp(list)\">\n                    <div class=\"list_name\" :title=\"list.tempName || '-'\">{{ list.tempName || '-' }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/hierarchicalQualityInspectionTemplate/index.vue",
+            "desc": "",
+            "str": "@click=\"hadnleAddDefectName(item)\"><i class=\"el-icon-plus\"/></poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/PlanEdit.vue",
+            "desc": "",
+            "str": "@click=\"choseItem(item, 'loss')\"\n                            :key=\"item.value\" :value=\"item.id\">{{item.fieldName}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/PlanEdit.vue",
+            "desc": "",
+            "str": "@click=\"choseItem(item, 'useage')\"\n                            :key=\"item.value\" :value=\"item.id\">{{item.fieldName}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/PlanEdit.vue",
+            "desc": "",
+            "str": "@click=\"choseItem(item, 'trial')\"\n                            :key=\"item.value\" :value=\"item.id\">{{item.fieldName}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/entryConfig/components/TextConfigEdit.vue",
+            "desc": "",
+            "str": "@click=\"changeItem(item)\" v-for=\"item in controlsList\" >{{ item.label }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialCategoryConfig/index-new.vue",
+            "desc": "",
+            "str": "@click=\"judeMaterialOnoff(data.row)\"\n          >\n            {{ statusList[data.row.useStatus === 1 ? 0 : 1] }}\n          </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialCategoryConfig/components/Content.vue",
+            "desc": "",
+            "str": "@click=\"judeMaterialOnoff(data.row)\"\n            >{{ statusList[data.row.useStatus === 1 ? 0 : 1] }}</poi-button"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "desc": "",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "desc": "",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "desc": "",
+            "str": "@click=\"callback_export\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "desc": "",
+            "str": "@click=\"printsFun\" type=\"text\" class=\"poi-pc-4-text border-right w156\">\n        <icon type=\"qrcode\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "desc": "",
+            "str": "@click=\"asynMaterial\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n        <icon type=\"gengduo\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Content.vue",
+            "desc": "",
+            "str": "@click=\"delMaterial(data.row)\">\n            {{ statusList[(data.row.useStatus === 1 ? 0 : 1).toString()] }}\n          </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "desc": "",
+            "str": "@click=\"showchildlist('A')\">\n            <i class=\"el-icon-minus iconx\" v-if=\"FormulaList.openit==true\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "desc": "",
+            "str": "@click=\"delchildrecipe(index,fc.xbomItemId)\" class=\"el-icon-remove dl closebtn\" :style=\"{fontSize:'15px',color:'red',cursor:'pointer'}\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "desc": "",
+            "str": "@click=\"openothertabs(fc)\">\n                <p>{{fc.code}}</p>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "desc": "",
+            "str": "@click=\"showchildlist('B',index)\">\n                                        <i class=\"el-icon-minus iconx\" v-if=\"fc.openit == true\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "desc": "",
+            "str": "@click=\"boardisShow=!boardisShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialManage/components/recipeconfig.vue",
+            "desc": "",
+            "str": "@click=\"delchildrecipe(index,fc.bomItemId)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/Head.vue",
+            "desc": "",
+            "str": "@click=\"handleHeadSort(item)\">\n                  <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 2}\" />\n                  <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n              </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/materialInfoConfig/components/ThirdPartyDialog.vue",
+            "desc": "",
+            "str": "@click=\"selectRow(scope.row)\" />\n                        </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/proTaskTemplateConfig/components/editProTask.vue",
+            "desc": "",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/proTaskTemplateConfig/components/editProTask.vue",
+            "desc": "",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processParameter/index.vue",
+            "desc": "",
+            "str": "@click=\"exportFile\"  type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n                    <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/BaseTransfer.vue",
+            "desc": "",
+            "str": "@click=\"toMoveRight\" />\n                </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/BaseTransfer.vue",
+            "desc": "",
+            "str": "@click=\"toMoveLeft\" />\n                </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/DraggableItem.vue",
+            "desc": "",
+            "str": "@click=\"changeValue(item)\"\n                    :class=\"['sonItem cp',item.id === choseId ? 'chosed' : null ]\"> {{ index+=1 }} {{item.name}} </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "desc": "",
+            "str": "@click=\"changeShow(item)\" >{{item.name}}</button> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "desc": "",
+            "str": "@click=\"changeShow(item, $event)\">{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "desc": "",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityInspection/components/EditOtherInspectionItem.vue",
+            "desc": "",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/LeftItem.vue",
+            "desc": "",
+            "str": "@click=\"choseItems(item)\">【 {{item.craftNo.length > 6 ? `${item.craftNo.substring(0, 5)}...`: item.craftNo}} 】 \n                        &nbsp; {{item.craftName.length > 6 ? `${item.craftName.substring(0, 5)}...` : item.craftName}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/processPath/components/LeftItem.vue",
+            "desc": "",
+            "str": "@click=\"choseItems(item)\" v-else>【 {{item.craftNo}} 】&nbsp; {{item.craftName}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/qualityTrace/components/ParamsAnalysis.vue",
+            "desc": "",
+            "str": "@click=\"delItems(index)\" />\n                    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/statistical/components/solutionconfig.vue",
+            "desc": "",
+            "str": "@click=\"selectEnergy(index,item.energyCode,item.name)\">{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/statistical/components/solutionconfig.vue",
+            "desc": "",
+            "str": "@click=\"checkedmeter(index,idx,idx1)\">{{mlm.meterName}}({{mlm.meterTagName}})</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/teamConfiguration/index.vue",
+            "desc": "",
+            "str": "@click=\"transfer('left')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/teamConfiguration/index.vue",
+            "desc": "",
+            "str": "@click=\"transfer('right')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/workerprogram.vue",
+            "desc": "",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/workerprogram.vue",
+            "desc": "",
+            "str": "@click=\"delt(index)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/userManagement/index.vue",
+            "desc": "",
+            "str": "@click=\"dataImportFn\"\n          type=\"text\"\n        >\n          <icon type=\"daoru\" classname=\"othericon\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-config/src/components/lib/userManagement/index.vue",
+            "desc": "",
+            "str": "@click=\"callback_downLoad\"\n          type=\"text\"\n          class=\"poi-pc-4-text border-right w100\"\n        >\n          <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        }
+    ]
+}
