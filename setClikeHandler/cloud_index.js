@@ -134,7 +134,7 @@ const setClickFunc = ({ html, this_path, path, nameArr }) => {
 		if (isSet) return '@click';
 
         const id = `${path}_${btnTypeJson[nameArr[index - 1]] || 'other'}_${(Math.random() * Math.pow(10, 6)).toFixed(0)}`;
-        buriedPointArr.push({ path, type: btnTypeJson[nameArr[index - 1]] || 'other', name: nameArr[index - 1] || '', id,  });
+        buriedPointArr.push({ path, type: btnTypeJson[nameArr[index - 1]] || 'other', name: nameArr[index - 1] || id, id,  });
 
 		return `buriedPointId="${id}" @click`;
 	});
@@ -145,7 +145,7 @@ const setClickFunc = ({ html, this_path, path, nameArr }) => {
 
 setTimeout(() => {
     const jsonStr = JSON.stringify({ isEnptyNameNum, isHasNameNum, specialDescNum, buriedPointNum: buriedPointArr.length, enptyNameArr, specialDescArr }, null, 4);
-    const fileName = `${parameters.project}_${new Date().getTime()}`;
+    const fileName = `${parameters.project}_${new Date().toLocaleString()}`;
 	fs.writeFileSync(`./clcikMsg/${fileName}.json`, jsonStr);
 	fs.writeFileSync(`./buriedPointRecord/${fileName}.json`, JSON.stringify(buriedPointArr, null, 4));
 }, 1000 * 5)

@@ -1,0 +1,341 @@
+{
+    "isEnptyNameNum": 83,
+    "isHasNameNum": 507,
+    "specialDescNum": 0,
+    "buriedPointNum": 593,
+    "enptyNameArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/EquipmentLedger/index.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/EquipmentLedger/index.vue",
+            "str": "@click=\"callback_downLoad\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/EquipmentLedger/index.vue",
+            "str": "@click=\"callback_print\" type=\"text\" class=\"poi-pc-4-text border-right w156\">\n        <icon type=\"qrcode\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/EquipmentLedger/components/EquipmentFile.vue",
+            "str": "@click=\"beforeRemove()\" /></li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/InvalidProductionCauseManage/components/CauseTreeMaintenance.vue",
+            "str": "@click=\"handleSelectCauseTree(item)\">\n                        <div class=\"causeTreeName\" :class=\"{active: currentCauseTreeIndex === index}\" :title=\"item.reasonTreeName || '-'\">{{ item.reasonTreeName || '-'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/InvalidProductionCauseManage/components/EquipmentTypeReasonConfig.vue",
+            "str": "@click=\"handleSelectCauseTree(item)\">\n                        <div class=\"causeTreeName\" :class=\"{active: currentCauseTreeIndex === index}\" :title=\"item.reasonTreeName || '-'\">{{ item.reasonTreeName || '-'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/completionMaintenance/index.vue",
+            "str": "@click.stop=\"sendDateOrderChange\"\n          />\n        </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/completionMaintenance/index.vue",
+            "str": "@click.stop=\"createTimeOrderChange\"\n          />\n        </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/completionMaintenance1/index.vue",
+            "str": "@click=\"statusClick(item)\">{{item.name}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentMaintenance/components/equipmentMaintenancePlan.vue",
+            "str": "@click=\"dataImportFn\"  type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentMaintenance/components/equipmentMaintenancePlan.vue",
+            "str": "@click=\"callback_downLoad\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentMaintenance/components/equipmentMaintenancePlan.vue",
+            "str": "@click=\"handleBatch(2)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"delete\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentMaintenance/components/equipmentMaintenancePlan.vue",
+            "str": "@click=\"handleBatch(1)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"zujiantubiaokupx_-\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentMaintenance/components/equipmentMaintenancePlan.vue",
+            "str": "@click=\"handleBatch(0)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"tingyong\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentMaintenance/components/equipmentMaintenancePlan.vue",
+            "str": "@click=\"regularCheckPlan(scope.row)\">\n              {{ checkPlanStatus[scope.row.useStatus] }}\n            </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/Stock/Overview/components/SlurryPool.vue",
+            "str": "@click=\"goDetail(item)\" />\n            </header>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentOverhaul/components/equipmentOverhaulPlan.vue",
+            "str": "@click=\"handleMaintenancePlan(scope.row)\">{{ checkPlanStatus[scope.row.status] }}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentConstraint.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\r\n        <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentConstraint.vue",
+            "str": "@click=\"downLoad\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\r\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentOverhaul/components/equipmentPlanDetail.vue",
+            "str": "@click=\"beforeRemove(item.originName, index)\" /></li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckCard.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <!-- <svg class=\"icon poi-svg-init\" aria-hidden=\"true\">\n          <use xlink:href=\"#poi-daoru\"></use>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentProduction.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\r\n        <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentProduction.vue",
+            "str": "@click=\"downLoad\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\r\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentProduction.vue",
+            "str": "@click=\"removeTime(index)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentProduction.vue",
+            "str": "@click=\"addTime(index)\" ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentShutdown.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\r\n        <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentResources/components/equipmentShutdown.vue",
+            "str": "@click=\"downLoad\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\r\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n        <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"callbackOutput\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"handleBatch(2)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"delete\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"handleBatch(0)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"zujiantubiaokupx_-\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"handleBatch(1)\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n      <icon type=\"tingyong\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"openSpotcheckCard(data.row)\">\n            {{ data.row.checkCardName }}\n          </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"openSpotcheckCard(scope.row)\">\n              {{ scope.row.checkCardName }}\n            </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/equipmentSpotInspection/components/spotCheckPlan.vue",
+            "str": "@click=\"regularCheckPlan(scope.row)\">\n              {{ checkPlanStatus[scope.row.status] }}\n            </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/maintenanceStatistics/index.vue",
+            "str": "@click=\"handleHeadSort(item)\">\n                            <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 0}\" />\n                            <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n                        </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/invalidProductRecord/components/Table.vue",
+            "str": "@click=\"$emit('download')\" class=\"cp dib tac border-right w100\">\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/knowledge/components/MaintenanceKnowledge.vue",
+            "str": "@click=\"dataImportFn\" type = 'text'>\n                    <icon type=\"daoru\" classname=\"othericon\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/knowledge/components/MaintenanceKnowledge.vue",
+            "str": "@click=\"callback_downLoad\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n                    <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialBatchManage/components/incomingBatch.vue",
+            "str": "@click=\"changeValue('batch_number')\">\n                            <i class=\"el-icon-caret-top\" :class=\"{ active: searchForm.sortField === 'batch_number' \n                                && searchForm.sortMark === 0 }\"/>\n                            <i class=\"el-icon-caret-bottom mt-5\" :class=\"{ active: searchForm.sortField === 'batch_number' \n                                && searchForm.sortMark === 1 }\"/>\n                        </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialBatchManage/components/incomingBatch.vue",
+            "str": "@click=\"changeValue('check_time')\" >\n                            <i class=\"el-icon-caret-top\" :class=\"{ active: searchForm.sortField === 'check_time' \n                                && searchForm.sortMark === 0 }\"/>\n                            <i class=\"el-icon-caret-bottom mt-5\" :class=\"{ active: searchForm.sortField === 'check_time' \n                                && searchForm.sortMark === 1 }\"/>\n                        </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/orderManagement/index.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n                <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/orderManagement/index.vue",
+            "str": "@click=\"downLoad\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n                    <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialBatchManage/components/incomingBatch.vue.md",
+            "str": "@click=\"handleHeadSort(item)\">\n                    <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 2}\" />\n                    <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n                </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/knowledge/components/customTable.vue",
+            "str": "@click=\"$emit('backHandle',{ ...scope.row, type: item.colConfig.handleBtnsAPI[index] })\" \n                            type=\"text\" size=\"small\">{{obj}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialSelect/components/breadcrumbNav.vue",
+            "str": "@click=\"go(params.path)\">{{ params.pathName }}</div> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialBatchManage/components/materialBatch.vue",
+            "str": "@click=\"changeValue('batch_number')\">\n                <i class=\"el-icon-caret-top\" :class=\"{ active: searchForm.sortField === 'batch_number' \n                    && searchForm.sortMark === 0 }\"/>\n                <i class=\"el-icon-caret-bottom mt-5\" :class=\"{ active: searchForm.sortField === 'batch_number' \n                    && searchForm.sortMark === 1 }\"/>\n              </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialBatchManage/components/materialBatch.vue",
+            "str": "@click=\"changeValue('useTime')\" >\n              <i class=\"el-icon-caret-top\" :class=\"{ active: searchForm.sortField === 'useTime' \n                  && searchForm.sortMark === 0 }\"/>\n              <i class=\"el-icon-caret-bottom mt-5\" :class=\"{ active: searchForm.sortField === 'useTime' \n                  && searchForm.sortMark === 1 }\"/>\n            </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialBatchManage/components/materialBatch.vue",
+            "str": "@click=\"handleHeadSort(item)\">\n                    <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 2}\" />\n                    <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n                </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/powderProduction/components/feeding.vue",
+            "str": "@click=\"handleAddMateriel(data.row)\"/>\n                        </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialSelect/components/materialList.vue",
+            "str": "@click=\"handleHeadSort(item)\">\n                    <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 2}\" />\n                    <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n                </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/materialSelect/components/materialSetting.vue",
+            "str": "@click=\"handleHeadSort(item)\">\n                    <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 2}\" />\n                    <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n                </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/productionExecution/components/BatchReportDialog.vue",
+            "str": "@click=\"addBatch(data.row)\" style=\"color: #b7bbd5\"/>\n        </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeBuilder/index.vue",
+            "str": "@click=\"handleHeadSort(item)\">\n                    <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && filter.createTimeOrder === 1}\" />\n                    <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && filter.createTimeOrder === 0}\" style=\"margin-top: -5px;\"/>\n                </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/productionSchedule/components/SpecialTable.vue",
+            "str": "@click=\"toLeft\" />\n                    <i class=\"el-icon-caret-left\" v-if=\"isShow\" @click=\"toLeft\" />\n                </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodePrinter/components/PrinterDialog.vue",
+            "str": "@click=\"() => handleRecommendPaper(item, index)\"\n                :key=\"index\"\n                style=\"display: flex;\n                flex: 1;\n                flex-direction: row;\n                margin-top: 8px;\n                cursor: pointer;\n                background-color: #46A0FC;\n                margin-right: 10px;\n                height: 40px;\n                justify-content: space-between;\n                padding-left: 20px;\n                padding-right: 20px;\n                border-radius: 4px;\n                align-items: center;\"\n            >\n              <div style=\"color: #FFFFFF;\">{{ item.title }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/productionExecution/components/PutMaterialDialog.vue",
+            "str": "@click=\"selectRow(scope.row)\"/>\n          </template>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/sparePartsStatistics/index.vue",
+            "str": "@click=\"handleHeadSort(item)\">\n                            <i class=\"el-icon-caret-top\" :class=\"{active: sortColumn === item && sort === 0}\" />\n                            <i class=\"el-icon-caret-bottom\" :class=\"{active: sortColumn === item && sort === 1}\" style=\"margin-top: -5px;\"/>\n                        </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/spareParts/processAnalysis.vue",
+            "str": "@click=\"changeType(item)\"\n                :class=\"`divCss cp ${formData.choseType === item.key ? 'chose' : 'normal'} \n                ${item.key === 1 ? 'leftBorder' : 'rightBorder'}`\" >{{ item.label }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/shutdownReasonManagement/components/EquipmentShutdownReasonConfig.vue",
+            "str": "@click=\"handleSelectCauseTree(item)\">\n                        <div class=\"causeTreeName\" :class=\"{active: currentCauseTreeIndex === index}\" :title=\"item.reasonTreeName || '-'\">{{ item.reasonTreeName || '-'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/productionTask/components/BulkImportDialog.vue",
+            "str": "@click=\"downLoadFile\" />\n        </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeItem.vue",
+            "str": "@click=\"handleClick\">\n      <img class=\"img\" :style=\"imgStyle\" :src=\"imgSrc\" />\n    <div class=\"content\">\n      <div class=\"header\">\n        <div class=\"title\">{{data.templateName}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeItem.vue",
+            "str": "@click.stop=\"handleDeleteClick\"\n        />\n      </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeStyleDialog.vue",
+            "str": "@click=\"() => handleQRCodeColorClick(color)\" :style=\"{backgroundColor: color}\" v-for=\"color in colors\" :key=\"color\"></div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeStyleDialog.vue",
+            "str": "@click=\"handleDeleteLogo\" class=\"deleteLogoButton\"><i class=\"el-icon-error\"></i></div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeStyleDialog.vue",
+            "str": "@click=\"() => handleColorClick(color)\" :style=\"{backgroundColor: color}\" v-for=\"color in colors\" :key=\"color\"></div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/breadcrumbNav.vue",
+            "str": "@click=\"go(params.path)\">{{ params.pathName }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeTemplateDetail.vue",
+            "str": "@click=\"handleEditClick\" class=\"el-icon-edit-outline\" style=\"margin-left: 8px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeTemplateDetail.vue",
+            "str": "@click=\"() => handleDeleteClick(index)\"\n                      />\n                    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/qrcodeTemplate/components/QRCodeTemplateDetail.vue",
+            "str": "@click=\"() => handleAddClick(index)\"\n                />\n              </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/shutdownReasonManagement/components/ShutdownCauseTreeMaintenance.vue",
+            "str": "@click=\"handleSelectCauseTree(item)\">\n                        <div class=\"causeTreeName\" :class=\"{active: currentCauseTreeIndex === index}\" :title=\"item.reasonTreeName || '-'\">{{ item.reasonTreeName || '-'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskStatistics/index.vue",
+            "str": "@click=\"exportTaskPieChartData\">\n\t\t\t\t<i class=\"el-icon-download operation-icon\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskStatistics/index.vue",
+            "str": "@click=\"isShowSearch = true;\">\n\t\t\t\t\t<i class=\"el-icon-search operation-icon\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/workforceManagement/index.vue",
+            "str": "@click=\"dataImportFn\" type=\"text\" class=\"poi-pc-4-text w100 border-right\">\n          <icon type=\"daoru\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/stopRecord/components/Table.vue",
+            "str": "@click=\"$emit('download')\" class=\"cp dib tac border-right w100\">\n        <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/maintainTask/index.vue",
+            "str": "@click=\"callbackOutput\" type=\"text\" class=\"poi-pc-4-text border-right w100 web-point-import\">\n          <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/overhaulTask/index.vue",
+            "str": "@click=\"callbackOutput\" type=\"text\" class=\"poi-pc-4-text border-right w100 web-point-import\">\n          <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/repairTask/index.vue",
+            "str": "@click=\"callbackOutput\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n          <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/tallyingTask/index.vue",
+            "str": "@click=\"callbackOutput\" type=\"text\" class=\"poi-pc-4-text border-right w100 web-point-import\">\n          <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/repairTask/components/edit-modal.vue",
+            "str": "@click=\"controlsAudio('iconfont')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/repairTask/components/edit-modal.vue",
+            "str": "@click=\"controlsAudioVoice('iconfontVoice')\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/tallyingTask/components/details-modal.vue",
+            "str": "@click=\"showImage(scope.row.imagePaths)\"\n                style=\"width: 50px; height:30px\"\n                :src=\"scope.row.imagePaths[0].presignedUrl\"\n                :preview-src-list=\"srcList\"\n              ></el-image>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib/taskAll/tallyingTask/components/details-modal.vue",
+            "str": "@click=\"controlsAudio('iconfont'+scope.$index)\"\n              ></i>"
+        }
+    ],
+    "specialDescArr": []
+}

@@ -1,0 +1,113 @@
+{
+    "isEnptyNameNum": 26,
+    "isHasNameNum": 44,
+    "specialDescNum": 0,
+    "buriedPointNum": 72,
+    "enptyNameArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/companieslist/index.vue",
+            "str": "@click=\"chooseorg(cl)\">\n                <span>{{cl.orgFullName}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/mainBoard/index.vue",
+            "str": "@click=\"changerouter(il.link)\"\n            />\n            <div\n              v-else\n              style=\"display:inline-block\"\n              @click=\"changerouter(il.link)\"\n              :key=\"index+'a'\"\n            >\n              <el-badge v-if=\"alarmNumber!=0\" :value=\"alarmNumber\" :max=\"99\" class=\"item\">\n                <img :title=\"il.name\" :src=\"il.src\" :key=\"index\" />\n              </el-badge>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/mainBoard/index.vue",
+            "str": "@click=\"() => y\">\n        <span>{{ titleName }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/mainBoard/index.vue",
+            "str": "@click=\"consoleErr\">\n          <span>{{eFullname}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/mainBoard/index.vue",
+            "str": "@click=\"closealert()\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/mainBoard/index.vue",
+            "str": "@click=\"changerouter(mc.resourcesUri)\">{{mc.resourcesName}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/customTemplate/index.vue",
+            "str": "@click=\"changeMain(item.type,index)\"\n                >{{item.showName}}</el-menu-item>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/customTemplate/index.vue",
+            "str": "@click=\"changeMain(item.type,index)\"\n          >{{item.showName}}</el-menu-item>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/EditEquipment.vue",
+            "str": "@click=\"delItem(index)\"> <i class=\"el-icon-close\"></i> </el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/EditEquipment.vue",
+            "str": "@click=\"delOne(index,nums)\"> \n                    <i class=\"el-icon-remove-outline\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/EditEquipment.vue",
+            "str": "@click=\"addOne(index,nums)\"> \n                    <i class=\"el-icon-circle-plus-outline\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/EditEquipment.vue",
+            "str": "@click=\"delItem(index)\"> <i class=\"el-icon-close\"></i> </el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/EditEquipment.vue",
+            "str": "@click=\"delOne(index,nums)\"> \n                    <i class=\"el-icon-remove-outline\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/EditEquipment.vue",
+            "str": "@click=\"addOne(index,nums)\"> \n                    <i class=\"el-icon-circle-plus-outline\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/LastItem.vue",
+            "str": "@click=\"goToDetail(use)\" :key=\"use.presourcesId\">{{use.resourcesName}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/LastItem.vue",
+            "str": "@click=\"changeItem(item)\" :key=\"index\" v-show=\"taskList.length > 0\">\n                <img :src = item.url>\n                <span>{{item.backlogName}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/Middle.vue",
+            "str": "@click=\"changeTime(tim.id)\"\n                    v-for=\"tim in middTimeList\" :key=\"tim.id\">{{tim.value}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/LastItem.vue",
+            "str": "@click=\"goToDetail(use)\" :key=\"use.presourcesId\">{{use.resourcesName}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/LastItem.vue",
+            "str": "@click=\"changeItem(item)\" :key=\"index\" v-show=\"taskList.length > 0\">\n                <img :src = item.url>\n                <span>{{item.backlogName}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/Middle.vue",
+            "str": "@click=\"changeTime(tim.id)\"\n                    v-for=\"tim in middTimeList\" :key=\"tim.id\">{{tim.value}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/TopItem.vue",
+            "str": "@click=\"clikBtns(tim.id)\">{{tim.value}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/TopItem.vue",
+            "str": "@click=\"clickIcon('left')\" v-show=\" showIndex === 'left' \" />\n                    <div class=\"sondiv marLef\" v-for=\"(item,index) in topData\" :key=\"index\">\n                        <div class=\"topP\">\n                            <span class=\"input-ellipsis fz\">{{item.quotaName}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench/components/TopItem.vue",
+            "str": "@click=\"clickIcon('right')\" v-show=\" showIndex === 'right' \" />\n                </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/TopItem.vue",
+            "str": "@click=\"clikBtns(tim.id)\">{{tim.value}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/TopItem.vue",
+            "str": "@click=\"clickIcon('left')\" v-show=\" showIndex === 'left' \" />\n                    <div class=\"sondiv marLef\" v-for=\"(item,index) in topData\" :key=\"index\">\n                        <div class=\"topP\">\n                            <span class=\"input-ellipsis fz\">{{item.quotaName}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components/lib/workbench_test/components/TopItem.vue",
+            "str": "@click=\"clickIcon('right')\" v-show=\" showIndex === 'right' \" />\n                </div>"
+        }
+    ],
+    "specialDescArr": []
+}
