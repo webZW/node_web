@@ -1,0 +1,268 @@
+{
+    "isEnptyNameNum": 62,
+    "isHasNameNum": 139,
+    "specialDescNum": 2,
+    "buriedPointNum": 203,
+    "enptyNameArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/components/OperationRecordDialog.vue",
+            "str": "@click=\"handleRecordExport\">\n        <i class=\"iconfont poi-daochu-2\" style=\"margin-right: 4px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/components/OperationRecordDialog.vue",
+            "str": "@click=\"handleDelete\">\n        <i class=\"iconfont poi-shanchu1\" style=\"margin-right: 4px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/ProductionStatistics/ClassGroup/components/ClassEnergyTypeList.vue",
+            "str": "@click=\"showFun('sub')\" />\n         <i class=\"arrow iconfont poi-right_circle\" v-show=\"(showIndex + showLength) < courseGroupList.rows.length \" @click=\"showFun('add')\" />\n         <ul class=\"label tac\">\n            <li><span class=\"title\">{{ desc }}</span></li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/ProductionStatistics/ClassGroup/components/ClassEnergyTypeList.vue",
+            "str": "@click=\"isShowAll = !isShowAll\" />\n      </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/components/PracticeRecord.vue",
+            "str": "@click=\"delItems(index)\"/>\n          </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/ProductionStatistics/ClassGroup/components/ClassEnergyTypeList_scroll.vue",
+            "str": "@click=\"isShowAll = !isShowAll\" />\n      </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/ProductionStatistics/Energy/components/EnergyTypeList.vue",
+            "str": "@click=\"isShowAll = !isShowAll\" />\n      </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/associationAnalysis/comomnents/MaterialHeader.vue",
+            "str": "@click=\"delItems(index)\"><i class=\"el-icon-error\"/></el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/correlationanalysis/index.vue",
+            "str": "@click=\"delectxlist(af.id)\"\n          ></poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/associationAnalysis/comomnents/NotMaterialHeader.vue",
+            "str": "@click=\"delItems(index)\"><i class=\"el-icon-error\"/></el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/components/RealtimeRecordDialog.vue",
+            "str": "@click=\"handleRecordExport\">\n        <i class=\"iconfont poi-daochu-2\" style=\"margin-right: 4px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/components/RealtimeRecordDialog.vue",
+            "str": "@click=\"handleDelete\">\n        <i class=\"iconfont poi-shanchu1\" style=\"margin-right: 4px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/associationAnalysis/comomnents/ScripturesHeader.vue",
+            "str": "@click=\"changeType(item)\"\n                            :class=\"`divCss cp ${formData.choseType === item.key ? 'chose' : 'normal'} \n                            ${item.key === 1 ? 'leftBorder' : 'rightBorder'}`\" >{{ item.label }}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/associationAnalysis/comomnents/ScripturesHeader.vue",
+            "str": "@click=\"delItems(index)\"><i class=\"el-icon-error\"/></el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/ProductionStatistics/materie/index.vue",
+            "str": "@click=\"exportFnTotal\">\n              <i class=\"iconfont poi-daochu\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/components/RecommendPractice.vue",
+            "str": "@click=\"handleQuantityExport\">\n          <i class=\"iconfont poi-daochu-2\" style=\"margin-right: 4px\" ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/components/RecommendPractice.vue",
+            "str": "@click=\"handleParameterExport\" style=\"margin-left: 20px;\">\n            <i class=\"iconfont poi-daochu-2\" style=\"margin-right: 4px\" ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/associationAnalysis/comomnents/SeniorHeader.vue",
+            "str": "@click=\"changeChoseAnalysis(item)\"\n        >\n          {{ item.label }}\n        </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/ProductionStatistics/materie/components/app-tables.vue",
+            "str": "@click=\"exportFn\">\n        <i class=\"iconfont poi-daochu\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/energyConsumptionEstimation/index.vue",
+            "str": "@click=\"energyChangy(item.name,index)\"\n        :class=\"{'poit-btn-active':number == index}\"\n        class=\"poit-btn\"\n      >{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dryerSectionNew/index.vue",
+            "str": "@click=\"calculate\" round :disabled=\"disabled\">{{buttonTitle}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dryerSectionNew/index.vue",
+            "str": "@click=\"fullView\" :class=\"['cursor',isFullView?'el-icon-rank':'el-icon-remove-outline']\" />\n      </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dryerSectionNew/index.vue",
+            "str": "@click=\"statusModal(item,false)\">{{item.value}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dryerSectionNew/index.vue",
+            "str": "@click=\"statusModal(item,true)\"><span class=\"span-1\">{{item.value}}</span> / <span class=\"span-2\">{{item.perfectValue}}</span></div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dryerSectionNew/index.vue",
+            "str": "@click=\"statusModal(item,true)\"><span class=\"span-1\">{{item.value}}</span> / <span class=\"span-2\">{{item.perfectValue}}</span></div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/energyReport/index.vue",
+            "str": "@click=\"isFold=true\">\n                <icon type=\"poi-open\" color=\"#C8C9CC\"/>\n              </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/energyReport/index.vue",
+            "str": "@click=\"clickTypeItem(item)\" v-for=\"(item,index) in reportListShow\"\n                :class=\"{active:item.reportId===activeReportItem.reportId}\" :title=\"item.name\" :key=\"index\">\n              <span>{{ item.name }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/energyReport/index.vue",
+            "str": "@click=\"isFold=false\">\n              <icon type=\"poi-close\" color=\"#C8C9CC\"/>\n            </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dryerSection/component/header.vue",
+            "str": "@click=\"change(item.value)\"\n        :key=\"item.value\"\n        :class=\"['button', item.value === selectedValue ? 'selected-button' : '']\"\n      >{{item.label}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dryerSection/component/header.vue",
+            "str": "@click=\"handleRefresh\" round :disabled=\"disabled\">{{buttonTitle}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/analysisVariable.vue",
+            "str": "@click=\"() => variableConfig = {type: type, isOpen: true, data: null }\"\n          >\n            <div :style=\"type === toolsType.cluster && {'height': 'auto'} \">\n              <i class=\"iconfont cp poi-zengjia\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/analysisVariable.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n        ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/clusterCenter.vue",
+            "str": "@click=\"() => showCard = !showCard\"></i></div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/finishedBatchAnalysis/index.vue",
+            "str": "@click=\"chosePlan(item)\">\n                     <p>\n                        {{ item.configName.length > 10 ? `${item.configName.substring(0,10)}...`: item.configName }}\n                     </p>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/finishedBatchAnalysis/index.vue",
+            "str": "@click=\"exportFunc\" />\n            </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/clusterCenterDistances.vue",
+            "str": "@click=\"() => showCard = !showCard\"></i></div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/clusterCount.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/incomingQualityStatistics/component/showTemp.vue",
+            "str": "@click=\"changeType(item,index)\"\n      >{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/incomingQualityStatistics/component/showTemp.vue",
+            "str": "@click=\"changeNumType(item,index)\"\n      >{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/clusterShow.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/correlationChart.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/histogram.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/mutualRelationChart.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/resultStatistical.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/processQualityStatistics/component/showTemp.vue",
+            "str": "@click=\"changeType(item,index)\"\n      >{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/processQualityStatistics/component/showTemp.vue",
+            "str": "@click=\"changeNumType(item,index)\"\n      >{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/scatterChart.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      />\n    </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/variableTrendChart.vue",
+            "str": "@click=\"() => showCard = !showCard\"\n      ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/standardSnalysis/index.vue",
+            "str": "@click=\"closeBench(i)\"></span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/spareConsumeStatistics/component/showTemp.vue",
+            "str": "@click=\"changeType(item,index)\"\n      >{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/spareConsumeStatistics/component/showTemp.vue",
+            "str": "@click=\"changeNumType(item,index)\"\n      >{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/productionMonitoring/component/portraitHistoryModal.vue",
+            "str": "@click=\"tabTime(item.code)\"\n                type=\"primary\"\n                v-for=\"(item,idx) in timeList\"\n                :key=\"idx\"\n              >{{item.txt}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/standardSnalysis/standIndex.vue",
+            "str": "@click=\"closeBench(i)\"></span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/statisticsofballmill/component/manualentry.vue",
+            "str": "@click=\"addin(index)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/statisticsofballmill/component/manualentry.vue",
+            "str": "@click=\"cutin(index)\"\n              v-if=\"ballmilldata.length>1\"\n            ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/thermalDispersionOptimization/index.vue",
+            "str": "@click=\"fullView\" :class=\"isFullView ? 'el-icon-rank' : 'el-icon-remove-outline'\" class=\"cp\" />\n         </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/thermalDispersionOptimization1/index.vue",
+            "str": "@click=\"changeFactory(item)\">{{ item.name }}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/thermalDispersionOptimization1/index.vue",
+            "str": "@click=\"fullView\" :class=\"isFullView ? 'el-icon-rank' : 'el-icon-remove-outline'\" class=\"cp\" />\n         </div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/thermalDispersionOptimization1/components/LeftTopComp.vue",
+            "str": "@click=\"openModal(item2)\">{{ item2.actualValue || '-' }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/thermalDispersionOptimization/components/RightTComp.vue",
+            "str": "@click=\"getData(index)\">\n            <p class=\"desc\">{{ item.name }}（{{ item.unit }}）</p>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/thermalDispersionOptimization1/components/RightTComp.vue",
+            "str": "@click=\"changeHandler(index)\">\n               <p class=\"desc\">{{ item.name }}（{{ item.unit }}）</p>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/thermalDispersionOptimization1/components/RightTComp.vue",
+            "str": "@click=\"changeHandler(index)\">\n               <p class=\"desc\">{{ item.name }}（{{ item.unit }}）</p>"
+        }
+    ],
+    "specialDescArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/bestPractice/index.vue",
+            "desc": "至",
+            "str": "@click=\"handleShowCheckingDateTimeRange\" />\n            <el-date-picker\n                v-model=\"recommendFilter.checkingDateTimeRange\"\n                v-show=\"recommendFilter.showCheckingDateTimeRange\"\n                type=\"datetimerange\"\n                range-separator=\"至\" start-placeholder=\"开始日期\" end-placeholder=\"结束日期\"\n                value-format=\"yyyy-MM-dd HH:mm:ss\" format=\"yyyy-MM-dd HH:mm:ss\" style=\"margin-right: 5px\"\n                @change=\"handleCheckDateTimeRangeChange\"\n            />\n            <SuperSelect v-model=\"recommendFilter.checkingMaterialId\" placeholder=\"请选择过程检验记录\" class=\"mr15\" filterable\n                       multiple @change=\"handleCheckChange\" collapse-tags style=\"width: 520px\" clearable>\n              <SuperOption v-for=\"({checkingMaterialId,orderId, materialName, checkTime, disabled }) in checkList\"\n                         :key=\"checkingMaterialId\" :disabled=\"disabled\"\n                         :label=\"`检验单号: ${orderId || '-'}  物料名称: ${materialName || '-'} 检验时间: ${checkTime || '-'}`.substr(0, 50)\"\n                         :value=\"checkingMaterialId\">\n              </SuperOption>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib/dataTools/children/component/dataFliterCondition.vue",
+            "desc": "等于",
+            "str": "@click=\"selectConditionItem(index)\"\n              :class=\"{ isSelect: selectIndex === index }\"\n            >\n              {{\n                `\n              ${index !== 0 ? logicOperationObj[item.logicOperation] : \"\"}\n              ${\n                item.conditionType === \"product\"\n                  ? `\"${item.areaItem.name}\" （${\n                      conditionTypeObj[item.conditionType]\n                    }） 等于 \"${item.productMaterialItem.materialName}\"`\n                  : `\"${item.parameterItem.displayName}\" （${\n                      conditionTypeObj[item.conditionType]\n                    }） ${conditionItem[item.condition]} \"${item.num}\"`\n              }\n              `\n              }}\n            </li>"
+        }
+    ]
+}

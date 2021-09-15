@@ -11,9 +11,9 @@ let isEnptyNameNum = 0, // 空名称数量
     pathArr = [];
 
 let parameters = {
-	project: 'poi-cloud-operation',
-	path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib',
-	router_path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/router/router_menu.ts',
+	project: 'poi-cloud-view',
+	path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/components/lib',
+	router_path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-view/src/router/router_menu.ts',
 	regular: /@click.+?[\s\S|\d|\D|\w\W]*?<\/.+/g,
 	is_treatment_sub_file: true
 };
