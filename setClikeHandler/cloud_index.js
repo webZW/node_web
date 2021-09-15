@@ -11,9 +11,9 @@ let isEnptyNameNum = 0, // 空名称数量
     pathArr = [];
 
 let parameters = {
-	project: 'poi-cloud-public',
-	path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components',
-	router_path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/router/public.ts',
+	project: 'poi-cloud-operation',
+	path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/components/lib',
+	router_path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-operation/src/router/router_menu.ts',
 	regular: /@click.+?[\s\S|\d|\D|\w\W]*?<\/.+/g,
 	is_treatment_sub_file: true
 };
@@ -65,6 +65,7 @@ const fs_file =({ paramsConfig, files, index = 0 }) => {
         let isDir = status.isDirectory();//是文件夹
         if (isFile) {
             if(!/vue/.test(this_path)) return fs_file({ paramsConfig, files, index: ++index });
+
             let html = fs.readFileSync(this_path, 'utf8');
 
             const config = html.match(paramsConfig.regular) || [];
@@ -75,8 +76,6 @@ const fs_file =({ paramsConfig, files, index = 0 }) => {
             setClickFunc({ html, this_path, path, nameArr });
         }
         if (isDir && paramsConfig.is_treatment_sub_file) {
-            const otherDir = [ 'board', 'common', 'util', 'vueTools' ];
-            if (otherDir.includes(item)) return fs_file({ paramsConfig, files, index: ++index });
             const config = {
                 ...paramsConfig,
                 path: this_path,
@@ -116,7 +115,7 @@ const analysisClick = ({ config, this_path}) => {
 
 // 获取路由名
 const getRouterPath = (full_path) => {
-    const path = full_path.match(/[lib|menu]\/(\w+)/)[1];
+    const path = full_path.match(/lib\/(\w+)/)[1];
     const now_path = pathArr.filter(str => RegExp(path).test(str))[0];
     !now_path && console.log(122, {pathArr, path, now_path, full_path})
     const pathStr = now_path.match(/path.+\/(\w+)\'.+/);

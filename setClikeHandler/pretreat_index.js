@@ -11,9 +11,9 @@ let isEnptyNameNum = 0, // 空名称数量
     pathArr = [];
 
 let parameters = {
-	project: 'poi-cloud-public',
-	path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components',
-	router_path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/router/public.ts',
+	project: 'poi-pretreat',
+	path: '/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components',
+	router_path: '/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/router/router_menu.js',
 	regular: /@click.+?[\s\S|\d|\D|\w\W]*?<\/.+/g,
 	is_treatment_sub_file: true
 };
@@ -75,7 +75,7 @@ const fs_file =({ paramsConfig, files, index = 0 }) => {
             setClickFunc({ html, this_path, path, nameArr });
         }
         if (isDir && paramsConfig.is_treatment_sub_file) {
-            const otherDir = [ 'board', 'common', 'util', 'vueTools' ];
+            const otherDir = [ 'common', 'util', 'vueTools' ];
             if (otherDir.includes(item)) return fs_file({ paramsConfig, files, index: ++index });
             const config = {
                 ...paramsConfig,

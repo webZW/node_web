@@ -11,9 +11,9 @@ let isEnptyNameNum = 0, // 空名称数量
     pathArr = [];
 
 let parameters = {
-	project: 'poi-cloud-public',
-	path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/components',
-	router_path: '/Users/zw_mac/POI_DEVELOP/poi-cloud-public/src/router/public.ts',
+	project: 'poi-service',
+	path: '/Users/zw_mac/POI_DEVELOP/poi-service/src/components',
+	router_path: '/Users/zw_mac/POI_DEVELOP/poi-service/src/router/router_menu.js',
 	regular: /@click.+?[\s\S|\d|\D|\w\W]*?<\/.+/g,
 	is_treatment_sub_file: true
 };
@@ -41,8 +41,8 @@ const recursiveFile = (paramsConfig) => {
 }
 
 const getRouterPathArr = () => {
-    const routerTemp = fs.readFileSync(parameters.router_path, 'utf8');
-    pathArr = routerTemp.match(/path.+?[\s\S|\d|\D|\w\W]*?\.vue/g);
+    // const routerTemp = fs.readFileSync(parameters.router_path, 'utf8');
+    // pathArr = routerTemp.match(/path.+?[\s\S|\d|\D|\w\W]*?\.vue/g);
     
     recursiveFile(parameters);
 }
@@ -71,11 +71,11 @@ const fs_file =({ paramsConfig, files, index = 0 }) => {
             // console.log(this_path, config)
             if (config.length < 1) return fs_file({ paramsConfig, files, index: ++index });
             const nameArr = analysisClick({ config, this_path });
-            const path = getRouterPath(this_path);
+            const path = 'test' //getRouterPath(this_path);
             setClickFunc({ html, this_path, path, nameArr });
         }
         if (isDir && paramsConfig.is_treatment_sub_file) {
-            const otherDir = [ 'board', 'common', 'util', 'vueTools' ];
+            const otherDir = [ 'base', 'board', 'common', 'util', 'vueTools' ];
             if (otherDir.includes(item)) return fs_file({ paramsConfig, files, index: ++index });
             const config = {
                 ...paramsConfig,
@@ -140,7 +140,7 @@ const setClickFunc = ({ html, this_path, path, nameArr }) => {
 		return `buriedPointId="${id}" @click`;
 	});
 
-	fs.writeFileSync(this_path, new_html, 'utf8');
+	// fs.writeFileSync(this_path, new_html, 'utf8');
 };
 
 
