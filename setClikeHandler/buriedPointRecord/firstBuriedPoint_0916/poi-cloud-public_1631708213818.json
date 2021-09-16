@@ -1,0 +1,188 @@
+[
+    {
+        "path": "companieslist",
+        "type": "pageJump",
+        "name": "切换企业",
+        "id": "companieslist_pageJump_40328"
+    },
+    {
+        "path": "workBench",
+        "type": "edit",
+        "name": "工作台配置",
+        "id": "workBench_edit_111082"
+    },
+    {
+        "path": "customTemplate",
+        "type": "check",
+        "name": "查看更多",
+        "id": "customTemplate_check_171028"
+    },
+    {
+        "path": "customTemplate",
+        "type": "pageJump",
+        "name": "切换菜单",
+        "id": "customTemplate_pageJump_466349"
+    },
+    {
+        "path": "customTemplate",
+        "type": "edit",
+        "name": "退出登录",
+        "id": "customTemplate_edit_489208"
+    },
+    {
+        "path": "workBench",
+        "type": "delete",
+        "name": "删除配置项",
+        "id": "workBench_delete_722511"
+    },
+    {
+        "path": "workBench",
+        "type": "delete",
+        "name": "删除指标",
+        "id": "workBench_delete_380121"
+    },
+    {
+        "path": "workBench",
+        "type": "add",
+        "name": "新增指标",
+        "id": "workBench_add_482225"
+    },
+    {
+        "path": "workBench",
+        "type": "add",
+        "name": "新增",
+        "id": "workBench_add_442365"
+    },
+    {
+        "path": "workBench",
+        "type": "cancel",
+        "name": "取消",
+        "id": "workBench_cancel_367726"
+    },
+    {
+        "path": "workBench",
+        "type": "confirm",
+        "name": "确定",
+        "id": "workBench_confirm_952351"
+    },
+    {
+        "path": "workBench",
+        "type": "delete",
+        "name": "删除",
+        "id": "workBench_delete_877576"
+    },
+    {
+        "path": "workBench",
+        "type": "add",
+        "name": "新增",
+        "id": "workBench_add_99025"
+    },
+    {
+        "path": "workBench",
+        "type": "cancel",
+        "name": "取消",
+        "id": "workBench_cancel_984074"
+    },
+    {
+        "path": "workBench",
+        "type": "confirm",
+        "name": "确定",
+        "id": "workBench_confirm_822516"
+    },
+    {
+        "path": "workBench",
+        "type": "delete",
+        "name": "删除",
+        "id": "workBench_delete_282505"
+    },
+    {
+        "path": "workBench",
+        "type": "add",
+        "name": "新增",
+        "id": "workBench_add_342726"
+    },
+    {
+        "path": "workBench",
+        "type": "cancel",
+        "name": "取消",
+        "id": "workBench_cancel_697980"
+    },
+    {
+        "path": "workBench",
+        "type": "confirm",
+        "name": "确定",
+        "id": "workBench_confirm_387984"
+    },
+    {
+        "path": "workBench",
+        "type": "delete",
+        "name": "删除",
+        "id": "workBench_delete_83710"
+    },
+    {
+        "path": "workBench",
+        "type": "add",
+        "name": "新增",
+        "id": "workBench_add_16729"
+    },
+    {
+        "path": "workBench",
+        "type": "cancel",
+        "name": "取消",
+        "id": "workBench_cancel_378587"
+    },
+    {
+        "path": "workBench",
+        "type": "confirm",
+        "name": "确定",
+        "id": "workBench_confirm_436355"
+    },
+    {
+        "path": "workBench",
+        "type": "pageJump",
+        "name": "跳转应用",
+        "id": "workBench_pageJump_221878"
+    },
+    {
+        "path": "workBench",
+        "type": "pageJump",
+        "name": "跳转事项",
+        "id": "workBench_pageJump_19871"
+    },
+    {
+        "path": "workBench",
+        "type": "other",
+        "name": "workBench_other_57320",
+        "id": "workBench_other_57320"
+    },
+    {
+        "path": "workBench",
+        "type": "cancel",
+        "name": "取消",
+        "id": "workBench_cancel_284655"
+    },
+    {
+        "path": "workBench",
+        "type": "confirm",
+        "name": "确定",
+        "id": "workBench_confirm_468484"
+    },
+    {
+        "path": "workBench",
+        "type": "edit",
+        "name": "编辑",
+        "id": "workBench_edit_58202"
+    },
+    {
+        "path": "workBench",
+        "type": "edit",
+        "name": "编辑工作台",
+        "id": "workBench_edit_594054"
+    },
+    {
+        "path": "workBench",
+        "type": "edit",
+        "name": "切换时间范围",
+        "id": "workBench_edit_927498"
+    }
+]

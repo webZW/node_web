@@ -1,0 +1,1712 @@
+[
+    {
+        "path": "energyQuality",
+        "type": "pageJump",
+        "name": "能效分析报告",
+        "id": "energyQuality_pageJump_394691"
+    },
+    {
+        "path": "energyQuality",
+        "type": "select",
+        "name": "指标选择",
+        "id": "energyQuality_select_360624"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "保存方案",
+        "id": "energyQuality_edit_709825"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_104799"
+    },
+    {
+        "path": "energyQuality",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyQuality_cancel_290452"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "保存",
+        "id": "energyQuality_edit_7678"
+    },
+    {
+        "path": "energyQuality",
+        "type": "select",
+        "name": "全部",
+        "id": "energyQuality_select_922421"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "按小时",
+        "id": "energyQuality_edit_649142"
+    },
+    {
+        "path": "energyQuality",
+        "type": "select",
+        "name": "种类选择",
+        "id": "energyQuality_select_22172"
+    },
+    {
+        "path": "energyQuality",
+        "type": "export",
+        "name": "导出",
+        "id": "energyQuality_export_136739"
+    },
+    {
+        "path": "energyQuality",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyQuality_cancel_952179"
+    },
+    {
+        "path": "energyQuality",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyQuality_confirm_157757"
+    },
+    {
+        "path": "energyQuality",
+        "type": "pageJump",
+        "name": "上一页",
+        "id": "energyQuality_pageJump_10697"
+    },
+    {
+        "path": "energyQuality",
+        "type": "pageJump",
+        "name": "下一页",
+        "id": "energyQuality_pageJump_488199"
+    },
+    {
+        "path": "energyPrice",
+        "type": "add",
+        "name": "增加",
+        "id": "energyPrice_add_861090"
+    },
+    {
+        "path": "energyPrice",
+        "type": "edit",
+        "name": "保存",
+        "id": "energyPrice_edit_315003"
+    },
+    {
+        "path": "specificReports",
+        "type": "add",
+        "name": "添加",
+        "id": "specificReports_add_399221"
+    },
+    {
+        "path": "specificReports",
+        "type": "delete",
+        "name": "删除过滤表",
+        "id": "specificReports_delete_756618"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "插入",
+        "id": "specificReports_edit_310672"
+    },
+    {
+        "path": "energyReport",
+        "type": "edit",
+        "name": "编辑",
+        "id": "energyReport_edit_856861"
+    },
+    {
+        "path": "energyReport",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyReport_delete_240799"
+    },
+    {
+        "path": "energyReport",
+        "type": "add",
+        "name": "批量新增对象",
+        "id": "energyReport_add_984944"
+    },
+    {
+        "path": "energyReport",
+        "type": "add",
+        "name": "批量新增",
+        "id": "energyReport_add_522610"
+    },
+    {
+        "path": "energyReport",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyReport_delete_333160"
+    },
+    {
+        "path": "energyReport",
+        "type": "edit",
+        "name": "插入",
+        "id": "energyReport_edit_18613"
+    },
+    {
+        "path": "energyReport",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyReport_cancel_754676"
+    },
+    {
+        "path": "energyReport",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyReport_confirm_251792"
+    },
+    {
+        "path": "energyReport",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyReport_cancel_794564"
+    },
+    {
+        "path": "energyQuality",
+        "type": "select",
+        "name": "能源种类选择",
+        "id": "energyQuality_select_231167"
+    },
+    {
+        "path": "specificReports",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "specificReports_pageJump_875473"
+    },
+    {
+        "path": "specificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "specificReports_confirm_518236"
+    },
+    {
+        "path": "energyReport",
+        "type": "edit",
+        "name": "指定时刻",
+        "id": "energyReport_edit_104404"
+    },
+    {
+        "path": "energyReport",
+        "type": "edit",
+        "name": "时间周期",
+        "id": "energyReport_edit_192602"
+    },
+    {
+        "path": "energyReport",
+        "type": "other",
+        "name": "energyReport_other_794240",
+        "id": "energyReport_other_794240"
+    },
+    {
+        "path": "energyReport",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyReport_cancel_148688"
+    },
+    {
+        "path": "energyReport",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyReport_confirm_409297"
+    },
+    {
+        "path": "energyReport",
+        "type": "edit",
+        "name": "编辑",
+        "id": "energyReport_edit_870613"
+    },
+    {
+        "path": "energyReport",
+        "type": "select",
+        "name": "状态切换",
+        "id": "energyReport_select_635224"
+    },
+    {
+        "path": "energyReport",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyReport_delete_727061"
+    },
+    {
+        "path": "energyReport",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyReport_cancel_114009"
+    },
+    {
+        "path": "energyReport",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyReport_confirm_548572"
+    },
+    {
+        "path": "energyReport",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyReport_cancel_560774"
+    },
+    {
+        "path": "energyReport",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyReport_confirm_561821"
+    },
+    {
+        "path": "runningRecord",
+        "type": "check",
+        "name": "查看记录",
+        "id": "runningRecord_check_485534"
+    },
+    {
+        "path": "runningRecord",
+        "type": "check",
+        "name": "查看记录",
+        "id": "runningRecord_check_599251"
+    },
+    {
+        "path": "runningRecord",
+        "type": "edit",
+        "name": "修改",
+        "id": "runningRecord_edit_485022"
+    },
+    {
+        "path": "runningRecord",
+        "type": "delete",
+        "name": "删除",
+        "id": "runningRecord_delete_670324"
+    },
+    {
+        "path": "runningRecord",
+        "type": "confirm",
+        "name": "确定",
+        "id": "runningRecord_confirm_543986"
+    },
+    {
+        "path": "runningRecord",
+        "type": "cancel",
+        "name": "关闭",
+        "id": "runningRecord_cancel_440057"
+    },
+    {
+        "path": "runningRecord",
+        "type": "cancel",
+        "name": "取消",
+        "id": "runningRecord_cancel_436554"
+    },
+    {
+        "path": "runningRecord",
+        "type": "confirm",
+        "name": "确定",
+        "id": "runningRecord_confirm_402160"
+    },
+    {
+        "path": "energyReport",
+        "type": "other",
+        "name": "energyReport_other_158931",
+        "id": "energyReport_other_158931"
+    },
+    {
+        "path": "energyReport",
+        "type": "other",
+        "name": "energyReport_other_770878",
+        "id": "energyReport_other_770878"
+    },
+    {
+        "path": "energyReport",
+        "type": "edit",
+        "name": "重新抄表",
+        "id": "energyReport_edit_665658"
+    },
+    {
+        "path": "energyReport",
+        "type": "export",
+        "name": "导出",
+        "id": "energyReport_export_7471"
+    },
+    {
+        "path": "energyReport",
+        "type": "edit",
+        "name": "抄表计划",
+        "id": "energyReport_edit_464367"
+    },
+    {
+        "path": "energyReport",
+        "type": "export",
+        "name": "导出",
+        "id": "energyReport_export_453379"
+    },
+    {
+        "path": "energyReport",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "energyReport_pageJump_223728"
+    },
+    {
+        "path": "energyReport",
+        "type": "pageJump",
+        "name": "返回上一级",
+        "id": "energyReport_pageJump_253957"
+    },
+    {
+        "path": "energyReport",
+        "type": "export",
+        "name": "生成能效分析报告",
+        "id": "energyReport_export_9959"
+    },
+    {
+        "path": "energyReport",
+        "type": "check",
+        "name": "查看",
+        "id": "energyReport_check_128098"
+    },
+    {
+        "path": "energyReport",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyReport_delete_91528"
+    },
+    {
+        "path": "energyReport",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyReport_cancel_715755"
+    },
+    {
+        "path": "energyReport",
+        "type": "confirm",
+        "name": "生成",
+        "id": "energyReport_confirm_738874"
+    },
+    {
+        "path": "efficiencyAnalyze",
+        "type": "edit",
+        "name": "按日",
+        "id": "efficiencyAnalyze_edit_131361"
+    },
+    {
+        "path": "efficiencyAnalyze",
+        "type": "edit",
+        "name": "按月",
+        "id": "efficiencyAnalyze_edit_619782"
+    },
+    {
+        "path": "efficiencyAnalyze",
+        "type": "edit",
+        "name": "用电量",
+        "id": "efficiencyAnalyze_edit_790306"
+    },
+    {
+        "path": "efficiencyAnalyze",
+        "type": "edit",
+        "name": "价格",
+        "id": "efficiencyAnalyze_edit_49548"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "add",
+        "name": "新增",
+        "id": "energyNeedAnalyze_add_618830"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "edit",
+        "name": "修改",
+        "id": "energyNeedAnalyze_edit_217404"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyNeedAnalyze_delete_728399"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyNeedAnalyze_confirm_620134"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyNeedAnalyze_cancel_422165"
+    },
+    {
+        "path": "energyReport",
+        "type": "cancel",
+        "name": "关闭",
+        "id": "energyReport_cancel_260097"
+    },
+    {
+        "path": "continuousBallCrusherMonitor",
+        "type": "select",
+        "name": "时间切换",
+        "id": "continuousBallCrusherMonitor_select_917881"
+    },
+    {
+        "path": "energyQuality",
+        "type": "other",
+        "name": "energyQuality_other_128364",
+        "id": "energyQuality_other_128364"
+    },
+    {
+        "path": "continuousBallCrusherMonitor",
+        "type": "edit",
+        "name": "喂料机",
+        "id": "continuousBallCrusherMonitor_edit_883094"
+    },
+    {
+        "path": "continuousBallCrusherMonitor",
+        "type": "edit",
+        "name": "球磨机",
+        "id": "continuousBallCrusherMonitor_edit_297608"
+    },
+    {
+        "path": "continuousBallCrusherMonitor",
+        "type": "edit",
+        "name": "化浆机",
+        "id": "continuousBallCrusherMonitor_edit_630791"
+    },
+    {
+        "path": "energyQuality",
+        "type": "add",
+        "name": "新增工序",
+        "id": "energyQuality_add_624499"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "修改",
+        "id": "energyQuality_edit_923084"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_907314"
+    },
+    {
+        "path": "energyQuality",
+        "type": "add",
+        "name": "新增工段",
+        "id": "energyQuality_add_578601"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "修改",
+        "id": "energyQuality_edit_870796"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_413413"
+    },
+    {
+        "path": "energyQuality",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyQuality_cancel_829827"
+    },
+    {
+        "path": "energyQuality",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyQuality_confirm_774476"
+    },
+    {
+        "path": "energyQuality",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyQuality_cancel_222049"
+    },
+    {
+        "path": "energyQuality",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyQuality_confirm_397536"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "select",
+        "name": "变压器分组",
+        "id": "energyNeedAnalyze_select_457673"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "edit",
+        "name": "马上配置",
+        "id": "energyNeedAnalyze_edit_216955"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "edit",
+        "name": "经济效益计算",
+        "id": "energyNeedAnalyze_edit_722327"
+    },
+    {
+        "path": "continuousBallCrusherMonitor",
+        "type": "check",
+        "name": "搜索",
+        "id": "continuousBallCrusherMonitor_check_65867"
+    },
+    {
+        "path": "continuousBallCrusherMonitor",
+        "type": "check",
+        "name": "查看",
+        "id": "continuousBallCrusherMonitor_check_958850"
+    },
+    {
+        "path": "wholePlantMeasurement",
+        "type": "cancel",
+        "name": "取消",
+        "id": "wholePlantMeasurement_cancel_34185"
+    },
+    {
+        "path": "wholePlantMeasurement",
+        "type": "confirm",
+        "name": "确认",
+        "id": "wholePlantMeasurement_confirm_554602"
+    },
+    {
+        "path": "specificReports",
+        "type": "add",
+        "name": "新增",
+        "id": "specificReports_add_373396"
+    },
+    {
+        "path": "specificReports",
+        "type": "select",
+        "name": "报表选择",
+        "id": "specificReports_select_431820"
+    },
+    {
+        "path": "specificReports",
+        "type": "check",
+        "name": "查看",
+        "id": "specificReports_check_635370"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "修改",
+        "id": "specificReports_edit_336992"
+    },
+    {
+        "path": "specificReports",
+        "type": "delete",
+        "name": "删除",
+        "id": "specificReports_delete_501068"
+    },
+    {
+        "path": "specificReports",
+        "type": "down",
+        "name": "下载",
+        "id": "specificReports_down_477362"
+    },
+    {
+        "path": "specificReports",
+        "type": "pageJump",
+        "name": "预览",
+        "id": "specificReports_pageJump_71673"
+    },
+    {
+        "path": "specificReports",
+        "type": "cancel",
+        "name": "取消",
+        "id": "specificReports_cancel_356432"
+    },
+    {
+        "path": "specificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "specificReports_confirm_554338"
+    },
+    {
+        "path": "efficiencyAnalyze",
+        "type": "edit",
+        "name": "按日",
+        "id": "efficiencyAnalyze_edit_128063"
+    },
+    {
+        "path": "efficiencyAnalyze",
+        "type": "edit",
+        "name": "按月",
+        "id": "efficiencyAnalyze_edit_749909"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "edit",
+        "name": "计算",
+        "id": "energyNeedAnalyze_edit_303622"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyNeedAnalyze_cancel_302980"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "edit",
+        "name": "计算",
+        "id": "energyNeedAnalyze_edit_914817"
+    },
+    {
+        "path": "energyNeedAnalyze",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyNeedAnalyze_cancel_281273"
+    },
+    {
+        "path": "configTarget",
+        "type": "check",
+        "name": "搜索",
+        "id": "configTarget_check_313163"
+    },
+    {
+        "path": "configTarget",
+        "type": "reset",
+        "name": "重置",
+        "id": "configTarget_reset_274921"
+    },
+    {
+        "path": "configTarget",
+        "type": "down",
+        "name": "销发目标导入模板下载",
+        "id": "configTarget_down_975211"
+    },
+    {
+        "path": "configTarget",
+        "type": "add",
+        "name": "新增",
+        "id": "configTarget_add_136874"
+    },
+    {
+        "path": "configTarget",
+        "type": "export",
+        "name": "导出表格",
+        "id": "configTarget_export_300934"
+    },
+    {
+        "path": "configTarget",
+        "type": "edit",
+        "name": "编辑",
+        "id": "configTarget_edit_271150"
+    },
+    {
+        "path": "configTarget",
+        "type": "delete",
+        "name": "删除",
+        "id": "configTarget_delete_229708"
+    },
+    {
+        "path": "configTarget",
+        "type": "cancel",
+        "name": "取消",
+        "id": "configTarget_cancel_993198"
+    },
+    {
+        "path": "configTarget",
+        "type": "confirm",
+        "name": "确定",
+        "id": "configTarget_confirm_324683"
+    },
+    {
+        "path": "configTarget",
+        "type": "cancel",
+        "name": "取消",
+        "id": "configTarget_cancel_98136"
+    },
+    {
+        "path": "configTarget",
+        "type": "confirm",
+        "name": "确定",
+        "id": "configTarget_confirm_334895"
+    },
+    {
+        "path": "wholePlantMeasurement",
+        "type": "other",
+        "name": "缩小",
+        "id": "wholePlantMeasurement_other_604562"
+    },
+    {
+        "path": "wholePlantMeasurement",
+        "type": "other",
+        "name": "放大",
+        "id": "wholePlantMeasurement_other_624201"
+    },
+    {
+        "path": "customReport",
+        "type": "pageJump",
+        "name": "预览",
+        "id": "customReport_pageJump_856449"
+    },
+    {
+        "path": "customReport",
+        "type": "edit",
+        "name": "保存",
+        "id": "customReport_edit_734971"
+    },
+    {
+        "path": "customReport",
+        "type": "edit",
+        "name": "保存并导出",
+        "id": "customReport_edit_797096"
+    },
+    {
+        "path": "customReport",
+        "type": "cancel",
+        "name": "取消",
+        "id": "customReport_cancel_88336"
+    },
+    {
+        "path": "customReport",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "customReport_pageJump_876713"
+    },
+    {
+        "path": "specificReports",
+        "type": "cancel",
+        "name": "取消",
+        "id": "specificReports_cancel_602878"
+    },
+    {
+        "path": "specificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "specificReports_confirm_613941"
+    },
+    {
+        "path": "configTarget",
+        "type": "check",
+        "name": "搜索",
+        "id": "configTarget_check_828668"
+    },
+    {
+        "path": "configTarget",
+        "type": "reset",
+        "name": "重置",
+        "id": "configTarget_reset_864237"
+    },
+    {
+        "path": "configTarget",
+        "type": "down",
+        "name": "产量目标导入模板下载",
+        "id": "configTarget_down_672116"
+    },
+    {
+        "path": "configTarget",
+        "type": "add",
+        "name": "新增",
+        "id": "configTarget_add_464226"
+    },
+    {
+        "path": "configTarget",
+        "type": "export",
+        "name": "导出表格",
+        "id": "configTarget_export_223880"
+    },
+    {
+        "path": "configTarget",
+        "type": "edit",
+        "name": "编辑",
+        "id": "configTarget_edit_807611"
+    },
+    {
+        "path": "configTarget",
+        "type": "delete",
+        "name": "删除",
+        "id": "configTarget_delete_845325"
+    },
+    {
+        "path": "configTarget",
+        "type": "cancel",
+        "name": "取消",
+        "id": "configTarget_cancel_351519"
+    },
+    {
+        "path": "configTarget",
+        "type": "confirm",
+        "name": "确定",
+        "id": "configTarget_confirm_404816"
+    },
+    {
+        "path": "configTarget",
+        "type": "cancel",
+        "name": "取消",
+        "id": "configTarget_cancel_245899"
+    },
+    {
+        "path": "configTarget",
+        "type": "confirm",
+        "name": "确定",
+        "id": "configTarget_confirm_88954"
+    },
+    {
+        "path": "specificReports",
+        "type": "pageJump",
+        "name": "返回列表",
+        "id": "specificReports_pageJump_847162"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "添加一行",
+        "id": "specificReports_edit_150239"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "添加一列",
+        "id": "specificReports_edit_376305"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "合并单元格",
+        "id": "specificReports_edit_975125"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "拆分单元格",
+        "id": "specificReports_edit_978827"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "保存并预览",
+        "id": "specificReports_edit_353415"
+    },
+    {
+        "path": "customReport",
+        "type": "check",
+        "name": "搜索",
+        "id": "customReport_check_356188"
+    },
+    {
+        "path": "customReport",
+        "type": "reset",
+        "name": "重置",
+        "id": "customReport_reset_723139"
+    },
+    {
+        "path": "customReport",
+        "type": "add",
+        "name": "新增",
+        "id": "customReport_add_995248"
+    },
+    {
+        "path": "customReport",
+        "type": "delete",
+        "name": "批量删除",
+        "id": "customReport_delete_750357"
+    },
+    {
+        "path": "customReport",
+        "type": "check",
+        "name": "查看",
+        "id": "customReport_check_149897"
+    },
+    {
+        "path": "customReport",
+        "type": "edit",
+        "name": "修改",
+        "id": "customReport_edit_752468"
+    },
+    {
+        "path": "customReport",
+        "type": "export",
+        "name": "导出",
+        "id": "customReport_export_631413"
+    },
+    {
+        "path": "specificReports",
+        "type": "select",
+        "name": "选择下载的报表模板",
+        "id": "specificReports_select_568912"
+    },
+    {
+        "path": "specificReports",
+        "type": "cancel",
+        "name": "取消",
+        "id": "specificReports_cancel_394186"
+    },
+    {
+        "path": "specificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "specificReports_confirm_586655"
+    },
+    {
+        "path": "energyQuality",
+        "type": "add",
+        "name": "新增",
+        "id": "energyQuality_add_194364"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "修改",
+        "id": "energyQuality_edit_71728"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_191411"
+    },
+    {
+        "path": "energyQuality",
+        "type": "add",
+        "name": "新增",
+        "id": "energyQuality_add_945387"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_171924"
+    },
+    {
+        "path": "energyQuality",
+        "type": "add",
+        "name": "新增",
+        "id": "energyQuality_add_885628"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_983168"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_184596"
+    },
+    {
+        "path": "energyQuality",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyQuality_cancel_775108"
+    },
+    {
+        "path": "energyQuality",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyQuality_confirm_351596"
+    },
+    {
+        "path": "configTarget",
+        "type": "edit",
+        "name": "编辑",
+        "id": "configTarget_edit_262773"
+    },
+    {
+        "path": "configTarget",
+        "type": "cancel",
+        "name": "取消",
+        "id": "configTarget_cancel_181529"
+    },
+    {
+        "path": "configTarget",
+        "type": "edit",
+        "name": "保存",
+        "id": "configTarget_edit_923277"
+    },
+    {
+        "path": "comEnergyOverview",
+        "type": "select",
+        "name": "切换日期",
+        "id": "comEnergyOverview_select_446250"
+    },
+    {
+        "path": "comEnergyOverview",
+        "type": "check",
+        "name": "搜索",
+        "id": "comEnergyOverview_check_895564"
+    },
+    {
+        "path": "energyQuality",
+        "type": "add",
+        "name": "新增节能目标",
+        "id": "energyQuality_add_11499"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "修改",
+        "id": "energyQuality_edit_56663"
+    },
+    {
+        "path": "energyQuality",
+        "type": "delete",
+        "name": "删除",
+        "id": "energyQuality_delete_202264"
+    },
+    {
+        "path": "energyQuality",
+        "type": "edit",
+        "name": "保存",
+        "id": "energyQuality_edit_869076"
+    },
+    {
+        "path": "energyQuality",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyQuality_cancel_463666"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_302365",
+        "id": "reportPreview_other_302365"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_406271",
+        "id": "reportPreview_other_406271"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_843376",
+        "id": "reportPreview_other_843376"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_449958",
+        "id": "reportPreview_other_449958"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "条件过滤单元格减少切换",
+        "id": "reportPreview_other_287802"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "条件过滤单元格增加",
+        "id": "reportPreview_other_815910"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "定义",
+        "id": "reportPreview_edit_398088"
+    },
+    {
+        "path": "reportPreview",
+        "type": "add",
+        "name": "增加",
+        "id": "reportPreview_add_747903"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "修改",
+        "id": "reportPreview_edit_433014"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_466845",
+        "id": "reportPreview_other_466845"
+    },
+    {
+        "path": "reportPreview",
+        "type": "delete",
+        "name": "删除",
+        "id": "reportPreview_delete_377760"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "上移",
+        "id": "reportPreview_edit_884236"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "下移",
+        "id": "reportPreview_edit_515120"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "添加括号",
+        "id": "reportPreview_edit_332741"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "去掉括号",
+        "id": "reportPreview_edit_154656"
+    },
+    {
+        "path": "reportPreview",
+        "type": "cancel",
+        "name": "取消",
+        "id": "reportPreview_cancel_861838"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "保存",
+        "id": "reportPreview_edit_653373"
+    },
+    {
+        "path": "specificReports",
+        "type": "pageJump",
+        "name": "返回列表",
+        "id": "specificReports_pageJump_94738"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "添加一行",
+        "id": "specificReports_edit_284124"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "添加一列",
+        "id": "specificReports_edit_331463"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "合并单元格",
+        "id": "specificReports_edit_969809"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "拆分单元格",
+        "id": "specificReports_edit_337868"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "保存并预览",
+        "id": "specificReports_edit_584796"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "检查公式合法性",
+        "id": "reportPreview_edit_923527"
+    },
+    {
+        "path": "reportPreview",
+        "type": "cancel",
+        "name": "取消",
+        "id": "reportPreview_cancel_542186"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "保存",
+        "id": "reportPreview_edit_501639"
+    },
+    {
+        "path": "manualReading",
+        "type": "import",
+        "name": "批量导入原煤信息模板",
+        "id": "manualReading_import_49166"
+    },
+    {
+        "path": "manualReading",
+        "type": "import",
+        "name": "批量导入",
+        "id": "manualReading_import_813865"
+    },
+    {
+        "path": "manualReading",
+        "type": "add",
+        "name": "单条新增",
+        "id": "manualReading_add_270291"
+    },
+    {
+        "path": "manualReading",
+        "type": "edit",
+        "name": "修改",
+        "id": "manualReading_edit_55005"
+    },
+    {
+        "path": "manualReading",
+        "type": "delete",
+        "name": "删除",
+        "id": "manualReading_delete_968699"
+    },
+    {
+        "path": "manualReading",
+        "type": "cancel",
+        "name": "取消",
+        "id": "manualReading_cancel_882359"
+    },
+    {
+        "path": "manualReading",
+        "type": "confirm",
+        "name": "确定",
+        "id": "manualReading_confirm_695536"
+    },
+    {
+        "path": "reportPreview",
+        "type": "cancel",
+        "name": "取消",
+        "id": "reportPreview_cancel_798095"
+    },
+    {
+        "path": "reportPreview",
+        "type": "export",
+        "name": "导出",
+        "id": "reportPreview_export_320537"
+    },
+    {
+        "path": "reportPreview",
+        "type": "pageJump",
+        "name": "预览",
+        "id": "reportPreview_pageJump_598315"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "保存",
+        "id": "reportPreview_edit_335516"
+    },
+    {
+        "path": "manualReading",
+        "type": "edit",
+        "name": "手工抄表模板",
+        "id": "manualReading_edit_789204"
+    },
+    {
+        "path": "manualReading",
+        "type": "down",
+        "name": "下载模板",
+        "id": "manualReading_down_34026"
+    },
+    {
+        "path": "manualReading",
+        "type": "import",
+        "name": "批量导入",
+        "id": "manualReading_import_43954"
+    },
+    {
+        "path": "manualReading",
+        "type": "add",
+        "name": "单条新增",
+        "id": "manualReading_add_654725"
+    },
+    {
+        "path": "manualReading",
+        "type": "edit",
+        "name": "修改",
+        "id": "manualReading_edit_948159"
+    },
+    {
+        "path": "manualReading",
+        "type": "delete",
+        "name": "删除",
+        "id": "manualReading_delete_594189"
+    },
+    {
+        "path": "manualReading",
+        "type": "cancel",
+        "name": "取消",
+        "id": "manualReading_cancel_981237"
+    },
+    {
+        "path": "manualReading",
+        "type": "add",
+        "name": "单条新增",
+        "id": "manualReading_add_850375"
+    },
+    {
+        "path": "manualReading",
+        "type": "confirm",
+        "name": "确定",
+        "id": "manualReading_confirm_901689"
+    },
+    {
+        "path": "manualReading",
+        "type": "edit",
+        "name": "手工抄表模板",
+        "id": "manualReading_edit_422758"
+    },
+    {
+        "path": "manualReading",
+        "type": "edit",
+        "name": "手工抄表模板",
+        "id": "manualReading_edit_84834"
+    },
+    {
+        "path": "manualReading",
+        "type": "cancel",
+        "name": "取消",
+        "id": "manualReading_cancel_229184"
+    },
+    {
+        "path": "manualReading",
+        "type": "confirm",
+        "name": "确定",
+        "id": "manualReading_confirm_524080"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "保存并退出",
+        "id": "reportPreview_edit_525989"
+    },
+    {
+        "path": "reportPreview",
+        "type": "cancel",
+        "name": "取消",
+        "id": "reportPreview_cancel_572478"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "编辑",
+        "id": "reportPreview_edit_334759"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_141200",
+        "id": "reportPreview_other_141200"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_994918",
+        "id": "reportPreview_other_994918"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_679617",
+        "id": "reportPreview_other_679617"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_916557",
+        "id": "reportPreview_other_916557"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_523883",
+        "id": "reportPreview_other_523883"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_54653",
+        "id": "reportPreview_other_54653"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_869113",
+        "id": "reportPreview_other_869113"
+    },
+    {
+        "path": "reportPreview",
+        "type": "other",
+        "name": "reportPreview_other_404178",
+        "id": "reportPreview_other_404178"
+    },
+    {
+        "path": "specificReports",
+        "type": "check",
+        "name": "查看报表生成进度",
+        "id": "specificReports_check_949203"
+    },
+    {
+        "path": "specificReports",
+        "type": "down",
+        "name": "下载模板",
+        "id": "specificReports_down_609675"
+    },
+    {
+        "path": "specificReports",
+        "type": "import",
+        "name": "导入",
+        "id": "specificReports_import_223704"
+    },
+    {
+        "path": "specificReports",
+        "type": "confirm",
+        "name": "生成",
+        "id": "specificReports_confirm_644292"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "重命名",
+        "id": "specificReports_edit_565169"
+    },
+    {
+        "path": "specificReports",
+        "type": "delete",
+        "name": "删除",
+        "id": "specificReports_delete_67702"
+    },
+    {
+        "path": "specificReports",
+        "type": "cancel",
+        "name": "取消",
+        "id": "specificReports_cancel_118000"
+    },
+    {
+        "path": "specificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "specificReports_confirm_154918"
+    },
+    {
+        "path": "reportPreview",
+        "type": "delete",
+        "name": "删除已选中列",
+        "id": "reportPreview_delete_184825"
+    },
+    {
+        "path": "reportPreview",
+        "type": "cancel",
+        "name": "取消",
+        "id": "reportPreview_cancel_749498"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "保存",
+        "id": "reportPreview_edit_598479"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "向上插入行",
+        "id": "reportPreview_edit_996781"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "向下插入行",
+        "id": "reportPreview_edit_297885"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "向左插入列",
+        "id": "reportPreview_edit_909862"
+    },
+    {
+        "path": "reportPreview",
+        "type": "delete",
+        "name": "删除行",
+        "id": "reportPreview_delete_174680"
+    },
+    {
+        "path": "reportPreview",
+        "type": "delete",
+        "name": "删除列",
+        "id": "reportPreview_delete_827164"
+    },
+    {
+        "path": "reportPreview",
+        "type": "empty",
+        "name": "清空单元格",
+        "id": "reportPreview_empty_788723"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "向左插入列",
+        "id": "reportPreview_edit_320458"
+    },
+    {
+        "path": "specificReports",
+        "type": "check",
+        "name": "查看报表生成进度",
+        "id": "specificReports_check_197889"
+    },
+    {
+        "path": "specificReports",
+        "type": "down",
+        "name": "下载模板",
+        "id": "specificReports_down_749153"
+    },
+    {
+        "path": "specificReports",
+        "type": "import",
+        "name": "导入",
+        "id": "specificReports_import_682696"
+    },
+    {
+        "path": "specificReports",
+        "type": "export",
+        "name": "导出",
+        "id": "specificReports_export_539478"
+    },
+    {
+        "path": "specificReports",
+        "type": "edit",
+        "name": "重命名",
+        "id": "specificReports_edit_224101"
+    },
+    {
+        "path": "specificReports",
+        "type": "delete",
+        "name": "删除",
+        "id": "specificReports_delete_404106"
+    },
+    {
+        "path": "specificReports",
+        "type": "cancel",
+        "name": "取消",
+        "id": "specificReports_cancel_147735"
+    },
+    {
+        "path": "specificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "specificReports_confirm_413163"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "左对齐",
+        "id": "reportPreview_edit_157259"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "居中对齐",
+        "id": "reportPreview_edit_553865"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "右对齐",
+        "id": "reportPreview_edit_572718"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "合并单元格",
+        "id": "reportPreview_edit_841615"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "拆分单元格",
+        "id": "reportPreview_edit_579365"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "插入数据列",
+        "id": "reportPreview_edit_334264"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "插入文本内容",
+        "id": "reportPreview_edit_479792"
+    },
+    {
+        "path": "reportPreview",
+        "type": "edit",
+        "name": "插入公式",
+        "id": "reportPreview_edit_345757"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "down",
+        "name": "下载",
+        "id": "shanYingspecificReports_down_309729"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "pageJump",
+        "name": "预览",
+        "id": "shanYingspecificReports_pageJump_948993"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "cancel",
+        "name": "取消",
+        "id": "shanYingspecificReports_cancel_299574"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "shanYingspecificReports_confirm_696223"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "select",
+        "name": "获取模板编号-运行月报表",
+        "id": "shanYingspecificReports_select_890397"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "select",
+        "name": "获取模板编号-生产综合日报表",
+        "id": "shanYingspecificReports_select_430741"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "select",
+        "name": "获取模板编号-生产运行日报表",
+        "id": "shanYingspecificReports_select_711244"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "select",
+        "name": "获取模板编号-生产分析周报表",
+        "id": "shanYingspecificReports_select_799803"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "select",
+        "name": "获取模板编号-生产运营日报表",
+        "id": "shanYingspecificReports_select_897254"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "select",
+        "name": "获取模板编号-原料使用跟踪表",
+        "id": "shanYingspecificReports_select_337407"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "cancel",
+        "name": "取消",
+        "id": "shanYingspecificReports_cancel_140568"
+    },
+    {
+        "path": "shanYingspecificReports",
+        "type": "confirm",
+        "name": "确定",
+        "id": "shanYingspecificReports_confirm_510290"
+    }
+]

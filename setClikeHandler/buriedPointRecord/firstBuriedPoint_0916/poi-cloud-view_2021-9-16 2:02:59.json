@@ -1,0 +1,1214 @@
+[
+    {
+        "path": "productAnalysis",
+        "type": "edit",
+        "name": "编辑参数",
+        "id": "productAnalysis_edit_530822"
+    },
+    {
+        "path": "operationLog",
+        "type": "check",
+        "name": "搜索",
+        "id": "operationLog_check_844452"
+    },
+    {
+        "path": "qualityAnalysis",
+        "type": "export",
+        "name": "导出",
+        "id": "qualityAnalysis_export_205217"
+    },
+    {
+        "path": "productAnalysis",
+        "type": "edit",
+        "name": "编辑参数",
+        "id": "productAnalysis_edit_603491"
+    },
+    {
+        "path": "qualityAnalysis",
+        "type": "check",
+        "name": "分析",
+        "id": "qualityAnalysis_check_427380"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyStatistics_confirm_296599"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "export",
+        "name": "全部导出",
+        "id": "energyStatistics_export_402069"
+    },
+    {
+        "path": "productAnalysis",
+        "type": "edit",
+        "name": "保存",
+        "id": "productAnalysis_edit_935361"
+    },
+    {
+        "path": "productAnalysis",
+        "type": "cancel",
+        "name": "取消",
+        "id": "productAnalysis_cancel_842193"
+    },
+    {
+        "path": "byProductStatistics",
+        "type": "check",
+        "name": "查询",
+        "id": "byProductStatistics_check_850549"
+    },
+    {
+        "path": "bestPractice",
+        "type": "delete",
+        "name": "删除",
+        "id": "bestPractice_delete_855529"
+    },
+    {
+        "path": "bestPractice",
+        "type": "cancel",
+        "name": "取消",
+        "id": "bestPractice_cancel_373381"
+    },
+    {
+        "path": "bestPractice",
+        "type": "confirm",
+        "name": "确定",
+        "id": "bestPractice_confirm_836871"
+    },
+    {
+        "path": "bestPractice",
+        "type": "add",
+        "name": "空白新增",
+        "id": "bestPractice_add_422904"
+    },
+    {
+        "path": "bestPractice",
+        "type": "other",
+        "name": "至",
+        "id": "bestPractice_other_494544"
+    },
+    {
+        "path": "bestPractice",
+        "type": "check",
+        "name": "开始分析",
+        "id": "bestPractice_check_687433"
+    },
+    {
+        "path": "bestPractice",
+        "type": "check",
+        "name": "分析记录",
+        "id": "bestPractice_check_502667"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "export",
+        "name": "导出报表",
+        "id": "associationAnalysis_export_400067"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "energyStatistics_pageJump_777610"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "export",
+        "name": "全部导出",
+        "id": "energyStatistics_export_576120"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyStatistics_confirm_765055"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "export",
+        "name": "全部导出",
+        "id": "energyStatistics_export_203420"
+    },
+    {
+        "path": "productAnalysis",
+        "type": "check",
+        "name": "查询",
+        "id": "productAnalysis_check_848862"
+    },
+    {
+        "path": "clusterAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "clusterAnalysis_check_575856"
+    },
+    {
+        "path": "bestPractice",
+        "type": "export",
+        "name": "导出",
+        "id": "bestPractice_export_306145"
+    },
+    {
+        "path": "bestPractice",
+        "type": "delete",
+        "name": "删除",
+        "id": "bestPractice_delete_999371"
+    },
+    {
+        "path": "bestPractice",
+        "type": "cancel",
+        "name": "关闭",
+        "id": "bestPractice_cancel_81045"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "cancel",
+        "name": "取消",
+        "id": "associationAnalysis_cancel_811299"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "confirm",
+        "name": "确定",
+        "id": "associationAnalysis_confirm_390040"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "other",
+        "name": "energyStatistics_other_247982",
+        "id": "energyStatistics_other_247982"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "other",
+        "name": "energyStatistics_other_101401",
+        "id": "energyStatistics_other_101401"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "other",
+        "name": "energyStatistics_other_945378",
+        "id": "energyStatistics_other_945378"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "export",
+        "name": "全部导出",
+        "id": "energyStatistics_export_326183"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "energyStatistics_pageJump_937684"
+    },
+    {
+        "path": "communicationAlarm",
+        "type": "check",
+        "name": "搜索",
+        "id": "communicationAlarm_check_443301"
+    },
+    {
+        "path": "communicationAlarm",
+        "type": "export",
+        "name": "导出",
+        "id": "communicationAlarm_export_784080"
+    },
+    {
+        "path": "communicationAlarm",
+        "type": "check",
+        "name": "历史查看",
+        "id": "communicationAlarm_check_650005"
+    },
+    {
+        "path": "communicationAlarm",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "communicationAlarm_pageJump_615653"
+    },
+    {
+        "path": "bestPractice",
+        "type": "delete",
+        "name": "删除一项",
+        "id": "bestPractice_delete_254192"
+    },
+    {
+        "path": "bestPractice",
+        "type": "add",
+        "name": "添加变量",
+        "id": "bestPractice_add_207983"
+    },
+    {
+        "path": "bestPractice",
+        "type": "edit",
+        "name": "编辑条件",
+        "id": "bestPractice_edit_707759"
+    },
+    {
+        "path": "bestPractice",
+        "type": "add",
+        "name": "空白新增",
+        "id": "bestPractice_add_36748"
+    },
+    {
+        "path": "bestPractice",
+        "type": "check",
+        "name": "操作记录",
+        "id": "bestPractice_check_588212"
+    },
+    {
+        "path": "bestPractice",
+        "type": "edit",
+        "name": "保存本条",
+        "id": "bestPractice_edit_480976"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "other",
+        "name": "energyStatistics_other_612913",
+        "id": "energyStatistics_other_612913"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "check",
+        "name": "查询",
+        "id": "energyStatistics_check_250706"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "other",
+        "name": "energyStatistics_other_480419",
+        "id": "energyStatistics_other_480419"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "delete",
+        "name": "删除一项",
+        "id": "associationAnalysis_delete_376279"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "energyStatistics_pageJump_971675"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "confirm",
+        "name": "确定",
+        "id": "energyStatistics_confirm_388560"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "export",
+        "name": "全部导出",
+        "id": "energyStatistics_export_316534"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "edit",
+        "name": "编辑指标",
+        "id": "energyStatistics_edit_336256"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "edit",
+        "name": "保存",
+        "id": "energyStatistics_edit_90957"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyStatistics_cancel_274536"
+    },
+    {
+        "path": "correlationanalysis",
+        "type": "delete",
+        "name": "删除分析项X",
+        "id": "correlationanalysis_delete_539216"
+    },
+    {
+        "path": "correlationanalysis",
+        "type": "add",
+        "name": "添加分析项",
+        "id": "correlationanalysis_add_155283"
+    },
+    {
+        "path": "correlationanalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "correlationanalysis_check_333040"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "delete",
+        "name": "删除一项",
+        "id": "associationAnalysis_delete_497523"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "edit",
+        "name": "编辑指标",
+        "id": "energyStatistics_edit_32550"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "edit",
+        "name": "保存",
+        "id": "energyStatistics_edit_93756"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "cancel",
+        "name": "取消",
+        "id": "energyStatistics_cancel_623492"
+    },
+    {
+        "path": "craftParamsAnalysis",
+        "type": "check",
+        "name": "分析",
+        "id": "craftParamsAnalysis_check_535423"
+    },
+    {
+        "path": "bestPractice",
+        "type": "export",
+        "name": "导出",
+        "id": "bestPractice_export_98739"
+    },
+    {
+        "path": "bestPractice",
+        "type": "delete",
+        "name": "删除",
+        "id": "bestPractice_delete_784492"
+    },
+    {
+        "path": "bestPractice",
+        "type": "cancel",
+        "name": "关闭",
+        "id": "bestPractice_cancel_599799"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "other",
+        "name": "associationAnalysis_other_601644",
+        "id": "associationAnalysis_other_601644"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "delete",
+        "name": "删除某一项",
+        "id": "associationAnalysis_delete_652777"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "associationAnalysis_check_256008"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "export",
+        "name": "全部导出",
+        "id": "energyStatistics_export_419519"
+    },
+    {
+        "path": "bestPractice",
+        "type": "export",
+        "name": "导出",
+        "id": "bestPractice_export_181492"
+    },
+    {
+        "path": "bestPractice",
+        "type": "export",
+        "name": "导出",
+        "id": "bestPractice_export_512205"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "energyStatistics_pageJump_69232"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "edit",
+        "name": "修改选中数据",
+        "id": "associationAnalysis_edit_749447"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "add",
+        "name": "添加变量",
+        "id": "associationAnalysis_add_144098"
+    },
+    {
+        "path": "associationAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "associationAnalysis_check_320000"
+    },
+    {
+        "path": "energyStatistics",
+        "type": "export",
+        "name": "全部导出",
+        "id": "energyStatistics_export_507526"
+    },
+    {
+        "path": "downtimeAnalysis",
+        "type": "export",
+        "name": "导出",
+        "id": "downtimeAnalysis_export_977511"
+    },
+    {
+        "path": "clusterAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "clusterAnalysis_check_152085"
+    },
+    {
+        "path": "energyConsumptionEstimation",
+        "type": "edit",
+        "name": "能源类型选择",
+        "id": "energyConsumptionEstimation_edit_243434"
+    },
+    {
+        "path": "dryerSectionNew",
+        "type": "edit",
+        "name": "模型计算",
+        "id": "dryerSectionNew_edit_34115"
+    },
+    {
+        "path": "dryerSectionNew",
+        "type": "other",
+        "name": "全屏",
+        "id": "dryerSectionNew_other_609423"
+    },
+    {
+        "path": "dryerSectionNew",
+        "type": "other",
+        "name": "dryerSectionNew_other_576578",
+        "id": "dryerSectionNew_other_576578"
+    },
+    {
+        "path": "dryerSectionNew",
+        "type": "other",
+        "name": "dryerSectionNew_other_263426",
+        "id": "dryerSectionNew_other_263426"
+    },
+    {
+        "path": "dryerSectionNew",
+        "type": "other",
+        "name": "dryerSectionNew_other_931039",
+        "id": "dryerSectionNew_other_931039"
+    },
+    {
+        "path": "frequencyDomainAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "frequencyDomainAnalysis_check_664516"
+    },
+    {
+        "path": "energyReportNew",
+        "type": "other",
+        "name": "是否折叠",
+        "id": "energyReportNew_other_734991"
+    },
+    {
+        "path": "energyReportNew",
+        "type": "other",
+        "name": "energyReportNew_other_259363",
+        "id": "energyReportNew_other_259363"
+    },
+    {
+        "path": "energyReportNew",
+        "type": "edit",
+        "name": "报表编辑",
+        "id": "energyReportNew_edit_188365"
+    },
+    {
+        "path": "energyReportNew",
+        "type": "other",
+        "name": "是否折叠",
+        "id": "energyReportNew_other_812710"
+    },
+    {
+        "path": "energyReportNew",
+        "type": "export",
+        "name": "导出",
+        "id": "energyReportNew_export_750787"
+    },
+    {
+        "path": "dryerSection",
+        "type": "select",
+        "name": "选择纸机",
+        "id": "dryerSection_select_766390"
+    },
+    {
+        "path": "dryerSection",
+        "type": "start",
+        "name": "模型计算",
+        "id": "dryerSection_start_448237"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "relatedAnalysis_check_45822"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "cancel",
+        "name": "取消",
+        "id": "dataTools_cancel_482332"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "保存",
+        "id": "dataTools_edit_576977"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "编辑",
+        "id": "dataTools_edit_659867"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "delete",
+        "name": "删除方案",
+        "id": "dataTools_delete_998924"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "编辑",
+        "id": "dataTools_edit_633403"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "delete",
+        "name": "删除",
+        "id": "dataTools_delete_853957"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "增加分析变量",
+        "id": "dataTools_edit_121757"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "编辑条件",
+        "id": "dataTools_edit_378520"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "cancel",
+        "name": "取消",
+        "id": "dataTools_cancel_2501"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "保存",
+        "id": "dataTools_edit_2500"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "other",
+        "name": "dataTools_other_798617",
+        "id": "dataTools_other_798617"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "other",
+        "name": "finishedBatchAnalysis_other_577472",
+        "id": "finishedBatchAnalysis_other_577472"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "edit",
+        "name": "编辑",
+        "id": "finishedBatchAnalysis_edit_973265"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "delete",
+        "name": "删除",
+        "id": "finishedBatchAnalysis_delete_904573"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "add",
+        "name": "新增",
+        "id": "finishedBatchAnalysis_add_395212"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "finishedBatchAnalysis_check_530997"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "finishedBatchAnalysis_check_595318"
+    },
+    {
+        "path": "clusterAnalysis",
+        "type": "other",
+        "name": "dataTools_other_306101",
+        "id": "dataTools_other_306101"
+    },
+    {
+        "path": "equipmentAlarm",
+        "type": "check",
+        "name": "搜索",
+        "id": "equipmentAlarm_check_650109"
+    },
+    {
+        "path": "equipmentAlarm",
+        "type": "export",
+        "name": "导出",
+        "id": "equipmentAlarm_export_475640"
+    },
+    {
+        "path": "equipmentAlarm",
+        "type": "check",
+        "name": "历史查看",
+        "id": "equipmentAlarm_check_240654"
+    },
+    {
+        "path": "equipmentAlarm",
+        "type": "stop",
+        "name": "停用",
+        "id": "equipmentAlarm_stop_664172"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "finishedBatchAnalysis_pageJump_483564"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "add",
+        "name": "新增分析批次",
+        "id": "finishedBatchAnalysis_add_785691"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "delete",
+        "name": "删除",
+        "id": "finishedBatchAnalysis_delete_51008"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "check",
+        "name": "开始分析",
+        "id": "finishedBatchAnalysis_check_634860"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "edit",
+        "name": "保存方案",
+        "id": "finishedBatchAnalysis_edit_376347"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "delete",
+        "name": "删除方案",
+        "id": "finishedBatchAnalysis_delete_874075"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "check",
+        "name": "查看更多",
+        "id": "finishedBatchAnalysis_check_651947"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "edit",
+        "name": "保存",
+        "id": "finishedBatchAnalysis_edit_874443"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "cancel",
+        "name": "取消",
+        "id": "finishedBatchAnalysis_cancel_582984"
+    },
+    {
+        "path": "clusterAnalysis",
+        "type": "other",
+        "name": "dataTools_other_641170",
+        "id": "dataTools_other_641170"
+    },
+    {
+        "path": "equipmentAlarm",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "equipmentAlarm_pageJump_725869"
+    },
+    {
+        "path": "MessageCenter",
+        "type": "edit",
+        "name": "标为已读",
+        "id": "MessageCenter_edit_285097"
+    },
+    {
+        "path": "MessageCenter",
+        "type": "delete",
+        "name": "批量删除",
+        "id": "MessageCenter_delete_862007"
+    },
+    {
+        "path": "MessageCenter",
+        "type": "check",
+        "name": "查看",
+        "id": "MessageCenter_check_362122"
+    },
+    {
+        "path": "MessageCenter",
+        "type": "edit",
+        "name": "标为已读",
+        "id": "MessageCenter_edit_700487"
+    },
+    {
+        "path": "MessageCenter",
+        "type": "delete",
+        "name": "删除",
+        "id": "MessageCenter_delete_702043"
+    },
+    {
+        "path": "MessageCenter",
+        "type": "cancel",
+        "name": "关闭",
+        "id": "MessageCenter_cancel_67610"
+    },
+    {
+        "path": "incomingQualityStatistics",
+        "type": "select",
+        "name": "统计方式",
+        "id": "incomingQualityStatistics_select_4732"
+    },
+    {
+        "path": "incomingQualityStatistics",
+        "type": "select",
+        "name": "展示数量选择",
+        "id": "incomingQualityStatistics_select_633216"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "confirm",
+        "name": "确定",
+        "id": "finishedBatchAnalysis_confirm_561248"
+    },
+    {
+        "path": "finishedBatchAnalysis",
+        "type": "cancel",
+        "name": "取消",
+        "id": "finishedBatchAnalysis_cancel_420034"
+    },
+    {
+        "path": "clusterAnalysis",
+        "type": "other",
+        "name": "dataTools_other_230978",
+        "id": "dataTools_other_230978"
+    },
+    {
+        "path": "clusterAnalysis",
+        "type": "other",
+        "name": "dataTools_other_747594",
+        "id": "dataTools_other_747594"
+    },
+    {
+        "path": "downtimeAnalysis",
+        "type": "check",
+        "name": "查询",
+        "id": "downtimeAnalysis_check_212270"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "add",
+        "name": "增加",
+        "id": "dataTools_add_71930"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "修改",
+        "id": "dataTools_edit_866719"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "other",
+        "name": "等于",
+        "id": "dataTools_other_324114"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "delete",
+        "name": "删除",
+        "id": "dataTools_delete_697530"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "上移",
+        "id": "dataTools_edit_707669"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "下移",
+        "id": "dataTools_edit_640397"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "cancel",
+        "name": "取消",
+        "id": "dataTools_cancel_298998"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "保存",
+        "id": "dataTools_edit_333901"
+    },
+    {
+        "path": "downtimeAnalysis",
+        "type": "export",
+        "name": "导出",
+        "id": "downtimeAnalysis_export_18161"
+    },
+    {
+        "path": "frequencyDomainAnalysis",
+        "type": "other",
+        "name": "dataTools_other_638983",
+        "id": "dataTools_other_638983"
+    },
+    {
+        "path": "frequencyDomainAnalysis",
+        "type": "other",
+        "name": "dataTools_other_737416",
+        "id": "dataTools_other_737416"
+    },
+    {
+        "path": "processLimit",
+        "type": "check",
+        "name": "搜索",
+        "id": "processLimit_check_387816"
+    },
+    {
+        "path": "processLimit",
+        "type": "export",
+        "name": "导出",
+        "id": "processLimit_export_559932"
+    },
+    {
+        "path": "processLimit",
+        "type": "check",
+        "name": "历史查看",
+        "id": "processLimit_check_353687"
+    },
+    {
+        "path": "processLimit",
+        "type": "stop",
+        "name": "停用",
+        "id": "processLimit_stop_393294"
+    },
+    {
+        "path": "processQualityAnalyze",
+        "type": "check",
+        "name": "分析",
+        "id": "processQualityAnalyze_check_679360"
+    },
+    {
+        "path": "frequencyDomainAnalysis",
+        "type": "other",
+        "name": "dataTools_other_279307",
+        "id": "dataTools_other_279307"
+    },
+    {
+        "path": "processLimit",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "processLimit_pageJump_87763"
+    },
+    {
+        "path": "processQualityStatistics",
+        "type": "select",
+        "name": "统计方式",
+        "id": "processQualityStatistics_select_809922"
+    },
+    {
+        "path": "processQualityStatistics",
+        "type": "select",
+        "name": "展示数量选择",
+        "id": "processQualityStatistics_select_846"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "other",
+        "name": "dataTools_other_494963",
+        "id": "dataTools_other_494963"
+    },
+    {
+        "path": "spareAnalyze",
+        "type": "check",
+        "name": "搜索",
+        "id": "spareAnalyze_check_23203"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "other",
+        "name": "dataTools_other_299219",
+        "id": "dataTools_other_299219"
+    },
+    {
+        "path": "relatedAnalysis",
+        "type": "edit",
+        "name": "恢复初始位置",
+        "id": "dataTools_edit_618814"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "edit",
+        "name": "能效",
+        "id": "standardSnalysis_edit_944785"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "edit",
+        "name": "设备",
+        "id": "standardSnalysis_edit_438979"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "edit",
+        "name": "对标",
+        "id": "standardSnalysis_edit_669731"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "other",
+        "name": "standardSnalysis_other_472601",
+        "id": "standardSnalysis_other_472601"
+    },
+    {
+        "path": "spareConsumeStatistics",
+        "type": "select",
+        "name": "统计方式",
+        "id": "spareConsumeStatistics_select_396886"
+    },
+    {
+        "path": "spareConsumeStatistics",
+        "type": "other",
+        "name": "spareConsumeStatistics_other_58711",
+        "id": "spareConsumeStatistics_other_58711"
+    },
+    {
+        "path": "productionMonitoring",
+        "type": "other",
+        "name": "productionMonitoring_other_574557",
+        "id": "productionMonitoring_other_574557"
+    },
+    {
+        "path": "productionMonitoring",
+        "type": "cancel",
+        "name": "取消",
+        "id": "productionMonitoring_cancel_162144"
+    },
+    {
+        "path": "productionMonitoring",
+        "type": "pageJump",
+        "name": "返回",
+        "id": "productionMonitoring_pageJump_355267"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "check",
+        "name": "查询",
+        "id": "statisticsofballmill_check_936662"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "import",
+        "name": "球磨统计导入模板",
+        "id": "statisticsofballmill_import_802446"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "export",
+        "name": "导出",
+        "id": "statisticsofballmill_export_880988"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "import",
+        "name": "批量导入",
+        "id": "statisticsofballmill_import_306644"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "add",
+        "name": "手工录入",
+        "id": "statisticsofballmill_add_767652"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "edit",
+        "name": "修改",
+        "id": "statisticsofballmill_edit_869918"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "delete",
+        "name": "删除",
+        "id": "statisticsofballmill_delete_271842"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "edit",
+        "name": "能效",
+        "id": "standardSnalysis_edit_109978"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "edit",
+        "name": "设备",
+        "id": "standardSnalysis_edit_878368"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "edit",
+        "name": "对标",
+        "id": "standardSnalysis_edit_116069"
+    },
+    {
+        "path": "standardSnalysis",
+        "type": "other",
+        "name": "standardSnalysis_other_191611",
+        "id": "standardSnalysis_other_191611"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "edit",
+        "name": "增加",
+        "id": "statisticsofballmill_edit_619050"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "edit",
+        "name": "减少",
+        "id": "statisticsofballmill_edit_854247"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "cancel",
+        "name": "取消",
+        "id": "statisticsofballmill_cancel_623350"
+    },
+    {
+        "path": "statisticsofballmill",
+        "type": "confirm",
+        "name": "确定",
+        "id": "statisticsofballmill_confirm_626153"
+    },
+    {
+        "path": "thermalDispersionOptimization",
+        "type": "other",
+        "name": "全屏",
+        "id": "thermalDispersionOptimization_other_438471"
+    },
+    {
+        "path": "downtimeAnalysis",
+        "type": "check",
+        "name": "查询",
+        "id": "downtimeAnalysis_check_402020"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "select",
+        "name": "选择车间",
+        "id": "thermalDispersionOptimization1_select_876592"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "edit",
+        "name": "计算中",
+        "id": "thermalDispersionOptimization1_edit_229597"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "other",
+        "name": "全屏",
+        "id": "thermalDispersionOptimization1_other_478741"
+    },
+    {
+        "path": "downtimeAnalysis",
+        "type": "export",
+        "name": "导出",
+        "id": "downtimeAnalysis_export_999378"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "edit",
+        "name": "综合",
+        "id": "thermalDispersionOptimization1_edit_777530"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "edit",
+        "name": "电",
+        "id": "thermalDispersionOptimization1_edit_240829"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "edit",
+        "name": "蒸汽",
+        "id": "thermalDispersionOptimization1_edit_75531"
+    },
+    {
+        "path": "wholePlantMeasurement",
+        "type": "check",
+        "name": "搜索",
+        "id": "wholePlantMeasurement_check_746267"
+    },
+    {
+        "path": "wholePlantMeasurement",
+        "type": "check",
+        "name": "查看",
+        "id": "wholePlantMeasurement_check_809389"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "other",
+        "name": "thermalDispersionOptimization1_other_666678",
+        "id": "thermalDispersionOptimization1_other_666678"
+    },
+    {
+        "path": "thermalDispersionOptimization",
+        "type": "other",
+        "name": "thermalDispersionOptimization_other_307190",
+        "id": "thermalDispersionOptimization_other_307190"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "other",
+        "name": "thermalDispersionOptimization1_other_671436",
+        "id": "thermalDispersionOptimization1_other_671436"
+    },
+    {
+        "path": "thermalDispersionOptimization1",
+        "type": "other",
+        "name": "thermalDispersionOptimization1_other_148748",
+        "id": "thermalDispersionOptimization1_other_148748"
+    }
+]

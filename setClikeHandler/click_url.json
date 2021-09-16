@@ -1,0 +1,1197 @@
+{
+    "equipmentConfiguration_export_727051": [
+        "http://192.168.100.31/poit-cloud-platform/equipmentType/export/partSpare"
+    ],
+    "equipmentConfiguration_edit_624382": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/basicInfo/get?eid=ae5920ca31074c78b67af03844cd2ddd"
+    ],
+    "equipmentConfiguration_confirm_561623": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/config/property?eid=ae5920ca31074c78b67af03844cd2ddd"
+    ],
+    "equipmentConfiguration_edit_480912": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/partSpareInfo/get?eid=ae5920ca31074c78b67af03844cd2ddd"
+    ],
+    "equipmentConfiguration_add_104537": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/material/list?eid=ae5920ca31074c78b67af03844cd2ddd"
+    ],
+    "equipmentConfiguration_confirm_19351": [
+        "http://192.168.100.31/poit-cloud-platform/equipmentType/partSpareName/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/partSpareInfo/get?eid=ae5920ca31074c78b67af03844cd2ddd"
+    ],
+    "measurementUnit_add_556506": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/measureUnit/unitType/addOrUpdate",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/measureUnit/unitType/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/measureUnit/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/measureUnit/unitType/delete"
+    ],
+    "measurementUnit_add_573553": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "workBench_edit_594054": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization"
+    ],
+    "workBench_edit_58202": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/production-quota-user/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/index/factroy/area/index/tree/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/index/selection/item/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/practice-user/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/public/equipmentDetail",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/meterEquipment/area/parameter/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/task-monitor-user/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryModel/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/alarm/monitor-user/list",
+        "http://192.168.100.31/poit-cloud-platform/alarm2/list/rule/enable/alarm/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/backlog-user/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/user-resource/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/resources/userId/tree"
+    ],
+    "workBench_confirm_822516": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/production-quota/add/modify"
+    ],
+    "workBench_confirm_436355": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/practice/add/modify"
+    ],
+    "workBench_confirm_952351": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/eqp-quota/add/modify"
+    ],
+    "workBench_confirm_468484": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/task/monitor/add/modify",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/backlog/add/modify",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/user-resource/add/modify"
+    ],
+    "workBench_confirm_387984": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/work-home/alarm/monitor/add/modify"
+    ],
+    "productionTask_add_746071": [
+        "http://192.168.100.31/poit-cloud-platform/produceTaskOperateRecord/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/taskFieldList_materialList/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/tree",
+        "http://192.168.100.31/poit-cloud-platform/craftFormula/config/list/by/material"
+    ],
+    "productionTask_confirm_439730": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/modify"
+    ],
+    "productionTask_confirm_894793": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/file/import?appVersion=0.0.4&\n            orgId=ae5920ca31074c78b67af03844cd2ddd&operateUserId=500177&orgId=3010&uid=427075f2e7ec43d1bd04ebd6d36af240&templateId=3"
+    ],
+    "productionTask_check_480133": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/file/page"
+    ],
+    "productionTask_edit_148105": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/template/line/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/page",
+        "http://192.168.100.31/poit-cloud-platform/factory/list/area/order"
+    ],
+    "productionTask_confirm_101292": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/process/add"
+    ],
+    "productionTask_cancel_890599": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/page"
+    ],
+    "productionTask_check_136194": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/field/list",
+        "http://192.168.100.31/poit-cloud-platform/produceTaskOperateRecord/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/factoryArea/list"
+    ],
+    "productionTask_edit_529060": [
+        "http://192.168.100.31/poit-cloud-platform/produceTaskOperateRecord/updateOperateTime"
+    ],
+    "productionTask_edit_186738": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/produceTaskOperateRecord/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/factoryArea/list"
+    ],
+    "productionTask_edit_468681": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/feedStatus/modify",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/page"
+    ],
+    "productionTask_edit_503339": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/type-code/list"
+    ],
+    "productionTask_confirm_227271": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/modify"
+    ],
+    "productionTask_edit_311804": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/status/modify",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceTaskTotal/delete "
+    ],
+    "taskAll_pageJump_923974": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/publicLine_recipeUnit/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/template/line/list",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentFile/list/file/equipment/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/equipmentLedger/get",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/list/status",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/list/result",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/maintainTask/list/result",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/maintainTask/list/status",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/statistics",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/statistics",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/org/tree/by/area/sub/produce/line",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/page/task/repair/web/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepTask/statistics",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepTask/page/parameter",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/maintainTask/statistics",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/maintainTask/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization"
+    ],
+    "productionTask_edit_322456": [
+        "http://192.168.100.31/poit-cloud-platform/produce_automatic_task/page"
+    ],
+    "productionTask_add_173274": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/get/treeByTemplate"
+    ],
+    "productionTask_add_819692": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/meterEquipment/WithoutParameter/list",
+        "http://192.168.100.31/poit-cloud-platform/material/info/materialByFactoryArea/list",
+        "http://192.168.100.31/poit-cloud-platform/craftFormula/config/list/by/material"
+    ],
+    "productionTask_cancel_860441": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/get/treeByTemplate"
+    ],
+    "productionTask_confirm_923507": [
+        "http://192.168.100.31/poit-cloud-platform/produce_automatic_task/saveOrUpdate",
+        "http://192.168.100.31/poit-cloud-platform/produce_automatic_task/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/list",
+        "http://192.168.100.31/poit-cloud-platform/produce_automatic_task/get/item",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/get/treeByTemplate"
+    ],
+    "productionExecution_edit_284522": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/process/record/modify"
+    ],
+    "productionExecution_pageJump_269255": [
+        "http://192.168.100.31/poit-cloud-platform/produce/process/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/process/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/feedStatus/modify"
+    ],
+    "productionExecution_cancel_921726": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/task-no/by-process/list",
+        "http://192.168.100.31/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.31/poit-cloud-platform/material/info/crafts/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/manager/shift/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/listTaskNo",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only"
+    ],
+    "lossMaintenance_confirm_27870": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/loss/addOrUpdate",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/loss/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization"
+    ],
+    "productionExecution_add_639970": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/areaId-type/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/storeId-materialId/list"
+    ],
+    "productionExecution_pageJump_484877": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/task-no/by-process/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/productReport/init",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/SheetBatchNum/get"
+    ],
+    "productionExecution_check_262501": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/MaterialDistribution/list"
+    ],
+    "productionExecution_cancel_292781": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/task-no/by-process/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/productReport/init",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/SheetBatchNum/get"
+    ],
+    "productionExecution_confirm_615644": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/sheet/submit",
+        "http://192.168.100.31/poit-cloud-platform/produce/process/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/process/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/task-no/by-process/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/sheet/list"
+    ],
+    "productionExecution_check_142712": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/sheet/list"
+    ],
+    "productionExecution_cancel_286597": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/task-no/by-process/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/productReport/init",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/SheetBatchNum/get"
+    ],
+    "productionExecution_cancel_424778": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/task-no/by-process/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/sheet/list"
+    ],
+    "productionExecution_confirm_676576": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/sheet/return",
+        "http://192.168.100.31/poit-cloud-platform/produce/process/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/process/page"
+    ],
+    "productionExecution_pageJump_5633": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/task-no/by-process/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/sheet/list"
+    ],
+    "productionExecution_check_399003": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/unit/sheet/list"
+    ],
+    "productionExecution_edit_849584": [
+        "http://192.168.100.31/poit-cloud-platform/produce/process/get/produceTask",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/get/materialTypeId"
+    ],
+    "productionExecution_cancel_239328": [
+        "http://192.168.100.31/poit-cloud-platform/produce/process/get/produceTask",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/get/materialTypeId",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/list/by/params",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/manager/TaskTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/manager/ProduceLine/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/maintain/page",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList"
+    ],
+    "completionMaintenance_edit_46015": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/completedEntry/init",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/task_shift_course_list/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/taskInfo_colour_grade/list"
+    ],
+    "completionMaintenance_confirm_271352": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/maintain/submit",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/maintain/page"
+    ],
+    "completionMaintenance_down_540123": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/produce/work/maintain/template/download"
+    ],
+    "completionMaintenance_import_585797": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/produce-sheet-file/import",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/work/maintain/page"
+    ],
+    "completionMaintenance_check_624368": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce-sheet-file/page"
+    ],
+    "completionMaintenance_down_474009": [
+        "http://192.168.100.31/poit-cloud-platform/produce-sheet-file/download-url/get",
+        "https://poit-cloud-provider.oss-cn-shenzhen.aliyuncs.com/produce-sheet/3010/be2e410d2e75478b9f01af374920fb12.xlsx?Expires=1631760985&OSSAccessKeyId=LTAIZ2VjklBQLHtF&Signature=OQZGt6hDfGGHqb80yuDKnGMhhKw%3D"
+    ],
+    "completionMaintenance_export_792286": [
+        "http://192.168.100.31/poit-cloud-platform/produce/work/maintain/export"
+    ],
+    "workforceManagement_add_344396": [
+        "http://192.168.100.31/poit-cloud-platform/shift/list/shift/by/group",
+        "http://192.168.100.31/poit-cloud-platform/course/list/course/by/group"
+    ],
+    "workforceManagement_confirm_228097": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/schedule/plan/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/schedule/plan/page"
+    ],
+    "workforceManagement_check_531764": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/schedule/plan/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryModel/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceCapacityManage/list"
+    ],
+    "capacityManagement_add_237268": [
+        "http://192.168.100.31/poit-cloud-platform//material/group/list",
+        "http://192.168.100.31/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/ByTypeId/list"
+    ],
+    "capacityManagement_confirm_845211": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produceCapacityManage/add"
+    ],
+    "capacityManagement_export_963452": [
+        "http://192.168.100.31/poit-cloud-platform/produceCapacityManage/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/productConfig/eid/shift/list"
+    ],
+    "scheduleAllocation_confirm_183281": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/productConfig/shiftInfo/add?eid=ae5920ca31074c78b67af03844cd2ddd",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/productConfig/eid/shift/list"
+    ],
+    "scheduleAllocation_cancel_16217": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/list/farm/for/course",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/user/ent/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list"
+    ],
+    "teamConfiguration_confirm_288648": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseGroupData/addOrUpdate?eid=ae5920ca31074c78b67af03844cd2ddd",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/page"
+    ],
+    "proTaskTemplateConfig_edit_485402": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/factory/tree",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/get"
+    ],
+    "proTaskTemplateConfig_edit_459336": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/modify"
+    ],
+    "proTaskTemplateConfig_cancel_301656": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/page"
+    ],
+    "proTaskTemplateConfig_stop_268867": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/useStatus/modify",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/page"
+    ],
+    "dataEntry_add_921453": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/user/ent-org/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equip/is-manual-type/list"
+    ],
+    "dataEntry_confirm_744350": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/param-by-equip/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-entery-data-task-conf/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-entery-data-task-conf/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-formula-prefer/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-prefer/material-prefer/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/loss/page"
+    ],
+    "lossMaintenance_add_433999": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/manager/shift/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/listTaskNo"
+    ],
+    "inspectionItems_add_389594": [
+        "http://192.168.100.31/poit-cloud-platform/material/info/ByTypeId/list"
+    ],
+    "inspectionItems_confirm_525425": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/supplierConfig/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/type/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce-checking-task/store/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce-checking-store-record/page"
+    ],
+    "inspectionItems_add_869763": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/material/info/ByTypeId/list"
+    ],
+    "inspectionItems_edit_419249": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/plant-cell/include-factory/tree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce-checking-plan/page"
+    ],
+    "inspectionItems_add_316935": [
+        "http://192.168.100.31/poit-cloud-platform/course/list/group",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/line-process-unit/list"
+    ],
+    "inspectionItems_confirm_442724": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce-checking-plan/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce-checking-plan/page"
+    ],
+    "measurementUnit_confirm_515157": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/measureUnit/addOrUpdate?eid=ae5920ca31074c78b67af03844cd2ddd",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/measureUnit/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectType/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/projectUnit/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProject/list"
+    ],
+    "inspectionItems_add_247935": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectType/add?eid=ae5920ca31074c78b67af03844cd2ddd",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectType/list"
+    ],
+    "inspectionItems_edit_63506": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectType/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/projectComponent/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProject/list"
+    ],
+    "inspectionItems_edit_651221": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectType/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/projectUnit/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProject/list"
+    ],
+    "inspectionItems_confirm_825081": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProject/add?eid=ae5920ca31074c78b67af03844cd2ddd",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProject/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplateStandard/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/standard/template/quote",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplate/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/storeChecking/standardTemplate/store/get"
+    ],
+    "inspectionItems_confirm_310754": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/standardTemplate/addOrUpdate",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/list",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplateStandard/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/incomingStandardTemplate/save",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/storeChecking/standardTemplate/store/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplateData/save",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processStandardTemplate/get"
+    ],
+    "inspectionItems_edit_382338": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/incomingStandardTemplate/save",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplateStandard/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplateData/save",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/storeChecking/standardTemplate/store/get"
+    ],
+    "inspectionItems_edit_966151": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/list",
+        "http://192.168.100.31/poit-cloud-platform/material/info/listByMaterialTypeIds",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/standard/template/quote",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/storeChecking/standardTemplate/store/preview/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/storeChecking/standardTemplate/store/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/previewProcessTemplate/get"
+    ],
+    "inspectionItems_confirm_120723": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/save",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplateStandard/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/list",
+        "http://192.168.100.31/poit-cloud-platform/material/info/listByMaterialTypeIds",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/storeChecking/standardTemplate/store/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processStandardTemplate/get"
+    ],
+    "inspectionItems_edit_500320": [
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/template/list",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplate/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/projectUnit/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectType/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProject/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplate/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processStandardTemplate/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/list"
+    ],
+    "inspectionItems_add_394988": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/template/addOrUpdate",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/template/list",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplate/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplate/get"
+    ],
+    "inspectionItems_edit_20532": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/templateProject/comeProjectSort/save",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplate/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/templateProject/processProjectSort/save",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplate/get"
+    ],
+    "inspectionItems_edit_611063": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/templateProject/select"
+    ],
+    "inspectionItems_edit_870102": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/templateProject/save",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplate/get"
+    ],
+    "inspectionItems_edit_436302": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectTypeAndProject/list"
+    ],
+    "inspectionItems_edit_783773": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/templateProject/comeProject/add",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/incomingTemplate/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/templateProject/processProject/addOrUpdate",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplate/get"
+    ],
+    "inspectionItems_edit_704546": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/offStore"
+    ],
+    "inspectionItems_edit_583836": [
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/averageCheck",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/produceTaskMaterialCheck"
+    ],
+    "inspectionItems_edit_567909": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/options/list"
+    ],
+    "inspectionItems_edit_530917": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/options/save",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplate/get"
+    ],
+    "inspectionItems_edit_973379": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectTypeAndProject/list"
+    ],
+    "inspectionItems_edit_181548": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectTypeAndProject/list"
+    ],
+    "inspectionItems_delete_223106": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/templateProject/processTemplate/delete",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processTemplate/get"
+    ],
+    "inspectionItems_edit_876124": [
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/averageCheck",
+        "http://192.168.100.31/poit-cloud-platform/checkTemplate/produceTaskMaterialCheck"
+    ],
+    "inspectionItems_edit_445758": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProjectType/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/projectUnit/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/checkProject/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkTemplate/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/storeChecking/standardTemplate/store/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/materialCheckingConfig/material/standardTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/checkProject/processStandardTemplate/get"
+    ],
+    "inspectionItems_edit_693311": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/templateProject/getUnqualified"
+    ],
+    "hierarchicalQualityInspectionTemplate_add_863781": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list"
+    ],
+    "hierarchicalQualityInspectionTemplate_confirm_541677": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-temp/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-temp/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-temp/temp-info/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-defect/batch/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-defect/selected/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-defect/unseleted/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-defect/linked/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.31/poit-cloud-platform/qualityStatistics/resource/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/supplierConfig/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/position/list",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/qualityStatistics/incoming/store/templateType"
+    ],
+    "hierarchicalQualityInspectionTemplate_other_732096": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-temp/temp-info/get"
+    ],
+    "hierarchicalQualityInspectionTemplate_check_292653": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/prod-gr-qa-defect/list"
+    ],
+    "qualityStatistical_export_138108": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/factory/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/position/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/qualityStatistics/factoryIds/courseTree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/qualityStatistics/process/templateType",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/qualityStatistics/incoming/store/templateType",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/qualityStatistics/finish/templateType",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.31/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/template/factory/tree",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList"
+    ],
+    "qualityAnalysis_export_205217": [
+        "http://192.168.100.31/poit-cloud-platform/quality/analyze/checkProject/export"
+    ],
+    "energyStatistics_export_203420": [
+        "http://192.168.100.31/poit-cloud-platform/prod/task/energy/detail/export"
+    ],
+    "energyStatistics_export_326183": [
+        "http://192.168.100.31/poit-cloud-platform/qualityStatistics/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/template/factory/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/ByTypeId/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/craftFormula/config/list/by/material",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/material-type/stat",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/material/stat/page",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/material/modulation/stat/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/material/stat/total"
+    ],
+    "energyStatistics_export_419519": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/material/stat/total/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/task/template/factory/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/ByTypeId/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/craftFormula/config/list/by/material",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/statistics/output/search"
+    ],
+    "energyStatistics_export_576120": [
+        "http://192.168.100.31/poit-cloud-platform/produce/task/output/produceTask/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/output/energy/treeArea",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/produce/manager/course/list",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/statistics/course/search"
+    ],
+    "energyStatistics_export_402069": [
+        "http://192.168.100.31/poit-cloud-platform/course/output/energy/detail/list/export"
+    ],
+    "equipmentLedger_add_108360": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/course/tree"
+    ],
+    "equipmentLedger_confirm_431365": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equip/equ/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentFile/list/file/equipment/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/node/equipmentLedger/get",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/list/card/check/regular/get"
+    ],
+    "equipmentLedger_down_154611": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentFile/list/code/equipment/get",
+        "http://192.168.100.31/poit-cloud-platform//equipmentQrcodeParam/param/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/course/tree"
+    ],
+    "equipmentSpotInspection_edit_301916": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/card/check/regular/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/list/card/check/regular/get"
+    ],
+    "equipmentSpotInspection_export_942409": [
+        "http://192.168.100.31/poit-cloud-platform/RegularCheck/export/plan/check"
+    ],
+    "equipmentSpotInspection_delete_847753": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/plan/operate/batch",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/list/plan/check/regular/get"
+    ],
+    "equipmentSpotInspection_start_283534": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/plan/operate/batch",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/list/plan/check/regular/get"
+    ],
+    "equipmentMaintenance_add_767146": [
+        "http://192.168.100.31/poit-cloud-platform/course/tree/course/farm"
+    ],
+    "equipmentMaintenance_confirm_838671": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/batch/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/page"
+    ],
+    "equipmentMaintenance_start_867413": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/batch/useStatus/switch"
+    ],
+    "equipmentMaintenance_stop_272876": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/batch/useStatus/switch",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/page"
+    ],
+    "equipmentMaintenance_delete_781927": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/batch/delete",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/page"
+    ],
+    "equipmentMaintenance_export_311228": [
+        "http://192.168.100.31/poit-cloud-platform/eqpSUpkeepPlan/upkeepPlanData/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/maintainPlan/list/plan/maintain/get"
+    ],
+    "equipmentOverhaul_add_606458": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/areaEqu/tree"
+    ],
+    "equipmentOverhaul_edit_105849": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/maintainPlan/plan/maintain/add/or/update",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-manage/areaIds/auth/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-manage/record"
+    ],
+    "downtimeAnalysis_export_999378": [
+        "http://192.168.100.31/poit-cloud-platform/equipment-reason-shift-detail/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/page"
+    ],
+    "shutdownReasonManagement_confirm_667992": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/page"
+    ],
+    "shutdownReasonManagement_delete_390947": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/batch/batchDelete",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-link/tree"
+    ],
+    "shutdownReasonManagement_confirm_280608": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-link/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-link/one/level/add"
+    ],
+    "shutdownReasonManagement_edit_900270": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/page"
+    ],
+    "shutdownReasonManagement_add_707739": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-apply/invalid/reason/org/tree"
+    ],
+    "shutdownReasonManagement_confirm_221876": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-apply/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-apply/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-department/page"
+    ],
+    "shutdownReasonManagement_confirm_67381": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-department/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-department/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-part/page"
+    ],
+    "shutdownReasonManagement_add_75011": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/areaEqu/tree"
+    ],
+    "shutdownReasonManagement_confirm_679566": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-part/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-part/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/tree?eid=ae5920ca31074c78b67af03844cd2ddd"
+    ],
+    "reserveManagement_confirm_643937": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/areaId/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eam/store/entry/create",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eam/store/entry/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eam/store/statistics/entry"
+    ],
+    "taskAll_add_786171": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/course/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/areaEqu/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment/part/spare/list/part",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "taskAll_confirm_700024": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/task/repair/renew",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/statistics",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repairTask/page/task/repair/web/get"
+    ],
+    "taskAll_pageJump_758235": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheck/list/card/check/regular/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepPlan/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/org/tree/by/area/sub/produce/line",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/maintainPlan/list/plan/maintain/get"
+    ],
+    "taskAll_export_484842": [
+        "http://192.168.100.31/poit-cloud-platform/eqpSUpkeepTask/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "taskAll_export_655557": [
+        "http://192.168.100.31/poit-cloud-platform/maintainTask/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "taskAll_edit_815301": [
+        "http://192.168.100.31/poit-cloud-platform/repairTask/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/list/result",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/list/status",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/statistics",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/org/tree/by/area/sub/produce/line"
+    ],
+    "taskAll_export_945030": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/RegularCheckTask/export",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/list/result",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RegularCheckTask/list/status",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepTask/statistics",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/org/tree/by/area/sub/produce/line",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/eqpSUpkeepTask/page/parameter"
+    ],
+    "knowledgeBase_confirm_160357": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/knowledge-repair-record/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/knowledge-repair-record/page/pc/confirmed"
+    ],
+    "knowledgeBase_export_17192": [
+        "http://192.168.100.31/poit-cloud-platform/knowledge-repair-record/export/confirmed",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/knowledge-repair-record/page/pc/unconfirmed"
+    ],
+    "invalidProductionCauseManage_confirm_238125": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/page"
+    ],
+    "invalidProductionCauseManage_delete_895260": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/batch/batchDelete",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-link/tree"
+    ],
+    "invalidProductionCauseManage_confirm_290165": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-link/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-link/one/level/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-apply/list"
+    ],
+    "invalidProductionCauseManage_other_532574": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-link/tree"
+    ],
+    "invalidProductionCauseManage_edit_433593": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason/page"
+    ],
+    "invalidProductionCauseManage_add_27919": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-apply/invalid/reason/org/tree"
+    ],
+    "invalidProductionCauseManage_confirm_134209": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-apply/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-tree-apply/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-department/page"
+    ],
+    "invalidProductionCauseManage_confirm_314147": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-department/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-department/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-part/page"
+    ],
+    "invalidProductionCauseManage_add_918634": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/areaEqu/tree"
+    ],
+    "invalidProductionCauseManage_confirm_461960": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-part/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-reason-part/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-manage/areaIds/auth/tree",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipment-invalid-reason-manage/paperBreakRecord"
+    ],
+    "invalidProductRecord_export_153472": [
+        "http://192.168.100.31/poit-cloud-platform/equipment-invalid-reason-manage/export"
+    ],
+    "taskStatistics_export_662669": [
+        "http://192.168.100.31/poit-cloud-platform/equip/task/statistics/export/drill/down",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryModel/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repair/task/statistics/fault/top20/histogram",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/equipmentType/org/tree/by/area/sub/produce/line",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repair/task/statistics/fault/gather/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/repair/task/statistics/fault/gather/statistics"
+    ],
+    "equipmentResources_export_940015": [
+        "http://192.168.100.31/poit-cloud-platform/equipment-calendar/export"
+    ],
+    "equipmentResources_add_327994": [
+        "http://192.168.100.31/poit-cloud-platform/material/info/ByTypeId/list"
+    ],
+    "equipmentResources_confirm_752573": [
+        "http://192.168.100.31/poit-cloud-platform/equipment-calendar/saveOrUpdate",
+        "http://192.168.100.31/poit-cloud-platform/equipment-calendar/page"
+    ],
+    "equipmentResources_confirm_598528": [
+        "http://192.168.100.31/poit-cloud-platform/equipment-restrain/saveOrUpdate",
+        "http://192.168.100.31/poit-cloud-platform/equipment-restrain/page"
+    ],
+    "equipmentResources_export_746207": [
+        "http://192.168.100.31/poit-cloud-platform/equipment-restrain/export"
+    ],
+    "equipmentResources_confirm_629959": [
+        "http://192.168.100.31/poit-cloud-platform/equipment-halt/saveOrUpdate"
+    ],
+    "alarmRule_edit_69235": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/rule/alarm/renew"
+    ],
+    "alarmRule_cancel_397678": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/rule/alarm/renew"
+    ],
+    "alarmRule_check_339523": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/selection/item/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/list/rule/alarm/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factory/plant-cell/include-factory/tree/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/craftTemplate/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/craft/page"
+    ],
+    "processParameter_add_701994": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/get/alarm2/detail"
+    ],
+    "processParameter_confirm_624497": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/craft/rule/save",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/craft/page"
+    ],
+    "alarmRule_new_pageJump_814159": [
+        "http://192.168.100.31/poit-cloud-platform/alarm2/classify/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/user/ent/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/meterEquipment/WithoutParameter/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/course/courseTree/list",
+        "http://192.168.100.31/poit-cloud-platform/produce/task/template/factory/tree"
+    ],
+    "alarmRule_new_edit_44143": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/rule/alarm/renew",
+        "http://192.168.100.31/poit-cloud-platform/alarm2/classify/list",
+        "http://192.168.100.31/poit-cloud-platform/factoryModel/list",
+        "http://192.168.100.31/poit-cloud-platform/alarm2/list/rule/alarm/get",
+        "http://192.168.100.31/poit-cloud-platform/new/scheme/new/schemeList",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/alarm2/selection/item/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.31/poit-cloud-platform/meterEquipment/meter/ent/tree/get",
+        "http://192.168.100.31/poit-cloud-platform/alarm2/list/record/alarm/new/get"
+    ],
+    "alarmDetailsList_export_201476": [
+        "http://192.168.100.31/poit-cloud-platform/alarm2/list/record/alarm/export"
+    ],
+    "materialInfoConfig_add_407047": [
+        "http://192.168.100.31/poit-cloud-platform/material/group/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/material-type-link-material/list"
+    ],
+    "materialInfoConfig_confirm_896298": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/page"
+    ],
+    "materialInfoConfig_check_631426": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/page"
+    ],
+    "materialInfoConfig_export_672603": [
+        "http://192.168.100.31/poit-cloud-platform/material/info/export"
+    ],
+    "materialInfoConfig_confirm_741742": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/data-dock-sync/material/pull",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/page"
+    ],
+    "materialInfoConfig_edit_516513": [
+        "http://192.168.100.31/poit-cloud-platform/material/group/page"
+    ],
+    "materialInfoConfig_add_799727": [
+        "http://192.168.100.31/poit-cloud-platform/material/info/ByTypeId/list"
+    ],
+    "materialInfoConfig_confirm_151020": [
+        "http://192.168.100.31/poit-cloud-platform/material/group/saveGroupAndRelation",
+        "http://192.168.100.31/poit-cloud-platform/material/group/page"
+    ],
+    "materialCategoryConfig_confirm_54497": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/batch/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list"
+    ],
+    "materialCategoryConfig_edit_660465": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material-type-grade-plan/list"
+    ],
+    "materialCategoryConfig_confirm_556524": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/grade/batch/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material-type-grade-plan/list"
+    ],
+    "materialCategoryConfig_synchro_84741": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/sync",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/data-dock-scheme/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list"
+    ],
+    "craftRecipe_check_352283": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/craftFormula/config/list/by/material"
+    ],
+    "craftRecipe_confirm_43786": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/craftFormula/config/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/craftFormula/config/list/by/material",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/craftFormula/config/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/craft-config/page"
+    ],
+    "craftRecipe_synchro_373188": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/info/craft-config/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/data-dock-sync/craft/pull"
+    ],
+    "SupplierManagement_add_33692": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "SupplierManagement_confirm_440245": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/supplierConfig/addOrUpdate?eid=ae5920ca31074c78b67af03844cd2ddd",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/supplierConfig/list"
+    ],
+    "factoryModel_edit_303688": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryModel/course/and/shift/update",
+        "http://192.168.100.31/poit-cloud-platform/factoryModel/tree/course/and/shift"
+    ],
+    "tableConfiguration_edit_841855": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/orgDockItems/addOrUpdate",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/orgDockItems/list"
+    ],
+    "tableConfiguration_confirm_548901": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/orgDockItems/submit",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/orgDockItems/list"
+    ],
+    "tableConfiguration_delete_570324": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/orgDockItems/delete",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/orgDockItems/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/type/list"
+    ],
+    "customerInformationConfig_confirm_338156": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/type/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/type/list"
+    ],
+    "customerInformationConfig_other_833135": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/page"
+    ],
+    "customerInformationConfig_confirm_837238": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customer/page"
+    ],
+    "targetConfiguration_confirm_677795": [
+        "http://192.168.100.31/poit-cloud-platform/target/maintain/template/add",
+        "http://192.168.100.31/poit-cloud-platform/target/maintain/template/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputCustomField/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputPlanInfo/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputParameterInfo/page"
+    ],
+    "enterConfig_add_398772": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputCustomField/list"
+    ],
+    "enterConfig_confirm_104087": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputPlanInfo/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputPlanInfo/list"
+    ],
+    "enterConfig_confirm_838208": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputCustomField/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/inputCustomField/page"
+    ],
+    "enterConfig_add_696715": [
+        "http://192.168.100.31/poit-cloud-platform/factoryModel/list"
+    ],
+    "enterConfig_other_104540": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/meterOper/list/param/association/get"
+    ],
+    "userManagement_add_824404": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/position/list",
+        "http://192.168.100.31/poit-cloud-platform/user/list/pwdValidDays",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/role/ent/list",
+        "http://192.168.100.31/poit-cloud-platform/org/dept/tree/org/list",
+        "http://192.168.100.31/poit-cloud-platform/factoryModel/list"
+    ],
+    "userManagement_confirm_148711": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/user/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/user/ent-org/list"
+    ],
+    "userManagement_edit_934056": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/user/get/invite/link"
+    ],
+    "roleManagement_add_763489": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/resources/orgManager/tree"
+    ],
+    "roleManagement_confirm_470039": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/role/ent/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/role/ent/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.31/poit-oauth/organization/orgId/get",
+        "http://192.168.100.31/poit-oauth/organizationIp/getByOrgId"
+    ],
+    "securitySetting_confirm_574983": [
+        "http://192.168.100.31/poit-oauth/organizationIp/add",
+        "http://192.168.100.31/poit-oauth/organization/modify",
+        "http://192.168.100.31/poit-oauth/organizationIp/getByOrgId"
+    ],
+    "organizationalStructure_down_704389": [
+        "http://192.168.100.31/poit-cloud-platform/user/temple/down"
+    ],
+    "organizationalStructure_confirm_809361": [
+        "http://192.168.100.31/poit-cloud-platform/org/dept/add",
+        "http://192.168.100.31/poit-cloud-platform/org/dept/tree/org/list",
+        "http://192.168.100.31/poit-cloud-platform/org/dept/get/deptDetails",
+        "http://192.168.100.31/poit-cloud-platform/org/deptUser/page"
+    ],
+    "organizationalStructure_down_421308": [
+        "http://192.168.100.31/poit-cloud-platform/org/dept/importTemplate/fileDownLode"
+    ],
+    "organizationalStructure_delete_896071": [
+        "http://192.168.100.31/poit-cloud-platform/org/dept/delete",
+        "http://192.168.100.31/poit-cloud-platform/org/dept/tree/org/list",
+        "http://192.168.100.31/poit-cloud-platform/org/dept/get/deptDetails",
+        "http://192.168.100.31/poit-cloud-platform/org/deptUser/page"
+    ],
+    "wipcompletion_check_358734": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/warehouse/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/type/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/transfer/page"
+    ],
+    "inventoryallocation_add_60400": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/type/tree"
+    ],
+    "inventoryallocation_confirm_399397": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/transfer/add"
+    ],
+    "StockOverview_add_602461": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/stock/list"
+    ],
+    "StockOverview_confirm_18771": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/check/add"
+    ],
+    "StockOverview_add_712845": [
+        "http://192.168.100.31/poit-cloud-platform/store/type/material/list/byStore"
+    ],
+    "StockOverview_confirm_808311": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/init/add",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/init/page",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/warehouse/tree"
+    ],
+    "StockOverview_check_473108": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/warehouse/tree",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/stat/org/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/stat/stock/trend/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/stat/material/list"
+    ],
+    "StockOverview_export_97730": [
+        "http://192.168.100.31/poit-cloud-platform/store/stat/stock/trend/export"
+    ],
+    "StockOverview_pageJump_222121": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/store/warehouse/tree"
+    ],
+    "StockOverview_check_402396": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/stockOut/record/page "
+    ],
+    "dryerSectionNew_edit_34115": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/dryer/section/model/trigger",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization"
+    ],
+    "qrcodeTemplate_add_780064": [
+        "http://192.168.100.31/poit-cloud-platform/qrcodeTemplate/field/get"
+    ],
+    "qrcodeTemplate_edit_779321": [
+        "http://192.168.100.31/poit-cloud-platform/qrcodeTemplate/template/add",
+        "http://192.168.100.31/poit-cloud-platform/qrcodeTemplate/template/list",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.31/poit-cloud-platform/qrcodeTemplate/template/page",
+        "http://192.168.100.31/poit-cloud-platform/qrcodeTemplate/record/page"
+    ],
+    "processPath_confirm_977779": [
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/save",
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/page",
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/get"
+    ],
+    "processPath_other_808507": [
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/get"
+    ],
+    "processPath_edit_469616": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/material/type/org/ByGroup/list",
+        "http://192.168.100.31/poit-cloud-platform/material/info/ByTypeId/list"
+    ],
+    "processPath_confirm_290640": [
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/add/material",
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/page",
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/get"
+    ],
+    "processPath_edit_24372": [
+        "http://192.168.100.31/poit-cloud-platform/processNode/save",
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/polymerization",
+        "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/page",
+        "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/get"
+    ],
+    "traceConfig_add_66080": [
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/page"
+    ],
+    "traceConfig_confirm_739472": [
+        "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/trace/addOrUpdate",
+        "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/page",
+        "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/get",
+        "http://192.168.100.31/poit-cloud-platform/craftPathConfig/get"
+    ],
+    "traceConfig_other_423965": [
+        "http://192.168.100.31/poit-cloud-platform/produce-enum/traceScheme/get/model"
+    ],
+    "traceConfig_other_527268": [
+        "http://192.168.100.31/poit-cloud-platform/produce-enum/traceScheme/get/check"
+    ],
+    "traceConfig_edit_755829": [
+        "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/node/addOrUpdate",
+        "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/get"
+    ]
+}

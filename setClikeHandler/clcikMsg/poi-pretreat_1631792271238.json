@@ -1,0 +1,221 @@
+{
+    "isEnptyNameNum": 53,
+    "isHasNameNum": 248,
+    "specialDescNum": 0,
+    "buriedPointNum": 301,
+    "enptyNameArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/energyAnalyze/EnergyAnalyze.vue",
+            "str": "@click=\"IndexChange(key,index)\" >{{item}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/dataManagement/DataQuery.vue",
+            "str": "@click=\"changeEnergyType\">{{ list }}\n          </poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/dataManagement/DataQuery.vue",
+            "str": "@click=\"firstPage\" class=\"f-csp\">|&lt;</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/dataManagement/DataQuery.vue",
+            "str": "@click=\"pageLast\" class=\"f-csp\">>|</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/reportManagement/statusBox.vue",
+            "str": "@click=\"deletefilerdata(index)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/EnergyReport.vue",
+            "str": "@click=\"switchReportType(key, index)\" >{{ btnType[key] }}</poi-button> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/EnergyReport.vue",
+            "str": "@click=\"getReportCode\" class=\"list-group-item\" v-for=\"(item,index) in templates\" :key=\"index\" :id=\"item.code\" v-bind:class=\"{'active':index==0,'normal':index!=0}\"> -->\n                        <a href=\"javascript:void(0);\" :title=\"item.name\" class=\"list-group-item\" v-for=\"(item,index) in templates\" :key=\"index\" :id=\"item.code\" v-bind:class=\"{'active':index==0,'normal':index!=0}\">\n                            <span class=\"edit-name\">{{item.name}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/EnergyReport.vue",
+            "str": "@click=\"deleteColumn(index)\">\n                            <i class=\"glyphicon el-icon-remove-outline\" :class=\"{dis : addColumnList.length <= 1}\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/EnergyReport.vue",
+            "str": "@click=\"insertColumn(index)\">\n                            <i class=\"glyphicon el-icon-circle-plus\" style=\"color: #0067FF\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/energyAnalyze/EnergyFlow.vue",
+            "str": "@click=\"selectButtonStyle(et.name)\"\n          >{{ et.name }}</poi-button"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/ReadMeter.vue",
+            "str": "@click=\"goSelectMeter\"><i class=\"el-icon-edit-outline\"></i></a></span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/ReadMeter.vue",
+            "str": "@click=\"selectMeter(item)\" type=\"primary\" v-for=\"(item,index) in meterList\" :key=\"index\">{{item.displayName.length>6?item.displayName.substr(0,6)+'...':item.displayName}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/ReadMeter.vue",
+            "str": "@click.prevent=\"changeStatus(scope.row)\" v-anchor=\"'1.16.7'\">{{scope.row.status}}</a>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/SmartReport.vue",
+            "str": "@click=\"changePlan(index)\"\n                  class=\"w179 ofe\"\n                  :title=\"item.planName\"\n                >{{item.planName}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/report/SmartReport.vue",
+            "str": "@click=\"changeStamp(i,key)\"\n                >{{i.timestamp}}</el-menu-item>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/energyAnalyze/component/timeSelect.vue",
+            "str": "@click=\"changeBtn(item,index)\">{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/lib/energyAnalyze/MulCheckCascader/multiContent.vue",
+            "str": "@click=\"showNextLevel(item)\">\n                    <el-checkbox v-if=\"item.multiple != false\" :disabled=\"item.disabled\" v-model=\"item.checked\" @change=\"checkChange(item)\">{{ item.label }}</el-checkbox>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/dataManagement/STNanalysis/components/STN_page.vue",
+            "str": "@click=\"choosetrans(index)\">{{ tgl.name }}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport.vue",
+            "str": "@click=\"getReportData(scope.row.reportId)\">{{scope.row.name}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/operationMonitoring/component/meterState.vue",
+            "str": "@click=\"zoomIn\"></span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/operationMonitoring/component/meterState.vue",
+            "str": "@click=\"zoomOut\"></span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/components/reporttemplate.vue",
+            "str": "@click=\"templateSelect(index,item)\">{{item.name}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/dataManagement/productConfig/classGroupManagement.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/dataManagement/productConfig/classGroupManagement.vue",
+            "str": "@click=\"item.isShow=!item.isShow\"></i> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/efficiencyAnalyze/comEnergyOverview/components/card.vue",
+            "str": "@click=\"switchDateType(item, index)\">{{ item.name }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/dataManagement/targetManagement.vue",
+            "str": "@click=\"chans(scope.row)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/dataManagement/targetManagement.vue",
+            "str": "@click=\"deletes(scope.row)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/dataManagement/targetManagement.vue",
+            "str": "@click=\"right(scope.row)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/dataManagement/targetManagement.vue",
+            "str": "@click=\"cancels(scope.row)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/datacolumn.vue",
+            "str": "@click=\"reduceleft\"\n                  :class=\"{'is-disabled':numberLeft<=1}\"\n                >\n                  <i class=\"el-icon-arrow-down\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/datacolumn.vue",
+            "str": "@click=\"addleft\">\n                  <i class=\"el-icon-arrow-up\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/datacolumn.vue",
+            "str": "@click=\"reduceright\"\n                  :class=\"{'is-disabled':numberRight<=1}\"\n                >\n                  <i class=\"el-icon-arrow-down\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/datacolumn.vue",
+            "str": "@click=\"addright\">\n                  <i class=\"el-icon-arrow-up\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/datacolumn.vue",
+            "str": "@click=\"reduceobject\"\n                    :class=\"{'is-disabled':numberobject<=1}\"\n                  >\n                    <i class=\"el-icon-arrow-down\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/datacolumn.vue",
+            "str": "@click=\"addobject\">\n                    <i class=\"el-icon-arrow-up\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/datacolumn.vue",
+            "str": "@click=\"checkelist($event,index)\"\n                >\n                  <span class=\"fmjoin\" v-show=\"index!=0\">{{fm.data.join}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/formula.vue",
+            "str": "@click=\"acquisitionCursor\" v-model=\"textarea\"></textarea>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/formula.vue",
+            "str": "@click=\"insertFunc(item+'()')\">{{item}}</li>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"reduceleft\"\r\n                  :class=\"{'is-disabled':numberLeft<=1}\"\r\n                >\r\n                  <i class=\"el-icon-arrow-down\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"addleft\">\r\n                  <i class=\"el-icon-arrow-up\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"reduceTop\"\r\n                  :class=\"{'is-disabled':numberTop<=1}\"\r\n                >\r\n                  <i class=\"el-icon-arrow-down\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"addTop\">\r\n                  <i class=\"el-icon-arrow-up\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"showmenuscontent('show')\">\r\n        <i class=\"iconfont\" :class=\"[menuscontent ? 'icon-you' : 'icon-iconfont64']\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"showmenuscontent('database')\"\r\n      >\r\n        <i class=\"iconfont icon-database\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"showmenuscontent('prototype')\"\r\n        :class=\"{'activebg':activetype=='prototype'}\"\r\n      >\r\n        <i class=\"iconfont icon-prototype\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/righttoolbar.vue",
+            "str": "@click=\"showmenuscontent('tiaozheng')\"\r\n        :class=\"{'activebg':activetype=='tiaozheng'}\"\r\n      >\r\n        <i class=\"iconfont icon-tiaozheng\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/customReport/subassembly/selectcolumn.vue",
+            "str": "@click=\"deleteColumn(index)\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/shanyingcomponents/reporttemplate.vue",
+            "str": "@click=\"templateSelect(item.templateCode,item)\">{{item.name}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/shanyingcomponents/reporttemplate.vue",
+            "str": "@click=\"templateSelect(item.templateCode,item)\">{{item.name}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/shanyingcomponents/reporttemplate.vue",
+            "str": "@click=\"templateSelect(item.templateCode,item)\">{{item.name}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/shanyingcomponents/reporttemplate.vue",
+            "str": "@click=\"templateSelect(item.templateCode,item)\">{{item.name}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/shanyingcomponents/reporttemplate.vue",
+            "str": "@click=\"templateSelect(item.templateCode,item)\">{{item.name}}</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-pretreat/src/components/module/menu/reportManagement/shanyingcomponents/reporttemplate.vue",
+            "str": "@click=\"templateSelect(item.templateCode,item)\">{{item.name}}</el-button>"
+        }
+    ],
+    "specialDescArr": []
+}

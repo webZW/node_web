@@ -1,5 +1,5 @@
 const fs = require('fs');
-const btnType = require('./clickConfig'),
+const { typeConfig } = require('./clickConfig'),
       btnTypeJson = {};
 
 let isEnptyNameNum = 0, // 空名称数量
@@ -21,8 +21,8 @@ let parameters = {
 // regular 要替換的正則匹配規則 例如 '/.css"/gm'
 // is_treatment_sub_file 是否需要遍歷子文件夾 默認為true
 
-for (const key in btnType) {
-    btnType[key].map(name => {
+for (const key in typeConfig) {
+    typeConfig[key].map(name => {
         btnTypeJson[name] = key;
     })
 }
@@ -116,11 +116,11 @@ const analysisClick = ({ config, this_path}) => {
 
 // 获取路由名
 const getRouterPath = (full_path) => {
-    const path = full_path.match(/[lib|menu]\/(\w+)/)[1];
-    const now_path = pathArr.filter(str => RegExp(path).test(str))[0];
-    !now_path && console.log(122, {pathArr, path, now_path, full_path})
+    const path = full_path.match(/.+[menu|lib]\/(.+)?\/.+/)[1];
+    const now_path = pathArr.filter(str => RegExp(path).test(str))[0] || "";
+    // !now_path && console.log(122, {pathArr, path, now_path, full_path})
     const pathStr = now_path.match(/path.+\/(\w+)\'.+/);
-    return pathStr[1];
+    return Array.isArray(pathStr) ? pathStr[1] : path;
 }
 
 // 埋点

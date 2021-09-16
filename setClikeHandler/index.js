@@ -1,5 +1,5 @@
 const fs = require('fs');
-const btnType = require('./clickConfig'),
+const { typeConfig } = require('./clickConfig'),
       btnTypeJson = {};
 
 let isEnptyNameNum = 0, // 空名称数量
@@ -21,8 +21,8 @@ let parameters = {
 // regular 要替換的正則匹配規則 例如 '/.css"/gm'
 // is_treatment_sub_file 是否需要遍歷子文件夾 默認為true
 
-for (const key in btnType) {
-    btnType[key].map(name => {
+for (const key in typeConfig) {
+    typeConfig[key].map(name => {
         btnTypeJson[name] = key;
     })
 }
