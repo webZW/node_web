@@ -15,10 +15,10 @@ buriedPoint_0916.map((configItem) => {
     if (!menuName) return errorPoinds.push(configItem);
 
     const url = Array.isArray(click_url[id]) ? click_url[id].join(';') : '';
-    buriedPoinds.push({ menuName, id, name, typeName: typeName[type] || '其他', url })
+    buriedPoinds.push({ menuName, path, id, name, typeName: typeName[type] || '其他', url })
 })
 
 // console.log(333, {errorPoinds});
 
 
-fs.writeFileSync(`./buriedPointRecord/firstBuriedPoint_0916/buriedPoint_0916.json`, JSON.stringify(buriedPoinds, null, 4));
+fs.writeFileSync(`./buriedPointRecord/firstBuriedPoint_0916/buriedPoint_0917_2.json`, JSON.stringify(buriedPoinds, null, 4));

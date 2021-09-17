@@ -1193,5 +1193,80 @@
     "traceConfig_edit_755829": [
         "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/node/addOrUpdate",
         "http://192.168.100.31/poit-cloud-platform/produceTraceShemeConfig/get"
+    ],
+    "energyReport_edit_665658": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/reading/execReadingPlan",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "energyReport_other_770878": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/reading/listReadingDatas"
+    ],
+    "energyReport_export_7471": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "energyReport_export_453379": [
+        "http://192.168.100.31/poit-cloud-platform/reading/exportReadingDatas?startTime=2021-09-17 00:00&endTime=2021-09-17 23:59&planId=277214807e884260b9ca0595c0f534ee"
+    ],
+    "energyReport_edit_464367": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/meterOper/list/meter/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/reading/listReadingPlan"
+    ],
+    "energyReport_confirm_409297": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/reading/addReadingPlan?eid=ae5920ca31074c78b67af03844cd2ddd",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/meterOper/list/meter/get",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/reading/listReadingPlan",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/reading/listReadingCatalog",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/reading/listReadingDatas"
+    ],
+    "manualReading_confirm_524080": [
+        "http://192.168.100.31/poit-cloud-platform/manualReadMeter/template/meter/read/download?templateType=1"
+    ],
+    "manualReading_import_43954": [
+        "http://192.168.100.31/poit-cloud-platform/manualReadMeter/data/meter/read/multiple/import"
+    ],
+    "manualReading_add_850375": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/manualReadMeter/data/meter/read/single/import?meterId=5c828be3f09b41389eb85f430b907391&readTime=2021-09-17%2000%3A00%3A00&inputValue=123&valueType=2&appVersion=1.0&operateUserId=500177&eid=ae5920ca31074c78b67af03844cd2ddd&orgId=3010&uid=427075f2e7ec43d1bd04ebd6d36af240",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RawCoalConfig/listRawCoalConfigTemple"
+    ],
+    "manualReading_import_49166": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RawCoalConfig/downloadRawCoalConfig"
+    ],
+    "manualReading_import_813865": [
+        "http://192.168.100.31/poit-cloud-platform/RawCoalConfig/importRawCoalConfigTemple"
+    ],
+    "manualReading_confirm_695536": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RawCoalConfig/addOrUpdateRawCoalConfig",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/RawCoalConfig/listRawCoalConfigTemple"
+    ],
+    "tableConfiguration_new_confirm_257027": [
+        "http://192.168.100.31/poit-cloud-platform/cloudEnterpriseTmp/add",
+        "http://192.168.100.31/poit-cloud-platform/cloudEnterpriseTmp/getByOrgId",
+        "http://192.168.100.31/poit-cloud-platform/cloudEnterpriseTmp/relate"
+    ],
+    "specificReports_check_197889": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customizedReport/export/job/list"
+    ],
+    "specificReports_down_749153": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent"
+    ],
+    "specificReports_confirm_586655": [
+        "http://192.168.100.31/poit-cloud-platform/customizedReport/downloadCustomReportTemplate?templateCode=BZ_20180822001"
+    ],
+    "specificReports_import_682696": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-analysis/public/point/reportEvent",
+        "http://192.168.100.31/poit-cloud-platform/customizedReport/uploadCustomizedReportTemplate",
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/customizedReport/listCustomizedReportTemplate"
+    ],
+    "energyReportNew_other_259363": [
+        "http://192.168.100.31/poit-cloud-platform/simpleReport/customDay/preview",
+        "http://192.168.100.31/poit-cloud-platform/simpleReport/customDay/data/show"
+    ],
+    "energyReportConfig_add_214272": [
+        "http://192.168.100.32/cloudPlatformServerTest/poit-cloud-platform/factoryUser/tree/auth/only"
+    ],
+    "energyReportConfig_cancel_176275": [
+        "http://192.168.100.31/poit-cloud-platform/report/config/energy/new/page"
     ]
 }
