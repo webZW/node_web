@@ -1,0 +1,339 @@
+{
+    "isEnptyNameNum": 56,
+    "isHasNameNum": 398,
+    "specialDescNum": 21,
+    "buriedPointNum": 461,
+    "enptyNameArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MainContainer.vue",
+            "str": "@click=\"passwordCheckStatus = false\">  X </el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MainContainer.vue",
+            "str": "@click=\"() => isShowExpiredDays = false\">  X </el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "str": "@click=\"selectMenu('menu')\" v-show=\"!menuBarType\" style=\"width:7px;\">\n    </ul>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/AlarmManage.vue",
+            "str": "@click=\"hasClass(item)\">\n                        <span class=\"timeSpan\" v-bind:class=\"{actives:item==date}\">{{item}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/DataCollectionDetail.vue",
+            "str": "@click=\"showequipmenttdialog(scope.$index)\"\n                    ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/DataCollectionDetail.vue",
+            "str": "@click=\"showparametdialog(scope.$index)\"></i>-->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/AlarmRoleConfig.vue",
+            "str": "@click=\"openTreeEven\">\n                    <el-breadcrumb separator-class=\"el-icon-arrow-right\" class=\"fl ulSelectTree\">\n                      <el-breadcrumb-item v-for=\"(item,index) in breadcrumbList\" :key=\"index\" style=\"font-weight: 100;\">{{item}}</el-breadcrumb-item>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStep.vue",
+            "str": "@click=\"changetypepage('A')\"\n        >\n          <span class=\"fontsz dl\">①</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStep.vue",
+            "str": "@click=\"changetypepage('B')\"\n        >\n          <span class=\"fontsz dl\">②</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStep.vue",
+            "str": "@click=\"changetypepage('C')\"\n        >\n          <span class=\"fontsz dl\">③</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStep.vue",
+            "str": "@click=\"changetypepage('D')\"\n        >\n          <span class=\"fontsz dl\">④</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/Alarmcomps/alarmdetail.vue",
+            "str": "@click=\"choosetype(mtl)\">{{mtl}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStepPath/EnterpriseStepA.vue",
+            "str": "@click=\"openimg('upload')\" />\n                </poi-radio>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStepPath/EnterpriseStepA.vue",
+            "str": "@click=\"openimg('loginupload')\" />\n                </poi-radio>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStepPath/EnterpriseStepB.vue",
+            "str": "@click=\"backStep\">\n\t\t\t\t<i class=\"poi-icon-d-arrow-left\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/AreaInforconfig/index.vue",
+            "str": "@click=\"changetypepage('A')\">\n              <span class=\"fontsz dl\">①</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/AreaInforconfig/index.vue",
+            "str": "@click=\"changetypepage('B')\">\n              <span class=\"fontsz dl\">②</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStepPath/EnterpriseStepC.vue",
+            "str": "@click=\"beforeStep\">\n\t\t\t\t<i class=\"poi-icon-d-arrow-left\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/AreaInforconfig/components/BasicConfig.vue",
+            "str": "@click=\"openimg('upload')\"/>\n\t\t\t\t\t\t\t\t\t\t\t</poi-radio>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/LabelConfiguration.vue",
+            "str": "@click=\"dataImportFn\" type = 'text'>\n          <icon type=\"daoru\" classname=\"othericon\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/LabelConfiguration.vue",
+            "str": "@click=\"handleExport\" type=\"text\" class=\"poi-pc-4-text border-right w100\">\n          <icon type=\"daochu-2\" color=\"#96A9BD\"></icon>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStepPath/personalizedConf.vue",
+            "str": "@click=\"uploadimg('uploadA'+index)\"/>\n                                    </poi-radio>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/lib/menu/EnterpriseConfigStepPath/personalizedConf.vue",
+            "str": "@click=\"changeSort(index)\">\n                    <span>{{ /TEMP_/.test(mainBoardShowList[key].type) ? boradNameConfig[mainBoardShowList[key].type] : mainBoardShowList[key].name}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/index.vue",
+            "str": "@click=\"tabParentTag(parentTag)\" class=\"rightSelectButton tabNav u-btn\" :class=\"{'selected':activeParentTagValue==parentTag.name}\" type=\"primary\" v-for=\"(parentTag,idx) in parentTagList\" :key=\"idx\">{{parentTag.alias}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree - 副本.vue",
+            "str": "@click=\"delDom\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree - 副本.vue",
+            "str": "@click=\"biggerFun\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree - 副本.vue",
+            "str": "@click=\"smallerFun\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree - 副本.vue",
+            "str": "@click=\"hideDataBar\" class=\"cur-pointer\" style=\"margin-right:7px;\">\n            <i class=\"el-icon-close\" style=\"font-size:16px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree.vue",
+            "str": "@click=\"delDom\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree.vue",
+            "str": "@click=\"biggerFun\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree.vue",
+            "str": "@click=\"smallerFun\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/datatree.vue",
+            "str": "@click=\"hideDataBar\" class=\"cur-pointer\" style=\"margin-right:7px;\">\n            <i class=\"el-icon-close\" style=\"font-size:16px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/pictureInput.vue",
+            "str": "@click.prevent=\"onClick\"\n            :style=\"{height: previewHeight + 'px', zIndex: zIndex + 1 }\">\n          </canvas>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/pictureInput.vue",
+            "str": "@click.prevent=\"selectImage\" :class=\"buttonClass\">{{ strings.change }}</button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/pictureInput.vue",
+            "str": "@click.prevent=\"removeImage\" :class=\"removeButtonClass\">{{ strings.remove }}</button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/pictureInput.vue",
+            "str": "@click.prevent=\"rotateImage\" :class=\"aspectButtonClass\">{{ strings.aspect }}</button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/pictureInput.vue",
+            "str": "@click.prevent=\"selectImage\" :class=\"buttonClass\">{{ strings.select }}</button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/pictureInput.vue",
+            "str": "@click.prevent=\"selectImage\" :class=\"buttonClass\">{{ strings.change }}</button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/pictureInput.vue",
+            "str": "@click.prevent=\"removeImage\" :class=\"removeButtonClass\">{{ strings.remove }}</button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/customReport/index.vue",
+            "str": "@click=\"toggle(item)\"\n              ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/customReport/index.vue",
+            "str": "@click=\"move(true)\">\n              <i class=\"el-icon-right\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/customReport/index.vue",
+            "str": "@click=\"move(false)\">\n              <i class=\"el-icon-back\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/customReport/index.vue",
+            "str": "@click=\"toggle(item)\"\n              ></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/portrait.vue",
+            "str": "@click=\"hideDataBar\" class=\"cur-pointer\" style=\"margin-right:7px;\">\n            <i class=\"el-icon-close\" style=\"font-size:16px\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/portrait.vue",
+            "str": "@click=\"removeNodeItem\" v-show=\"ifDeleteIconShow\" style=\"position:absolute;z-index:99;font-size:20px;cursor:pointer\" :style=\"iconStyle\" class=\"el-icon-error\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/portrait.vue",
+            "str": "@click=\"showNodedialog\" v-show=\"ifDeleteIconShow\" style=\"position:absolute;z-index:99;font-size:20px;cursor:pointer\" :style=\"iconStyle2\" class=\"el-icon-edit-outline\"></i>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/energyConsumption/timeSelect.vue",
+            "str": "@click=\"changeBtn(item,index)\">{{item.name}}</poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/PortraitConfig/component/src/tree-node.vue",
+            "str": "@click.stop=\"handleClick\"\n    @mouseover.stop=\"handleMouseOver\"\n    v-show=\"node.visible\"\n    :class=\"{\n      'is-expanded': expanded,\n      'is-current': tree.store.currentNode === node,\n      'is-hidden': !node.visible,\n      'is-focusable': !node.disabled,\n      'is-checked': !node.disabled && node.checked\n    }\"\n    role=\"treeitem\"\n    tabindex=\"-1\"\n    :aria-expanded=\"expanded\"\n    :aria-disabled=\"node.disabled\"\n    :aria-checked=\"node.checked\"\n    ref=\"tree\"\n  >\n    <div class=\"el-tree-node__content\"\n      :style=\"{ 'padding-left': (node.level - 1) * tree.indent + 'px' }\">\n      <span\n        class=\"el-tree-node__expand-icon el-icon-caret-right\"\n        @click.stop=\"handleExpandIconClick\"\n        :class=\"{ 'is-leaf': node.isLeaf, expanded: !node.isLeaf && expanded }\">\n      </span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "str": "@click=\"deleteEquipRunState(idx,index,'equipmentRunningConditionList')\"></poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "str": "@click=\"deleteEquipRunState(idx,index,'equipmentShutdownConditionList')\"></poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "str": "@click=\"deleteEquipRunState(idx,index,'equipmentStandbyConditionList')\"></poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "str": "@click=\"deleteEquipRunState(idx,index,'equipmentInvalidConditionList')\"></poi-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/onlineBoard/components/card.vue",
+            "str": "@click=\"switchDateType(item, index)\">{{ item.name }}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/serviceprovidersItems/index.vue",
+            "str": "@click=\"toggleOrgItem(item)\">\n                <span>{{item.orgFullName}}</span>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/serviceprovidersItems/index.vue",
+            "str": "@click=\"toggleOrgItem(item)\" type=\"text\">{{item.orgName}}</el-button> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/operationMonitoring/component/portraitHistoryModal.vue",
+            "str": "@click=\"tabTime(item.code)\"  type=\"primary\" v-for=\"(item,idx) in timeList\" :key=\"idx\">\n            {{item.txt}}\n            </el-button>"
+        }
+    ],
+    "specialDescArr": [
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuMod.vue",
+            "desc": "数据服务平台",
+            "str": "@click=\"closeMenu\">\n      <div class=\"bls\">\n        <h5 class=\"tit\">数据服务平台</h5>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "菜单",
+            "str": "@click=\"selectMenu('menu')\">\n        <el-tooltip class=\"item\" effect=\"dark\" content=\"菜单\" placement=\"right\">\n          <img :src=\"menu\" class=\"menuIcon\">\n          <!-- <span class=\"menu-tip\">菜单</span> -->"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "主页",
+            "str": "@click=\"goBoard\">\n          <el-tooltip class=\"item\" effect=\"dark\" content=\"主页\" placement=\"right\">\n              <img :src=\"home\" class=\"menuIcon\">\n          </el-tooltip>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "主页",
+            "str": "@click=\"mainBoard\">\n        <el-tooltip class=\"item\" effect=\"dark\" content=\"主页\" placement=\"right\">\n          <img :src=\"home\" class=\"menuIcon\">\n        </el-tooltip>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "消息",
+            "str": "@click=\"goEmailIndex\">\n        <el-tooltip class=\"item\" effect=\"dark\" content=\"消息\" placement=\"right\">\n          <img :src=\"email\" class=\"menuIcon\">\n        </el-tooltip>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "截屏",
+            "str": "@click=\"goScreenIndex\">\n        <el-tooltip class=\"item\" effect=\"dark\" content=\"截屏\" placement=\"right\">\n          <img :src=\"screen\" class=\"menuIcon\">\n        </el-tooltip>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "退出",
+            "str": "@click.prevent.native=\"logout\">退出</el-dropdown-item>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "服务商列表",
+            "str": "@click.prevent.native=\"serviceprovidersItems\">服务商列表</el-dropdown-item>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/base/MemuSideBarMod.vue",
+            "desc": "发送",
+            "str": "@click=\"confirmSend\">发送</el-button>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/board/EmsBoard.vue",
+            "desc": "菜单",
+            "str": "@click=\"openMenuEven\" class=\"memu2Li\" style=\"margin-top: -8px;padding-top: 13px;\">\n          <el-tooltip class=\"item\" effect=\"light\" content=\"菜单\" placement=\"bottom\">\n               <img :src=\"memu2\" alt=\"\" class=\"memu2\">\n          </el-tooltip>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/board/EmsBoard.vue",
+            "desc": "退出",
+            "str": "@click.prevent.native=\"logout\" >退出</el-dropdown-item>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/board/EmsBoard.vue",
+            "desc": "截屏",
+            "str": "@click=\"goScreenIndex\">\n          <el-tooltip class=\"item\" effect=\"light\" content=\"截屏\" placement=\"bottom\">\n               <img :src=\"screen\" class=\"menuIcon\">\n          </el-tooltip>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/board/EmsBoard.vue",
+            "desc": "信息",
+            "str": "@click=\"goEmailIndex\">\n          <el-tooltip class=\"item\" effect=\"light\" content=\"信息\" placement=\"bottom\">\n               <img :src=\"email\" class=\"menuIcon\" style=\"width: 30px;\">\n          </el-tooltip>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click=\"equipmentRunningConditionBigToggle('equipmentRunningConditionBigValue')\">{{equipmentRunningConditionBigValue==='AND'?'且':'或'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click.native=\"getIndex(idx, index,'equipmentRunningConditionList')\" style=\"margin-top:10px;\" v-for=\"(item, index) in items.firstItems\" :key=\"index\">\n                   <el-col :span=\"3\">\n                     <div class=\"and-or\" @click=\"equipmentRunningConditionSmallToggle(idx,'equipmentRunningConditionList')\">{{items.firstItems[0].connectOperatorType==='AND'?'且':'或'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click=\"equipmentRunningConditionBigToggle('equipmentShutdownConditionBigValue')\">{{equipmentShutdownConditionBigValue==='AND'?'且':'或'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click.native=\"getIndex(idx, index,'equipmentShutdownConditionList')\" style=\"margin-top:10px;\" v-for=\"(item, index) in items.firstItems\" :key=\"index\">\n                   <el-col :span=\"3\">\n                     <div class=\"and-or\" @click=\"equipmentRunningConditionSmallToggle(idx,'equipmentShutdownConditionList')\">{{items.firstItems[0].connectOperatorType==='AND'?'且':'或'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click=\"equipmentRunningConditionBigToggle('equipmentStandbyConditionBigValue')\">{{equipmentStandbyConditionBigValue==='AND'?'且':'或'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click.native=\"getIndex(idx, index,'equipmentStandbyConditionList')\" style=\"margin-top:10px;\" v-for=\"(item, index) in items.firstItems\" :key=\"index\">\n                   <el-col :span=\"3\">\n                     <div class=\"and-or\" @click=\"equipmentRunningConditionSmallToggle(idx,'equipmentStandbyConditionList')\">{{items.firstItems[0].connectOperatorType==='AND'?'且':'或'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click=\"equipmentRunningConditionBigToggle('equipmentInvalidConditionBigValue')\">{{equipmentInvalidConditionBigValue==='AND'?'且':'或'}}</div>"
+        },
+        {
+            "path": "/Users/zw_mac/POI_DEVELOP/poi-service/src/components/module/menu/factorymodule/factorymoduleItems/index.vue",
+            "desc": "且",
+            "str": "@click.native=\"getIndex(idx, index,'equipmentInvalidConditionList')\" style=\"margin-top:10px;\" v-for=\"(item, index) in items.firstItems\" :key=\"index\">\n                    <el-col :span=\"3\">\n                      <div class=\"and-or\" @click=\"equipmentRunningConditionSmallToggle(idx,'equipmentInvalidConditionList')\">{{items.firstItems[0].connectOperatorType==='AND'?'且':'或'}}</div>"
+        }
+    ]
+}

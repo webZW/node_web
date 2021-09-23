@@ -1,0 +1,3330 @@
+[
+    {
+        "menuName": "监测管理详情",
+        "path": "checkManageDetail",
+        "id": "checkManageDetail_pageJump_741328",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "监测管理详情",
+        "path": "checkManageDetail",
+        "id": "checkManageDetail_check_329242",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "监测管理详情",
+        "path": "checkManageDetail",
+        "id": "checkManageDetail_check_737569",
+        "name": "查看",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "修改密码",
+        "path": "changePassword",
+        "id": "changePassword_edit_107905",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "修改密码",
+        "path": "changePassword",
+        "id": "changePassword_edit_138119",
+        "name": "退出登录",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析详情",
+        "path": "dataAnalysisDetail",
+        "id": "dataAnalysisDetail_pageJump_265473",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "告警管理",
+        "path": "alarmManage",
+        "id": "alarmManage_pageJump_928723",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "告警管理",
+        "path": "alarmManage",
+        "id": "alarmManage_other_802123",
+        "name": "alarmManage_other_802123",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "告警管理",
+        "path": "alarmManage",
+        "id": "alarmManage_check_230465",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "告警管理",
+        "path": "alarmManage",
+        "id": "alarmManage_edit_335392",
+        "name": "告警明细",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_delete_837596",
+        "name": "批量删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_down_738490",
+        "name": "模板下载",
+        "typeName": "下载",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_import_74454",
+        "name": "批量导入",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_select_885222",
+        "name": "打开表计设备选择框",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_add_914773",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_delete_291585",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_cancel_137242",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_confirm_949779",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_cancel_122",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_confirm_432645",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_cancel_81351",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集二级列表",
+        "path": "dataCollectionDetail",
+        "id": "dataCollectionDetail_confirm_195375",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_add_542839",
+        "name": "新增规则",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_other_414019",
+        "name": "alarmRoleConfig_other_414019",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_confirm_469053",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_cancel_155479",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_edit_994827",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_edit_332682",
+        "name": "告警",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_check_470047",
+        "name": "查看",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_edit_683519",
+        "name": "修改",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_start_830334",
+        "name": "开启",
+        "typeName": "启用",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_cancel_184775",
+        "name": "关闭",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_delete_802987",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_pageJump_502914",
+        "name": "返回",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_cancel_860393",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "规则配置",
+        "path": "alarmRoleConfig",
+        "id": "alarmRoleConfig_confirm_418821",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_pageJump_165988",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_select_334673",
+        "name": "基础配置",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_select_815929",
+        "name": "监测配置",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_select_100536",
+        "name": "采集配置",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_select_717111",
+        "name": "用户配置",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "告警管理",
+        "path": "alarmManage",
+        "id": "alarmManage_select_687991",
+        "name": "选择能源类型",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "告警管理",
+        "path": "alarmManage",
+        "id": "alarmManage_check_591268",
+        "name": "历史记录",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseGroup",
+        "id": "enterpriseGroup_add_236093",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseGroup",
+        "id": "enterpriseGroup_delete_486112",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseGroup",
+        "id": "enterpriseGroup_cancel_917878",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseGroup",
+        "id": "enterpriseGroup_edit_129808",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "告警管理",
+        "path": "alarmManage",
+        "id": "alarmManage_pageJump_269212",
+        "name": "返回",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "APP版本",
+        "path": "appVersionManagerment",
+        "id": "appVersionManagerment_add_877451",
+        "name": "新增版本",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "APP版本",
+        "path": "appVersionManagerment",
+        "id": "appVersionManagerment_edit_596834",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "APP版本",
+        "path": "appVersionManagerment",
+        "id": "appVersionManagerment_down_778859",
+        "name": "下载",
+        "typeName": "下载",
+        "url": ""
+    },
+    {
+        "menuName": "APP版本",
+        "path": "appVersionManagerment",
+        "id": "appVersionManagerment_delete_628865",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "APP版本",
+        "path": "appVersionManagerment",
+        "id": "appVersionManagerment_cancel_601437",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "APP版本",
+        "path": "appVersionManagerment",
+        "id": "appVersionManagerment_confirm_862492",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "检查管理",
+        "path": "checkManage",
+        "id": "checkManage_check_596079",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_337587",
+        "name": "打开图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_574832",
+        "name": "打开图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_683639",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_288087",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_220531",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_695574",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_314921",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_pageJump_174314",
+        "name": "保存并下一步",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_407214",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_895927",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "开机率详情",
+        "path": "openingRateDetail",
+        "id": "openingRateDetail_pageJump_532551",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析",
+        "path": "dataAnalysis",
+        "id": "dataAnalysis_pageJump_502883",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析",
+        "path": "dataAnalysis",
+        "id": "dataAnalysis_check_276255",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析",
+        "path": "dataAnalysis",
+        "id": "dataAnalysis_edit_739102",
+        "name": "能效分析",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析",
+        "path": "dataAnalysis",
+        "id": "dataAnalysis_edit_908755",
+        "name": "能源质量",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_down_854421",
+        "name": "模板下载",
+        "typeName": "下载",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_import_423273",
+        "name": "批量导入",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_417919",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_pageJump_647292",
+        "name": "下一步",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_302803",
+        "name": "设备",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_579427",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_507578",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_231680",
+        "name": "设备",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_27643",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_720611",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_226091",
+        "name": "设备",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_808162",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_339430",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_708276",
+        "name": "添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_492771",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_266095",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_782929",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集",
+        "path": "dataCollection",
+        "id": "dataCollection_add_522489",
+        "name": "添加设备",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集",
+        "path": "dataCollection",
+        "id": "dataCollection_add_953083",
+        "name": "添加设备",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集",
+        "path": "dataCollection",
+        "id": "dataCollection_edit_258903",
+        "name": "配置设备",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集",
+        "path": "dataCollection",
+        "id": "dataCollection_edit_806372",
+        "name": "获取证书",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集",
+        "path": "dataCollection",
+        "id": "dataCollection_start_592444",
+        "name": "启用",
+        "typeName": "启用",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集",
+        "path": "dataCollection",
+        "id": "dataCollection_cancel_655673",
+        "name": "禁用",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "数据采集",
+        "path": "dataCollection",
+        "id": "dataCollection_delete_769075",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_pageJump_20831",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_select_965003",
+        "name": "基础配置",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_select_634333",
+        "name": "权限配置",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_check_837154",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_269608",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_check_315850",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_176047",
+        "name": "全屏显示",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_345347",
+        "name": "退出全屏",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_875455",
+        "name": "自动布局",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_49463",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_779528",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_906990",
+        "name": "表计分组",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_903217",
+        "name": "手工添加",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_down_707732",
+        "name": "模板下载",
+        "typeName": "下载",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_import_715585",
+        "name": "批量导入",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_833775",
+        "name": "批量删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_292143",
+        "name": "管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_479243",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_803849",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_58789",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_917197",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_82239",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_553902",
+        "name": "新建分组",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_957822",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_581001",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_pageJump_684687",
+        "name": "返回",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_423210",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_25458",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_594087",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_88831",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析",
+        "path": "dataAnalysis",
+        "id": "dataAnalysis_edit_640604",
+        "name": "按小时",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析",
+        "path": "dataAnalysis",
+        "id": "dataAnalysis_edit_603444",
+        "name": "按日",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "数据分析",
+        "path": "dataAnalysis",
+        "id": "dataAnalysis_edit_91851",
+        "name": "按月",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_export_205567",
+        "name": "导出设备类型",
+        "typeName": "导出",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_624005",
+        "name": "配置企业设备模型",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_export_440762",
+        "name": "导出采集参数",
+        "typeName": "导出",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_670751",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_236631",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "roleManage",
+        "id": "roleManage_check_593323",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "roleManage",
+        "id": "roleManage_add_63424",
+        "name": "新增角色",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "roleManage",
+        "id": "roleManage_check_57025",
+        "name": "查看",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "roleManage",
+        "id": "roleManage_edit_429320",
+        "name": "修改",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "roleManage",
+        "id": "roleManage_delete_794569",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "roleManage",
+        "id": "roleManage_cancel_751372",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "roleManage",
+        "id": "roleManage_confirm_345883",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_check_61690",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_add_386029",
+        "name": "新增",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_edit_166751",
+        "name": "管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_delete_467020",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_edit_101416",
+        "name": "管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_delete_529862",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_edit_322471",
+        "name": "管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "企业配置",
+        "path": "enterpriseConfig",
+        "id": "enterpriseConfig_delete_713446",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_other_673703",
+        "name": "打开企业LOGO选择自定义图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_add_544170",
+        "name": "添加企业",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_delete_930303",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_edit_921784",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_120742",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_333741",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_check_123788",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_add_946225",
+        "name": "新增用户",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_edit_381472",
+        "name": "邀请注册",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_check_29656",
+        "name": "查看",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_edit_172742",
+        "name": "修改",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_edit_892350",
+        "name": "角色管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_delete_337344",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_edit_668454",
+        "name": "复制链接",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_cancel_996920",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "userManage",
+        "id": "userManage_confirm_656240",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_559127",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_256520",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_check_794291",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_add_188485",
+        "name": "新增角色",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_add_56979",
+        "name": "新增企业管理员",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_edit_445627",
+        "name": "权限管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_edit_329655",
+        "name": "修改",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_delete_121450",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_863768",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_446972",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_323114",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_686253",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_819215",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_164306",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_import_513184",
+        "name": "导入",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_export_577554",
+        "name": "导出",
+        "typeName": "导出",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_check_77970",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_754319",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_294566",
+        "name": "提交中",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_check_959215",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_add_462059",
+        "name": "新增用户",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_edit_261647",
+        "name": "修改密码",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_edit_248590",
+        "name": "角色管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_edit_316307",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_delete_788994",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_245787",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_310921",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_820204",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_51004",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_322673",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_503696",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_cancel_583482",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "区域配置",
+        "path": "areaInforconfig",
+        "id": "areaInforconfig_confirm_128963",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "开机率",
+        "path": "openingRate",
+        "id": "openingRate_check_227064",
+        "name": "查看",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_841324",
+        "name": "主页排序",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_upload_226821",
+        "name": "上传图片",
+        "typeName": "上传",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_635490",
+        "name": "监测配置",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_157465",
+        "name": "提交",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_757231",
+        "name": "enterpriseConfigStep_other_757231",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_501284",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_349257",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_632630",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_check_801603",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_292553",
+        "name": "新增角色",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_407568",
+        "name": "新增企业管理员",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_589426",
+        "name": "权限管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_220142",
+        "name": "修改",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_27224",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_840634",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_299247",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_874204",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_212548",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_334734",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_985003",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_963857",
+        "name": "新增对接方案",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_508943",
+        "name": "测试连接",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_946779",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_150020",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_check_207740",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_48680",
+        "name": "新增用户",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_249782",
+        "name": "修改密码",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_118011",
+        "name": "角色管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_175198",
+        "name": "管理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_392491",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_603564",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_958",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_992518",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_967437",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_529690",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_981053",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_956684",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_490450",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_852032",
+        "name": "参数列表",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_106463",
+        "name": "更改底图",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_30648",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_add_943862",
+        "name": "增加标签页",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_677280",
+        "name": "修改标签页",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_140347",
+        "name": "此标签暂未配置",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_cancel_716267",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_confirm_62771",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_cancel_658988",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_confirm_538917",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_select_281983",
+        "name": "批量删除节点",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_select_703366",
+        "name": "放大",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_select_380681",
+        "name": "缩小",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_145658",
+        "name": "批量左对齐节点",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_select_502592",
+        "name": "批量上对齐节点",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_139337",
+        "name": "插入已选",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_146086",
+        "name": "清空已选",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_617749",
+        "name": "批量上对齐节点",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_29360",
+        "name": "实时参数",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_18388",
+        "name": "统计参数",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_280415",
+        "name": "插入已选",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_731532",
+        "name": "清空已选",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_854694",
+        "name": "清空已选",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "阿里心选",
+        "path": "aliServiceShowDetails",
+        "id": "aliServiceShowDetails_check_430357",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "阿里心选",
+        "path": "aliServiceShowDetails",
+        "id": "aliServiceShowDetails_edit_685384",
+        "name": "未处理",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_cancel_751892",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_confirm_902569",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_236460",
+        "name": "portraitConfig_other_236460",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_59623",
+        "name": "选择图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_547501",
+        "name": "移除图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_613357",
+        "name": "旋转图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_633543",
+        "name": "选择图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_204439",
+        "name": "选择图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_764147",
+        "name": "移除图片",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_417663",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_65576",
+        "name": "enterpriseConfigStep_other_65576",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_311216",
+        "name": "enterpriseConfigStep_other_311216",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_659289",
+        "name": "enterpriseConfigStep_other_659289",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_881407",
+        "name": "enterpriseConfigStep_other_881407",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_import_391543",
+        "name": "导入仓库模板下载",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_687020",
+        "name": "新增仓库",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_import_760753",
+        "name": "批量导入",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_712751",
+        "name": "新增子仓库",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_979501",
+        "name": "新增库位",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_764435",
+        "name": "属性配置",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_910637",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_380949",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_stop_37899",
+        "name": "停用",
+        "typeName": "停用",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_start_69651",
+        "name": "启用",
+        "typeName": "启用",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_454525",
+        "name": "插入已选",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_551176",
+        "name": "清空已选",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_delete_601040",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_973025",
+        "name": "左对齐",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_399256",
+        "name": "上对齐",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_select_187765",
+        "name": "移除某节点",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_select_241936",
+        "name": "打开节点编辑弹框",
+        "typeName": "选择",
+        "url": ""
+    },
+    {
+        "menuName": "企业能耗",
+        "path": "energyConsumption",
+        "id": "energyConsumption_pageJump_304023",
+        "name": "返回上一级",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_311167",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_864059",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "企业能耗",
+        "path": "energyConsumption",
+        "id": "energyConsumption_check_183291",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "企业能耗",
+        "path": "energyConsumption",
+        "id": "energyConsumption_check_443226",
+        "name": "查看明细",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_16946",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_199435",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "企业能耗",
+        "path": "energyConsumption",
+        "id": "energyConsumption_other_887418",
+        "name": "energyConsumption_other_887418",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_check_457550",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_713230",
+        "name": "新增",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_55118",
+        "name": "新增",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_851230",
+        "name": "编辑公式",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_836883",
+        "name": "新增指标",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_264435",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_123684",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_959961",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_449917",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_8265",
+        "name": "配置计算公式",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_842700",
+        "name": "新增参数",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_919994",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_904842",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_983755",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_820785",
+        "name": "配置出入库数量计算公式",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_908253",
+        "name": "新增参数",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_462463",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_702411",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_326486",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_801549",
+        "name": "新增特征值",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_771957",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_430983",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_941376",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_347044",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_import_582459",
+        "name": "批量导入",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_614322",
+        "name": "新增工厂单元",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_156071",
+        "name": "保存排序",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_66609",
+        "name": "下降",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_738945",
+        "name": "上升",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_import_344682",
+        "name": "批量导入工厂单元信息模板",
+        "typeName": "导入",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_check_256264",
+        "name": "查看",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_986201",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_stop_414028",
+        "name": "停用",
+        "typeName": "停用",
+        "url": ""
+    },
+    {
+        "menuName": "监控配置",
+        "path": "monitoringConfig",
+        "id": "monitoringConfig_add_288925",
+        "name": "新增",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "监控配置",
+        "path": "monitoringConfig",
+        "id": "monitoringConfig_edit_177805",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "监控配置",
+        "path": "monitoringConfig",
+        "id": "monitoringConfig_delete_340070",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "监控配置",
+        "path": "monitoringConfig",
+        "id": "monitoringConfig_cancel_493140",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "监控配置",
+        "path": "monitoringConfig",
+        "id": "monitoringConfig_confirm_612917",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_pageJump_924131",
+        "name": "返回",
+        "typeName": "页面跳转",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_803592",
+        "name": "新增",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_93801",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_start_173785",
+        "name": "启用",
+        "typeName": "启用",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_967092",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_200485",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_333675",
+        "name": "portraitConfig_other_333675",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_other_802817",
+        "name": "portraitConfig_other_802817",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_964875",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_538349",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_check_748495",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_add_958331",
+        "name": "新增企业",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_edit_540035",
+        "name": "区域权限",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_edit_209695",
+        "name": "企业权限",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_edit_141701",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_stop_233254",
+        "name": "停用",
+        "typeName": "停用",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_start_97882",
+        "name": "启用",
+        "typeName": "启用",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_edit_57619",
+        "name": "续签",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_check_438456",
+        "name": "记录",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_edit_691858",
+        "name": "功能推广",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_delete_239375",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_cancel_260894",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_confirm_579129",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_cancel_565407",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_confirm_759047",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_cancel_298862",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_confirm_56125",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_cancel_164462",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "服务配置",
+        "path": "serviceconfig",
+        "id": "serviceconfig_confirm_947469",
+        "name": "确认",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_293402",
+        "name": "方案配置",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_632409",
+        "name": "方案配置",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_651874",
+        "name": "且",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_333016",
+        "name": "且",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_357783",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_39367",
+        "name": "添加条件",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_882913",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_118307",
+        "name": "且",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_675370",
+        "name": "且",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_642730",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_882384",
+        "name": "且/或",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_38385",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_494644",
+        "name": "删除设备[运行]",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_945941",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_897149",
+        "name": "且/或",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_344180",
+        "name": "enterpriseConfigStep_other_344180",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_488708",
+        "name": "且/或",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_606468",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_207432",
+        "name": "删除设备[运行]",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_56567",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_797950",
+        "name": "且/或",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_303836",
+        "name": "enterpriseConfigStep_other_303836",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_other_915440",
+        "name": "且/或",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_597701",
+        "name": "添加条件",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_684571",
+        "name": "删除设备[运行]",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_324423",
+        "name": "添加条件",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_880381",
+        "name": "新增类型",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_192269",
+        "name": "新增子类",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_add_627565",
+        "name": "新增子类",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_423090",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_449277",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_delete_341725",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_751720",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_confirm_729407",
+        "name": "确定",
+        "typeName": "确定",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_228380",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_651518",
+        "name": "确定",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_145473",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_888431",
+        "name": "确定",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_edit_481479",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "新增企业模型向导",
+        "path": "enterpriseConfigStep",
+        "id": "enterpriseConfigStep_cancel_904771",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "在线看板",
+        "path": "onlineBoard",
+        "id": "onlineBoard_other_123941",
+        "name": "onlineBoard_other_123941",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_add_368960",
+        "name": "新增",
+        "typeName": "新增",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_delete_260729",
+        "name": "删除",
+        "typeName": "删除",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_edit_673780",
+        "name": "保存",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "画像配置",
+        "path": "portraitConfig",
+        "id": "portraitConfig_cancel_586610",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "在线看板",
+        "path": "onlineBoard",
+        "id": "onlineBoard_check_191775",
+        "name": "搜索",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "服务商列表",
+        "path": "serviceprovidersItems",
+        "id": "serviceprovidersItems_other_73856",
+        "name": "serviceprovidersItems_other_73856",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "监测管理详情",
+        "path": "checkManageDetail",
+        "id": "checkManageDetail_other_427147",
+        "name": "checkManageDetail_other_427147",
+        "typeName": "其他",
+        "url": ""
+    },
+    {
+        "menuName": "监测管理详情",
+        "path": "checkManageDetail",
+        "id": "checkManageDetail_cancel_331526",
+        "name": "取消",
+        "typeName": "取消",
+        "url": ""
+    },
+    {
+        "menuName": "监测管理详情",
+        "path": "checkManageDetail",
+        "id": "checkManageDetail_pageJump_387175",
+        "name": "返回",
+        "typeName": "页面跳转",
+        "url": ""
+    }
+]

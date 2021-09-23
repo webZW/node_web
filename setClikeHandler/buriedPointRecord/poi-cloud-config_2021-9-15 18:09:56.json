@@ -2292,16 +2292,16 @@
         "id": "organizationalStructure_delete_246862"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_43213"
+        "id": "inspectionStandardTemplate_cancel_43213"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_870102"
+        "id": "inspectionStandardTemplate_edit_870102"
     },
     {
         "path": "processPath",
@@ -2388,22 +2388,22 @@
         "id": "qualityStatistical_check_746279"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_634862",
-        "id": "inspectionItems_other_634862"
+        "name": "inspectionStandardTemplate_other_634862",
+        "id": "inspectionStandardTemplate_other_634862"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_783773"
+        "id": "inspectionStandardTemplate_edit_783773"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_985955"
+        "id": "inspectionStandardTemplate_cancel_985955"
     },
     {
         "path": "processPath",
@@ -2484,16 +2484,16 @@
         "id": "qualityStatistical_check_597312"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_530917"
+        "id": "inspectionStandardTemplate_edit_530917"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_655531"
+        "id": "inspectionStandardTemplate_cancel_655531"
     },
     {
         "path": "processPath",
@@ -2574,112 +2574,112 @@
         "id": "qualityStatistical_confirm_254626"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "add",
         "name": "新增来料检验记录",
-        "id": "inspectionItems_add_389594"
+        "id": "incomingInspection_add_389594"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "export",
         "name": "导出全部",
-        "id": "inspectionItems_export_287323"
+        "id": "incomingInspection_export_287323"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "export",
         "name": "导出选中",
-        "id": "inspectionItems_export_126450"
+        "id": "incomingInspection_export_126450"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "check",
         "name": "查询",
-        "id": "inspectionItems_check_819258"
+        "id": "incomingInspection_check_819258"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "edit",
         "name": "检验",
-        "id": "inspectionItems_edit_279791"
+        "id": "incomingInspection_edit_279791"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_92981"
+        "id": "incomingInspection_edit_92981"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "edit",
         "name": "复检",
-        "id": "inspectionItems_edit_171430"
+        "id": "incomingInspection_edit_171430"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "check",
         "name": "查看",
-        "id": "inspectionItems_check_836495"
+        "id": "incomingInspection_check_836495"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_843574"
+        "id": "incomingInspection_delete_843574"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "confirm",
         "name": "确认",
-        "id": "inspectionItems_confirm_744197"
+        "id": "incomingInspection_confirm_744197"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_70819"
+        "id": "incomingInspection_cancel_70819"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "add",
         "name": "新增来料检验任务",
-        "id": "inspectionItems_add_647878"
+        "id": "incomingInspection_add_647878"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_414089"
+        "id": "incomingInspection_delete_414089"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "confirm",
         "name": "确定",
-        "id": "inspectionItems_confirm_525425"
+        "id": "incomingInspection_confirm_525425"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "edit",
         "name": "定量项目",
-        "id": "inspectionItems_edit_651221"
+        "id": "incomingInspection_edit_651221"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "edit",
         "name": "定性项目",
-        "id": "inspectionItems_edit_63506"
+        "id": "incomingInspection_edit_63506"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "select",
         "name": "全部",
-        "id": "inspectionItems_select_122449"
+        "id": "incomingInspection_select_122449"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "add",
         "name": "新增类别",
-        "id": "inspectionItems_add_247935"
+        "id": "incomingInspection_add_247935"
     },
     {
         "path": "processPath",
@@ -2814,124 +2814,124 @@
         "id": "qualityStatistical_check_149954"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspectionPlan",
         "type": "add",
         "name": "新增过程检验计划",
-        "id": "inspectionItems_add_316935"
+        "id": "processInspectionPlan_add_316935"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspectionPlan",
         "type": "check",
         "name": "搜索",
-        "id": "inspectionItems_check_776399"
+        "id": "processInspectionPlan_check_776399"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspectionPlan",
         "type": "confirm",
         "name": "提交中",
-        "id": "inspectionItems_confirm_442724"
+        "id": "processInspectionPlan_confirm_442724"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspectionPlan",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_648285"
+        "id": "processInspectionPlan_cancel_648285"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "add",
         "name": "新增过程检验记录",
-        "id": "inspectionItems_add_512151"
+        "id": "processInspection_add_512151"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "edit",
         "name": "列表字段配置",
-        "id": "inspectionItems_edit_192030"
+        "id": "processInspection_edit_192030"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "export",
         "name": "导出全部",
-        "id": "inspectionItems_export_696075"
+        "id": "processInspection_export_696075"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "export",
         "name": "导出选中",
-        "id": "inspectionItems_export_21260"
+        "id": "processInspection_export_21260"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "other",
-        "name": "inspectionItems_other_937507",
-        "id": "inspectionItems_other_937507"
+        "name": "processInspection_other_937507",
+        "id": "processInspection_other_937507"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "add",
         "name": "复制",
-        "id": "inspectionItems_add_864269"
+        "id": "processInspection_add_864269"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "edit",
         "name": "检验",
-        "id": "inspectionItems_edit_425808"
+        "id": "processInspection_edit_425808"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_513882"
+        "id": "processInspection_edit_513882"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "check",
         "name": "查看",
-        "id": "inspectionItems_check_710547"
+        "id": "processInspection_check_710547"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_351558"
+        "id": "processInspection_delete_351558"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "confirm",
         "name": "确认",
-        "id": "inspectionItems_confirm_383147"
+        "id": "processInspection_confirm_383147"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_326541"
+        "id": "processInspection_cancel_326541"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "confirm",
         "name": "确认",
-        "id": "inspectionItems_confirm_516079"
+        "id": "processInspection_confirm_516079"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_432877"
+        "id": "processInspection_cancel_432877"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "edit",
         "name": "过程检验计划",
-        "id": "inspectionItems_edit_419249"
+        "id": "processInspection_edit_419249"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspection",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_953225"
+        "id": "processInspection_delete_953225"
     },
     {
         "path": "inspectionItems",
@@ -3024,82 +3024,82 @@
         "id": "qualityStatistical_check_330411"
     },
     {
-        "path": "inspectionItems",
+        "path": "processInspectionPlan",
         "type": "check",
         "name": "搜索",
-        "id": "inspectionItems_check_259164"
+        "id": "processInspectionPlan_check_259164"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "export",
         "name": "导出全部",
-        "id": "inspectionItems_export_99778"
+        "id": "productInspection_export_99778"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "export",
         "name": "导出选中",
-        "id": "inspectionItems_export_3570"
+        "id": "productInspection_export_3570"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "add",
         "name": "新增记录",
-        "id": "inspectionItems_add_747788"
+        "id": "productInspection_add_747788"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "other",
-        "name": "inspectionItems_other_56659",
-        "id": "inspectionItems_other_56659"
+        "name": "productInspection_other_56659",
+        "id": "productInspection_other_56659"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "other",
-        "name": "inspectionItems_other_683188",
-        "id": "inspectionItems_other_683188"
+        "name": "productInspection_other_683188",
+        "id": "productInspection_other_683188"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "edit",
         "name": "检验",
-        "id": "inspectionItems_edit_621682"
+        "id": "productInspection_edit_621682"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_374302"
+        "id": "productInspection_edit_374302"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "edit",
         "name": "复检",
-        "id": "inspectionItems_edit_570682"
+        "id": "productInspection_edit_570682"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "check",
         "name": "查看",
-        "id": "inspectionItems_check_802293"
+        "id": "productInspection_check_802293"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "pageJump",
         "name": "下一步",
-        "id": "inspectionItems_pageJump_413889"
+        "id": "productInspection_pageJump_413889"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_606890"
+        "id": "productInspection_cancel_606890"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "confirm",
         "name": "确定",
-        "id": "inspectionItems_confirm_62659"
+        "id": "productInspection_confirm_62659"
     },
     {
         "path": "qualityStatistical",
@@ -3114,94 +3114,94 @@
         "id": "qualityStatistical_confirm_511601"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "add",
         "name": "新增仓库检验记录",
-        "id": "inspectionItems_add_869763"
+        "id": "warehouseInspection_add_869763"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "export",
         "name": "导出全部",
-        "id": "inspectionItems_export_85013"
+        "id": "warehouseInspection_export_85013"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "export",
         "name": "导出选中",
-        "id": "inspectionItems_export_180777"
+        "id": "warehouseInspection_export_180777"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "other",
-        "name": "inspectionItems_other_204703",
-        "id": "inspectionItems_other_204703"
+        "name": "warehouseInspection_other_204703",
+        "id": "warehouseInspection_other_204703"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "add",
         "name": "复制",
-        "id": "inspectionItems_add_278306"
+        "id": "warehouseInspection_add_278306"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "edit",
         "name": "检验",
-        "id": "inspectionItems_edit_35389"
+        "id": "warehouseInspection_edit_35389"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_720783"
+        "id": "warehouseInspection_edit_720783"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "check",
         "name": "查看",
-        "id": "inspectionItems_check_646931"
+        "id": "warehouseInspection_check_646931"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_989472"
+        "id": "warehouseInspection_delete_989472"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "pageJump",
         "name": "下一步",
-        "id": "inspectionItems_pageJump_553523"
+        "id": "warehouseInspection_pageJump_553523"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "add",
         "name": "新增仓库检验任务",
-        "id": "inspectionItems_add_448469"
+        "id": "warehouseInspection_add_448469"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_231978"
+        "id": "warehouseInspection_delete_231978"
     },
     {
-        "path": "inspectionItems",
+        "path": "warehouseInspection",
         "type": "confirm",
         "name": "确定",
-        "id": "inspectionItems_confirm_698277"
+        "id": "warehouseInspection_confirm_698277"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "edit",
         "name": "配置检验模板/配置检验项目",
-        "id": "inspectionItems_edit_500320"
+        "id": "incomingStandard_edit_500320"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "edit",
         "name": "编辑/保存",
-        "id": "inspectionItems_edit_382338"
+        "id": "incomingStandard_edit_382338"
     },
     {
         "path": "reserveManagement",
@@ -3222,22 +3222,22 @@
         "id": "qualityStatistical_check_954328"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "pageJump",
         "name": "返回",
-        "id": "inspectionItems_pageJump_310682"
+        "id": "incomingStandard_pageJump_310682"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "edit",
         "name": "配置",
-        "id": "inspectionItems_edit_445758"
+        "id": "incomingStandard_edit_445758"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "排序",
-        "name": "inspectionItems_edit_20532",
-        "id": "inspectionItems_edit_20532"
+        "name": "incomingStandard_edit_20532",
+        "id": "incomingStandard_edit_20532"
     },
     {
         "path": "statistical",
@@ -3348,52 +3348,52 @@
         "id": "reserveManagement_check_90917"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "pageJump",
         "name": "返回",
-        "id": "inspectionItems_pageJump_980759"
+        "id": "incomingStandard_pageJump_980759"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "pageJump",
         "name": "返回",
-        "id": "inspectionItems_pageJump_381133"
+        "id": "incomingInspection_pageJump_381133"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "check",
         "name": "分析",
-        "id": "inspectionItems_check_688686"
+        "id": "incomingInspection_check_688686"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_834856"
+        "id": "incomingInspection_edit_834856"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "other",
-        "name": "inspectionItems_other_827242",
-        "id": "inspectionItems_other_827242"
+        "name": "incomingInspection_other_827242",
+        "id": "incomingInspection_other_827242"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_166516"
+        "id": "incomingInspection_cancel_166516"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_533519"
+        "id": "incomingInspection_edit_533519"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingInspection",
         "type": "confirm",
         "name": "提交",
-        "id": "inspectionItems_confirm_33517"
+        "id": "incomingInspection_confirm_33517"
     },
     {
         "path": "SupplierManagement",
@@ -3498,28 +3498,28 @@
         "id": "reserveManagement_cancel_666040"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_59606"
+        "id": "incomingStandard_edit_59606"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_362061"
+        "id": "incomingStandard_cancel_362061"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_905780"
+        "id": "incomingStandard_edit_905780"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "confirm",
         "name": "提交",
-        "id": "inspectionItems_confirm_660799"
+        "id": "incomingStandard_confirm_660799"
     },
     {
         "path": "SupplierManagement",
@@ -3708,28 +3708,28 @@
         "id": "targetConfiguration_cancel_989525"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "add",
         "name": "新增",
-        "id": "inspectionItems_add_116097"
+        "id": "inspectionStandardTemplate_add_116097"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_489596"
+        "id": "inspectionStandardTemplate_delete_489596"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_934554"
+        "id": "inspectionStandardTemplate_cancel_934554"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_255768"
+        "id": "inspectionStandardTemplate_edit_255768"
     },
     {
         "path": "SupplierManagement",
@@ -3876,40 +3876,40 @@
         "id": "tableConfiguration_new_delete_131378"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "add",
         "name": "添加标准",
-        "id": "inspectionItems_add_860764"
+        "id": "incomingStandard_add_860764"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "edit",
         "name": "标准应用",
-        "id": "inspectionItems_edit_966151"
+        "id": "incomingStandard_edit_966151"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_665127"
+        "id": "incomingStandard_cancel_665127"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "confirm",
         "name": "确定",
-        "id": "inspectionItems_confirm_310754"
+        "id": "incomingStandard_confirm_310754"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_742615"
+        "id": "incomingStandard_cancel_742615"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "confirm",
         "name": "确定",
-        "id": "inspectionItems_confirm_526300"
+        "id": "incomingStandard_confirm_526300"
     },
     {
         "path": "userManagement",
@@ -3984,10 +3984,10 @@
         "id": "traceConfig_edit_378559"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "add",
         "name": "添加模版",
-        "id": "inspectionItems_add_394988"
+        "id": "inspectionStandardTemplate_add_394988"
     },
     {
         "path": "tableConfiguration_new",
@@ -4020,124 +4020,124 @@
         "id": "tableConfiguration_new_edit_704319"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_13528",
-        "id": "inspectionItems_other_13528"
+        "name": "inspectionStandardTemplate_other_13528",
+        "id": "inspectionStandardTemplate_other_13528"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_611063"
+        "id": "inspectionStandardTemplate_edit_611063"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_436302"
+        "id": "inspectionStandardTemplate_edit_436302"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_813296",
-        "id": "inspectionItems_other_813296"
+        "name": "inspectionStandardTemplate_other_813296",
+        "id": "inspectionStandardTemplate_other_813296"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "入仓选项",
-        "id": "inspectionItems_edit_440062"
+        "id": "inspectionStandardTemplate_edit_440062"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_704546"
+        "id": "inspectionStandardTemplate_edit_704546"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "校验扩展",
-        "id": "inspectionItems_edit_439932"
+        "id": "inspectionStandardTemplate_edit_439932"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_583836"
+        "id": "inspectionStandardTemplate_edit_583836"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_514916",
-        "id": "inspectionItems_other_514916"
+        "name": "inspectionStandardTemplate_other_514916",
+        "id": "inspectionStandardTemplate_other_514916"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_567909"
+        "id": "inspectionStandardTemplate_edit_567909"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_80883",
-        "id": "inspectionItems_other_80883"
+        "name": "inspectionStandardTemplate_other_80883",
+        "id": "inspectionStandardTemplate_other_80883"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "新增检验工序",
-        "id": "inspectionItems_edit_973379"
+        "id": "inspectionStandardTemplate_edit_973379"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_604055",
-        "id": "inspectionItems_other_604055"
+        "name": "inspectionStandardTemplate_other_604055",
+        "id": "inspectionStandardTemplate_other_604055"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_604056",
-        "id": "inspectionItems_other_604056"
+        "name": "inspectionStandardTemplate_other_604056",
+        "id": "inspectionStandardTemplate_other_604056"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "工序",
-        "id": "inspectionItems_edit_181548"
+        "id": "inspectionStandardTemplate_edit_181548"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_223106"
+        "id": "inspectionStandardTemplate_delete_223106"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
-        "name": "inspectionItems_other_266980",
-        "id": "inspectionItems_other_266980"
+        "name": "inspectionStandardTemplate_other_266980",
+        "id": "inspectionStandardTemplate_other_266980"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_693311"
+        "id": "inspectionStandardTemplate_edit_693311"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "校验扩展",
-        "id": "inspectionItems_edit_683695"
+        "id": "inspectionStandardTemplate_edit_683695"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "other",
         "name": "保存",
-        "id": "inspectionItems_edit_876124"
+        "id": "inspectionStandardTemplate_edit_876124"
     },
     {
         "path": "traceConfig",
@@ -4152,52 +4152,52 @@
         "id": "traceConfig_confirm_748587"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "pageJump",
         "name": "返回",
-        "id": "inspectionItems_pageJump_873252"
+        "id": "productInspection_pageJump_873252"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "other",
-        "name": "inspectionItems_other_384135",
-        "id": "inspectionItems_other_384135"
+        "name": "productInspection_other_384135",
+        "id": "productInspection_other_384135"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "edit",
         "name": "编辑",
-        "id": "inspectionItems_edit_594250"
+        "id": "productInspection_edit_594250"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_978697"
+        "id": "productInspection_cancel_978697"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_363237"
+        "id": "productInspection_edit_363237"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "confirm",
         "name": "提交",
-        "id": "inspectionItems_confirm_416910"
+        "id": "productInspection_confirm_416910"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_879716"
+        "id": "productInspection_cancel_879716"
     },
     {
-        "path": "inspectionItems",
+        "path": "productInspection",
         "type": "edit",
         "name": "保存",
-        "id": "inspectionItems_edit_74640"
+        "id": "productInspection_edit_74640"
     },
     {
         "path": "traceConfig",
@@ -4272,16 +4272,16 @@
         "id": "traceConfig_cancel_494880"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "cancel",
         "name": "取消",
-        "id": "inspectionItems_cancel_270948"
+        "id": "incomingStandard_cancel_270948"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "confirm",
         "name": "确定",
-        "id": "inspectionItems_confirm_120723"
+        "id": "incomingStandard_confirm_120723"
     },
     {
         "path": "traceConfig",
@@ -4290,10 +4290,10 @@
         "id": "traceConfig_other_527268"
     },
     {
-        "path": "inspectionItems",
+        "path": "incomingStandard",
         "type": "edit",
         "name": "选择应用该标准的物料",
-        "id": "inspectionItems_edit_841330"
+        "id": "incomingStandard_edit_841330"
     },
     {
         "path": "traceConfig",
@@ -4308,52 +4308,52 @@
         "id": "traceConfig_confirm_587553"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "add",
         "name": "新增标准",
-        "id": "inspectionItems_add_979994"
+        "id": "inspectionStandardTemplate_add_979994"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "重命名",
-        "id": "inspectionItems_edit_977268"
+        "id": "inspectionStandardTemplate_edit_977268"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "add",
         "name": "新增版本",
-        "id": "inspectionItems_add_600209"
+        "id": "inspectionStandardTemplate_add_600209"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_247381"
+        "id": "inspectionStandardTemplate_delete_247381"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "重命名",
-        "id": "inspectionItems_edit_589323"
+        "id": "inspectionStandardTemplate_edit_589323"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_208609"
+        "id": "inspectionStandardTemplate_delete_208609"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "edit",
         "name": "重命名",
-        "id": "inspectionItems_edit_547278"
+        "id": "inspectionStandardTemplate_edit_547278"
     },
     {
-        "path": "inspectionItems",
+        "path": "inspectionStandardTemplate",
         "type": "delete",
         "name": "删除",
-        "id": "inspectionItems_delete_172685"
+        "id": "inspectionStandardTemplate_delete_172685"
     },
     {
         "path": "alarmRule_new",

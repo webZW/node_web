@@ -770,10 +770,140 @@ const view = [
 
 ]
 
+const service = [
+  {
+    name: '企业配置',
+    path: 'enterpriseConfig'
+  },
+  {
+      name: '数据采集',
+      path: 'dataCollection'
+  },
+  {
+      name: '用户管理',
+      path: 'userManage'
+  },
+  {
+      name: '检查管理',
+      path: 'checkManage'
+  },
+  {
+      name: '告警管理',
+      path: 'alarmManage'
+  },
+  {
+      name: '数据分析',
+      path: 'dataAnalysis'
+  },
+  {
+      name: '运行维护',
+      path: 'operation'
+  },
+  {
+      name: '实时看板2',
+      path: 'realTimeBoard'
+  },
+  {
+      name: '实时看板金钱A',
+      path: 'realTimeBoardA'
+  },
+  {
+      name: '实时看板光宝B',
+      path: 'realTimeBoardB'
+  },
+  {
+      name: '实时看板光宝C',
+      path: 'realTimeBoardC'
+  },
+  {
+      name: '新增企业模型向导',
+      path: 'enterpriseConfigStep'
+  },
+  {
+      name: '开机率',
+      path: 'openingRate'
+  },
+  {
+      name: '开机率详情',
+      path: 'openingRateDetail'
+  },
+  {
+      name: '监测管理详情',
+      path: 'checkManageDetail'
+  },
+  {
+      name: '数据分析详情',
+      path: 'dataAnalysisDetail'
+  },
+  {
+      name: '数据采集二级列表',
+      path: 'dataCollectionDetail'
+  },
+  {
+      name: '规则配置',
+      path: 'alarmRoleConfig'
+  },
+  {
+      name: '画像配置',
+      path: 'portraitConfig'
+  },
+  {
+      name: '角色管理',
+      path: 'roleManage'
+  },
+  {
+      name: '新增企业模型向导',
+      path: 'enterpriseGroup'
+  },
+  {
+      name: '操作日志',
+      path: 'operationalLog'
+  },
+  {
+      name: '服务配置',
+      path: 'serviceconfig'
+  },
+  {
+      name: '监控配置',
+      path: 'monitoringConfig'
+  },
+  {
+      name: 'APP版本',
+      path: 'appVersionManagerment'
+  },
+  {
+      name: '区域配置',
+      path: 'areaInforconfig'
+  },
+  {
+      name: '企业能耗',
+      path: 'energyConsumption'
+  },
+  {
+      name: '在线看板',
+      path: 'onlineBoard'
+  },
+  {
+      name: "工程建模",
+      path: "factorymodule"
+  },
+  {
+      name:"阿里心选",
+      path:"aliServiceShowDetails"
+  },{
+    name: '修改密码',
+    path: 'changePassword'
+  },{
+    name: '服务商列表',
+    path: 'serviceprovidersItems'
+  }
+]
+
 module.exports = {
   public,
   config,
   operation,
   pretreat,
   view,
+  service,
 }

@@ -13,7 +13,7 @@ let isEnptyNameNum = 0, // 空名称数量
 let parameters = {
 	project: 'poi-service',
 	path: '/Users/zw_mac/POI_DEVELOP/poi-service/src/components',
-	router_path: '/Users/zw_mac/POI_DEVELOP/poi-service/src/router/router_menu.js',
+	router_path: '/Users/zw_mac/POI_DEVELOP/poi-service/src/router/configNamePath.js',
 	regular: /@click.+?[\s\S|\d|\D|\w\W]*?<\/.+/g,
 	is_treatment_sub_file: true
 };
@@ -41,8 +41,8 @@ const recursiveFile = (paramsConfig) => {
 }
 
 const getRouterPathArr = () => {
-    // const routerTemp = fs.readFileSync(parameters.router_path, 'utf8');
-    // pathArr = routerTemp.match(/path.+?[\s\S|\d|\D|\w\W]*?\.vue/g);
+    const routerTemp = fs.readFileSync(parameters.router_path, 'utf8');
+    pathArr = routerTemp.match(/path.+\/(.+)'/g);
     
     recursiveFile(parameters);
 }
@@ -71,11 +71,11 @@ const fs_file =({ paramsConfig, files, index = 0 }) => {
             // console.log(this_path, config)
             if (config.length < 1) return fs_file({ paramsConfig, files, index: ++index });
             const nameArr = analysisClick({ config, this_path });
-            const path = 'test' //getRouterPath(this_path);
+            const path = getRouterPath(this_path);
             setClickFunc({ html, this_path, path, nameArr });
         }
         if (isDir && paramsConfig.is_treatment_sub_file) {
-            const otherDir = [ 'base', 'board', 'common', 'util', 'vueTools' ];
+            const otherDir = [ 'common', 'misc', 'util', 'vueTools' ];
             if (otherDir.includes(item)) return fs_file({ paramsConfig, files, index: ++index });
             const config = {
                 ...paramsConfig,
@@ -116,11 +116,11 @@ const analysisClick = ({ config, this_path}) => {
 
 // 获取路由名
 const getRouterPath = (full_path) => {
-    const path = full_path.match(/[lib|menu]\/(\w+)/)[1];
-    const now_path = pathArr.filter(str => RegExp(path).test(str))[0];
+    const path = full_path.match(/.+[menu|lib|board|home]\/(.+)?\/.+/)[1];
+    const now_path = pathArr.filter(str => RegExp(path).test(str))[0] || "";
     !now_path && console.log(122, {pathArr, path, now_path, full_path})
     const pathStr = now_path.match(/path.+\/(\w+)\'.+/);
-    return pathStr[1];
+    return Array.isArray(pathStr) ? pathStr[1] : path;
 }
 
 // 埋点
@@ -140,7 +140,7 @@ const setClickFunc = ({ html, this_path, path, nameArr }) => {
 		return `buriedPointId="${id}" @click`;
 	});
 
-	// fs.writeFileSync(this_path, new_html, 'utf8');
+	fs.writeFileSync(this_path, new_html, 'utf8');
 };
 
 
