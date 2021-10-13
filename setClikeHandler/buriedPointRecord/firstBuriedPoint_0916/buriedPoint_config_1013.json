@@ -1,0 +1,58 @@
+[
+    {
+        "menuName": "用户管理",
+        "path": "/userManagement",
+        "id": "userManagement_edit_111",
+        "name": "查看",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "用户管理",
+        "path": "/userManagement",
+        "id": "userManagement_edit_222",
+        "name": "修改",
+        "typeName": "编辑",
+        "url": "/poit-cloud-platform/user/update"
+    },
+    {
+        "menuName": "用户管理",
+        "path": "/userManagement",
+        "id": "userManagement_edit_333",
+        "name": "角色管理",
+        "typeName": "编辑",
+        "url": "/poit-cloud-platform/role/user/update"
+    },
+    {
+        "menuName": "用户管理",
+        "path": "/userManagement",
+        "id": "userManagement_delete_444",
+        "name": "删除",
+        "typeName": "删除",
+        "url": "/poit-cloud-platform/user/ent/delete"
+    },
+    {
+        "menuName": "角色管理",
+        "path": "/roleManagement",
+        "id": "roleManagement_edit_111",
+        "name": "查看",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "角色管理",
+        "path": "/roleManagement",
+        "id": "roleManagement_edit_222",
+        "name": "修改",
+        "typeName": "编辑",
+        "url": "/poit-cloud-platform/role/ent/update"
+    },
+    {
+        "menuName": "角色管理",
+        "path": "/roleManagement",
+        "id": "roleManagement_delete_333",
+        "name": "删除",
+        "typeName": "删除",
+        "url": "/poit-cloud-platform/role/ent/delete"
+    }
+]

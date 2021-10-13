@@ -1,0 +1,118 @@
+[
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_111",
+        "name": "暂停",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_222",
+        "name": "结束",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_333",
+        "name": "执行任务开始",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_444",
+        "name": "执行任务操作记录",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_555",
+        "name": "损耗",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_666",
+        "name": "投料",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_777",
+        "name": "退料",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_888",
+        "name": "生产报工",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_999",
+        "name": "完工退回",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_112",
+        "name": "查看投料记录",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_113",
+        "name": "查看报工记录",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_331",
+        "name": "未执行任务操作记录",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "生产执行",
+        "path": "/productionExecution",
+        "id": "productionExecution_edit_332",
+        "name": "未执行任务开始",
+        "typeName": "编辑",
+        "url": ""
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
