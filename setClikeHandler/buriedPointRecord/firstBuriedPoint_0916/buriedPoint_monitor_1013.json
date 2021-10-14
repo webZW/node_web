@@ -1,0 +1,106 @@
+[
+    {
+        "menuName": "监测配置",
+        "path": "/checkconfig",
+        "id": "checkconfig_check_111",
+        "name": "查询",
+        "typeName": "搜索",
+        "url": "/poit-monitor/monitorConfig/page"
+    },
+    {
+        "menuName": "监测配置",
+        "path": "/checkconfig",
+        "id": "checkconfig_add_222",
+        "name": "新增监测",
+        "typeName": "新增",
+        "url": "/poit-monitor/monitorConfig/add"
+    },
+    {
+        "menuName": "监测配置",
+        "path": "/checkconfig",
+        "id": "checkconfig_edit_333",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": "/poit-monitor/monitorConfig/modify"
+    },
+    {
+        "menuName": "监测配置",
+        "path": "/checkconfig",
+        "id": "checkconfig_edit_444",
+        "name": "配置",
+        "typeName": "编辑",
+        "url": ""
+    },
+    {
+        "menuName": "监测配置",
+        "path": "/checkconfig",
+        "id": "checkconfig_check_555",
+        "name": "查看页面",
+        "typeName": "搜索",
+        "url": ""
+    },
+    {
+        "menuName": "监测配置",
+        "path": "/checkconfig",
+        "id": "checkconfig_edit_666",
+        "name": "复制",
+        "typeName": "编辑",
+        "url": "/poit-monitor/monitorConfig/copy"
+    },
+    {
+        "menuName": "监测配置",
+        "path": "/checkconfig",
+        "id": "checkconfig_delete_777",
+        "name": "删除",
+        "typeName": "删除",
+        "url": "/poit-monitor/monitorConfig/delete"
+    },
+    {
+        "menuName": "弹窗配置",
+        "path": "/popupConfig",
+        "id": "popupConfig_check_111",
+        "name": "查询",
+        "typeName": "搜索",
+        "url": "/poit-monitor/popupConfig/page"
+    },
+    {
+        "menuName": "弹窗配置",
+        "path": "/popupConfig",
+        "id": "popupConfig_add_222",
+        "name": "新增弹窗",
+        "typeName": "新增",
+        "url": "/poit-monitor/popupConfig/add"
+    },
+    {
+        "menuName": "弹窗配置",
+        "path": "/popupConfig",
+        "id": "popupConfig_edit_333",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": "/poit-monitor/popupConfig/modify"
+    },
+    {
+        "menuName": "弹窗配置",
+        "path": "/popupConfig",
+        "id": "popupConfig_delete_444",
+        "name": "删除",
+        "typeName": "删除",
+        "url": "/poit-monitor/popupConfig/delete"
+    },
+    {
+        "menuName": "监测配置",
+        "path": "/monitorConfig",
+        "id": "monitorConfig_edit_111",
+        "name": "发布",
+        "typeName": "编辑",
+        "url": "/poit-monitor/monitorConfig/config/modify"
+    },
+    {
+        "menuName": "监测页面排序",
+        "path": "/pageSort",
+        "id": "pageSort_edit_111",
+        "name": "配置",
+        "typeName": "编辑",
+        "url": "/poit-monitor/monitorConfig/sort/modify"
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "menuName": "能源报表",
+        "path": "/energyReport",
+        "id": "energyReport_add_111",
+        "name": "新增模板",
+        "typeName": "新增",
+        "url": "/poit-cloud-platform/simpleReport/addReportTpl"
+    },
+    {
+        "menuName": "能源报表",
+        "path": "/energyReport",
+        "id": "energyReport_export_222",
+        "name": "导出",
+        "typeName": "导出",
+        "url": ""
+    }
+
+]

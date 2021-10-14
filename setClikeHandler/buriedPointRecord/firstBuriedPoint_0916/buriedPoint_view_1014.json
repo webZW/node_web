@@ -1,0 +1,26 @@
+[
+    {
+        "menuName": "副产品统计",
+        "path": "/byProductStatistics",
+        "id": "byProductStatistics_export_111",
+        "name": "导出",
+        "typeName": "导出",
+        "url": "/poit-cloud-platform/prod-coproduct-stat/export"
+    },
+    {
+        "menuName": "趋势分析",
+        "path": "/associationAnalysis",
+        "id": "associationAnalysis_tabs_111",
+        "name": "导出",
+        "typeName": "导出",
+        "url": "/poit-cloud-platform/prod-coproduct-stat/export"
+    },
+    {
+        "menuName": "趋势分析",
+        "path": "/associationAnalysis",
+        "id": "associationAnalysis_tabs_222",
+        "name": "导出",
+        "typeName": "导出",
+        "url": "/poit-cloud-platform/prod-coproduct-stat/export"
+    }
+]

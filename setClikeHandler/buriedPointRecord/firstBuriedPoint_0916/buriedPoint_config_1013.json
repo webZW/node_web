@@ -54,5 +54,39 @@
         "name": "删除",
         "typeName": "删除",
         "url": "/poit-cloud-platform/role/ent/delete"
+    },
+
+
+    {
+        "menuName": "物料信息配置",
+        "path": "/materialInfoConfig",
+        "id": "materialInfoConfig_edit_111",
+        "name": "物料组编辑",
+        "typeName": "编辑",
+        "url": "/poit-cloud-platform/material/group/saveGroupAndRelation"
+    },
+    {
+        "menuName": "物料信息配置",
+        "path": "/materialInfoConfig",
+        "id": "materialInfoConfig_delete_222",
+        "name": "物料组删除",
+        "typeName": "删除",
+        "url": "/poit-cloud-platform/material/type/org/delete"
+    },
+    {
+        "menuName": "告警规则_新",
+        "path": "/alarmRule_new",
+        "id": "alarmRule_new_edit_111",
+        "name": "编辑",
+        "typeName": "编辑",
+        "url": "/poit-cloud-platform/alarm2/rule/alarm/renew"
+    },
+    {
+        "menuName": "告警规则_新",
+        "path": "/alarmRule_new",
+        "id": "alarmRule_new_delete_222",
+        "name": "删除",
+        "typeName": "删除",
+        "url": "/poit-cloud-platform/alarm2/rule/alarm/delete"
     }
 ]
