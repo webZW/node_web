@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>扩散点演示</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/echarts-all-3.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/EchartsLayer.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/data/pointgrid.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+    .echartMap div {
+      position: absolute;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    mapCRS: {
+      topTileExtent: [-180, -270, 180, 90],
+      coordtransform: 'none'
+    },
+    container: 'map',
+    zoom: 4,
+    center: [117.177, 34.281]
+  });
+
+  map.on('load', function() {
+    var token = 'e90d56e5a09d1767899ad45846b0cefd';
+    var layer_vtc = new GeoGlobe.TDTLayer('vec_c', token);
+    var layer_cva = new GeoGlobe.TDTLayer('cva_c', token);
+    map.addLayer(layer_vtc);
+    map.addLayer(layer_cva);
+
+    var convertData = function(data) {
+      var res = [];
+      for (var i = 0; i < data.length; i++) {
+        var geoCoord = geoCoordValue[data[i].name];
+        if (geoCoord) {
+          res.push({
+            name: data[i].name,
+            value: geoCoord.concat(data[i].value)
+          });
+        }
+      }
+      return res;
+    };
+    option = {
+      GLMap: {},
+      series: [
+        {
+          name: '',
+          type: 'effectScatter',
+          coordinateSystem: 'GLMap',
+          //数据来源
+          data: convertData(
+                  data.sort(function(a, b) {
+                    return b.value - a.value;
+                  })
+          ), //图形的大小
+          symbolSize: function(val) {
+            return val[2] / 10;
+          },
+          showEffectOn: 'render',
+          rippleEffect: {
+            brushType: 'stroke'
+          },
+          itemStyle: {
+            normal: {
+              color: '#FF6EB4',
+              shadowBlur: 5,
+              shadowColor: 'blue'
+            }
+          },
+          zlevel: 1
+        }
+      ]
+    };
+    var echartslayer = new EchartsLayer(map);
+    echartslayer.chart.setOption(option);
+  });
+</script>
+</body>
+</html>

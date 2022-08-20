@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>轨迹运动</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <!--[if IE]>
+  <script src="./geomap-api/JsCodeDemo_new/js/polyfill.min.js"></script>
+  <![endif]-->
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/turf.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+    #wrap {
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      width: max-content;
+      max-width: 250px;
+      font-size: 12px;
+      background-color: #fff;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+<div id="wrap">
+  本示例演示标注点沿着轨迹进行移动的功能。点击“移动”按钮，地图上的飞机将沿着轨迹运动。
+  <hr />
+  <div>
+    <input type="button" value="移动" onclick="move();" />
+    &nbsp;&nbsp;
+    <input type="button" value="重置" onclick="reset();" />
+  </div>
+</div>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    mapCRS: {
+      topTileExtent: [-180, -270, 180, 90],
+      coordtransform: 'none'
+    },
+    container: 'map',
+    zoom: 3,
+    center: [-96, 37.8]
+  });
+
+  // 添加天地图
+  map.on('load', function(e) {
+    var token = 'e90d56e5a09d1767899ad45846b0cefd';
+    var layer_vtc = new GeoGlobe.TDTLayer('vec_c', token);
+    var layer_cva = new GeoGlobe.TDTLayer('cva_c', token);
+    map.addLayer(layer_vtc);
+    map.addLayer(layer_cva);
+  });
+
+  // San Francisco
+  var origin = [-122.414, 37.776];
+
+  // Washington DC
+  var destination = [-77.032, 38.913];
+
+  // A simple line from origin to destination.
+  var route = {
+    type: 'FeatureCollection',
+    features: [
+      {
+        type: 'Feature',
+        geometry: {
+          type: 'LineString',
+          coordinates: [origin, destination]
+        }
+      }
+    ]
+  };
+
+  //需要运动的图形
+  var point = {
+    type: 'FeatureCollection',
+    features: [
+      {
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: origin
+        }
+      }
+    ]
+  };
+
+  // 计算运动的距离
+  // var line = turf.lineString([[-122.414, 37.776],[-77.032, 38.913]]);
+  var lineDistance = turf.lineDistance(route.features[0], {
+    units: 'kilometers'
+  });
+
+  var arc = [];
+  for (var i = 0; i < lineDistance; i++) {
+    var segment = turf.along(
+            route.features[0],
+            (i / 1000) * lineDistance,
+            { units: 'kilometers' }
+    );
+    arc.push(segment.geometry.coordinates);
+  }
+
+  route.features[0].geometry.coordinates = arc;
+
+  //轨迹运动
+  map.on('load', function() {
+    map.addSource('route', {
+      type: 'geojson',
+      data: route
+    });
+
+    map.addSource('point', {
+      type: 'geojson',
+      data: point
+    });
+
+    map.addLayer({
+      id: 'route',
+      source: 'route',
+      type: 'line',
+      paint: {
+        'line-width': 2,
+        'line-color': '#007cbf'
+      }
+    });
+
+    map.addLayer({
+      id: 'point',
+      source: 'point',
+      type: 'circle',
+      paint: {
+        'circle-radius': 5,
+        'circle-color': 'red',
+        'circle-opacity': 0.8
+      }
+    });
+  });
+
+  var counter = 0;
+
+  // 动画函数
+  function animate() {
+    point.features[0].geometry.coordinates =
+            route.features[0].geometry.coordinates[counter];
+    map.getSource('point').setData(point);
+
+    if (
+            point.features[0].geometry.coordinates[0] !== destination[0]
+    ) {
+      requestAnimationFrame(animate);
+    }
+    counter = counter + 1;
+  }
+
+  //重置
+  function reset() {
+    if (counter < 1001) {
+      point.features[0].geometry.coordinates = origin;
+
+      // Update the source layer
+      map.getSource('point').setData(point);
+      counter = 0;
+      animate(counter);
+    } else {
+      point.features[0].geometry.coordinates = origin;
+
+      // Update the source layer
+      map.getSource('point').setData(point);
+      counter = 0;
+    }
+  }
+
+  //移动
+  function move() {
+    animate(counter);
+  }
+</script>
+</body>
+</html>

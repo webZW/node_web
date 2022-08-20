@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>添加GeoJSONLayer图层</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/public/Layers/polygon.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    container: 'map',
+    zoom: 4,
+    center: [112.2928, 30.6134]
+  });
+
+  map.on('load', function() {
+    map.addLayer({
+      id: 'hubei',
+      type: 'fill',
+      source: {
+        type: 'geojson',
+        data: polygonFeature
+      },
+      paint: {
+        'fill-color': 'red',
+        'fill-opacity': 0.8
+      }
+    });
+  });
+</script>
+</body>
+</html>

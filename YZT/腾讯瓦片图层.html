@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>qq地图</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  //创建地图对象实例
+  var map = new GeoGlobe.Map({
+    container: 'map',
+    minZoom: 2
+  });
+
+  map.on('load', function() {
+    var qq_layer = {
+      id: 'qq_layer_id',
+      type: 'raster',
+      source: {
+        type: 'raster',
+        scheme: 'tms',
+        tiles: [
+          'https://rt3.map.gtimg.com/tile?z={z}&x={x}&y={y}'
+        ],
+        tileSize: 256
+      }
+    };
+    map.addLayer(qq_layer);
+  });
+</script>
+</body>
+</html>

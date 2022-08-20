@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>WMTS图层</title>
+    <link rel="stylesheet" href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+    <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+    <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<div id="map"></div>
+<script>
+    // 创建地图对象实例
+    var map = new GeoGlobe.Map({
+        mapCRS: {
+            topTileExtent: [-180, -270, 180, 90],
+            coordtransform: 'none'
+        }, container: 'map'
+    });
+
+    map.on('load', function (e) {
+        /**
+         * 使用工具类创建wmts图层
+         * var wmtsUtil = new GeoGlobe.Format.WMTSUtil();
+         * var wlayer = wmtsUtil.createLayer(url); 获取单个图层，默认第一个
+         * 可以指定某个图层添加
+         * var clayer = wmtsUtil.createLayer("https://t0.tianditu.gov.cn/cva_w/wmts",{layer:"cva"});
+         */
+
+            // 根据参数创建wmts图层
+        var wmts_layer = new GeoGlobe.Layer.WMTS({
+                url: 'https://t0.tianditu.gov.cn/vec_c/wmts', // 地址
+                layer: 'vec', // 图层标识
+                format: 'tiles', // 格式
+                matrixSet: 'c', // 矩阵集名称
+                style: 'default', // 样式标识(vts中不需要)
+                version: '1.0.0',
+                token: 'e90d56e5a09d1767899ad45846b0cefd' // 天地图服务专用
+            });
+        map.addLayer(wmts_layer);
+    });
+</script>
+</body>
+
+</html>

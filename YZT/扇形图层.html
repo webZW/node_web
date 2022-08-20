@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>扇形图层</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/turf.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    container: 'map',
+    zoom: 5,
+    center: [-65.017, -16.457]
+  });
+
+  map.on('load', function() {
+    addSectorLayer();
+  });
+
+  //摄像头点位
+  var points = [
+    {
+      type: 'Feature',
+      properties: {
+        radius: 500,
+        startAngle: -90,
+        endAngle: 30
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [-66.324462890625, -16.024695711685304]
+      }
+    },
+    {
+      type: 'Feature',
+      properties: {
+        radius: 125,
+        startAngle: 0,
+        endAngle: 160
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [-61.2158203125, -15.97189158092897]
+      }
+    },
+    {
+      type: 'Feature',
+      properties: {
+        radius: 250,
+        startAngle: 120,
+        endAngle: 240
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [-63.29223632812499, -18.28151823530889]
+      }
+    }
+  ];
+
+  //摄像头可视范围扇形Polygon
+  var sectors = [];
+  points.forEach(function(point) {
+    var marker = new mapboxgl.Marker()
+            .setPopup(
+                    new mapboxgl.Popup().setHTML(
+                            '<div>半径：' +
+                            point.properties.radius +
+                            '千米</div><div>开始角度：' +
+                            point.properties.startAngle +
+                            '°</div><div>结束角度：' +
+                            point.properties.endAngle +
+                            '°</div>'
+                    )
+            )
+            .setLngLat(point.geometry.coordinates)
+            .addTo(map);
+
+    sectors.push(
+            // 生成扇形Feature
+            turf.sector(
+                    point,
+                    point.properties.radius, // 扇形半径，单位：千米
+                    point.properties.startAngle, // 扇形开始角度（正北为0，顺时针）
+                    point.properties.endAngle // 扇形结束角度
+            )
+    );
+  });
+
+  var sectorSource;
+  var sectorLayer;
+  var sectorLayer_stroke;
+
+  //添加扇形填充图层
+  function addSectorLayer() {
+    sectorSource = new GeoGlobe.Source.GeoJSONSource(
+            'sectorSource',
+            {
+              type: 'geojson',
+              data: {
+                type: 'FeatureCollection',
+                features: sectors
+              }
+            }
+    );
+    sectorLayer = new GeoGlobe.Layer.FillLayer({
+      type: 'fill',
+      id: 'sectorLayer',
+      source: 'sectorSource',
+      layout: {},
+      paint: {
+        'fill-color': 'red',
+        'fill-opacity': 0.2
+      }
+    });
+    sectorLayer_stroke = new GeoGlobe.Layer.LineLayer({
+      type: 'line',
+      id: 'sectorLayer_stroke',
+      source: 'sectorSource',
+      layout: {},
+      paint: {
+        'line-color': 'red',
+        'line-width': 2
+      }
+    });
+    map.addSource(sectorSource.id, sectorSource.source);
+    map.addLayer(sectorLayer);
+    map.addLayer(sectorLayer_stroke);
+  }
+</script>
+</body>
+</html>

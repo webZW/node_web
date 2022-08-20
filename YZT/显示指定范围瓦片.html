@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>显示指定范围瓦片</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+<div id="map"></div>
+
+<script>
+  //创建地图对象实例
+  var map = new GeoGlobe.Map({
+    mapCRS: {
+      topTileExtent: [-180, -270, 180, 90],
+      coordtransform: 'none'
+    },
+    container: 'map',
+    zoom: 5
+  });
+
+  map.on('load', function(e) {
+    var layer_vtc = new GeoGlobe.TDTLayer('vec_c');
+    map.addLayer(layer_vtc);
+
+    const bounds = map.getBounds();
+    const geojson = {
+      type: 'Polygon',
+      coordinates: [
+        [
+          bounds.getNorthEast().toArray(),
+          bounds.getNorthWest().toArray(),
+          bounds.getSouthWest().toArray(),
+          bounds.getCenter().toArray(),
+          bounds.getSouthEast().toArray(),
+          bounds.getNorthEast().toArray()
+        ]
+      ]
+    };
+
+    // 可视的范围
+    map.addLayer({
+      id: 'bounds',
+      type: 'fill',
+      source: {
+        type: 'geojson',
+        data: geojson
+      },
+      paint: {
+        'fill-color': 'rgba(255,0,0,0.2)'
+      }
+    });
+
+    // 添加图层之前传入可视的范围
+    // layer_cva.source.boundary = {
+    //     type: 'Feautre',
+    //     geometry: JSON.parse(JSON.stringify(geojson))
+    // };
+
+    // 对已经加载的图层设置瓦片显示边界
+    map.setVisibleBoundary(
+            {
+              type: 'Feautre',
+              geometry: JSON.parse(JSON.stringify(geojson))
+            },
+            layer_vtc.id
+    );
+
+    map.showTileBoundaries = true;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>添加闪亮点</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/jQuery/jquery-1.11.2.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/echarts-all-3.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/EchartsLayer.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+    .echartMap div {
+      position: absolute;
+      overflow: auto;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    mapCRS: {
+      topTileExtent: [-180, -270, 180, 90],
+      coordtransform: 'none'
+    },
+    container: 'map',
+    zoom: 4,
+    center: [117.177, 34.281]
+  });
+
+  map.on('load', function(e) {
+    var token = 'e90d56e5a09d1767899ad45846b0cefd';
+    var layer_vtc = new GeoGlobe.TDTLayer('vec_c', token);
+    var layer_cva = new GeoGlobe.TDTLayer('cva_c', token);
+    map.addLayer(layer_vtc);
+    map.addLayer(layer_cva);
+
+    $.getJSON(
+            './geomap-api/JsCodeDemo_new/public/Overlays/weibo.json',
+            function(weiboData) {
+              weiboData = weiboData.map(function(serieData, idx) {
+                var px = serieData[0] / 1000;
+                var py = serieData[1] / 1000;
+                var res = [[px, py]];
+                for (var i = 2; i < serieData.length; i += 2) {
+                  var dx = serieData[i] / 1000;
+                  var dy = serieData[i + 1] / 1000;
+                  var x = px + dx;
+                  var y = py + dy;
+                  res.push([x.toFixed(2), y.toFixed(2), 1]);
+
+                  px = x;
+                  py = y;
+                }
+                return res;
+              });
+
+              var echartslayer = new EchartsLayer(map);
+              echartslayer.chart.setOption(
+                      (option = {
+                        GLMap: {
+                          roam: true
+                        },
+                        coordinateSystem: 'GLMap',
+                        title: {},
+                        tooltip: {},
+                        legend: {},
+                        geo: {
+                          name: '强',
+                          type: 'scatter',
+                          map: 'GLMap',
+                          label: {
+                            emphasis: {
+                              show: false
+                            }
+                          },
+                          itemStyle: {
+                            normal: {
+                              areaColor: '#323c48',
+                              borderColor: '#111'
+                            },
+                            emphasis: {
+                              areaColor: '#2a333d'
+                            }
+                          }
+                        },
+                        series: [
+                          {
+                            name: '弱',
+                            type: 'scatter',
+                            coordinateSystem: 'GLMap',
+                            symbolSize: 1,
+                            large: true,
+                            itemStyle: {
+                              normal: {
+                                shadowBlur: 2,
+                                shadowColor:
+                                        'rgba(37, 140, 249, 0.8)',
+                                color: 'rgba(37, 140, 249, 0.8)'
+                              }
+                            },
+                            data: weiboData[0]
+                          },
+                          {
+                            name: '中',
+                            type: 'scatter',
+                            coordinateSystem: 'GLMap',
+                            symbolSize: 1,
+                            large: true,
+                            itemStyle: {
+                              normal: {
+                                shadowBlur: 2,
+                                shadowColor:
+                                        'rgba(14, 241, 242, 0.8)',
+                                color: 'rgba(14, 241, 242, 0.8)'
+                              }
+                            },
+                            data: weiboData[1]
+                          },
+                          {
+                            name: '强',
+                            type: 'scatter',
+                            coordinateSystem: 'GLMap',
+                            symbolSize: 1,
+                            large: true,
+                            itemStyle: {
+                              normal: {
+                                shadowBlur: 2,
+                                shadowColor:
+                                        'rgba(255, 255, 255, 0.8)',
+                                color:
+                                        'rgba(255, 255, 255, 0.8)'
+                              }
+                            },
+                            data: weiboData[2]
+                          }
+                        ]
+                      })
+              );
+            }
+    );
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>要素高亮显示</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    mapCRS: {
+      topTileExtent: [-180, -270, 180, 90],
+      coordtransform: 'none'
+    },
+    container: 'map',
+    center: [115.781645, 32.299142],
+    zoom: 5
+  });
+
+  // 添加天地图
+  map.on('load', function(e) {
+    var token = 'e90d56e5a09d1767899ad45846b0cefd';
+    var layer_vtc = new GeoGlobe.TDTLayer('vec_c', token);
+    var layer_cva = new GeoGlobe.TDTLayer('cva_c', token);
+    map.addLayer(layer_vtc);
+    map.addLayer(layer_cva);
+  });
+
+  map.on('load', function() {
+    //添加需要高亮的的点数据
+    map.addSource('symbols', {
+      type: 'geojson',
+      data: {
+        type: 'FeatureCollection',
+        features: [
+          {
+            type: 'Feature',
+            properties: {
+              name: '2'
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: [117.177, 34.281]
+            }
+          },
+          {
+            type: 'Feature',
+            properties: {
+              name: '1'
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: [112.939, 31.377]
+            }
+          },
+          {
+            type: 'Feature',
+            properties: {
+              name: '3'
+            },
+            geometry: {
+              type: 'Point',
+              coordinates: [112.939, 34.281]
+            }
+          }
+        ]
+      }
+    });
+
+    //初始颜色图层
+    map.addLayer({
+      id: 'symbols',
+      type: 'circle',
+      source: 'symbols',
+      paint: {
+        'circle-radius': 9,
+        'circle-color': 'green',
+        'circle-opacity': 0.8
+      }
+    });
+
+    //高亮颜色图层
+    map.addLayer({
+      id: 'symbols_hover',
+      type: 'circle',
+      source: 'symbols',
+      paint: {
+        'circle-radius': 9,
+        'circle-color': 'red',
+        'circle-opacity': 0.8
+      },
+      filter: ['==', 'name', '']
+    });
+
+    //鼠标移动，鼠标图形改变
+    map.on('mousemove', function(e) {
+      var features = map.queryRenderedFeatures(e.point);
+      if (features.length) {
+        map.setFilter('symbols_hover', [
+          '==',
+          'name',
+          features[0].properties.name
+        ]);
+      } else {
+        map.setFilter('symbols_hover', ['==', 'name', '']);
+      }
+      map.getCanvas().style.cursor = features.length
+              ? 'pointer'
+              : '';
+    });
+  });
+</script>
+</body>
+</html>

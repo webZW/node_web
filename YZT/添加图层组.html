@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>图层组</title>
+  <link rel="stylesheet" href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+
+<body>
+<div style="position: absolute; z-index: 1;">
+  <button onclick="createlayergroup()">创建图层组</button>
+  <button onclick="addlayergroup()">添加单个图层</button>
+  <button onclick="removeid()">移除单个图层</button>
+  <button onclick="removelayergroup()">删除图层组</button>
+</div>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    container: 'map',
+    zoom: 4,
+    center: [117.177, 34.281]
+  });
+
+  // 添加一下图层操作需要用到的source（图层组操作不会删除图层source）
+  map.on('load', function () {
+    map.addSource('tdt', {
+      type: 'raster',
+      tiles: [
+        'https://t2.tianditu.com/DataServer?T=cva_c&x={x}&y={y}&l={z}&tk=e90d56e5a09d1767899ad45846b0cefd'
+      ],
+      tileSize: 256
+    });
+
+    map.addSource('point', {
+      type: 'geojson',
+      data: {
+        type: 'Point',
+        coordinates: [112.939, 31.377]
+      }
+    });
+  });
+
+  // 天地图底图
+  var layer = [
+    {
+      id: '2',
+      type: 'raster',
+      metadata: { group: '' },
+      source: 'tdt'
+    }
+  ];
+
+  // 自定义图层
+  var layer11 = {
+    id: 'measure-points',
+    type: 'circle',
+    source: 'point',
+    paint: {
+      'circle-radius': 50,
+      'circle-color': 'red'
+    }
+  };
+
+  var layergroup = null,
+          groupid = 'group';
+
+  //创建图层组
+  function createlayergroup() {
+    if (!layergroup) {
+      // 新建图层组
+      layergroup = new GeoGlobe.LayerGroup(map);
+
+      // 添加指定图层到图层组中
+      layergroup.addGroup(map, groupid, layer);
+    } else {
+      alert('已经存在图层组!');
+    }
+  }
+
+  //添加图层组中单个图层
+  function addlayergroup() {
+    if (layergroup) {
+      if (!map.getLayer(layer11.id)) {
+        // 添加指定图层到图层组中 （指定before图层）
+        layergroup.addLayerToGroup(map, groupid, layer11, '2');
+      } else {
+        alert('图层已经存在');
+      }
+    } else {
+      alert('请先创建图层组');
+    }
+  }
+
+  //移除图层组
+  function removelayergroup() {
+    if (layergroup) {
+      // 删除图层组
+      layergroup.removeGroup(map, groupid);
+      layergroup = null;
+    } else {
+      alert('图层组不存在');
+    }
+  }
+
+  //移除图层组中单个图层
+  function removeid() {
+    if (layergroup) {
+      // 从指定图层组中删除指定的图层
+      layergroup.removeLayerFromGroup(map, layer11.id, groupid);
+    } else {
+      alert('图层组不存在');
+    }
+  }
+</script>
+</body>
+
+</html>

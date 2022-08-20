@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>动态面</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/data/polygongrid.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({
+    container: 'map',
+    zoom: 4,
+    center: [117.177, 34.281]
+  });
+
+  var speed = 200;
+  var year = 1955;
+  var i = 0;
+
+  map.on('load', function() {
+    map.addSource('polygons', {
+      type: 'geojson',
+      data: polygongrid
+    });
+
+    setInterval(function() {
+      if (i % speed === 0) {
+        setViz('point', year.toString());
+        year++;
+        if (year > 2013) year = 1955;
+      }
+      i += 5;
+    }, 1);
+  });
+
+  function setViz(grid, year) {
+    if (map.getLayer('auto-polygon')) {
+      map.removeLayer('auto-polygon');
+    }
+    //动态效果
+    map.addLayer({
+      id: 'auto-polygon',
+      type: 'fill',
+      source: 'polygons',
+      paint: {
+        'fill-color': {
+          property: year.toString() + '_class',
+          stops: [
+            [0, 'red'],
+            [1, 'pink'],
+            [2, 'green'],
+            [3, 'black'],
+            [4, '#00cccc'],
+            [5, 'yellow'],
+            [6, '#00cccc'],
+            [7, '#00cccc'],
+            [8, '#00e5e5'],
+            [9, '#4dffff'],
+            [10, 'red']
+          ]
+        },
+        'fill-opacity': {
+          property: year.toString() + '_class',
+          type: 'identity'
+        },
+        'fill-outline-color': {
+          property: year.toString() + '_class',
+          stops: [
+            [0, 'blue'],
+            [1, 'red'],
+            [2, 'yellow'],
+            [3, 'red'],
+            [4, 'pink'],
+            [5, '#00cccc'],
+            [6, '#00cccc'],
+            [7, '#7b9ebd'],
+            [8, '#00e5e5'],
+            [9, '#F90'],
+            [10, 'red']
+          ]
+        }
+      }
+    });
+  }
+</script>
+</body>
+</html>

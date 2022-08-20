@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>添加矢量点线面图层</title>
+    <link rel="stylesheet" href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+    <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+    <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+    <script src="./geomap-api/JsCodeDemo_new/public/Layers/polygon.js"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body,
+        #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<div id="map"></div>
+<script>
+    var map = new GeoGlobe.Map({
+        style: {
+            sprite:
+                window.location.protocol + '//' +
+                location.host +
+                './geomap-api/JsCodeDemo_new/resource/file/sprite',
+            glyphs:
+                window.location.protocol + '//' +
+                location.host +
+                './geomap-api/JsCodeDemo_new/resource/pbf/{fontstack}/{range}.pbf'
+        },
+        container: 'map',
+        zoom: 4,
+        center: [117.177, 34.281]
+    });
+
+    map.on('load', function () {
+        addpoint();
+        addline();
+        addpolygon();
+        addsymbol();
+    });
+
+    // 添加矢量点
+    function addpoint() {
+        var geopoint = {
+            type: 'geojson',
+            data: {
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: [117.177, 34.281]
+                },
+                properties: {
+                    title: 'add point',
+                    'marker-symbol': 'monument'
+                }
+            }
+        };
+
+        map.addLayer({
+            id: 'point',
+            type: 'circle',
+            source: geopoint,
+            paint: {
+                'circle-radius': 5,
+                'circle-color': 'red',
+                'circle-opacity': 0.8
+            }
+        });
+    }
+
+    // 添加矢量线
+    function addline() {
+        var linejson = {
+            type: 'geojson',
+            data: {
+                type: 'Feature',
+                geometry: {
+                    type: 'LineString',
+                    coordinates: [
+                        [74.17381, 40.185684],
+                        [125.5893, 35.659905]
+                    ]
+                }
+            }
+        };
+        map.addLayer({
+            id: 'line',
+            type: 'line',
+            source: linejson,
+            paint: {
+                'line-color': 'red',
+                'line-opacity': 0.8,
+                'line-width': 6
+            }
+        });
+    }
+
+    // 添加矢量面
+    function addpolygon() {
+        var polygonjson = {
+            type: 'geojson',
+            data: polygonFeature
+        };
+
+        map.addLayer({
+            id: 'polygon',
+            type: 'fill',
+            source: polygonjson,
+            layout: {},
+            paint: {
+                'fill-color': 'red',
+                'fill-opacity': 0.8
+            }
+        });
+    }
+
+    // 添加图标点
+    function addsymbol() {
+        map.addSource('airport', {
+            type: 'geojson',
+            data: {
+                type: 'Point',
+                coordinates: [109.43367, 33.153778]
+            }
+        });
+        map.addSource('font', {
+            type: 'geojson',
+            data: {
+                type: 'Point',
+                coordinates: [115.5893, 35.659905]
+            }
+        });
+
+        var circle1 = new GeoGlobe.Layer.CircleLayer({
+            id: 'drone-glow',
+            type: 'circle',
+            source: 'airport',
+            paint: {
+                'circle-radius': 45,
+                'circle-color': 'yellow',
+                'circle-opacity': 0.4
+            }
+        });
+        var symbol = new GeoGlobe.Layer.SymbolLayer({
+            id: 'airport',
+            type: 'symbol',
+            source: 'airport',
+            layout: {
+                'icon-image': 'airport-15'
+            }
+        });
+
+        var symbol1 = new GeoGlobe.Layer.SymbolLayer({
+            id: 'font',
+            type: 'symbol',
+            source: 'font',
+            layout: {
+                'text-font': [
+                    'Open Sans Regular',
+                    'Arial Unicode MS Regular'
+                ],
+                'text-size': 67,
+                'text-field': '你好！'
+            }
+        });
+
+        map.addLayer(circle1);
+        map.addLayer(symbol);
+        map.addLayer(symbol1);
+    }
+
+    map.on('load', function () {
+        //鼠标移动，鼠标图形改变
+        map.on('mousemove', function (e) {
+            var features = map.queryRenderedFeatures(e.point);
+
+            map.getCanvas().style.cursor = features.length
+                ? 'pointer'
+                : '';
+        });
+    });
+</script>
+</body>
+
+</html>

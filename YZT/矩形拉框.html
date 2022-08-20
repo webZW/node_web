@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>box</title>
+  <link rel="stylesheet"  href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+    #wrap {
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      width: max-content;
+      max-width: 250px;
+      font-size: 12px;
+      background-color: #fff;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+<div id="wrap">
+  矩形拉框控件：
+  <hr />
+  <div>
+    <label>
+      开启:
+      <input
+              type="radio"
+              value="open"
+              name="zoomRadio"
+              onclick="boxActivate();"
+              onfocus="blur();"
+      />
+    </label>
+    &nbsp;&nbsp;
+    <label>
+      关闭:
+      <input
+              type="radio"
+              value="close"
+              name="zoomRadio"
+              onclick="boxDeactivate();"
+              onfocus="blur();"
+              checked="checked"
+      />
+    </label>
+  </div>
+  <div id="boundsRes"></div>
+</div>
+<div id="map"></div>
+<script>
+  var map = new GeoGlobe.Map({ mapCRS: {
+      topTileExtent: [-180, -270, 180, 90],
+      coordtransform: 'none'
+    }, container: 'map' });
+
+  // 添加天地图
+  map.on('load', function(e) {
+    var token = 'e90d56e5a09d1767899ad45846b0cefd';
+    var layer_vtc = new GeoGlobe.TDTLayer('vec_c', token);
+    var layer_cva = new GeoGlobe.TDTLayer('cva_c', token);
+    map.addLayer(layer_vtc);
+    map.addLayer(layer_cva);
+  });
+
+  //定义矩形拉框控件对象
+  var boxHandler = new GeoGlobe.BoxHandler3D(map); //二维的拉框控件
+
+  //禁止
+  function boxDeactivate() {
+    boxHandler.disable();
+    document.getElementById('boundsRes').innerHTML = '';
+    map.dragPan.enable();
+  }
+
+  //开启
+  function boxActivate() {
+    boxHandler.enable();
+    map.dragPan.disable();
+  }
+
+  map.on('boxend', function(e) {
+    var bounds = e.boxBounds;
+    document.getElementById(
+            'boundsRes'
+    ).innerHTML = bounds.toString();
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>绘图工具</title>
+  <link href="./geomap-api/JsCodeDemo_new/css/mapbox-gl.css" rel="stylesheet" />
+  <link href="./geomap-api/JsCodeDemo_new/js/mapbox-gl-draw/mapbox-gl-draw.css" rel="stylesheet" />
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/GeoGlobeJS.min.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl-draw/mapbox-gl-draw.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl-draw/mapbox-gl-draw-rectangle.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl-draw/mapbox-gl-draw-square.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl-draw/mapbox-gl-draw-cirle.js"></script>
+  <script src="./geomap-api/JsCodeDemo_new/js/mapbox-gl-draw/mapbox-gl-draw-ellipse.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body,
+    #map {
+      height: 100%;
+    }
+
+    #wrap {
+      position: absolute;
+      z-index: 1;
+      right: 0;
+      width: max-content;
+      max-width: 250px;
+      font-size: 12px;
+      background-color: #fff;
+      padding: 1em;
+    }
+  </style>
+</head>
+
+<body>
+<div id="wrap">
+  本示例演示利用绘制控件实现绘制基础图形功能。
+  <br />
+  基础绘图功能：在地图上任意一点击后拖动以绘制并再次点击将其锁定；
+  <br />
+  获取geometry功能：获取锁定（选中）图形的几何信息；
+  <br />
+  关闭功能：关闭绘图工具；
+  <br />
+  清除功能：清除地图上所有的图形及获取的geometry。
+  <br />
+  <hr />
+  <div>
+    <input class="" type="button" value="画点" onclick="changeMode(1)" />
+    &nbsp;
+    <input class="" type="button" value="画线" onclick="changeMode(2)" />
+    &nbsp;
+    <input class="" type="button" value="画矩形" onclick="changeMode(3)" />
+    &nbsp;
+    <input class="" type="button" value="画正方形" onclick="changeMode(4)" />
+  </div>
+  <div>
+    <input class="" type="button" value="画多边形" onclick="changeMode(5)" />
+    &nbsp;
+    <input class="" type="button" value="画圆" onclick="changeMode(6)" />
+    &nbsp;
+    <input class="" type="button" value="画椭圆" onclick="changeMode(7)" />
+  </div>
+  <div>
+    <input class="" type="button" value="获取geometry" onclick="getGeometry()" />
+  </div>
+  <div>
+    <input class="" type="button" value="关闭" onclick="deactivateCtrl()" />
+    <input class="" type="button" value="清除" onclick="deleteAll()" />
+  </div>
+  <pre id="features"></pre>
+</div>
+<div id="map"></div>
+
+<script>
+  var map = new GeoGlobe.Map({
+    mapCRS: {
+      topTileExtent: [-180, -270, 180, 90],
+      coordtransform: 'none'
+    }, container: 'map'
+  });
+
+  // 添加天地图
+  map.on('load', function (e) {
+    var token = 'e90d56e5a09d1767899ad45846b0cefd';
+    var layer_vtc = new GeoGlobe.TDTLayer('vec_c', token);
+    var layer_cva = new GeoGlobe.TDTLayer('cva_c', token);
+    map.addLayer(layer_vtc);
+    map.addLayer(layer_cva);
+  });
+
+  document.getElementById('features').style.display = 'none';
+
+  var modes = MapboxDraw.modes;
+  //自定义modes
+  modes['draw_rectangle'] = DrawRectangle;
+  modes['draw_square'] = DrawSquare;
+  modes['draw_circle'] = CircleMode;
+  modes['draw_ellipse'] = DrawEllipse;
+
+  var drawCtrl = new MapboxDraw({
+    displayControlsDefault: false,
+    controls: {}
+  });
+  map.addControl(drawCtrl);
+  map.on("draw.create", GeoGlobe.Function.bind(measureFunc));
+  //切换绘制类型
+  function changeMode(mode) {
+    switch (mode) {
+      case 1:
+        drawCtrl.changeMode('draw_point');
+        break;
+      case 2:
+        drawCtrl.changeMode('draw_line_string');
+        break;
+      case 3:
+        drawCtrl.changeMode('draw_rectangle');
+        break;
+      case 4:
+        drawCtrl.changeMode('draw_square');
+        break;
+      case 5:
+        drawCtrl.changeMode('draw_polygon');
+        break;
+      case 6:
+        drawCtrl.changeMode('draw_circle', { sides: 80 });
+        break;
+      case 7:
+        drawCtrl.changeMode('draw_ellipse', {
+          eccentricity: 0.8,
+          divisions: 60
+        });
+        break;
+    }
+  }
+
+  function measureFunc() {
+    alert('绘制完成触发！');
+  }
+  //关闭绘制
+  function deactivateCtrl() {
+    drawCtrl.changeMode(drawCtrl.modes.SIMPLE_SELECT);
+  }
+
+  //清除
+  function deleteAll() {
+    document.getElementById('features').innerHTML = '';
+    document.getElementById('features').style.display = 'none';
+    drawCtrl.deleteAll();
+  }
+
+  //获取geometry
+  function getGeometry() {
+    var data = drawCtrl.getSelected();
+    var feature;
+    if (data.features.length === 0) {
+      feature = '无相关结果';
+    } else {
+      feature = JSON.stringify(data.features[0], null, 2);
+    }
+    document.getElementById('features').innerHTML = '';
+    document.getElementById('features').style.display = 'block';
+    document.getElementById('features').innerHTML = feature;
+  }
+</script>
+</body>
+
+</html>
