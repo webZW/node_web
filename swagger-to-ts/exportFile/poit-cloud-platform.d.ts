@@ -3,7 +3,7 @@
  * Do not make direct changes to the file.
  */
 
-export interface definitions {
+export interface cloudPlatformTypes {
   "/指令判断超时": {
     /**
      * 逻辑操作符类型. 如: AND, OR
@@ -12,7 +12,7 @@ export interface definitions {
     /**
      * 判断超时条件集
      */
-    secondConditionList?: definitions["判断超时二级条件"][];
+    secondConditionList?: cloudPlatformTypes["判断超时二级条件"][];
   };
   AcceptMaintainTaskResp: {
     data?: { [key: string]: any };
@@ -269,7 +269,7 @@ export interface definitions {
     /**
      * 球磨记录列表
      */
-    ballMillRecordList: definitions["BallMillRecord"][];
+    ballMillRecordList: cloudPlatformTypes["BallMillRecord"][];
   };
   AddBallMillRecordResp: {
     data?: { [key: string]: any };
@@ -481,7 +481,7 @@ export interface definitions {
     /**
      * 表达式
      */
-    cpkRateRuleList?: definitions["CpkRateRule"][];
+    cpkRateRuleList?: cloudPlatformTypes["CpkRateRule"][];
     /**
      * 处理规则
      */
@@ -688,7 +688,7 @@ export interface definitions {
     uid?: string;
   };
   AddDictionaryItemReq: {
-    items?: definitions["DictionaryItem对象"][];
+    items?: cloudPlatformTypes["DictionaryItem对象"][];
     orgId?: number;
   };
   AddDivideProjectReq: {
@@ -844,7 +844,7 @@ export interface definitions {
     /**
      * 价格信息
      */
-    content?: definitions["EnergyPricePlanModel_ContentData对象"];
+    content?: cloudPlatformTypes["EnergyPricePlanModel_ContentData对象"];
     /**
      * eid:企业id
      */
@@ -997,7 +997,7 @@ export interface definitions {
     /**
      * 停机原因树列表
      */
-    reasonTrees?: definitions["EqpShutdownReasonNode"][];
+    reasonTrees?: cloudPlatformTypes["EqpShutdownReasonNode"][];
     /**
      * 用户ID
      */
@@ -1083,7 +1083,7 @@ export interface definitions {
     /**
      * 主体信息
      */
-    content?: definitions["FeaturePropertiesModel_ContentInfo对象"][];
+    content?: cloudPlatformTypes["FeaturePropertiesModel_ContentInfo对象"][];
     /**
      * 原始组织id
      */
@@ -1231,7 +1231,7 @@ export interface definitions {
     /**
      * 色号配置列表
      */
-    colourInfos?: definitions["ColourInfo"][];
+    colourInfos?: cloudPlatformTypes["ColourInfo"][];
     /**
      * 企业关联物料类型id
      */
@@ -1264,7 +1264,7 @@ export interface definitions {
     /**
      * 等级列表
      */
-    gradeInfos?: definitions["GradeInfo"][];
+    gradeInfos?: cloudPlatformTypes["GradeInfo"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -1305,7 +1305,7 @@ export interface definitions {
     /**
      * 物料类别列表
      */
-    materialType?: definitions["OrgMaterialType"][];
+    materialType?: cloudPlatformTypes["OrgMaterialType"][];
     /**
      * 类别id
      */
@@ -1479,7 +1479,7 @@ export interface definitions {
     /**
      * 需添加的标杆列表
      */
-    bmInfos?: definitions["AddBmInfo"][];
+    bmInfos?: cloudPlatformTypes["AddBmInfo"][];
   };
   AddOperateLogReq: {
     /**
@@ -1567,7 +1567,7 @@ export interface definitions {
     /**
      * 告警目标列表
      */
-    alarmTargetList: definitions["AlarmTarget"][];
+    alarmTargetList: cloudPlatformTypes["AlarmTarget"][];
     /**
      * 请求版本
      */
@@ -1587,7 +1587,7 @@ export interface definitions {
     /**
      * 告警条件
      */
-    condition?: definitions["AlarmRuleCondition2"];
+    condition?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 死区值
      */
@@ -1623,7 +1623,7 @@ export interface definitions {
     /**
      * 告警主体条件
      */
-    mainConditionList?: definitions["AlarmRuleCondition"][];
+    mainConditionList?: cloudPlatformTypes["AlarmRuleCondition"][];
     /**
      * 是否需要app推送，1-是，0-否）
      */
@@ -1647,7 +1647,7 @@ export interface definitions {
     /**
      * 告警前置条件(参数告警使用)
      */
-    preCondition?: definitions["AlarmRuleCondition2"];
+    preCondition?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 是否反复推送
      */
@@ -1743,7 +1743,7 @@ export interface definitions {
     /**
      * 单据模板附加信息
      */
-    attachInfo?: definitions["BillTemplateDto_AttachInfo"];
+    attachInfo?: cloudPlatformTypes["BillTemplateDto_AttachInfo"];
     /**
      * 编码前缀, 入库（RK）、出库（CK）、盘点（PD）、调拨（DB）、领用（LY）、用户自定义
      */
@@ -1803,7 +1803,7 @@ export interface definitions {
     /**
      * 评级规则配置
      */
-    addCheckingCpkInfoList?: definitions["AddCheckingCpkInfo"][];
+    addCheckingCpkInfoList?: cloudPlatformTypes["AddCheckingCpkInfo"][];
     /**
      * 类别 type : 1 ca ,type: 2 cp ,type: 3 cpk  【必填】
      */
@@ -1952,7 +1952,7 @@ export interface definitions {
      * 机构不能为空
      */
     orgId: number;
-    repairCourseList?: definitions["RepairCourse"][];
+    repairCourseList?: cloudPlatformTypes["RepairCourse"][];
     /**
      * debug模式
      */
@@ -1974,7 +1974,7 @@ export interface definitions {
     /**
      * 班组列表
      */
-    courseList?: definitions["添加或修改班组模型"][];
+    courseList?: cloudPlatformTypes["添加或修改班组模型"][];
   };
   AddOrUpdateCourseGroupResp: {
     data?: { [key: string]: any };
@@ -2093,7 +2093,7 @@ export interface definitions {
     /**
      * 选择的列表Id
      */
-    productBenchmarkList?: definitions["productBenchmark"][];
+    productBenchmarkList?: cloudPlatformTypes["productBenchmark"][];
     /**
      * 用户ID
      */
@@ -2162,7 +2162,7 @@ export interface definitions {
     /**
      * 附件信息地址
      */
-    accessoryPathList?: definitions["Attachment"][];
+    accessoryPathList?: cloudPlatformTypes["Attachment"][];
     /**
      * 请求版本
      */
@@ -2206,7 +2206,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson: definitions["IncomingHtmlDataJson"];
+    htmlDataJson: cloudPlatformTypes["IncomingHtmlDataJson"];
     /**
      * 是否入库， 0：不入库，1：入库
      */
@@ -2277,7 +2277,7 @@ export interface definitions {
     /**
      * 设备无效原因树与设备类型关联关系
      */
-    addOrUpdateInvalidReasonTreeApplyList?: definitions["AddOrUpdateInvalidReasonTreeApply"][];
+    addOrUpdateInvalidReasonTreeApplyList?: cloudPlatformTypes["AddOrUpdateInvalidReasonTreeApply"][];
     /**
      * 请求版本
      */
@@ -2414,7 +2414,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson: definitions["ProcessHtmlDataJson"];
+    htmlDataJson: cloudPlatformTypes["ProcessHtmlDataJson"];
     /**
      * 是否是第一次提交，前端判断
      */
@@ -2475,7 +2475,7 @@ export interface definitions {
     /**
      * 工序项目List  工序下必须要有一个项目的
      */
-    processProjectList: definitions["ProcessProject"][];
+    processProjectList: cloudPlatformTypes["ProcessProject"][];
     /**
      * 工序id 新增不传，或者传空，编辑需要传
      */
@@ -2603,7 +2603,7 @@ export interface definitions {
      * 班组名称
      */
     name: string;
-    repairCourseList?: definitions["RepairCourse"][];
+    repairCourseList?: cloudPlatformTypes["RepairCourse"][];
   };
   /**
    * 新增或者更新维修班组响应对象
@@ -2639,11 +2639,11 @@ export interface definitions {
     /**
      * 报修图片路径 保存时只需要 保存原始文件名，保存文件名
      */
-    commitImagePath?: definitions["Attachment"][];
+    commitImagePath?: cloudPlatformTypes["Attachment"][];
     /**
      * 报修声音路径  保存时只需要 保存原始文件名，保存文件名
      */
-    commitSoundPath?: definitions["Attachment"][];
+    commitSoundPath?: cloudPlatformTypes["Attachment"][];
     /**
      * 关联班组的用户id,由moreCourseId查询出来，前端不用传，后端自己聚合
      */
@@ -2708,7 +2708,7 @@ export interface definitions {
     /**
      * 项目列表
      */
-    itemList: definitions["SheetAdditionSchemeItem"][];
+    itemList: cloudPlatformTypes["SheetAdditionSchemeItem"][];
     /**
      * 方案ID。注意：更新的时候需要指定该ID; 保存时设置该ID为null
      */
@@ -2858,7 +2858,7 @@ export interface definitions {
     /**
      * 总览列表
      */
-    pandectsMapList?: definitions["Map«string,object»"][];
+    pandectsMapList?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 备注
      */
@@ -2927,7 +2927,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson: definitions["StoreHtmlDataJson"];
+    htmlDataJson: cloudPlatformTypes["StoreHtmlDataJson"];
     /**
      * 是否是第一次提交，前端判断
      */
@@ -2985,11 +2985,11 @@ export interface definitions {
     /**
      * 特征值
      */
-    eigenvalueModelList?: definitions["EigenvalueModel"][];
+    eigenvalueModelList?: cloudPlatformTypes["EigenvalueModel"][];
     /**
      * 出入库公式信息列表
      */
-    eoFormulaList: definitions["StoreFormula更新请求对象"][];
+    eoFormulaList: cloudPlatformTypes["StoreFormula更新请求对象"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -3005,11 +3005,11 @@ export interface definitions {
     /**
      * 库存公式信息列表
      */
-    stockFormulaList: definitions["StoreFormula更新请求对象"][];
+    stockFormulaList: cloudPlatformTypes["StoreFormula更新请求对象"][];
     /**
      * 配置信息
      */
-    storeConfig: definitions["StoreConfig新增请求对象"];
+    storeConfig: cloudPlatformTypes["StoreConfig新增请求对象"];
     /**
      * 库位id
      */
@@ -3393,7 +3393,7 @@ export interface definitions {
     /**
      * 配置列表
      */
-    configInfoList?: definitions["ProdGrQaTempConfigInfo"][];
+    configInfoList?: cloudPlatformTypes["ProdGrQaTempConfigInfo"][];
     /**
      * 原始组织id
      */
@@ -3440,7 +3440,7 @@ export interface definitions {
     /**
      * 设备和参数信息
      */
-    equipmentVariableList?: definitions["EquipmentParam"][];
+    equipmentVariableList?: cloudPlatformTypes["EquipmentParam"][];
     /**
      * 主键id
      */
@@ -3452,7 +3452,7 @@ export interface definitions {
     /**
      * 物料信息
      */
-    materialParamInfoList?: definitions["MaterialInfoBasic"][];
+    materialParamInfoList?: cloudPlatformTypes["MaterialInfoBasic"][];
     /**
      * 原始组织id
      */
@@ -3468,7 +3468,7 @@ export interface definitions {
     /**
      * 产出物料信息
      */
-    outputMaterialInfo?: definitions["MaterialInfoBasic"][];
+    outputMaterialInfo?: cloudPlatformTypes["MaterialInfoBasic"][];
     /**
      * 产出数量
      */
@@ -3937,7 +3937,7 @@ export interface definitions {
     /**
      * 来料项目List
      */
-    comeProjectList?: definitions["ComeProject"][];
+    comeProjectList?: cloudPlatformTypes["ComeProject"][];
     /**
      * eid:企业id
      */
@@ -4008,7 +4008,7 @@ export interface definitions {
     /**
      * 字段id
      */
-    items?: definitions["FieldItemValue"][];
+    items?: cloudPlatformTypes["FieldItemValue"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -4065,7 +4065,7 @@ export interface definitions {
     /**
      * 字段标签
      */
-    labels?: definitions["QrcodeTemplateLabelCreateReq"][];
+    labels?: cloudPlatformTypes["QrcodeTemplateLabelCreateReq"][];
     /**
      * 备注
      */
@@ -4085,7 +4085,7 @@ export interface definitions {
     /**
      * 扫码信息
      */
-    qrCodeInfos?: definitions["QrcodeTemplateLabelCreateReq"][];
+    qrCodeInfos?: cloudPlatformTypes["QrcodeTemplateLabelCreateReq"][];
     /**
      * 扫码信息备注
      */
@@ -4180,7 +4180,7 @@ export interface definitions {
     /**
      * 点检卡详情
      */
-    regularCheckCard: definitions["点检卡信息"];
+    regularCheckCard: cloudPlatformTypes["点检卡信息"];
     /**
      * 用户ID
      */
@@ -4278,7 +4278,7 @@ export interface definitions {
     /**
      * 采集参数配置
      */
-    collectTagConfigs?: definitions["CollectTagConfig"][];
+    collectTagConfigs?: cloudPlatformTypes["CollectTagConfig"][];
     /**
      * eid:企业id
      */
@@ -4294,7 +4294,7 @@ export interface definitions {
     /**
      * 新增点检计划信息
      */
-    regularCheckPlan: definitions["AddRegularCheckPlan"];
+    regularCheckPlan: cloudPlatformTypes["AddRegularCheckPlan"];
     /**
      * 用户ID
      */
@@ -4453,7 +4453,7 @@ export interface definitions {
     /**
      * 生产报工新增
      */
-    productTaskSheet: definitions["ProductTaskSheet"];
+    productTaskSheet: cloudPlatformTypes["ProductTaskSheet"];
     /**
      * 用户ID
      */
@@ -4564,7 +4564,7 @@ export interface definitions {
     /**
      * 班次相关信息
      */
-    shiftInfoItemList?: definitions["ShiftInfoItem"][];
+    shiftInfoItemList?: cloudPlatformTypes["ShiftInfoItem"][];
     /**
      * 班次制度
      */
@@ -4794,7 +4794,7 @@ export interface definitions {
     /**
      * 资源信息
      */
-    resourceList: definitions["HomeResource"][];
+    resourceList: cloudPlatformTypes["HomeResource"][];
     /**
      * debug模式
      */
@@ -4831,7 +4831,7 @@ export interface definitions {
     /**
      * 设备指标列表
      */
-    eqpQuotaList: definitions["EqpQuotaParameterIndex"][];
+    eqpQuotaList: cloudPlatformTypes["EqpQuotaParameterIndex"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -4884,7 +4884,7 @@ export interface definitions {
     /**
      * 生产指标列表
      */
-    quotaList?: definitions["ProductionQuota"][];
+    quotaList?: cloudPlatformTypes["ProductionQuota"][];
     /**
      * debug模式
      */
@@ -4998,7 +4998,7 @@ export interface definitions {
     /**
      * 子节点
      */
-    children?: definitions["AlarmAmountAreaNode"][];
+    children?: cloudPlatformTypes["AlarmAmountAreaNode"][];
     /**
      * 区域名称
      */
@@ -5008,7 +5008,7 @@ export interface definitions {
     /**
      * 对应告警类型列表
      */
-    alarmTypes?: definitions["AlarmType"][];
+    alarmTypes?: cloudPlatformTypes["AlarmType"][];
     /**
      * 告警类型大类编码
      */
@@ -5125,7 +5125,7 @@ export interface definitions {
     /**
      * 配置的参数规则列表
      */
-    secondConditionList?: definitions["SecondCondition"][];
+    secondConditionList?: cloudPlatformTypes["SecondCondition"][];
   };
   AlarmRecordData: {
     /**
@@ -5173,7 +5173,7 @@ export interface definitions {
     /**
      * 告警等级
      */
-    alarms?: definitions["Alarm"][];
+    alarms?: cloudPlatformTypes["Alarm"][];
     /**
      * 企业Id
      */
@@ -5340,13 +5340,13 @@ export interface definitions {
     /**
      * 二级条件集合
      */
-    secondConditionList?: definitions["SecondCondition"][];
+    secondConditionList?: cloudPlatformTypes["SecondCondition"][];
   };
   AlarmRuleSelectionItemVO: {
     /**
      * 所属企业分类
      */
-    classifys?: definitions["SelectionItem«string»"][];
+    classifys?: cloudPlatformTypes["SelectionItem«string»"][];
     /**
      * 班组id集合
      */
@@ -5354,39 +5354,39 @@ export interface definitions {
     /**
      * 规则状态
      */
-    enables?: definitions["SelectionItem«boolean»"][];
+    enables?: cloudPlatformTypes["SelectionItem«boolean»"][];
     /**
      * 能源类型
      */
-    energyTypes?: definitions["SelectionItem«string»"][];
+    energyTypes?: cloudPlatformTypes["SelectionItem«string»"][];
     /**
      * 所属工厂单元
      */
-    factoryAreas?: definitions["SelectionItem«long»"][];
+    factoryAreas?: cloudPlatformTypes["SelectionItem«long»"][];
     /**
      * $指标类型
      */
-    indexTypes?: definitions["SelectionItem«string»"][];
+    indexTypes?: cloudPlatformTypes["SelectionItem«string»"][];
     /**
      * 告警等级
      */
-    levels?: definitions["SelectionItem«string»"][];
+    levels?: cloudPlatformTypes["SelectionItem«string»"][];
     /**
      * 参数类型
      */
-    parameterTypes?: definitions["SelectionItem«Map«string,string»»"][];
+    parameterTypes?: cloudPlatformTypes["SelectionItem«Map«string,string»»"][];
     /**
      * 参数
      */
-    parameters?: definitions["SelectionItem«string»"][];
+    parameters?: cloudPlatformTypes["SelectionItem«string»"][];
     /**
      * 告警接收人
      */
-    receivers?: definitions["SelectionItem«string»"][];
+    receivers?: cloudPlatformTypes["SelectionItem«string»"][];
     /**
      * 告警对象
      */
-    targets?: definitions["SelectionItem«string»"][];
+    targets?: cloudPlatformTypes["SelectionItem«string»"][];
   };
   /**
    * 告警规则状态实体
@@ -5467,7 +5467,7 @@ export interface definitions {
     /**
      * 规则可用配置参数列表（表计参数告警类型可用）
      */
-    parameters?: definitions["Parameter"][];
+    parameters?: cloudPlatformTypes["Parameter"][];
     /**
      * 规则类型编码
      */
@@ -5623,7 +5623,7 @@ export interface definitions {
     /**
      * 数据集合
      */
-    points?: definitions["PointData"][];
+    points?: cloudPlatformTypes["PointData"][];
     /**
      * 起始时间
      */
@@ -5687,7 +5687,7 @@ export interface definitions {
   AnalyzeCheckProjectModel: {
     checkTime?: string;
     createTime?: string;
-    value?: definitions["Number"];
+    value?: cloudPlatformTypes["Number"];
   };
   /**
    * 分析产品质检数据请求对象
@@ -5847,7 +5847,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AlarmRuleSelectionItemVO»": {
-    data?: definitions["AlarmRuleSelectionItemVO"];
+    data?: cloudPlatformTypes["AlarmRuleSelectionItemVO"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5857,7 +5857,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AnalyzeQualityModel»": {
-    data?: definitions["AnalyzeQualityModel"];
+    data?: cloudPlatformTypes["AnalyzeQualityModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5867,7 +5867,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ApproveTemplateDetailDto对象»": {
-    data?: definitions["ApproveTemplateDetailDto对象"];
+    data?: cloudPlatformTypes["ApproveTemplateDetailDto对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5877,7 +5877,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AreaConsumePowerConfigModel对象»": {
-    data?: definitions["AreaConsumePowerConfigModel对象"];
+    data?: cloudPlatformTypes["AreaConsumePowerConfigModel对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5887,7 +5887,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AreaNode»": {
-    data?: definitions["AreaNode"];
+    data?: cloudPlatformTypes["AreaNode"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5897,7 +5897,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AutoDistributionConfigResp»": {
-    data?: definitions["AutoDistributionConfigResp"];
+    data?: cloudPlatformTypes["AutoDistributionConfigResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5907,7 +5907,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AutoFinishWorkConfigResp»": {
-    data?: definitions["AutoFinishWorkConfigResp"];
+    data?: cloudPlatformTypes["AutoFinishWorkConfigResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5917,7 +5917,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AutoPrintPlanConfig更新请求对象»": {
-    data?: definitions["AutoPrintPlanConfig更新请求对象"];
+    data?: cloudPlatformTypes["AutoPrintPlanConfig更新请求对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5927,7 +5927,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«AutoPrintPlanScreenResp»": {
-    data?: definitions["AutoPrintPlanScreenResp"];
+    data?: cloudPlatformTypes["AutoPrintPlanScreenResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5937,7 +5937,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BallSlurryData»": {
-    data?: definitions["BallSlurryData"];
+    data?: cloudPlatformTypes["BallSlurryData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5947,7 +5947,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BallStatusInfo»": {
-    data?: definitions["BallStatusInfo"];
+    data?: cloudPlatformTypes["BallStatusInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5957,7 +5957,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BaseResp»": {
-    data?: definitions["BaseResp"];
+    data?: cloudPlatformTypes["BaseResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5967,7 +5967,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BatchNoData»": {
-    data?: definitions["BatchNoData"];
+    data?: cloudPlatformTypes["BatchNoData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5977,7 +5977,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BillTemplateDetailResp»": {
-    data?: definitions["BillTemplateDetailResp"];
+    data?: cloudPlatformTypes["BillTemplateDetailResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5987,7 +5987,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BillTemplateDto_AttachInfo»": {
-    data?: definitions["BillTemplateDto_AttachInfo"];
+    data?: cloudPlatformTypes["BillTemplateDto_AttachInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -5997,7 +5997,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BillTemplateDto»": {
-    data?: definitions["BillTemplateDto"];
+    data?: cloudPlatformTypes["BillTemplateDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6007,7 +6007,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«BubbleModelScore对象»": {
-    data?: definitions["BubbleModelScore对象"];
+    data?: cloudPlatformTypes["BubbleModelScore对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6017,7 +6017,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CheckItemTagTrendResp»": {
-    data?: definitions["CheckItemTagTrendResp"];
+    data?: cloudPlatformTypes["CheckItemTagTrendResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6027,7 +6027,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CheckingPersonTreeResp»": {
-    data?: definitions["CheckingPersonTreeResp"];
+    data?: cloudPlatformTypes["CheckingPersonTreeResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6037,7 +6037,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CloudConfigDock对象»": {
-    data?: definitions["CloudConfigDock对象"];
+    data?: cloudPlatformTypes["CloudConfigDock对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6047,7 +6047,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CloudEnterpriseTmp对象»": {
-    data?: definitions["CloudEnterpriseTmp对象"];
+    data?: cloudPlatformTypes["CloudEnterpriseTmp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6057,7 +6057,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CodeDesc»": {
-    data?: definitions["CodeDesc"];
+    data?: cloudPlatformTypes["CodeDesc"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6067,7 +6067,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CoefficientFormulaInfo»": {
-    data?: definitions["CoefficientFormulaInfo"];
+    data?: cloudPlatformTypes["CoefficientFormulaInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6077,7 +6077,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Collection«MaterialTypeOrgRecord»»": {
-    data?: definitions["MaterialTypeOrgRecord"][];
+    data?: cloudPlatformTypes["MaterialTypeOrgRecord"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6097,7 +6097,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ConfigBindingRespDto»": {
-    data?: definitions["ConfigBindingRespDto"];
+    data?: cloudPlatformTypes["ConfigBindingRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6107,7 +6107,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ConfigFormulaSyncModel»": {
-    data?: definitions["ConfigFormulaSyncModel"];
+    data?: cloudPlatformTypes["ConfigFormulaSyncModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6117,7 +6117,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ConstantInfoResp»": {
-    data?: definitions["ConstantInfoResp"];
+    data?: cloudPlatformTypes["ConstantInfoResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6127,7 +6127,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CostCalculateRuleResp对象»": {
-    data?: definitions["CostCalculateRuleResp对象"];
+    data?: cloudPlatformTypes["CostCalculateRuleResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6137,7 +6137,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CostCenterPage对象»": {
-    data?: definitions["CostCenterPage对象"];
+    data?: cloudPlatformTypes["CostCenterPage对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6147,7 +6147,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CostItemCategory对象»": {
-    data?: definitions["CostItemCategory对象"];
+    data?: cloudPlatformTypes["CostItemCategory对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6157,7 +6157,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CostItemResp对象»": {
-    data?: definitions["CostItemResp对象"];
+    data?: cloudPlatformTypes["CostItemResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6167,7 +6167,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CostShareResp对象»": {
-    data?: definitions["CostShareResp对象"];
+    data?: cloudPlatformTypes["CostShareResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6177,7 +6177,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CourseGroupItem»": {
-    data?: definitions["CourseGroupItem"];
+    data?: cloudPlatformTypes["CourseGroupItem"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6187,7 +6187,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CourseSchedulePlan详情对象»": {
-    data?: definitions["CourseSchedulePlan详情对象"];
+    data?: cloudPlatformTypes["CourseSchedulePlan详情对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6197,7 +6197,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CraftFormulaConfig对象»": {
-    data?: definitions["CraftFormulaConfig对象"];
+    data?: cloudPlatformTypes["CraftFormulaConfig对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6207,7 +6207,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CraftFormulaTreeVO»": {
-    data?: definitions["CraftFormulaTreeVO"];
+    data?: cloudPlatformTypes["CraftFormulaTreeVO"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6217,7 +6217,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CraftItem对象»": {
-    data?: definitions["CraftItem对象"];
+    data?: cloudPlatformTypes["CraftItem对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6227,7 +6227,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CraftMaintainItemRespDto»": {
-    data?: definitions["CraftMaintainItemRespDto"];
+    data?: cloudPlatformTypes["CraftMaintainItemRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6237,7 +6237,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CraftMaterialTypeConfig»": {
-    data?: definitions["CraftMaterialTypeConfig"];
+    data?: cloudPlatformTypes["CraftMaterialTypeConfig"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6247,7 +6247,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CraftRecipeRespVo»": {
-    data?: definitions["CraftRecipeRespVo"];
+    data?: cloudPlatformTypes["CraftRecipeRespVo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6257,7 +6257,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«CraftTemplate对象»": {
-    data?: definitions["CraftTemplate对象"];
+    data?: cloudPlatformTypes["CraftTemplate对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6267,7 +6267,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DayOrMonthOutputData»": {
-    data?: definitions["DayOrMonthOutputData"];
+    data?: cloudPlatformTypes["DayOrMonthOutputData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6277,7 +6277,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DictionaryOptionsResp»": {
-    data?: definitions["DictionaryOptionsResp"];
+    data?: cloudPlatformTypes["DictionaryOptionsResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6287,7 +6287,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DivideProjectResp分摊项目返回体»": {
-    data?: definitions["DivideProjectResp分摊项目返回体"];
+    data?: cloudPlatformTypes["DivideProjectResp分摊项目返回体"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6297,7 +6297,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DivideRecordResp»": {
-    data?: definitions["DivideRecordResp"];
+    data?: cloudPlatformTypes["DivideRecordResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6307,7 +6307,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DownloadRawCoalConfigResp»": {
-    data?: definitions["DownloadRawCoalConfigResp"];
+    data?: cloudPlatformTypes["DownloadRawCoalConfigResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6317,7 +6317,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DownloadTemplateFileUrl»": {
-    data?: definitions["DownloadTemplateFileUrl"];
+    data?: cloudPlatformTypes["DownloadTemplateFileUrl"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6327,7 +6327,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DownloadTemp»": {
-    data?: definitions["DownloadTemp"];
+    data?: cloudPlatformTypes["DownloadTemp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6337,7 +6337,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DpTaskMaterialDistribution»": {
-    data?: definitions["DpTaskMaterialDistribution"];
+    data?: cloudPlatformTypes["DpTaskMaterialDistribution"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6347,7 +6347,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DryerModelSaveCost»": {
-    data?: definitions["DryerModelSaveCost"];
+    data?: cloudPlatformTypes["DryerModelSaveCost"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6357,7 +6357,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«DynamicField新增或者编辑请求对象»": {
-    data?: definitions["DynamicField新增或者编辑请求对象"];
+    data?: cloudPlatformTypes["DynamicField新增或者编辑请求对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6367,7 +6367,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EnergyConsumeData»": {
-    data?: definitions["EnergyConsumeData"];
+    data?: cloudPlatformTypes["EnergyConsumeData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6377,7 +6377,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EnergyCustomDayReport»": {
-    data?: definitions["EnergyCustomDayReport"];
+    data?: cloudPlatformTypes["EnergyCustomDayReport"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6387,7 +6387,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EnergyPricePlanModel对象»": {
-    data?: definitions["EnergyPricePlanModel对象"];
+    data?: cloudPlatformTypes["EnergyPricePlanModel对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6397,7 +6397,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EntICourse»": {
-    data?: definitions["EntICourse"];
+    data?: cloudPlatformTypes["EntICourse"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6407,7 +6407,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Enterprise»": {
-    data?: definitions["Enterprise"];
+    data?: cloudPlatformTypes["Enterprise"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6417,7 +6417,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EnteryDataDetailInfo»": {
-    data?: definitions["EnteryDataDetailInfo"];
+    data?: cloudPlatformTypes["EnteryDataDetailInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6427,7 +6427,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EnteryDataTaskConfInfo»": {
-    data?: definitions["EnteryDataTaskConfInfo"];
+    data?: cloudPlatformTypes["EnteryDataTaskConfInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6437,7 +6437,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EqpIAlarmClassify»": {
-    data?: definitions["EqpIAlarmClassify"];
+    data?: cloudPlatformTypes["EqpIAlarmClassify"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6447,7 +6447,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EquipmentConfigResp对象»": {
-    data?: definitions["EquipmentConfigResp对象"];
+    data?: cloudPlatformTypes["EquipmentConfigResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6457,7 +6457,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EquipmentDurationData»": {
-    data?: definitions["EquipmentDurationData"];
+    data?: cloudPlatformTypes["EquipmentDurationData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6467,7 +6467,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EquipmentQrcodeParamModel»": {
-    data?: definitions["EquipmentQrcodeParamModel"];
+    data?: cloudPlatformTypes["EquipmentQrcodeParamModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6477,7 +6477,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EquipmentSparePartUpDownResp对象»": {
-    data?: definitions["EquipmentSparePartUpDownResp对象"];
+    data?: cloudPlatformTypes["EquipmentSparePartUpDownResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6487,7 +6487,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«EquipmentTypeInfo»": {
-    data?: definitions["EquipmentTypeInfo"];
+    data?: cloudPlatformTypes["EquipmentTypeInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6497,7 +6497,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FactoryArea»": {
-    data?: definitions["FactoryArea"];
+    data?: cloudPlatformTypes["FactoryArea"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6507,7 +6507,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FactoryBillboardPayload»": {
-    data?: definitions["FactoryBillboardPayload"];
+    data?: cloudPlatformTypes["FactoryBillboardPayload"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6517,7 +6517,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FactoryLineOutputData»": {
-    data?: definitions["FactoryLineOutputData"];
+    data?: cloudPlatformTypes["FactoryLineOutputData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6527,7 +6527,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FactorySheetPlan对象»": {
-    data?: definitions["FactorySheetPlan对象"];
+    data?: cloudPlatformTypes["FactorySheetPlan对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6537,7 +6537,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FeaturePropertiesModel对象»": {
-    data?: definitions["FeaturePropertiesModel对象"];
+    data?: cloudPlatformTypes["FeaturePropertiesModel对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6547,7 +6547,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FieldValueListResp»": {
-    data?: definitions["FieldValueListResp"];
+    data?: cloudPlatformTypes["FieldValueListResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6557,7 +6557,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FirstQualityPassRateQualityResp»": {
-    data?: definitions["FirstQualityPassRateQualityResp"];
+    data?: cloudPlatformTypes["FirstQualityPassRateQualityResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6567,7 +6567,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FormulaItem对象»": {
-    data?: definitions["FormulaItem对象"];
+    data?: cloudPlatformTypes["FormulaItem对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6577,7 +6577,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FormulaMaterialTypeConfig»": {
-    data?: definitions["FormulaMaterialTypeConfig"];
+    data?: cloudPlatformTypes["FormulaMaterialTypeConfig"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6587,7 +6587,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«FormulaTemplate对象»": {
-    data?: definitions["FormulaTemplate对象"];
+    data?: cloudPlatformTypes["FormulaTemplate对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6597,7 +6597,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GatherDataSpareStatistics»": {
-    data?: definitions["GatherDataSpareStatistics"];
+    data?: cloudPlatformTypes["GatherDataSpareStatistics"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6607,7 +6607,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetAnalysisTableVoResp»": {
-    data?: definitions["GetAnalysisTableVoResp"];
+    data?: cloudPlatformTypes["GetAnalysisTableVoResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6617,7 +6617,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetCheckingSheetResp»": {
-    data?: definitions["GetCheckingSheetResp"];
+    data?: cloudPlatformTypes["GetCheckingSheetResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6627,7 +6627,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetDataSourcesAndParamsResp»": {
-    data?: definitions["GetDataSourcesAndParamsResp"];
+    data?: cloudPlatformTypes["GetDataSourcesAndParamsResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6637,7 +6637,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetIncomingResultResp»": {
-    data?: definitions["GetIncomingResultResp"];
+    data?: cloudPlatformTypes["GetIncomingResultResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6647,7 +6647,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetIncomingStandardTemplateResp»": {
-    data?: definitions["GetIncomingStandardTemplateResp"];
+    data?: cloudPlatformTypes["GetIncomingStandardTemplateResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6657,7 +6657,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetMaintainTaskMessageResp»": {
-    data?: definitions["GetMaintainTaskMessageResp"];
+    data?: cloudPlatformTypes["GetMaintainTaskMessageResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6667,7 +6667,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetMaterialIncomingStandardTemResp»": {
-    data?: definitions["GetMaterialIncomingStandardTemResp"];
+    data?: cloudPlatformTypes["GetMaterialIncomingStandardTemResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6677,7 +6677,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetMaterialProcessStandardTemResp»": {
-    data?: definitions["GetMaterialProcessStandardTemResp"];
+    data?: cloudPlatformTypes["GetMaterialProcessStandardTemResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6687,7 +6687,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetProcessResultResp»": {
-    data?: definitions["GetProcessResultResp"];
+    data?: cloudPlatformTypes["GetProcessResultResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6697,7 +6697,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetProcessStandardTemplateDataResp»": {
-    data?: definitions["GetProcessStandardTemplateDataResp"];
+    data?: cloudPlatformTypes["GetProcessStandardTemplateDataResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6707,7 +6707,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetProductLineResp对象»": {
-    data?: definitions["GetProductLineResp对象"];
+    data?: cloudPlatformTypes["GetProductLineResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6717,7 +6717,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetProjectProcessResultResp»": {
-    data?: definitions["GetProjectProcessResultResp"];
+    data?: cloudPlatformTypes["GetProjectProcessResultResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6727,7 +6727,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetPulpCostContrastResp»": {
-    data?: definitions["GetPulpCostContrastResp"];
+    data?: cloudPlatformTypes["GetPulpCostContrastResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6737,7 +6737,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetPulpDispatchContrastResp»": {
-    data?: definitions["GetPulpDispatchContrastResp"];
+    data?: cloudPlatformTypes["GetPulpDispatchContrastResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6747,7 +6747,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetQrcodeIdBySheetResp»": {
-    data?: definitions["GetQrcodeIdBySheetResp"];
+    data?: cloudPlatformTypes["GetQrcodeIdBySheetResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6757,7 +6757,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetStoreStandardTemplateDataResp»": {
-    data?: definitions["GetStoreStandardTemplateDataResp"];
+    data?: cloudPlatformTypes["GetStoreStandardTemplateDataResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6767,7 +6767,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GetTrendingDataResp»": {
-    data?: definitions["GetTrendingDataResp"];
+    data?: cloudPlatformTypes["GetTrendingDataResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6777,7 +6777,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«GradeOutputData»": {
-    data?: definitions["GradeOutputData"];
+    data?: cloudPlatformTypes["GradeOutputData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6787,7 +6787,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«AutoPrintPlanConfig更新请求对象»»": {
-    data?: definitions["IPage«AutoPrintPlanConfig更新请求对象»"];
+    data?: cloudPlatformTypes["IPage«AutoPrintPlanConfig更新请求对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6797,7 +6797,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CheckMaterialBatch»»": {
-    data?: definitions["IPage«CheckMaterialBatch»"];
+    data?: cloudPlatformTypes["IPage«CheckMaterialBatch»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6807,7 +6807,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CostCalculateActionLogResp对象»»": {
-    data?: definitions["IPage«CostCalculateActionLogResp对象»"];
+    data?: cloudPlatformTypes["IPage«CostCalculateActionLogResp对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6817,7 +6817,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CostCalculateDetailResp对象»»": {
-    data?: definitions["IPage«CostCalculateDetailResp对象»"];
+    data?: cloudPlatformTypes["IPage«CostCalculateDetailResp对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6827,7 +6827,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CostCalculateRuleResp对象»»": {
-    data?: definitions["IPage«CostCalculateRuleResp对象»"];
+    data?: cloudPlatformTypes["IPage«CostCalculateRuleResp对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6837,7 +6837,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CostCenterPage对象»»": {
-    data?: definitions["IPage«CostCenterPage对象»"];
+    data?: cloudPlatformTypes["IPage«CostCenterPage对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6847,7 +6847,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CostItem对象»»": {
-    data?: definitions["IPage«CostItem对象»"];
+    data?: cloudPlatformTypes["IPage«CostItem对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6857,7 +6857,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CostShareResp对象»»": {
-    data?: definitions["IPage«CostShareResp对象»"];
+    data?: cloudPlatformTypes["IPage«CostShareResp对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6867,7 +6867,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CraftAlarmRecord»»": {
-    data?: definitions["IPage«CraftAlarmRecord»"];
+    data?: cloudPlatformTypes["IPage«CraftAlarmRecord»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6877,7 +6877,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«CyclePageEquipSpareCycle»»": {
-    data?: definitions["IPage«CyclePageEquipSpareCycle»"];
+    data?: cloudPlatformTypes["IPage«CyclePageEquipSpareCycle»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6887,7 +6887,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«DpMaterialDistribution»»": {
-    data?: definitions["IPage«DpMaterialDistribution»"];
+    data?: cloudPlatformTypes["IPage«DpMaterialDistribution»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6897,7 +6897,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«DpProduceSheetModel»»": {
-    data?: definitions["IPage«DpProduceSheetModel»"];
+    data?: cloudPlatformTypes["IPage«DpProduceSheetModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6907,7 +6907,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«EnteryDataTaskConfPageInfo»»": {
-    data?: definitions["IPage«EnteryDataTaskConfPageInfo»"];
+    data?: cloudPlatformTypes["IPage«EnteryDataTaskConfPageInfo»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6917,7 +6917,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«EquipmentTraceablePageResp»»": {
-    data?: definitions["IPage«EquipmentTraceablePageResp»"];
+    data?: cloudPlatformTypes["IPage«EquipmentTraceablePageResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6927,7 +6927,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ExportReportJobResult»»": {
-    data?: definitions["IPage«ExportReportJobResult»"];
+    data?: cloudPlatformTypes["IPage«ExportReportJobResult»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6939,7 +6939,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«IPage«List»»": {
-    data?: definitions["IPage«List»"];
+    data?: cloudPlatformTypes["IPage«List»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6951,7 +6951,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«IPage«MaterialTypeOrgRecord»»": {
-    data?: definitions["IPage«MaterialTypeOrgRecord»"];
+    data?: cloudPlatformTypes["IPage«MaterialTypeOrgRecord»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6961,7 +6961,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«Param»»": {
-    data?: definitions["IPage«Param»"];
+    data?: cloudPlatformTypes["IPage«Param»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6971,7 +6971,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProdEnteryDataTaskRecordPageInfo»»": {
-    data?: definitions["IPage«ProdEnteryDataTaskRecordPageInfo»"];
+    data?: cloudPlatformTypes["IPage«ProdEnteryDataTaskRecordPageInfo»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6981,7 +6981,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProdFormulaPreferList»»": {
-    data?: definitions["IPage«ProdFormulaPreferList»"];
+    data?: cloudPlatformTypes["IPage«ProdFormulaPreferList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -6991,7 +6991,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProdGrQaRecordListInfo»»": {
-    data?: definitions["IPage«ProdGrQaRecordListInfo»"];
+    data?: cloudPlatformTypes["IPage«ProdGrQaRecordListInfo»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7001,7 +7001,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProdMaterialPreferBatchList»»": {
-    data?: definitions["IPage«ProdMaterialPreferBatchList»"];
+    data?: cloudPlatformTypes["IPage«ProdMaterialPreferBatchList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7011,7 +7011,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProdMaterialPreferList»»": {
-    data?: definitions["IPage«ProdMaterialPreferList»"];
+    data?: cloudPlatformTypes["IPage«ProdMaterialPreferList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7021,7 +7021,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProdMonthPlanList»»": {
-    data?: definitions["IPage«ProdMonthPlanList»"];
+    data?: cloudPlatformTypes["IPage«ProdMonthPlanList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7031,7 +7031,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProduceCheckingPlanList»»": {
-    data?: definitions["IPage«ProduceCheckingPlanList»"];
+    data?: cloudPlatformTypes["IPage«ProduceCheckingPlanList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7041,7 +7041,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProduceCheckingProcessRecordList»»": {
-    data?: definitions["IPage«ProduceCheckingProcessRecordList»"];
+    data?: cloudPlatformTypes["IPage«ProduceCheckingProcessRecordList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7051,7 +7051,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProduceCheckingStoreRecordList»»": {
-    data?: definitions["IPage«ProduceCheckingStoreRecordList»"];
+    data?: cloudPlatformTypes["IPage«ProduceCheckingStoreRecordList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7061,7 +7061,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProduceCheckingTaskList»»": {
-    data?: definitions["IPage«ProduceCheckingTaskList»"];
+    data?: cloudPlatformTypes["IPage«ProduceCheckingTaskList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7071,7 +7071,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProduceMaterialDistribution对象»»": {
-    data?: definitions["IPage«ProduceMaterialDistribution对象»"];
+    data?: cloudPlatformTypes["IPage«ProduceMaterialDistribution对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7081,7 +7081,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProduceSheetFile»»": {
-    data?: definitions["IPage«ProduceSheetFile»"];
+    data?: cloudPlatformTypes["IPage«ProduceSheetFile»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7091,7 +7091,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«ProduceTaskLossResp»»": {
-    data?: definitions["IPage«ProduceTaskLossResp»"];
+    data?: cloudPlatformTypes["IPage«ProduceTaskLossResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7101,7 +7101,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«QrcodeTemplatePageResp»»": {
-    data?: definitions["IPage«QrcodeTemplatePageResp»"];
+    data?: cloudPlatformTypes["IPage«QrcodeTemplatePageResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7111,7 +7111,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«StorePage对象»»": {
-    data?: definitions["IPage«StorePage对象»"];
+    data?: cloudPlatformTypes["IPage«StorePage对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7121,7 +7121,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«TargetConfig对象»»": {
-    data?: definitions["IPage«TargetConfig对象»"];
+    data?: cloudPlatformTypes["IPage«TargetConfig对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7131,7 +7131,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«TraceableSpareCycleResp»»": {
-    data?: definitions["IPage«TraceableSpareCycleResp»"];
+    data?: cloudPlatformTypes["IPage«TraceableSpareCycleResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7141,7 +7141,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«告警处理记录»»": {
-    data?: definitions["IPage«告警处理记录»"];
+    data?: cloudPlatformTypes["IPage«告警处理记录»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7151,7 +7151,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«IPage«费用分摊分页返回对象»»": {
-    data?: definitions["IPage«费用分摊分页返回对象»"];
+    data?: cloudPlatformTypes["IPage«费用分摊分页返回对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7161,7 +7161,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ImportMaterialDistributionResp»": {
-    data?: definitions["ImportMaterialDistributionResp"];
+    data?: cloudPlatformTypes["ImportMaterialDistributionResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7171,7 +7171,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ImportStoreResp»": {
-    data?: definitions["ImportStoreResp"];
+    data?: cloudPlatformTypes["ImportStoreResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7181,7 +7181,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«InputCustomFieldVo对象»": {
-    data?: definitions["InputCustomFieldVo对象"];
+    data?: cloudPlatformTypes["InputCustomFieldVo对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7191,7 +7191,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«InputDetailData»": {
-    data?: definitions["InputDetailData"];
+    data?: cloudPlatformTypes["InputDetailData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7201,7 +7201,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«InputParameterInfo对象»": {
-    data?: definitions["InputParameterInfo对象"];
+    data?: cloudPlatformTypes["InputParameterInfo对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7211,7 +7211,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«InputPlanInfoVo»": {
-    data?: definitions["InputPlanInfoVo"];
+    data?: cloudPlatformTypes["InputPlanInfoVo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7221,7 +7221,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«KeyFiguresCourseData»": {
-    data?: definitions["KeyFiguresCourseData"];
+    data?: cloudPlatformTypes["KeyFiguresCourseData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7231,7 +7231,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«KeyFiguresEventData»": {
-    data?: definitions["KeyFiguresEventData"];
+    data?: cloudPlatformTypes["KeyFiguresEventData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7241,7 +7241,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ListBallMillingConfResp»": {
-    data?: definitions["ListBallMillingConfResp"];
+    data?: cloudPlatformTypes["ListBallMillingConfResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7251,7 +7251,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ListFactoryModelResp»": {
-    data?: definitions["ListFactoryModelResp"];
+    data?: cloudPlatformTypes["ListFactoryModelResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7261,7 +7261,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ListFgpElePricePriceConfigResp»": {
-    data?: definitions["ListFgpElePricePriceConfigResp"];
+    data?: cloudPlatformTypes["ListFgpElePricePriceConfigResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7271,7 +7271,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ListParentFactoryModelResp»": {
-    data?: definitions["ListParentFactoryModelResp"];
+    data?: cloudPlatformTypes["ListParentFactoryModelResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7281,7 +7281,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ListProduceFactoryModelResp»": {
-    data?: definitions["ListProduceFactoryModelResp"];
+    data?: cloudPlatformTypes["ListProduceFactoryModelResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7291,7 +7291,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ListReportAccessResp»": {
-    data?: definitions["ListReportAccessResp"];
+    data?: cloudPlatformTypes["ListReportAccessResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7301,7 +7301,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ListResp«IndexFieldList»»": {
-    data?: definitions["ListResp«IndexFieldList»"];
+    data?: cloudPlatformTypes["ListResp«IndexFieldList»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7311,7 +7311,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«AlarmRecordData»»": {
-    data?: definitions["AlarmRecordData"][];
+    data?: cloudPlatformTypes["AlarmRecordData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7321,7 +7321,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«AnalyzeCheckProjectModel»»": {
-    data?: definitions["AnalyzeCheckProjectModel"][];
+    data?: cloudPlatformTypes["AnalyzeCheckProjectModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7331,7 +7331,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ApproveTemplateListDto»»": {
-    data?: definitions["ApproveTemplateListDto"][];
+    data?: cloudPlatformTypes["ApproveTemplateListDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7341,7 +7341,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«AreaConsumePowerConfigModel对象»»": {
-    data?: definitions["AreaConsumePowerConfigModel对象"][];
+    data?: cloudPlatformTypes["AreaConsumePowerConfigModel对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7351,7 +7351,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«AttachBasicsField»»": {
-    data?: definitions["AttachBasicsField"][];
+    data?: cloudPlatformTypes["AttachBasicsField"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7361,7 +7361,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«AutoPrintPlanConfig更新请求对象»»": {
-    data?: definitions["AutoPrintPlanConfig更新请求对象"][];
+    data?: cloudPlatformTypes["AutoPrintPlanConfig更新请求对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7371,7 +7371,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BacklogStat»»": {
-    data?: definitions["BacklogStat"][];
+    data?: cloudPlatformTypes["BacklogStat"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7381,7 +7381,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BallMillingMaterial»»": {
-    data?: definitions["BallMillingMaterial"][];
+    data?: cloudPlatformTypes["BallMillingMaterial"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7391,7 +7391,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BallMillingRunningDetail»»": {
-    data?: definitions["BallMillingRunningDetail"][];
+    data?: cloudPlatformTypes["BallMillingRunningDetail"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7401,7 +7401,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BallMillingRunningModel»»": {
-    data?: definitions["BallMillingRunningModel"][];
+    data?: cloudPlatformTypes["BallMillingRunningModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7411,7 +7411,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BaseTypeInfo»»": {
-    data?: definitions["BaseTypeInfo"][];
+    data?: cloudPlatformTypes["BaseTypeInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7421,7 +7421,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BatchDynamicFieldModel»»": {
-    data?: definitions["BatchDynamicFieldModel"][];
+    data?: cloudPlatformTypes["BatchDynamicFieldModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7431,7 +7431,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BestPracticeStat»»": {
-    data?: definitions["BestPracticeStat"][];
+    data?: cloudPlatformTypes["BestPracticeStat"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7441,7 +7441,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BillRespDto»»": {
-    data?: definitions["BillRespDto"][];
+    data?: cloudPlatformTypes["BillRespDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7451,7 +7451,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BillTemplateDto»»": {
-    data?: definitions["BillTemplateDto"][];
+    data?: cloudPlatformTypes["BillTemplateDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7461,7 +7461,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BubbleModelParamResult对象»»": {
-    data?: definitions["BubbleModelParamResult对象"][];
+    data?: cloudPlatformTypes["BubbleModelParamResult对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7471,7 +7471,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«BubbleModelProcessParam对象»»": {
-    data?: definitions["BubbleModelProcessParam对象"][];
+    data?: cloudPlatformTypes["BubbleModelProcessParam对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7481,7 +7481,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CarbonDefalutConf»»": {
-    data?: definitions["CarbonDefalutConf"][];
+    data?: cloudPlatformTypes["CarbonDefalutConf"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7491,7 +7491,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CarbonEmissionSourceResp»»": {
-    data?: definitions["CarbonEmissionSourceResp"][];
+    data?: cloudPlatformTypes["CarbonEmissionSourceResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7501,7 +7501,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CarbonSourceTypeFieldResp»»": {
-    data?: definitions["CarbonSourceTypeFieldResp"][];
+    data?: cloudPlatformTypes["CarbonSourceTypeFieldResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7511,7 +7511,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CheckMaterialBatchRange»»": {
-    data?: definitions["CheckMaterialBatchRange"][];
+    data?: cloudPlatformTypes["CheckMaterialBatchRange"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7521,7 +7521,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CheckTemplateTypeResp»»": {
-    data?: definitions["CheckTemplateTypeResp"][];
+    data?: cloudPlatformTypes["CheckTemplateTypeResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7533,7 +7533,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«CloudConfigDock对象»»": {
-    data?: definitions["CloudConfigDock对象"][];
+    data?: cloudPlatformTypes["CloudConfigDock对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7543,7 +7543,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CloudIndexCondition对象»»": {
-    data?: definitions["CloudIndexCondition对象"][];
+    data?: cloudPlatformTypes["CloudIndexCondition对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7553,7 +7553,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ComparisonHeatDispersionModel»»": {
-    data?: definitions["ComparisonHeatDispersionModel"][];
+    data?: cloudPlatformTypes["ComparisonHeatDispersionModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7563,7 +7563,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ConfigTarget»»": {
-    data?: definitions["ConfigTarget"][];
+    data?: cloudPlatformTypes["ConfigTarget"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7573,7 +7573,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ConnectProjectListResp»»": {
-    data?: definitions["ConnectProjectListResp"][];
+    data?: cloudPlatformTypes["ConnectProjectListResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7583,7 +7583,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CostItemCategoryNode对象»»": {
-    data?: definitions["CostItemCategoryNode对象"][];
+    data?: cloudPlatformTypes["CostItemCategoryNode对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7593,7 +7593,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CourseBasic»»": {
-    data?: definitions["CourseBasic"][];
+    data?: cloudPlatformTypes["CourseBasic"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7603,7 +7603,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CourseBubbleExpressResp»»": {
-    data?: definitions["CourseBubbleExpressResp"][];
+    data?: cloudPlatformTypes["CourseBubbleExpressResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7613,7 +7613,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CourseExpression»»": {
-    data?: definitions["CourseExpression"][];
+    data?: cloudPlatformTypes["CourseExpression"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7623,7 +7623,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CourseGroupItem»»": {
-    data?: definitions["CourseGroupItem"][];
+    data?: cloudPlatformTypes["CourseGroupItem"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7633,7 +7633,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CoursePulpModel»»": {
-    data?: definitions["CoursePulpModel"][];
+    data?: cloudPlatformTypes["CoursePulpModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7643,7 +7643,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Course»»": {
-    data?: definitions["Course"][];
+    data?: cloudPlatformTypes["Course"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7653,7 +7653,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CraftCoproductRatio对象»»": {
-    data?: definitions["CraftCoproductRatio对象"][];
+    data?: cloudPlatformTypes["CraftCoproductRatio对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7663,7 +7663,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CraftFormulaConfig对象»»": {
-    data?: definitions["CraftFormulaConfig对象"][];
+    data?: cloudPlatformTypes["CraftFormulaConfig对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7673,7 +7673,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CraftMaintainRespDto»»": {
-    data?: definitions["CraftMaintainRespDto"][];
+    data?: cloudPlatformTypes["CraftMaintainRespDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7683,7 +7683,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CraftParamAnalyseVO»»": {
-    data?: definitions["CraftParamAnalyseVO"][];
+    data?: cloudPlatformTypes["CraftParamAnalyseVO"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7695,7 +7695,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«CraftParameterRealData»»": {
-    data?: definitions["CraftParameterRealData"][];
+    data?: cloudPlatformTypes["CraftParameterRealData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7707,7 +7707,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«CraftTemplate对象»»": {
-    data?: definitions["CraftTemplate对象"][];
+    data?: cloudPlatformTypes["CraftTemplate对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7717,7 +7717,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CustomerTree»»": {
-    data?: definitions["CustomerTree"][];
+    data?: cloudPlatformTypes["CustomerTree"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7727,7 +7727,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CustomerType对象»»": {
-    data?: definitions["CustomerType对象"][];
+    data?: cloudPlatformTypes["CustomerType对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7737,7 +7737,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CustomizedReportTemplateResp»»": {
-    data?: definitions["CustomizedReportTemplateResp"][];
+    data?: cloudPlatformTypes["CustomizedReportTemplateResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7747,7 +7747,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CycleEquipSpareCycle»»": {
-    data?: definitions["CycleEquipSpareCycle"][];
+    data?: cloudPlatformTypes["CycleEquipSpareCycle"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7757,7 +7757,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«CyclePageEquipSpareCycle»»": {
-    data?: definitions["CyclePageEquipSpareCycle"][];
+    data?: cloudPlatformTypes["CyclePageEquipSpareCycle"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7767,7 +7767,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DemandProducts»»": {
-    data?: definitions["DemandProducts"][];
+    data?: cloudPlatformTypes["DemandProducts"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7777,7 +7777,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Department对象»»": {
-    data?: definitions["Department对象"][];
+    data?: cloudPlatformTypes["Department对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7787,7 +7787,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DeviceParameter»»": {
-    data?: definitions["DeviceParameter"][];
+    data?: cloudPlatformTypes["DeviceParameter"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7797,7 +7797,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DivideProjectListResp分摊项目列表返回»»": {
-    data?: definitions["DivideProjectListResp分摊项目列表返回"][];
+    data?: cloudPlatformTypes["DivideProjectListResp分摊项目列表返回"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7807,7 +7807,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DivideRecordItemModelResp»»": {
-    data?: definitions["DivideRecordItemModelResp"][];
+    data?: cloudPlatformTypes["DivideRecordItemModelResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7817,7 +7817,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DivideRecordListResp»»": {
-    data?: definitions["DivideRecordListResp"][];
+    data?: cloudPlatformTypes["DivideRecordListResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7827,7 +7827,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DivideRecordResp»»": {
-    data?: definitions["DivideRecordResp"][];
+    data?: cloudPlatformTypes["DivideRecordResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7837,7 +7837,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DrillDownSpareStatistics»»": {
-    data?: definitions["DrillDownSpareStatistics"][];
+    data?: cloudPlatformTypes["DrillDownSpareStatistics"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7847,7 +7847,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DynamicInfoVo»»": {
-    data?: definitions["DynamicInfoVo"][];
+    data?: cloudPlatformTypes["DynamicInfoVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7857,7 +7857,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«DynamicNodeRespVo»»": {
-    data?: definitions["DynamicNodeRespVo"][];
+    data?: cloudPlatformTypes["DynamicNodeRespVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7867,7 +7867,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EnergyConsumptionDock对象»»": {
-    data?: definitions["EnergyConsumptionDock对象"][];
+    data?: cloudPlatformTypes["EnergyConsumptionDock对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7877,7 +7877,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EnergyIndex»»": {
-    data?: definitions["EnergyIndex"][];
+    data?: cloudPlatformTypes["EnergyIndex"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7889,7 +7889,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«EnergyPricePlanModel对象»»": {
-    data?: definitions["EnergyPricePlanModel对象"][];
+    data?: cloudPlatformTypes["EnergyPricePlanModel对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7899,7 +7899,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EnergyTypeVo»»": {
-    data?: definitions["EnergyTypeVo"][];
+    data?: cloudPlatformTypes["EnergyTypeVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7909,7 +7909,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Energy»»": {
-    data?: definitions["Energy"][];
+    data?: cloudPlatformTypes["Energy"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7919,7 +7919,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntEquTypePartSpareInfo»»": {
-    data?: definitions["EntEquTypePartSpareInfo"][];
+    data?: cloudPlatformTypes["EntEquTypePartSpareInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7929,7 +7929,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntEquipmentTypeModel»»": {
-    data?: definitions["EntEquipmentTypeModel"][];
+    data?: cloudPlatformTypes["EntEquipmentTypeModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7939,7 +7939,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntICheckingProject»»": {
-    data?: definitions["EntICheckingProject"][];
+    data?: cloudPlatformTypes["EntICheckingProject"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7949,7 +7949,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntICourseUser»»": {
-    data?: definitions["EntICourseUser"][];
+    data?: cloudPlatformTypes["EntICourseUser"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7959,7 +7959,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntICourse»»": {
-    data?: definitions["EntICourse"][];
+    data?: cloudPlatformTypes["EntICourse"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7969,7 +7969,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntIEquipment»»": {
-    data?: definitions["EntIEquipment"][];
+    data?: cloudPlatformTypes["EntIEquipment"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7979,7 +7979,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntIMeter»»": {
-    data?: definitions["EntIMeter"][];
+    data?: cloudPlatformTypes["EntIMeter"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7989,7 +7989,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EntTemplateStandard»»": {
-    data?: definitions["EntTemplateStandard"][];
+    data?: cloudPlatformTypes["EntTemplateStandard"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -7999,7 +7999,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EnumResp»»": {
-    data?: definitions["EnumResp"][];
+    data?: cloudPlatformTypes["EnumResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8009,7 +8009,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EqpIAlarmClassify»»": {
-    data?: definitions["EqpIAlarmClassify"][];
+    data?: cloudPlatformTypes["EqpIAlarmClassify"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8019,7 +8019,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EqpIAlarmRuleTree»»": {
-    data?: definitions["EqpIAlarmRuleTree"][];
+    data?: cloudPlatformTypes["EqpIAlarmRuleTree"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8029,7 +8029,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EqpParameter设备参数»»": {
-    data?: definitions["EqpParameter设备参数"][];
+    data?: cloudPlatformTypes["EqpParameter设备参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8039,7 +8039,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EqpQuotaStat»»": {
-    data?: definitions["EqpQuotaStat"][];
+    data?: cloudPlatformTypes["EqpQuotaStat"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8049,7 +8049,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EquipPartSpareTree»»": {
-    data?: definitions["EquipPartSpareTree"][];
+    data?: cloudPlatformTypes["EquipPartSpareTree"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8059,7 +8059,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EquipmentPartResp»»": {
-    data?: definitions["EquipmentPartResp"][];
+    data?: cloudPlatformTypes["EquipmentPartResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8069,17 +8069,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EquipmentPart对象»»": {
-    data?: definitions["EquipmentPart对象"][];
-    exceptCauseApp?: string;
-    exceptCauseIp?: string;
-    exceptClass?: string;
-    extFields?: { [key: string]: any };
-    requestId?: string;
-    retCode?: string;
-    retMsg?: string;
-  };
-  "ApiResp«List«EquipmentRunningStopResp»»": {
-    data?: definitions["EquipmentRunningStopResp"][];
+    data?: cloudPlatformTypes["EquipmentPart对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8089,7 +8079,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EquipmentSpareCycle返回对象»»": {
-    data?: definitions["EquipmentSpareCycle返回对象"][];
+    data?: cloudPlatformTypes["EquipmentSpareCycle返回对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8099,7 +8089,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«EquipmentSparePartUpDownResp对象»»": {
-    data?: definitions["EquipmentSparePartUpDownResp对象"][];
+    data?: cloudPlatformTypes["EquipmentSparePartUpDownResp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8109,7 +8099,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FactoryAreaMaterialTypeModel»»": {
-    data?: definitions["FactoryAreaMaterialTypeModel"][];
+    data?: cloudPlatformTypes["FactoryAreaMaterialTypeModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8119,7 +8109,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FactoryAreaOrderResp»»": {
-    data?: definitions["FactoryAreaOrderResp"][];
+    data?: cloudPlatformTypes["FactoryAreaOrderResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8129,7 +8119,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FactoryAreaProcess»»": {
-    data?: definitions["FactoryAreaProcess"][];
+    data?: cloudPlatformTypes["FactoryAreaProcess"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8139,7 +8129,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FactoryAreaTemplateVo»»": {
-    data?: definitions["FactoryAreaTemplateVo"][];
+    data?: cloudPlatformTypes["FactoryAreaTemplateVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8149,7 +8139,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FactoryArea»»": {
-    data?: definitions["FactoryArea"][];
+    data?: cloudPlatformTypes["FactoryArea"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8159,7 +8149,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FactoryArea对象»»": {
-    data?: definitions["FactoryArea对象"][];
+    data?: cloudPlatformTypes["FactoryArea对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8169,7 +8159,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FeaturePropertiesModel对象»»": {
-    data?: definitions["FeaturePropertiesModel对象"][];
+    data?: cloudPlatformTypes["FeaturePropertiesModel对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8179,7 +8169,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FgpIndexResult»»": {
-    data?: definitions["FgpIndexResult"][];
+    data?: cloudPlatformTypes["FgpIndexResult"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8191,7 +8181,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«FgpTimeIndexResult»»": {
-    data?: definitions["FgpTimeIndexResult"][];
+    data?: cloudPlatformTypes["FgpTimeIndexResult"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8203,7 +8193,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«FieldText»»": {
-    data?: definitions["FieldText"][];
+    data?: cloudPlatformTypes["FieldText"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8213,7 +8203,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FormulaImportResp»»": {
-    data?: definitions["FormulaImportResp"][];
+    data?: cloudPlatformTypes["FormulaImportResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8223,7 +8213,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FormulaItem对象»»": {
-    data?: definitions["FormulaItem对象"][];
+    data?: cloudPlatformTypes["FormulaItem对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8233,7 +8223,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«FormulaTemplate对象»»": {
-    data?: definitions["FormulaTemplate对象"][];
+    data?: cloudPlatformTypes["FormulaTemplate对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8243,7 +8233,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«HistogramSpareStatistics»»": {
-    data?: definitions["HistogramSpareStatistics"][];
+    data?: cloudPlatformTypes["HistogramSpareStatistics"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8253,7 +8243,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«IndexItem»»": {
-    data?: definitions["IndexItem"][];
+    data?: cloudPlatformTypes["IndexItem"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8265,7 +8255,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«IndexOriginItem»»": {
-    data?: definitions["IndexOriginItem"][];
+    data?: cloudPlatformTypes["IndexOriginItem"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8275,7 +8265,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«IndexTarget»»": {
-    data?: definitions["IndexTarget"][];
+    data?: cloudPlatformTypes["IndexTarget"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8285,7 +8275,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«IndexTreeNode»»": {
-    data?: definitions["IndexTreeNode"][];
+    data?: cloudPlatformTypes["IndexTreeNode"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8295,7 +8285,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InputCommonInfoData»»": {
-    data?: definitions["InputCommonInfoData"][];
+    data?: cloudPlatformTypes["InputCommonInfoData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8305,7 +8295,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InputCustomFieldVo对象»»": {
-    data?: definitions["InputCustomFieldVo对象"][];
+    data?: cloudPlatformTypes["InputCustomFieldVo对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8315,7 +8305,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InputEquipmentParam»»": {
-    data?: definitions["InputEquipmentParam"][];
+    data?: cloudPlatformTypes["InputEquipmentParam"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8325,7 +8315,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InputEquipment»»": {
-    data?: definitions["InputEquipment"][];
+    data?: cloudPlatformTypes["InputEquipment"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8335,7 +8325,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InputInvalidReasonRecord对象»»": {
-    data?: definitions["InputInvalidReasonRecord对象"][];
+    data?: cloudPlatformTypes["InputInvalidReasonRecord对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8345,17 +8335,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InputPlanInfoVo»»": {
-    data?: definitions["InputPlanInfoVo"][];
-    exceptCauseApp?: string;
-    exceptCauseIp?: string;
-    exceptClass?: string;
-    extFields?: { [key: string]: any };
-    requestId?: string;
-    retCode?: string;
-    retMsg?: string;
-  };
-  "ApiResp«List«InvalidReasonRecordLatestResp»»": {
-    data?: definitions["InvalidReasonRecordLatestResp"][];
+    data?: cloudPlatformTypes["InputPlanInfoVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8365,7 +8345,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InvalidReasonTreeApplyModel»»": {
-    data?: definitions["InvalidReasonTreeApplyModel"][];
+    data?: cloudPlatformTypes["InvalidReasonTreeApplyModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8375,7 +8355,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«InvalidReasonTree»»": {
-    data?: definitions["InvalidReasonTree"][];
+    data?: cloudPlatformTypes["InvalidReasonTree"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8385,7 +8365,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ListCostCalculateRuleResp对象»»": {
-    data?: definitions["ListCostCalculateRuleResp对象"][];
+    data?: cloudPlatformTypes["ListCostCalculateRuleResp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8395,7 +8375,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ListDepartUserResp»»": {
-    data?: definitions["ListDepartUserResp"][];
+    data?: cloudPlatformTypes["ListDepartUserResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8405,7 +8385,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ListEnergyCalorificMeterConfigResp»»": {
-    data?: definitions["ListEnergyCalorificMeterConfigResp"][];
+    data?: cloudPlatformTypes["ListEnergyCalorificMeterConfigResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8415,7 +8395,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ListInspectionRoomResp»»": {
-    data?: definitions["ListInspectionRoomResp"][];
+    data?: cloudPlatformTypes["ListInspectionRoomResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8425,7 +8405,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ListProduceCheckingProgramResp»»": {
-    data?: definitions["ListProduceCheckingProgramResp"][];
+    data?: cloudPlatformTypes["ListProduceCheckingProgramResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8435,7 +8415,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ListProgramProjectResp»»": {
-    data?: definitions["ListProgramProjectResp"][];
+    data?: cloudPlatformTypes["ListProgramProjectResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8445,7 +8425,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ListResp对象»»": {
-    data?: definitions["ListResp对象"][];
+    data?: cloudPlatformTypes["ListResp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8455,7 +8435,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«List«Number»»»": {
-    data?: definitions["Number"][][];
+    data?: cloudPlatformTypes["Number"][][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8465,7 +8445,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Map«string,DynamicExtendVo»»»": {
-    data?: definitions["Map«string,DynamicExtendVo»"][];
+    data?: cloudPlatformTypes["Map«string,DynamicExtendVo»"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8475,7 +8455,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Map«string,object»»»": {
-    data?: definitions["Map«string,object»"][];
+    data?: cloudPlatformTypes["Map«string,object»"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8485,7 +8465,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Map«string,string»»»": {
-    data?: definitions["Map«string,string»"][];
+    data?: cloudPlatformTypes["Map«string,string»"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8495,7 +8475,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialBatchStatus»»": {
-    data?: definitions["MaterialBatchStatus"][];
+    data?: cloudPlatformTypes["MaterialBatchStatus"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8505,7 +8485,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialCoproduct»»": {
-    data?: definitions["MaterialCoproduct"][];
+    data?: cloudPlatformTypes["MaterialCoproduct"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8515,7 +8495,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialData»»": {
-    data?: definitions["MaterialData"][];
+    data?: cloudPlatformTypes["MaterialData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8525,7 +8505,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialDistribution»»": {
-    data?: definitions["MaterialDistribution"][];
+    data?: cloudPlatformTypes["MaterialDistribution"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8535,7 +8515,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialGroupModel对象»»": {
-    data?: definitions["MaterialGroupModel对象"][];
+    data?: cloudPlatformTypes["MaterialGroupModel对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8545,7 +8525,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialGroupRelated»»": {
-    data?: definitions["MaterialGroupRelated"][];
+    data?: cloudPlatformTypes["MaterialGroupRelated"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8555,7 +8535,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialGroupRelationInfo对象»»": {
-    data?: definitions["MaterialGroupRelationInfo对象"][];
+    data?: cloudPlatformTypes["MaterialGroupRelationInfo对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8565,7 +8545,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialInfoBasic»»": {
-    data?: definitions["MaterialInfoBasic"][];
+    data?: cloudPlatformTypes["MaterialInfoBasic"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8575,7 +8555,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialInfoTypeOrgBasicGroup»»": {
-    data?: definitions["MaterialInfoTypeOrgBasicGroup"][];
+    data?: cloudPlatformTypes["MaterialInfoTypeOrgBasicGroup"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8585,7 +8565,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialInfo»»": {
-    data?: definitions["MaterialInfo"][];
+    data?: cloudPlatformTypes["MaterialInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8595,7 +8575,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialPreferBaseConf»»": {
-    data?: definitions["MaterialPreferBaseConf"][];
+    data?: cloudPlatformTypes["MaterialPreferBaseConf"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8605,7 +8585,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialPrefer»»": {
-    data?: definitions["MaterialPrefer"][];
+    data?: cloudPlatformTypes["MaterialPrefer"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8615,7 +8595,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialQrCodeInfo»»": {
-    data?: definitions["MaterialQrCodeInfo"][];
+    data?: cloudPlatformTypes["MaterialQrCodeInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8625,7 +8605,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialResp»»": {
-    data?: definitions["MaterialResp"][];
+    data?: cloudPlatformTypes["MaterialResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8635,7 +8615,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialStandardTemplate»»": {
-    data?: definitions["MaterialStandardTemplate"][];
+    data?: cloudPlatformTypes["MaterialStandardTemplate"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8645,7 +8625,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTemplateModel»»": {
-    data?: definitions["MaterialTemplateModel"][];
+    data?: cloudPlatformTypes["MaterialTemplateModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8655,7 +8635,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeColourBasic»»": {
-    data?: definitions["MaterialTypeColourBasic"][];
+    data?: cloudPlatformTypes["MaterialTypeColourBasic"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8665,7 +8645,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeColour对象»»": {
-    data?: definitions["MaterialTypeColour对象"][];
+    data?: cloudPlatformTypes["MaterialTypeColour对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8675,7 +8655,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeGradeBasic»»": {
-    data?: definitions["MaterialTypeGradeBasic"][];
+    data?: cloudPlatformTypes["MaterialTypeGradeBasic"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8685,7 +8665,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeGradePlan»»": {
-    data?: definitions["MaterialTypeGradePlan"][];
+    data?: cloudPlatformTypes["MaterialTypeGradePlan"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8695,7 +8675,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeGrade对象»»": {
-    data?: definitions["MaterialTypeGrade对象"][];
+    data?: cloudPlatformTypes["MaterialTypeGrade对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8705,7 +8685,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeGroup»»": {
-    data?: definitions["MaterialTypeGroup"][];
+    data?: cloudPlatformTypes["MaterialTypeGroup"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8715,7 +8695,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeLinkMaterial»»": {
-    data?: definitions["MaterialTypeLinkMaterial"][];
+    data?: cloudPlatformTypes["MaterialTypeLinkMaterial"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8725,7 +8705,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeOrgBasicGroup»»": {
-    data?: definitions["MaterialTypeOrgBasicGroup"][];
+    data?: cloudPlatformTypes["MaterialTypeOrgBasicGroup"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8735,7 +8715,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeOrgGroupData»»": {
-    data?: definitions["MaterialTypeOrgGroupData"][];
+    data?: cloudPlatformTypes["MaterialTypeOrgGroupData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8745,7 +8725,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«MaterialTypeOrgGroup»»": {
-    data?: definitions["MaterialTypeOrgGroup"][];
+    data?: cloudPlatformTypes["MaterialTypeOrgGroup"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8755,7 +8735,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Material对象»»": {
-    data?: definitions["Material对象"][];
+    data?: cloudPlatformTypes["Material对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8765,7 +8745,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«NewSelectSchemeResp»»": {
-    data?: definitions["NewSelectSchemeResp"][];
+    data?: cloudPlatformTypes["NewSelectSchemeResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8775,7 +8755,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Node»»": {
-    data?: definitions["Node"][];
+    data?: cloudPlatformTypes["Node"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8785,7 +8765,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Number»»": {
-    data?: definitions["Number"][];
+    data?: cloudPlatformTypes["Number"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8797,7 +8777,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«OpenRole»»": {
-    data?: definitions["OpenRole"][];
+    data?: cloudPlatformTypes["OpenRole"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8807,7 +8787,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OpenStandardTemplateModel»»": {
-    data?: definitions["OpenStandardTemplateModel"][];
+    data?: cloudPlatformTypes["OpenStandardTemplateModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8817,7 +8797,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OperatingProcedureRespDto»»": {
-    data?: definitions["OperatingProcedureRespDto"][];
+    data?: cloudPlatformTypes["OperatingProcedureRespDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8827,7 +8807,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OperationConfigFactoryResp»»": {
-    data?: definitions["OperationConfigFactoryResp"][];
+    data?: cloudPlatformTypes["OperationConfigFactoryResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8837,7 +8817,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OptimizeRecordModel»»": {
-    data?: definitions["OptimizeRecordModel"][];
+    data?: cloudPlatformTypes["OptimizeRecordModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8847,7 +8827,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OrgAppTaskCardResp»»": {
-    data?: definitions["OrgAppTaskCardResp"][];
+    data?: cloudPlatformTypes["OrgAppTaskCardResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8857,7 +8837,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OrgPositionResp对象»»": {
-    data?: definitions["OrgPositionResp对象"][];
+    data?: cloudPlatformTypes["OrgPositionResp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8867,7 +8847,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OrganizationDockItems对象»»": {
-    data?: definitions["OrganizationDockItems对象"][];
+    data?: cloudPlatformTypes["OrganizationDockItems对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8877,7 +8857,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Organization»»": {
-    data?: definitions["Organization"][];
+    data?: cloudPlatformTypes["Organization"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8887,7 +8867,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Organization对象»»": {
-    data?: definitions["Organization对象"][];
+    data?: cloudPlatformTypes["Organization对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8897,7 +8877,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«OutputEnergyIndex»»": {
-    data?: definitions["OutputEnergyIndex"][];
+    data?: cloudPlatformTypes["OutputEnergyIndex"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8907,7 +8887,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«PC-APP任务卡片配置-功能列表»»": {
-    data?: definitions["PC-APP任务卡片配置-功能列表"][];
+    data?: cloudPlatformTypes["PC-APP任务卡片配置-功能列表"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8917,7 +8897,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ParamResp»»": {
-    data?: definitions["ParamResp"][];
+    data?: cloudPlatformTypes["ParamResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8927,7 +8907,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«PlatformTypeResp»»": {
-    data?: definitions["PlatformTypeResp"][];
+    data?: cloudPlatformTypes["PlatformTypeResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8937,7 +8917,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«PointData»»": {
-    data?: definitions["PointData"][];
+    data?: cloudPlatformTypes["PointData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8947,7 +8927,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«PositionUser岗位和用户信息和关系»»": {
-    data?: definitions["PositionUser岗位和用户信息和关系"][];
+    data?: cloudPlatformTypes["PositionUser岗位和用户信息和关系"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8957,7 +8937,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Position对象»»": {
-    data?: definitions["Position对象"][];
+    data?: cloudPlatformTypes["Position对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8967,7 +8947,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdFormulaIngredientConf对象»»": {
-    data?: definitions["ProdFormulaIngredientConf对象"][];
+    data?: cloudPlatformTypes["ProdFormulaIngredientConf对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8977,7 +8957,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdFormulaPreferBatchSelect»»": {
-    data?: definitions["ProdFormulaPreferBatchSelect"][];
+    data?: cloudPlatformTypes["ProdFormulaPreferBatchSelect"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8987,7 +8967,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdGrQaDefect对象»»": {
-    data?: definitions["ProdGrQaDefect对象"][];
+    data?: cloudPlatformTypes["ProdGrQaDefect对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -8997,7 +8977,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdGrQaDepartment对象»»": {
-    data?: definitions["ProdGrQaDepartment对象"][];
+    data?: cloudPlatformTypes["ProdGrQaDepartment对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9007,7 +8987,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdGrQaTempConfigInfo»»": {
-    data?: definitions["ProdGrQaTempConfigInfo"][];
+    data?: cloudPlatformTypes["ProdGrQaTempConfigInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9017,7 +8997,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdGrQaTemp对象»»": {
-    data?: definitions["ProdGrQaTemp对象"][];
+    data?: cloudPlatformTypes["ProdGrQaTemp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9027,7 +9007,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdMaterialPreferIngDetail»»": {
-    data?: definitions["ProdMaterialPreferIngDetail"][];
+    data?: cloudPlatformTypes["ProdMaterialPreferIngDetail"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9037,7 +9017,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProdSLot»»": {
-    data?: definitions["ProdSLot"][];
+    data?: cloudPlatformTypes["ProdSLot"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9047,7 +9027,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceBatchAnalyzeConfig对象»»": {
-    data?: definitions["ProduceBatchAnalyzeConfig对象"][];
+    data?: cloudPlatformTypes["ProduceBatchAnalyzeConfig对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9057,7 +9037,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceBestOperateRealTimeRecord对象»»": {
-    data?: definitions["ProduceBestOperateRealTimeRecord对象"][];
+    data?: cloudPlatformTypes["ProduceBestOperateRealTimeRecord对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9067,7 +9047,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceCheckingBaseInfo»»": {
-    data?: definitions["ProduceCheckingBaseInfo"][];
+    data?: cloudPlatformTypes["ProduceCheckingBaseInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9077,7 +9057,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceCheckingCpk对象»»": {
-    data?: definitions["ProduceCheckingCpk对象"][];
+    data?: cloudPlatformTypes["ProduceCheckingCpk对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9087,7 +9067,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceCheckingReportResp»»": {
-    data?: definitions["ProduceCheckingReportResp"][];
+    data?: cloudPlatformTypes["ProduceCheckingReportResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9097,7 +9077,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceFactoryTree»»": {
-    data?: definitions["ProduceFactoryTree"][];
+    data?: cloudPlatformTypes["ProduceFactoryTree"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9107,7 +9087,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceLineBasic»»": {
-    data?: definitions["ProduceLineBasic"][];
+    data?: cloudPlatformTypes["ProduceLineBasic"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9117,7 +9097,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProducePathMaterialResp对象»»": {
-    data?: definitions["ProducePathMaterialResp对象"][];
+    data?: cloudPlatformTypes["ProducePathMaterialResp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9127,7 +9107,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProducePlanRespDto»»": {
-    data?: definitions["ProducePlanRespDto"][];
+    data?: cloudPlatformTypes["ProducePlanRespDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9137,7 +9117,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceSheetInfo对象»»": {
-    data?: definitions["ProduceSheetInfo对象"][];
+    data?: cloudPlatformTypes["ProduceSheetInfo对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9147,7 +9127,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceSheetResp»»": {
-    data?: definitions["ProduceSheetResp"][];
+    data?: cloudPlatformTypes["ProduceSheetResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9157,7 +9137,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceSheetSchemeConfigResp»»": {
-    data?: definitions["ProduceSheetSchemeConfigResp"][];
+    data?: cloudPlatformTypes["ProduceSheetSchemeConfigResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9167,7 +9147,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTaskByMaterialTypeStat»»": {
-    data?: definitions["ProduceTaskByMaterialTypeStat"][];
+    data?: cloudPlatformTypes["ProduceTaskByMaterialTypeStat"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9177,7 +9157,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTaskExportField对象»»": {
-    data?: definitions["ProduceTaskExportField对象"][];
+    data?: cloudPlatformTypes["ProduceTaskExportField对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9187,7 +9167,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTaskNoResp对象»»": {
-    data?: definitions["ProduceTaskNoResp对象"][];
+    data?: cloudPlatformTypes["ProduceTaskNoResp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9197,7 +9177,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTaskTemplateLine对象»»": {
-    data?: definitions["ProduceTaskTemplateLine对象"][];
+    data?: cloudPlatformTypes["ProduceTaskTemplateLine对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9207,7 +9187,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTaskTemplate对象»»": {
-    data?: definitions["ProduceTaskTemplate对象"][];
+    data?: cloudPlatformTypes["ProduceTaskTemplate对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9217,7 +9197,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTaskTotal对象»»": {
-    data?: definitions["ProduceTaskTotal对象"][];
+    data?: cloudPlatformTypes["ProduceTaskTotal对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9227,7 +9207,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTask对象»»": {
-    data?: definitions["ProduceTask对象"][];
+    data?: cloudPlatformTypes["ProduceTask对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9237,7 +9217,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProduceTraceSchemeResp»»": {
-    data?: definitions["ProduceTraceSchemeResp"][];
+    data?: cloudPlatformTypes["ProduceTraceSchemeResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9247,7 +9227,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProductionQuotaStat»»": {
-    data?: definitions["ProductionQuotaStat"][];
+    data?: cloudPlatformTypes["ProductionQuotaStat"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9257,7 +9237,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ProductionQuotaTrend»»": {
-    data?: definitions["ProductionQuotaTrend"][];
+    data?: cloudPlatformTypes["ProductionQuotaTrend"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9267,7 +9247,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«PulpAreaElePriceResp»»": {
-    data?: definitions["PulpAreaElePriceResp"][];
+    data?: cloudPlatformTypes["PulpAreaElePriceResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9277,7 +9257,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«PulpEquModel»»": {
-    data?: definitions["PulpEquModel"][];
+    data?: cloudPlatformTypes["PulpEquModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9287,7 +9267,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«PwdValidDaysResp»»": {
-    data?: definitions["PwdValidDaysResp"][];
+    data?: cloudPlatformTypes["PwdValidDaysResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9297,7 +9277,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«QrcodeTemplateFieldResp»»": {
-    data?: definitions["QrcodeTemplateFieldResp"][];
+    data?: cloudPlatformTypes["QrcodeTemplateFieldResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9307,7 +9287,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«QrcodeTemplateResp»»": {
-    data?: definitions["QrcodeTemplateResp"][];
+    data?: cloudPlatformTypes["QrcodeTemplateResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9317,7 +9297,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«QualityTraceProcessRespVo»»": {
-    data?: definitions["QualityTraceProcessRespVo"][];
+    data?: cloudPlatformTypes["QualityTraceProcessRespVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9327,7 +9307,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«QuoteStandardTemplateModel»»": {
-    data?: definitions["QuoteStandardTemplateModel"][];
+    data?: cloudPlatformTypes["QuoteStandardTemplateModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9337,7 +9317,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«RegionTmpDock对象»»": {
-    data?: definitions["RegionTmpDock对象"][];
+    data?: cloudPlatformTypes["RegionTmpDock对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9347,7 +9327,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«RelatedTargetVo»»": {
-    data?: definitions["RelatedTargetVo"][];
+    data?: cloudPlatformTypes["RelatedTargetVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9357,7 +9337,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ReportInfo»»": {
-    data?: definitions["ReportInfo"][];
+    data?: cloudPlatformTypes["ReportInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9367,7 +9347,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ReportItemBaseResp»»": {
-    data?: definitions["ReportItemBaseResp"][];
+    data?: cloudPlatformTypes["ReportItemBaseResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9377,7 +9357,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ResourcesModel»»": {
-    data?: definitions["ResourcesModel"][];
+    data?: cloudPlatformTypes["ResourcesModel"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9387,7 +9367,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Resources对象»»": {
-    data?: definitions["Resources对象"][];
+    data?: cloudPlatformTypes["Resources对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9397,7 +9377,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Role对象»»": {
-    data?: definitions["Role对象"][];
+    data?: cloudPlatformTypes["Role对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9407,7 +9387,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«RunParameterResp»»": {
-    data?: definitions["RunParameterResp"][];
+    data?: cloudPlatformTypes["RunParameterResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9417,7 +9397,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ScheduleDetailResp»»": {
-    data?: definitions["ScheduleDetailResp"][];
+    data?: cloudPlatformTypes["ScheduleDetailResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9427,7 +9407,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SelectTree选择对象»»": {
-    data?: definitions["SelectTree选择对象"][];
+    data?: cloudPlatformTypes["SelectTree选择对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9437,7 +9417,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SelectionItem«string»»»": {
-    data?: definitions["SelectionItem«string»"][];
+    data?: cloudPlatformTypes["SelectionItem«string»"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9447,7 +9427,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SequenceProcessTemplate»»": {
-    data?: definitions["SequenceProcessTemplate"][];
+    data?: cloudPlatformTypes["SequenceProcessTemplate"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9457,7 +9437,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SheetFields»»": {
-    data?: definitions["SheetFields"][];
+    data?: cloudPlatformTypes["SheetFields"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9467,7 +9447,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SheetSchemeInfo»»": {
-    data?: definitions["SheetSchemeInfo"][];
+    data?: cloudPlatformTypes["SheetSchemeInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9477,7 +9457,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ShiftBasic»»": {
-    data?: definitions["ShiftBasic"][];
+    data?: cloudPlatformTypes["ShiftBasic"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9487,7 +9467,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«ShiftGroupItem»»": {
-    data?: definitions["ShiftGroupItem"][];
+    data?: cloudPlatformTypes["ShiftGroupItem"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9497,7 +9477,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SimpleShift对象»»": {
-    data?: definitions["SimpleShift对象"][];
+    data?: cloudPlatformTypes["SimpleShift对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9507,7 +9487,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SopBaseRespDto»»": {
-    data?: definitions["SopBaseRespDto"][];
+    data?: cloudPlatformTypes["SopBaseRespDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9517,7 +9497,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SourceGantDiagramDto对象»»": {
-    data?: definitions["SourceGantDiagramDto对象"][];
+    data?: cloudPlatformTypes["SourceGantDiagramDto对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9527,7 +9507,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SourceLoadDiagramDto对象»»": {
-    data?: definitions["SourceLoadDiagramDto对象"][];
+    data?: cloudPlatformTypes["SourceLoadDiagramDto对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9537,7 +9517,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SprayStore»»": {
-    data?: definitions["SprayStore"][];
+    data?: cloudPlatformTypes["SprayStore"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9547,7 +9527,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StatConfig对象»»": {
-    data?: definitions["StatConfig对象"][];
+    data?: cloudPlatformTypes["StatConfig对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9557,7 +9537,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StockEoStat»»": {
-    data?: definitions["StockEoStat"][];
+    data?: cloudPlatformTypes["StockEoStat"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9567,7 +9547,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StockInitRecordModel对象,仓库初始化日志»»": {
-    data?: definitions["StockInitRecordModel对象,仓库初始化日志"][];
+    data?: cloudPlatformTypes["StockInitRecordModel对象,仓库初始化日志"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9577,7 +9557,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StockTrendRecord对象»»": {
-    data?: definitions["StockTrendRecord对象"][];
+    data?: cloudPlatformTypes["StockTrendRecord对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9587,7 +9567,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StoreExtendTree对象»»": {
-    data?: definitions["StoreExtendTree对象"][];
+    data?: cloudPlatformTypes["StoreExtendTree对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9597,7 +9577,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StoreFeature对象»»": {
-    data?: definitions["StoreFeature对象"][];
+    data?: cloudPlatformTypes["StoreFeature对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9607,7 +9587,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StoreModel对象,仓库-库位»»": {
-    data?: definitions["StoreModel对象,仓库-库位"][];
+    data?: cloudPlatformTypes["StoreModel对象,仓库-库位"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9617,7 +9597,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StoreStockModel对象»»": {
-    data?: definitions["StoreStockModel对象"][];
+    data?: cloudPlatformTypes["StoreStockModel对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9627,7 +9607,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StoreStockResp对象»»": {
-    data?: definitions["StoreStockResp对象"][];
+    data?: cloudPlatformTypes["StoreStockResp对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9637,7 +9617,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«StoreStock对象»»": {
-    data?: definitions["StoreStock对象"][];
+    data?: cloudPlatformTypes["StoreStock对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9647,7 +9627,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«Store对象»»": {
-    data?: definitions["Store对象"][];
+    data?: cloudPlatformTypes["Store对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9657,7 +9637,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SupplierRespDto»»": {
-    data?: definitions["SupplierRespDto"][];
+    data?: cloudPlatformTypes["SupplierRespDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9667,7 +9647,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«SysIEquipmentType»»": {
-    data?: definitions["SysIEquipmentType"][];
+    data?: cloudPlatformTypes["SysIEquipmentType"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9677,7 +9657,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TargetConfig对象»»": {
-    data?: definitions["TargetConfig对象"][];
+    data?: cloudPlatformTypes["TargetConfig对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9687,7 +9667,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TargetRelateDataResp»»": {
-    data?: definitions["TargetRelateDataResp"][];
+    data?: cloudPlatformTypes["TargetRelateDataResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9697,7 +9677,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TargetTemplateVo»»": {
-    data?: definitions["TargetTemplateVo"][];
+    data?: cloudPlatformTypes["TargetTemplateVo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9707,7 +9687,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TargetTemplate对象»»": {
-    data?: definitions["TargetTemplate对象"][];
+    data?: cloudPlatformTypes["TargetTemplate对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9717,7 +9697,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TaskEnergySummary»»": {
-    data?: definitions["TaskEnergySummary"][];
+    data?: cloudPlatformTypes["TaskEnergySummary"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9729,7 +9709,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«TaskStatus»»": {
-    data?: definitions["TaskStatus"][];
+    data?: cloudPlatformTypes["TaskStatus"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9739,7 +9719,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TaskTemplateBasic»»": {
-    data?: definitions["TaskTemplateBasic"][];
+    data?: cloudPlatformTypes["TaskTemplateBasic"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9749,7 +9729,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TemplateProject»»": {
-    data?: definitions["TemplateProject"][];
+    data?: cloudPlatformTypes["TemplateProject"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9759,7 +9739,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TimeIndexItem»»": {
-    data?: definitions["TimeIndexItem"][];
+    data?: cloudPlatformTypes["TimeIndexItem"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9771,7 +9751,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«TraceShemeResp»»": {
-    data?: definitions["TraceShemeResp"][];
+    data?: cloudPlatformTypes["TraceShemeResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9781,7 +9761,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«TreeNode»»": {
-    data?: definitions["TreeNode"][];
+    data?: cloudPlatformTypes["TreeNode"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9791,7 +9771,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«User对象»»": {
-    data?: definitions["User对象"][];
+    data?: cloudPlatformTypes["User对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9801,7 +9781,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«VariableCorrelationPlot»»": {
-    data?: definitions["VariableCorrelationPlot"][];
+    data?: cloudPlatformTypes["VariableCorrelationPlot"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9813,7 +9793,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«VariableFrequency»»": {
-    data?: definitions["VariableFrequency"][];
+    data?: cloudPlatformTypes["VariableFrequency"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9825,7 +9805,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«VariableInfoPlot»»": {
-    data?: definitions["VariableInfoPlot"][];
+    data?: cloudPlatformTypes["VariableInfoPlot"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9837,7 +9817,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«VariableInfo»»": {
-    data?: definitions["VariableInfo"][];
+    data?: cloudPlatformTypes["VariableInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9849,7 +9829,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«VariablePlot»»": {
-    data?: definitions["VariablePlot"][];
+    data?: cloudPlatformTypes["VariablePlot"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9861,7 +9841,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«List«WinDockData对象»»": {
-    data?: definitions["WinDockData对象"][];
+    data?: cloudPlatformTypes["WinDockData对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9871,7 +9851,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«WorkHomeAlarmResp»»": {
-    data?: definitions["WorkHomeAlarmResp"][];
+    data?: cloudPlatformTypes["WorkHomeAlarmResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9881,7 +9861,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«WorkHomeBacklog对象»»": {
-    data?: definitions["WorkHomeBacklog对象"][];
+    data?: cloudPlatformTypes["WorkHomeBacklog对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9891,7 +9871,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«WorkHomeBestPractice对象»»": {
-    data?: definitions["WorkHomeBestPractice对象"][];
+    data?: cloudPlatformTypes["WorkHomeBestPractice对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9901,7 +9881,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«WorkHomeEqpQuota对象»»": {
-    data?: definitions["WorkHomeEqpQuota对象"][];
+    data?: cloudPlatformTypes["WorkHomeEqpQuota对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9911,7 +9891,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«WorkHomeMonitorTask对象»»": {
-    data?: definitions["WorkHomeMonitorTask对象"][];
+    data?: cloudPlatformTypes["WorkHomeMonitorTask对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9921,7 +9901,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«WorkHomeProductionQuota对象»»": {
-    data?: definitions["WorkHomeProductionQuota对象"][];
+    data?: cloudPlatformTypes["WorkHomeProductionQuota对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9931,7 +9911,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«WorkUnit»»": {
-    data?: definitions["WorkUnit"][];
+    data?: cloudPlatformTypes["WorkUnit"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9961,7 +9941,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«pdProduceSheet对象»»": {
-    data?: definitions["pdProduceSheet对象"][];
+    data?: cloudPlatformTypes["pdProduceSheet对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9971,7 +9951,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«sop操作类型枚举类»»": {
-    data?: definitions["sop操作类型枚举类"][];
+    data?: cloudPlatformTypes["sop操作类型枚举类"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -9981,7 +9961,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«sop逻辑类型枚举类»»": {
-    data?: definitions["sop逻辑类型枚举类"][];
+    data?: cloudPlatformTypes["sop逻辑类型枚举类"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10001,7 +9981,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«主生产计划列表响应参数»»": {
-    data?: definitions["主生产计划列表响应参数"][];
+    data?: cloudPlatformTypes["主生产计划列表响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10011,7 +9991,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«交接事项响应参数»»": {
-    data?: definitions["交接事项响应参数"][];
+    data?: cloudPlatformTypes["交接事项响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10021,7 +10001,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«公共的响应枚举类»»": {
-    data?: definitions["公共的响应枚举类"][];
+    data?: cloudPlatformTypes["公共的响应枚举类"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10031,7 +10011,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«分摊模板列表响应参数»»": {
-    data?: definitions["分摊模板列表响应参数"][];
+    data?: cloudPlatformTypes["分摊模板列表响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10041,7 +10021,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«分时用电日历响应»»": {
-    data?: definitions["分时用电日历响应"][];
+    data?: cloudPlatformTypes["分时用电日历响应"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10051,7 +10031,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«分析设备无效原因»»": {
-    data?: definitions["分析设备无效原因"][];
+    data?: cloudPlatformTypes["分析设备无效原因"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10061,7 +10041,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«分析项响应数据»»": {
-    data?: definitions["分析项响应数据"][];
+    data?: cloudPlatformTypes["分析项响应数据"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10071,7 +10051,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«区域设备树模型对象»»": {
-    data?: definitions["区域设备树模型对象"][];
+    data?: cloudPlatformTypes["区域设备树模型对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10081,7 +10061,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«原因树设备列表»»": {
-    data?: definitions["原因树设备列表"][];
+    data?: cloudPlatformTypes["原因树设备列表"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10091,7 +10071,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«原料优选结果信息»»": {
-    data?: definitions["原料优选结果信息"][];
+    data?: cloudPlatformTypes["原料优选结果信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10101,7 +10081,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«参数区间分布信息»»": {
-    data?: definitions["参数区间分布信息"][];
+    data?: cloudPlatformTypes["参数区间分布信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10111,7 +10091,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«告警规则»»": {
-    data?: definitions["告警规则"][];
+    data?: cloudPlatformTypes["告警规则"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10121,7 +10101,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«响应参数»»": {
-    data?: definitions["响应参数"][];
+    data?: cloudPlatformTypes["响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10131,7 +10111,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«响应实体»»": {
-    data?: definitions["响应实体"][];
+    data?: cloudPlatformTypes["响应实体"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10141,7 +10121,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«喷雾塔工厂信息»»": {
-    data?: definitions["喷雾塔工厂信息"][];
+    data?: cloudPlatformTypes["喷雾塔工厂信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10151,7 +10131,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«完工检验配方»»": {
-    data?: definitions["完工检验配方"][];
+    data?: cloudPlatformTypes["完工检验配方"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10161,7 +10141,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«工序项目返回对象»»": {
-    data?: definitions["工序项目返回对象"][];
+    data?: cloudPlatformTypes["工序项目返回对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10171,7 +10151,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«工艺路径分页实体»»": {
-    data?: definitions["工艺路径分页实体"][];
+    data?: cloudPlatformTypes["工艺路径分页实体"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10181,7 +10161,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«工艺路径响应参数»»": {
-    data?: definitions["工艺路径响应参数"][];
+    data?: cloudPlatformTypes["工艺路径响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10191,7 +10171,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«应用平台工厂树工厂返回对象»»": {
-    data?: definitions["应用平台工厂树工厂返回对象"][];
+    data?: cloudPlatformTypes["应用平台工厂树工厂返回对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10201,7 +10181,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«总班组对象»»": {
-    data?: definitions["总班组对象"][];
+    data?: cloudPlatformTypes["总班组对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10211,7 +10191,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«指令配置启用状态列表响应»»": {
-    data?: definitions["指令配置启用状态列表响应"][];
+    data?: cloudPlatformTypes["指令配置启用状态列表响应"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10221,7 +10201,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«排班记录返回对象»»": {
-    data?: definitions["排班记录返回对象"][];
+    data?: cloudPlatformTypes["排班记录返回对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10231,7 +10211,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«操作行为列表响应参数»»": {
-    data?: definitions["操作行为列表响应参数"][];
+    data?: cloudPlatformTypes["操作行为列表响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10241,7 +10221,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«故障原因»»": {
-    data?: definitions["故障原因"][];
+    data?: cloudPlatformTypes["故障原因"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10251,7 +10231,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«故障描述»»": {
-    data?: definitions["故障描述"][];
+    data?: cloudPlatformTypes["故障描述"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10261,7 +10241,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«故障统计维修信息»»": {
-    data?: definitions["故障统计维修信息"][];
+    data?: cloudPlatformTypes["故障统计维修信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10271,7 +10251,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«数据对接方案-系统-模式»»": {
-    data?: definitions["数据对接方案-系统-模式"][];
+    data?: cloudPlatformTypes["数据对接方案-系统-模式"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10281,7 +10261,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«数据来源响应参数»»": {
-    data?: definitions["数据来源响应参数"][];
+    data?: cloudPlatformTypes["数据来源响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10291,7 +10271,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«模板绑定项目响应列表»»": {
-    data?: definitions["模板绑定项目响应列表"][];
+    data?: cloudPlatformTypes["模板绑定项目响应列表"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10301,7 +10281,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«物料子类别对象»»": {
-    data?: definitions["物料子类别对象"][];
+    data?: cloudPlatformTypes["物料子类别对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10311,7 +10291,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«物料统计汇总对象»»": {
-    data?: definitions["物料统计汇总对象"][];
+    data?: cloudPlatformTypes["物料统计汇总对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10321,7 +10301,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«班次制度对象»»": {
-    data?: definitions["班次制度对象"][];
+    data?: cloudPlatformTypes["班次制度对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10331,7 +10311,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«班次对象»»": {
-    data?: definitions["班次对象"][];
+    data?: cloudPlatformTypes["班次对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10341,7 +10321,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«生产指令配置列表»»": {
-    data?: definitions["生产指令配置列表"][];
+    data?: cloudPlatformTypes["生产指令配置列表"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10351,7 +10331,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«生产线最早生产时间»»": {
-    data?: definitions["生产线最早生产时间"][];
+    data?: cloudPlatformTypes["生产线最早生产时间"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10361,7 +10341,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«用户权限工厂树»»": {
-    data?: definitions["用户权限工厂树"][];
+    data?: cloudPlatformTypes["用户权限工厂树"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10371,7 +10351,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«粉仓报表模板»»": {
-    data?: definitions["粉仓报表模板"][];
+    data?: cloudPlatformTypes["粉仓报表模板"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10381,7 +10361,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«获取指令配置关联的工厂单元»»": {
-    data?: definitions["获取指令配置关联的工厂单元"][];
+    data?: cloudPlatformTypes["获取指令配置关联的工厂单元"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10391,7 +10371,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«获取指标(衍生)公式响应参数»»": {
-    data?: definitions["获取指标(衍生)公式响应参数"][];
+    data?: cloudPlatformTypes["获取指标(衍生)公式响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10401,7 +10381,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备任务统计饼图详情»»": {
-    data?: definitions["设备任务统计饼图详情"][];
+    data?: cloudPlatformTypes["设备任务统计饼图详情"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10411,7 +10391,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备参数信息»»": {
-    data?: definitions["设备参数信息"][];
+    data?: cloudPlatformTypes["设备参数信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10421,7 +10401,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备故障类型详情»»": {
-    data?: definitions["设备故障类型详情"][];
+    data?: cloudPlatformTypes["设备故障类型详情"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10431,7 +10411,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备故障详情»»": {
-    data?: definitions["设备故障详情"][];
+    data?: cloudPlatformTypes["设备故障详情"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10441,7 +10421,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备文件对象»»": {
-    data?: definitions["设备文件对象"][];
+    data?: cloudPlatformTypes["设备文件对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10451,7 +10431,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备类型信息»»": {
-    data?: definitions["设备类型信息"][];
+    data?: cloudPlatformTypes["设备类型信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10461,7 +10441,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备类型详情对象»»": {
-    data?: definitions["设备类型详情对象"][];
+    data?: cloudPlatformTypes["设备类型详情对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10471,7 +10451,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备统计数据下钻对象»»": {
-    data?: definitions["设备统计数据下钻对象"][];
+    data?: cloudPlatformTypes["设备统计数据下钻对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10481,7 +10461,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备统计数据对象»»": {
-    data?: definitions["设备统计数据对象"][];
+    data?: cloudPlatformTypes["设备统计数据对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10491,7 +10471,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备运行记录结果»»": {
-    data?: definitions["设备运行记录结果"][];
+    data?: cloudPlatformTypes["设备运行记录结果"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10501,7 +10481,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«设备部位备件信息»»": {
-    data?: definitions["设备部位备件信息"][];
+    data?: cloudPlatformTypes["设备部位备件信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10511,7 +10491,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«质检列表响应»»": {
-    data?: definitions["质检列表响应"][];
+    data?: cloudPlatformTypes["质检列表响应"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10521,7 +10501,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«质检统计返回对象»»": {
-    data?: definitions["质检统计返回对象"][];
+    data?: cloudPlatformTypes["质检统计返回对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10531,7 +10511,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«质检项目信息»»": {
-    data?: definitions["质检项目信息"][];
+    data?: cloudPlatformTypes["质检项目信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10541,7 +10521,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«质检项目统计返回对象»»": {
-    data?: definitions["质检项目统计返回对象"][];
+    data?: cloudPlatformTypes["质检项目统计返回对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10551,7 +10531,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«质量报告-列表信息»»": {
-    data?: definitions["质量报告-列表信息"][];
+    data?: cloudPlatformTypes["质量报告-列表信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10561,7 +10541,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«质量报告-基本信息»»": {
-    data?: definitions["质量报告-基本信息"][];
+    data?: cloudPlatformTypes["质量报告-基本信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10571,7 +10551,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«质量报告-工序信息»»": {
-    data?: definitions["质量报告-工序信息"][];
+    data?: cloudPlatformTypes["质量报告-工序信息"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10581,7 +10561,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«List«车间班组对象»»": {
-    data?: definitions["车间班组对象"][];
+    data?: cloudPlatformTypes["车间班组对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10661,7 +10641,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialDemandPlanRespDto»": {
-    data?: definitions["MaterialDemandPlanRespDto"];
+    data?: cloudPlatformTypes["MaterialDemandPlanRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10671,7 +10651,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialGroupModel对象»": {
-    data?: definitions["MaterialGroupModel对象"];
+    data?: cloudPlatformTypes["MaterialGroupModel对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10681,7 +10661,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialStatResp«MaterialModulationStatProduce»»": {
-    data?: definitions["MaterialStatResp«MaterialModulationStatProduce»"];
+    data?: cloudPlatformTypes["MaterialStatResp«MaterialModulationStatProduce»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10691,7 +10671,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialStatResp«MaterialStatProduceTask»»": {
-    data?: definitions["MaterialStatResp«MaterialStatProduceTask»"];
+    data?: cloudPlatformTypes["MaterialStatResp«MaterialStatProduceTask»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10701,7 +10681,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialTemplateFile»": {
-    data?: definitions["MaterialTemplateFile"];
+    data?: cloudPlatformTypes["MaterialTemplateFile"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10711,7 +10691,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialTypeGradePlanDetail»": {
-    data?: definitions["MaterialTypeGradePlanDetail"];
+    data?: cloudPlatformTypes["MaterialTypeGradePlanDetail"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10721,7 +10701,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialTypeGradePlan»": {
-    data?: definitions["MaterialTypeGradePlan"];
+    data?: cloudPlatformTypes["MaterialTypeGradePlan"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10731,7 +10711,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialTypeOrgDetail»": {
-    data?: definitions["MaterialTypeOrgDetail"];
+    data?: cloudPlatformTypes["MaterialTypeOrgDetail"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10741,7 +10721,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MaterialWithCoproduct»": {
-    data?: definitions["MaterialWithCoproduct"];
+    data?: cloudPlatformTypes["MaterialWithCoproduct"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10751,7 +10731,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Material对象»": {
-    data?: definitions["Material对象"];
+    data?: cloudPlatformTypes["Material对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10761,7 +10741,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MeterEquipParamValue»": {
-    data?: definitions["MeterEquipParamValue"];
+    data?: cloudPlatformTypes["MeterEquipParamValue"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10771,7 +10751,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MonitorTaskStat»": {
-    data?: definitions["MonitorTaskStat"];
+    data?: cloudPlatformTypes["MonitorTaskStat"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10781,7 +10761,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«MultiSequenceIndexData»": {
-    data?: definitions["MultiSequenceIndexData"];
+    data?: cloudPlatformTypes["MultiSequenceIndexData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10791,7 +10771,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«NodeConfig»": {
-    data?: definitions["NodeConfig"];
+    data?: cloudPlatformTypes["NodeConfig"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10801,7 +10781,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OpenUser»": {
-    data?: definitions["OpenUser"];
+    data?: cloudPlatformTypes["OpenUser"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10811,7 +10791,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OptimizeDryerResultModel»": {
-    data?: definitions["OptimizeDryerResultModel"];
+    data?: cloudPlatformTypes["OptimizeDryerResultModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10821,7 +10801,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OptimizeHeatDispersionModel»": {
-    data?: definitions["OptimizeHeatDispersionModel"];
+    data?: cloudPlatformTypes["OptimizeHeatDispersionModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10831,7 +10811,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OrgPositionResp对象»": {
-    data?: definitions["OrgPositionResp对象"];
+    data?: cloudPlatformTypes["OrgPositionResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10841,7 +10821,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OrganizationDockConfig对象»": {
-    data?: definitions["OrganizationDockConfig对象"];
+    data?: cloudPlatformTypes["OrganizationDockConfig对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10851,7 +10831,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OrganizationDockFileInfo对象»": {
-    data?: definitions["OrganizationDockFileInfo对象"];
+    data?: cloudPlatformTypes["OrganizationDockFileInfo对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10861,7 +10841,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OrganizationDockItems对象»": {
-    data?: definitions["OrganizationDockItems对象"];
+    data?: cloudPlatformTypes["OrganizationDockItems对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10871,7 +10851,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputCourseData»": {
-    data?: definitions["OutputCourseData"];
+    data?: cloudPlatformTypes["OutputCourseData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10881,7 +10861,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputEnergyByDateData»": {
-    data?: definitions["OutputEnergyByDateData"];
+    data?: cloudPlatformTypes["OutputEnergyByDateData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10891,7 +10871,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputEnergyByDetailData»": {
-    data?: definitions["OutputEnergyByDetailData"];
+    data?: cloudPlatformTypes["OutputEnergyByDetailData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10901,7 +10881,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputEnergyByGroupData»": {
-    data?: definitions["OutputEnergyByGroupData"];
+    data?: cloudPlatformTypes["OutputEnergyByGroupData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10911,7 +10891,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputEnergyData»": {
-    data?: definitions["OutputEnergyData"];
+    data?: cloudPlatformTypes["OutputEnergyData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10921,7 +10901,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputEventData»": {
-    data?: definitions["OutputEventData"];
+    data?: cloudPlatformTypes["OutputEventData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10931,7 +10911,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputGradeData»": {
-    data?: definitions["OutputGradeData"];
+    data?: cloudPlatformTypes["OutputGradeData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10941,7 +10921,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«OutputProductData»": {
-    data?: definitions["OutputProductData"];
+    data?: cloudPlatformTypes["OutputProductData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10951,7 +10931,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«PC-APP任务卡片配置-选项内容»": {
-    data?: definitions["PC-APP任务卡片配置-选项内容"];
+    data?: cloudPlatformTypes["PC-APP任务卡片配置-选项内容"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10961,7 +10941,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«PageConditionResp»": {
-    data?: definitions["PageConditionResp"];
+    data?: cloudPlatformTypes["PageConditionResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10971,7 +10951,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«PageRecordResp»": {
-    data?: definitions["PageRecordResp"];
+    data?: cloudPlatformTypes["PageRecordResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10981,7 +10961,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«PageSheetPageModelResp»": {
-    data?: definitions["PageSheetPageModelResp"];
+    data?: cloudPlatformTypes["PageSheetPageModelResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -10991,7 +10971,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«PageSheetToStoreResp»": {
-    data?: definitions["PageSheetToStoreResp"];
+    data?: cloudPlatformTypes["PageSheetToStoreResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11001,7 +10981,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ApproveTemplateListDto»»": {
-    data?: definitions["Page«ApproveTemplateListDto»"];
+    data?: cloudPlatformTypes["Page«ApproveTemplateListDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11011,7 +10991,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«AreaConsumePowerConfigModel对象»»": {
-    data?: definitions["Page«AreaConsumePowerConfigModel对象»"];
+    data?: cloudPlatformTypes["Page«AreaConsumePowerConfigModel对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11021,7 +11001,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«AttentionPointRespDto»»": {
-    data?: definitions["Page«AttentionPointRespDto»"];
+    data?: cloudPlatformTypes["Page«AttentionPointRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11031,7 +11011,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«AutoDistributionConfigResp»»": {
-    data?: definitions["Page«AutoDistributionConfigResp»"];
+    data?: cloudPlatformTypes["Page«AutoDistributionConfigResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11041,7 +11021,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«AutoFinishWorkConfigResp»»": {
-    data?: definitions["Page«AutoFinishWorkConfigResp»"];
+    data?: cloudPlatformTypes["Page«AutoFinishWorkConfigResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11051,7 +11031,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«AutoFinishWorkLogResp»»": {
-    data?: definitions["Page«AutoFinishWorkLogResp»"];
+    data?: cloudPlatformTypes["Page«AutoFinishWorkLogResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11061,7 +11041,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«BillRespDto»»": {
-    data?: definitions["Page«BillRespDto»"];
+    data?: cloudPlatformTypes["Page«BillRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11071,7 +11051,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«BillTemplateDto»»": {
-    data?: definitions["Page«BillTemplateDto»"];
+    data?: cloudPlatformTypes["Page«BillTemplateDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11081,7 +11061,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CloudConfigDock对象»»": {
-    data?: definitions["Page«CloudConfigDock对象»"];
+    data?: cloudPlatformTypes["Page«CloudConfigDock对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11091,7 +11071,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ConfigBindingRespDto»»": {
-    data?: definitions["Page«ConfigBindingRespDto»"];
+    data?: cloudPlatformTypes["Page«ConfigBindingRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11101,7 +11081,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ConnectProjectListResp»»": {
-    data?: definitions["Page«ConnectProjectListResp»"];
+    data?: cloudPlatformTypes["Page«ConnectProjectListResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11111,7 +11091,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CourseSchedulePlan分页记录对象»»": {
-    data?: definitions["Page«CourseSchedulePlan分页记录对象»"];
+    data?: cloudPlatformTypes["Page«CourseSchedulePlan分页记录对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11121,7 +11101,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CraftConfigSync对象»»": {
-    data?: definitions["Page«CraftConfigSync对象»"];
+    data?: cloudPlatformTypes["Page«CraftConfigSync对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11131,7 +11111,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CraftFormulaConfig对象»»": {
-    data?: definitions["Page«CraftFormulaConfig对象»"];
+    data?: cloudPlatformTypes["Page«CraftFormulaConfig对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11141,7 +11121,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CraftTemplate对象»»": {
-    data?: definitions["Page«CraftTemplate对象»"];
+    data?: cloudPlatformTypes["Page«CraftTemplate对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11151,7 +11131,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CustomerInfo»»": {
-    data?: definitions["Page«CustomerInfo»"];
+    data?: cloudPlatformTypes["Page«CustomerInfo»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11161,7 +11141,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CycleEquipSpareCycle»»": {
-    data?: definitions["Page«CycleEquipSpareCycle»"];
+    data?: cloudPlatformTypes["Page«CycleEquipSpareCycle»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11171,7 +11151,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«CyclePageEquipSpareCycle»»": {
-    data?: definitions["Page«CyclePageEquipSpareCycle»"];
+    data?: cloudPlatformTypes["Page«CyclePageEquipSpareCycle»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11181,7 +11161,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«DetailedPageSpareStatistics»»": {
-    data?: definitions["Page«DetailedPageSpareStatistics»"];
+    data?: cloudPlatformTypes["Page«DetailedPageSpareStatistics»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11191,7 +11171,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«DivideProjectListResp分摊项目列表返回»»": {
-    data?: definitions["Page«DivideProjectListResp分摊项目列表返回»"];
+    data?: cloudPlatformTypes["Page«DivideProjectListResp分摊项目列表返回»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11201,7 +11181,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«DivideRecordListResp»»": {
-    data?: definitions["Page«DivideRecordListResp»"];
+    data?: cloudPlatformTypes["Page«DivideRecordListResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11211,7 +11191,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ElectricityLoadSchemeResp»»": {
-    data?: definitions["Page«ElectricityLoadSchemeResp»"];
+    data?: cloudPlatformTypes["Page«ElectricityLoadSchemeResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11221,7 +11201,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«EnergyMeterReadingRecord对象»»": {
-    data?: definitions["Page«EnergyMeterReadingRecord对象»"];
+    data?: cloudPlatformTypes["Page«EnergyMeterReadingRecord对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11233,7 +11213,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«Page«EnergyPricePlanModel对象»»": {
-    data?: definitions["Page«EnergyPricePlanModel对象»"];
+    data?: cloudPlatformTypes["Page«EnergyPricePlanModel对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11243,7 +11223,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«EquipmentInvalidReasonTree对象»»": {
-    data?: definitions["Page«EquipmentInvalidReasonTree对象»"];
+    data?: cloudPlatformTypes["Page«EquipmentInvalidReasonTree对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11253,7 +11233,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«EquipmentInvalidReason对象»»": {
-    data?: definitions["Page«EquipmentInvalidReason对象»"];
+    data?: cloudPlatformTypes["Page«EquipmentInvalidReason对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11263,7 +11243,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«EquipmentMeterTagConfig对象»»": {
-    data?: definitions["Page«EquipmentMeterTagConfig对象»"];
+    data?: cloudPlatformTypes["Page«EquipmentMeterTagConfig对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11273,7 +11253,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«EquipmentReasonDepartment对象»»": {
-    data?: definitions["Page«EquipmentReasonDepartment对象»"];
+    data?: cloudPlatformTypes["Page«EquipmentReasonDepartment对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11283,7 +11263,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«EquipmentReasonPartModel»»": {
-    data?: definitions["Page«EquipmentReasonPartModel»"];
+    data?: cloudPlatformTypes["Page«EquipmentReasonPartModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11293,7 +11273,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«EquipmentSparePartUpDownPageResp对象»»": {
-    data?: definitions["Page«EquipmentSparePartUpDownPageResp对象»"];
+    data?: cloudPlatformTypes["Page«EquipmentSparePartUpDownPageResp对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11303,7 +11283,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«FeaturePropertiesModel对象»»": {
-    data?: definitions["Page«FeaturePropertiesModel对象»"];
+    data?: cloudPlatformTypes["Page«FeaturePropertiesModel对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11313,7 +11293,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«FileInfoRespDto»»": {
-    data?: definitions["Page«FileInfoRespDto»"];
+    data?: cloudPlatformTypes["Page«FileInfoRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11323,7 +11303,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«GatherPageSpareStatistics»»": {
-    data?: definitions["Page«GatherPageSpareStatistics»"];
+    data?: cloudPlatformTypes["Page«GatherPageSpareStatistics»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11333,7 +11313,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«InputCustomFieldVo对象»»": {
-    data?: definitions["Page«InputCustomFieldVo对象»"];
+    data?: cloudPlatformTypes["Page«InputCustomFieldVo对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11343,7 +11323,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«InputParameterInfoVo对象»»": {
-    data?: definitions["Page«InputParameterInfoVo对象»"];
+    data?: cloudPlatformTypes["Page«InputParameterInfoVo对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11353,7 +11333,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«InstrumentRespDto»»": {
-    data?: definitions["Page«InstrumentRespDto»"];
+    data?: cloudPlatformTypes["Page«InstrumentRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11363,7 +11343,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«InvalidReasonRecordExt»»": {
-    data?: definitions["Page«InvalidReasonRecordExt»"];
+    data?: cloudPlatformTypes["Page«InvalidReasonRecordExt»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11373,7 +11353,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ListDepartUserResp»»": {
-    data?: definitions["Page«ListDepartUserResp»"];
+    data?: cloudPlatformTypes["Page«ListDepartUserResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11383,7 +11363,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ListInspectionRoomResp»»": {
-    data?: definitions["Page«ListInspectionRoomResp»"];
+    data?: cloudPlatformTypes["Page«ListInspectionRoomResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11393,7 +11373,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«MaintainTaskRecordResp»»": {
-    data?: definitions["Page«MaintainTaskRecordResp»"];
+    data?: cloudPlatformTypes["Page«MaintainTaskRecordResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11403,7 +11383,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«Map«string,DynamicExtendVo»»»": {
-    data?: definitions["Page«Map«string,DynamicExtendVo»»"];
+    data?: cloudPlatformTypes["Page«Map«string,DynamicExtendVo»»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11413,7 +11393,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«MaterialGroupModel对象»»": {
-    data?: definitions["Page«MaterialGroupModel对象»"];
+    data?: cloudPlatformTypes["Page«MaterialGroupModel对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11423,7 +11403,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«MaterialGroupRelationInfo对象»»": {
-    data?: definitions["Page«MaterialGroupRelationInfo对象»"];
+    data?: cloudPlatformTypes["Page«MaterialGroupRelationInfo对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11433,7 +11413,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«MaterialInfo»»": {
-    data?: definitions["Page«MaterialInfo»"];
+    data?: cloudPlatformTypes["Page«MaterialInfo»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11443,7 +11423,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«MaterialRespDto»»": {
-    data?: definitions["Page«MaterialRespDto»"];
+    data?: cloudPlatformTypes["Page«MaterialRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11453,7 +11433,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«MaterialStat»»": {
-    data?: definitions["Page«MaterialStat»"];
+    data?: cloudPlatformTypes["Page«MaterialStat»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11463,7 +11443,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«Material对象»»": {
-    data?: definitions["Page«Material对象»"];
+    data?: cloudPlatformTypes["Page«Material对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11473,7 +11453,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«OrgPositionResp对象»»": {
-    data?: definitions["Page«OrgPositionResp对象»"];
+    data?: cloudPlatformTypes["Page«OrgPositionResp对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11483,7 +11463,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«PageEnergyCalorificValueResp»»": {
-    data?: definitions["Page«PageEnergyCalorificValueResp»"];
+    data?: cloudPlatformTypes["Page«PageEnergyCalorificValueResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11493,7 +11473,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«PageOperateLogResp»»": {
-    data?: definitions["Page«PageOperateLogResp»"];
+    data?: cloudPlatformTypes["Page«PageOperateLogResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11503,7 +11483,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ParamVariableSearchResp»»": {
-    data?: definitions["Page«ParamVariableSearchResp»"];
+    data?: cloudPlatformTypes["Page«ParamVariableSearchResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11513,7 +11493,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«PersonnelRespDto»»": {
-    data?: definitions["Page«PersonnelRespDto»"];
+    data?: cloudPlatformTypes["Page«PersonnelRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11523,7 +11503,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«PlanTaskResultDto对象»»": {
-    data?: definitions["Page«PlanTaskResultDto对象»"];
+    data?: cloudPlatformTypes["Page«PlanTaskResultDto对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11533,7 +11513,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«PreferTemplateMaterialModel»»": {
-    data?: definitions["Page«PreferTemplateMaterialModel»"];
+    data?: cloudPlatformTypes["Page«PreferTemplateMaterialModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11543,7 +11523,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceBestOperateHistoryRecordModel»»": {
-    data?: definitions["Page«ProduceBestOperateHistoryRecordModel»"];
+    data?: cloudPlatformTypes["Page«ProduceBestOperateHistoryRecordModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11553,7 +11533,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceCheckingAuditModel»»": {
-    data?: definitions["Page«ProduceCheckingAuditModel»"];
+    data?: cloudPlatformTypes["Page«ProduceCheckingAuditModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11563,7 +11543,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceLineCapacityManageModel»»": {
-    data?: definitions["Page«ProduceLineCapacityManageModel»"];
+    data?: cloudPlatformTypes["Page«ProduceLineCapacityManageModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11573,7 +11553,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceOrderListResp»»": {
-    data?: definitions["Page«ProduceOrderListResp»"];
+    data?: cloudPlatformTypes["Page«ProduceOrderListResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11583,7 +11563,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceSchedulePlanDto对象»»": {
-    data?: definitions["Page«ProduceSchedulePlanDto对象»"];
+    data?: cloudPlatformTypes["Page«ProduceSchedulePlanDto对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11593,7 +11573,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceTaskFile对象»»": {
-    data?: definitions["Page«ProduceTaskFile对象»"];
+    data?: cloudPlatformTypes["Page«ProduceTaskFile对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11603,7 +11583,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceTaskOperateRecordModel»»": {
-    data?: definitions["Page«ProduceTaskOperateRecordModel»"];
+    data?: cloudPlatformTypes["Page«ProduceTaskOperateRecordModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11613,7 +11593,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceTaskTotalModel对象»»": {
-    data?: definitions["Page«ProduceTaskTotalModel对象»"];
+    data?: cloudPlatformTypes["Page«ProduceTaskTotalModel对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11623,7 +11603,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceTask对象»»": {
-    data?: definitions["Page«ProduceTask对象»"];
+    data?: cloudPlatformTypes["Page«ProduceTask对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11633,7 +11613,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ProduceTraceShemeConfig对象»»": {
-    data?: definitions["Page«ProduceTraceShemeConfig对象»"];
+    data?: cloudPlatformTypes["Page«ProduceTraceShemeConfig对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11643,7 +11623,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«PulpProductionLineConfigResp»»": {
-    data?: definitions["Page«PulpProductionLineConfigResp»"];
+    data?: cloudPlatformTypes["Page«PulpProductionLineConfigResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11653,7 +11633,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«QualityAnalyzeModel»»": {
-    data?: definitions["Page«QualityAnalyzeModel»"];
+    data?: cloudPlatformTypes["Page«QualityAnalyzeModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11663,7 +11643,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«QualityTraceListRespVo»»": {
-    data?: definitions["Page«QualityTraceListRespVo»"];
+    data?: cloudPlatformTypes["Page«QualityTraceListRespVo»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11673,7 +11653,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ReasonAnalyzeModel»»": {
-    data?: definitions["Page«ReasonAnalyzeModel»"];
+    data?: cloudPlatformTypes["Page«ReasonAnalyzeModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11683,7 +11663,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«RecordResp»»": {
-    data?: definitions["Page«RecordResp»"];
+    data?: cloudPlatformTypes["Page«RecordResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11693,7 +11673,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ReportItemResp»»": {
-    data?: definitions["Page«ReportItemResp»"];
+    data?: cloudPlatformTypes["Page«ReportItemResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11703,7 +11683,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ResultResp»»": {
-    data?: definitions["Page«ResultResp»"];
+    data?: cloudPlatformTypes["Page«ResultResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11713,7 +11693,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«SchedulePlanCalculateResultDto对象»»": {
-    data?: definitions["Page«SchedulePlanCalculateResultDto对象»"];
+    data?: cloudPlatformTypes["Page«SchedulePlanCalculateResultDto对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11723,7 +11703,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«SchedulePlanPageResp»»": {
-    data?: definitions["Page«SchedulePlanPageResp»"];
+    data?: cloudPlatformTypes["Page«SchedulePlanPageResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11733,7 +11713,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«StockEoStat»»": {
-    data?: definitions["Page«StockEoStat»"];
+    data?: cloudPlatformTypes["Page«StockEoStat»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11743,7 +11723,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«StockOutModel»»": {
-    data?: definitions["Page«StockOutModel»"];
+    data?: cloudPlatformTypes["Page«StockOutModel»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11753,7 +11733,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«StockStat»»": {
-    data?: definitions["Page«StockStat»"];
+    data?: cloudPlatformTypes["Page«StockStat»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11763,7 +11743,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«StockStat对象»»": {
-    data?: definitions["Page«StockStat对象»"];
+    data?: cloudPlatformTypes["Page«StockStat对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11773,7 +11753,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«StoreBillRespDto»»": {
-    data?: definitions["Page«StoreBillRespDto»"];
+    data?: cloudPlatformTypes["Page«StoreBillRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11783,7 +11763,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«StoreOutBillRespDto»»": {
-    data?: definitions["Page«StoreOutBillRespDto»"];
+    data?: cloudPlatformTypes["Page«StoreOutBillRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11793,7 +11773,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«StoreTrendStat»»": {
-    data?: definitions["Page«StoreTrendStat»"];
+    data?: cloudPlatformTypes["Page«StoreTrendStat»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11803,7 +11783,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«TargetDetailDayResp对象»»": {
-    data?: definitions["Page«TargetDetailDayResp对象»"];
+    data?: cloudPlatformTypes["Page«TargetDetailDayResp对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11813,7 +11793,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«TargetDetailItem»»": {
-    data?: definitions["Page«TargetDetailItem»"];
+    data?: cloudPlatformTypes["Page«TargetDetailItem»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11823,7 +11803,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«TaskFileDownloadRecordResp»»": {
-    data?: definitions["Page«TaskFileDownloadRecordResp»"];
+    data?: cloudPlatformTypes["Page«TaskFileDownloadRecordResp»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11833,7 +11813,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«ThirdAccountRelationRespDto»»": {
-    data?: definitions["Page«ThirdAccountRelationRespDto»"];
+    data?: cloudPlatformTypes["Page«ThirdAccountRelationRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11843,7 +11823,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«WorkUnitConfig对象»»": {
-    data?: definitions["Page«WorkUnitConfig对象»"];
+    data?: cloudPlatformTypes["Page«WorkUnitConfig对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11853,7 +11833,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«pc已确认维修经验分页数据对象»»": {
-    data?: definitions["Page«pc已确认维修经验分页数据对象»"];
+    data?: cloudPlatformTypes["Page«pc已确认维修经验分页数据对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11863,7 +11843,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«pc未确认维修经验数据对象»»": {
-    data?: definitions["Page«pc未确认维修经验数据对象»"];
+    data?: cloudPlatformTypes["Page«pc未确认维修经验数据对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11873,7 +11853,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«string»»": {
-    data?: definitions["Page«string»"];
+    data?: cloudPlatformTypes["Page«string»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11883,7 +11863,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«交接事项响应参数»»": {
-    data?: definitions["Page«交接事项响应参数»"];
+    data?: cloudPlatformTypes["Page«交接事项响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11893,7 +11873,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«产品切换记录响应实体»»": {
-    data?: definitions["Page«产品切换记录响应实体»"];
+    data?: cloudPlatformTypes["Page«产品切换记录响应实体»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11903,7 +11883,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«产品质检请求对象»»": {
-    data?: definitions["Page«产品质检请求对象»"];
+    data?: cloudPlatformTypes["Page«产品质检请求对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11913,7 +11893,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«产量约束响应实体»»": {
-    data?: definitions["Page«产量约束响应实体»"];
+    data?: cloudPlatformTypes["Page«产量约束响应实体»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11923,7 +11903,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«任务管理状态列表响应参数»»": {
-    data?: definitions["Page«任务管理状态列表响应参数»"];
+    data?: cloudPlatformTypes["Page«任务管理状态列表响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11933,7 +11913,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«企业指标列表响应参数»»": {
-    data?: definitions["Page«企业指标列表响应参数»"];
+    data?: cloudPlatformTypes["Page«企业指标列表响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11943,7 +11923,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«保养任务请求对象»»": {
-    data?: definitions["Page«保养任务请求对象»"];
+    data?: cloudPlatformTypes["Page«保养任务请求对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11953,7 +11933,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«保养计划详情»»": {
-    data?: definitions["Page«保养计划详情»"];
+    data?: cloudPlatformTypes["Page«保养计划详情»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11963,7 +11943,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«分摊模板列表响应参数»»": {
-    data?: definitions["Page«分摊模板列表响应参数»"];
+    data?: cloudPlatformTypes["Page«分摊模板列表响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11973,7 +11953,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«分页查询标准操作流程基础信息表响应»»": {
-    data?: definitions["Page«分页查询标准操作流程基础信息表响应»"];
+    data?: cloudPlatformTypes["Page«分页查询标准操作流程基础信息表响应»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11983,7 +11963,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«告警规则»»": {
-    data?: definitions["Page«告警规则»"];
+    data?: cloudPlatformTypes["Page«告警规则»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -11993,7 +11973,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«响应参数»»": {
-    data?: definitions["Page«响应参数»"];
+    data?: cloudPlatformTypes["Page«响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12003,7 +11983,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«安全库存响应参数»»": {
-    data?: definitions["Page«安全库存响应参数»"];
+    data?: cloudPlatformTypes["Page«安全库存响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12013,7 +11993,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«工艺路径分页实体»»": {
-    data?: definitions["Page«工艺路径分页实体»"];
+    data?: cloudPlatformTypes["Page«工艺路径分页实体»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12023,7 +12003,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«批次分析对象»»": {
-    data?: definitions["Page«批次分析对象»"];
+    data?: cloudPlatformTypes["Page«批次分析对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12033,7 +12013,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«指令关联工厂单元列表响应»»": {
-    data?: definitions["Page«指令关联工厂单元列表响应»"];
+    data?: cloudPlatformTypes["Page«指令关联工厂单元列表响应»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12043,7 +12023,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«指令配置列表响应»»": {
-    data?: definitions["Page«指令配置列表响应»"];
+    data?: cloudPlatformTypes["Page«指令配置列表响应»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12053,7 +12033,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«操作记录列表响应参数»»": {
-    data?: definitions["Page«操作记录列表响应参数»"];
+    data?: cloudPlatformTypes["Page«操作记录列表响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12063,7 +12043,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«操作配置列表响应参数»»": {
-    data?: definitions["Page«操作配置列表响应参数»"];
+    data?: cloudPlatformTypes["Page«操作配置列表响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12073,7 +12053,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«故障统计分页实体对象»»": {
-    data?: definitions["Page«故障统计分页实体对象»"];
+    data?: cloudPlatformTypes["Page«故障统计分页实体对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12083,7 +12063,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«最佳操作产品列表响应»»": {
-    data?: definitions["Page«最佳操作产品列表响应»"];
+    data?: cloudPlatformTypes["Page«最佳操作产品列表响应»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12093,7 +12073,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«最佳操作参数响应结构»»": {
-    data?: definitions["Page«最佳操作参数响应结构»"];
+    data?: cloudPlatformTypes["Page«最佳操作参数响应结构»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12103,7 +12083,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«生产指令列表响应»»": {
-    data?: definitions["Page«生产指令列表响应»"];
+    data?: cloudPlatformTypes["Page«生产指令列表响应»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12113,7 +12093,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«生产日历响应参数»»": {
-    data?: definitions["Page«生产日历响应参数»"];
+    data?: cloudPlatformTypes["Page«生产日历响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12123,7 +12103,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«维修记录详情»»": {
-    data?: definitions["Page«维修记录详情»"];
+    data?: cloudPlatformTypes["Page«维修记录详情»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12133,7 +12113,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«能源报表配置（新）分页对象»»": {
-    data?: definitions["Page«能源报表配置（新）分页对象»"];
+    data?: cloudPlatformTypes["Page«能源报表配置（新）分页对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12143,7 +12123,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«自动创建任务方案列表»»": {
-    data?: definitions["Page«自动创建任务方案列表»"];
+    data?: cloudPlatformTypes["Page«自动创建任务方案列表»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12153,7 +12133,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«订单列表响应参数»»": {
-    data?: definitions["Page«订单列表响应参数»"];
+    data?: cloudPlatformTypes["Page«订单列表响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12163,7 +12143,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«设备任务统计下钻返回对应»»": {
-    data?: definitions["Page«设备任务统计下钻返回对应»"];
+    data?: cloudPlatformTypes["Page«设备任务统计下钻返回对应»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12173,7 +12153,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«设备约束响应参数»»": {
-    data?: definitions["Page«设备约束响应参数»"];
+    data?: cloudPlatformTypes["Page«设备约束响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12183,7 +12163,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«质量报告-列表信息»»": {
-    data?: definitions["Page«质量报告-列表信息»"];
+    data?: cloudPlatformTypes["Page«质量报告-列表信息»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12193,7 +12173,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Page«项目录入列表响应参数»»": {
-    data?: definitions["Page«项目录入列表响应参数»"];
+    data?: cloudPlatformTypes["Page«项目录入列表响应参数»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12203,7 +12183,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«PaperBreakScreen»": {
-    data?: definitions["PaperBreakScreen"];
+    data?: cloudPlatformTypes["PaperBreakScreen"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12213,7 +12193,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ParameterConfigRespDto»": {
-    data?: definitions["ParameterConfigRespDto"];
+    data?: cloudPlatformTypes["ParameterConfigRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12223,7 +12203,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«PcStoreCheckingInfo»": {
-    data?: definitions["PcStoreCheckingInfo"];
+    data?: cloudPlatformTypes["PcStoreCheckingInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12233,7 +12213,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProcessBasicTitle»": {
-    data?: definitions["ProcessBasicTitle"];
+    data?: cloudPlatformTypes["ProcessBasicTitle"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12243,7 +12223,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProcessNodeResp»": {
-    data?: definitions["ProcessNodeResp"];
+    data?: cloudPlatformTypes["ProcessNodeResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12253,7 +12233,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdCoproductStat»": {
-    data?: definitions["ProdCoproductStat"];
+    data?: cloudPlatformTypes["ProdCoproductStat"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12263,7 +12243,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdFormulaPreferResInfo»": {
-    data?: definitions["ProdFormulaPreferResInfo"];
+    data?: cloudPlatformTypes["ProdFormulaPreferResInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12273,7 +12253,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdFormulaPreferSetting»": {
-    data?: definitions["ProdFormulaPreferSetting"];
+    data?: cloudPlatformTypes["ProdFormulaPreferSetting"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12283,7 +12263,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdGrQaKanbanTime»": {
-    data?: definitions["ProdGrQaKanbanTime"];
+    data?: cloudPlatformTypes["ProdGrQaKanbanTime"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12293,7 +12273,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdGrQaKanban»": {
-    data?: definitions["ProdGrQaKanban"];
+    data?: cloudPlatformTypes["ProdGrQaKanban"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12303,7 +12283,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdGrQaRecordInfo»": {
-    data?: definitions["ProdGrQaRecordInfo"];
+    data?: cloudPlatformTypes["ProdGrQaRecordInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12313,7 +12293,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdGrQaSegStat»": {
-    data?: definitions["ProdGrQaSegStat"];
+    data?: cloudPlatformTypes["ProdGrQaSegStat"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12323,7 +12303,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdGrQaStatRes»": {
-    data?: definitions["ProdGrQaStatRes"];
+    data?: cloudPlatformTypes["ProdGrQaStatRes"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12333,7 +12313,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdGrQaTempInfo»": {
-    data?: definitions["ProdGrQaTempInfo"];
+    data?: cloudPlatformTypes["ProdGrQaTempInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12343,7 +12323,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdMaterialPreferResInfo»": {
-    data?: definitions["ProdMaterialPreferResInfo"];
+    data?: cloudPlatformTypes["ProdMaterialPreferResInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12353,7 +12333,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdMaterialPreferSetting»": {
-    data?: definitions["ProdMaterialPreferSetting"];
+    data?: cloudPlatformTypes["ProdMaterialPreferSetting"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12363,7 +12343,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProdMonthPlanDetail»": {
-    data?: definitions["ProdMonthPlanDetail"];
+    data?: cloudPlatformTypes["ProdMonthPlanDetail"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12373,7 +12353,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceAreaList»": {
-    data?: definitions["ProduceAreaList"];
+    data?: cloudPlatformTypes["ProduceAreaList"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12383,7 +12363,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceBatchAnalyzeConfig对象»": {
-    data?: definitions["ProduceBatchAnalyzeConfig对象"];
+    data?: cloudPlatformTypes["ProduceBatchAnalyzeConfig对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12393,7 +12373,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceCapacityManageVo»": {
-    data?: definitions["ProduceCapacityManageVo"];
+    data?: cloudPlatformTypes["ProduceCapacityManageVo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12403,7 +12383,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceCapacityVerifyRespDto»": {
-    data?: definitions["ProduceCapacityVerifyRespDto"];
+    data?: cloudPlatformTypes["ProduceCapacityVerifyRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12413,7 +12393,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceCheckTemplate»": {
-    data?: definitions["ProduceCheckTemplate"];
+    data?: cloudPlatformTypes["ProduceCheckTemplate"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12423,7 +12403,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceCheckingAuditTemplate»": {
-    data?: definitions["ProduceCheckingAuditTemplate"];
+    data?: cloudPlatformTypes["ProduceCheckingAuditTemplate"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12433,7 +12413,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceCheckingProcessRecordList»": {
-    data?: definitions["ProduceCheckingProcessRecordList"];
+    data?: cloudPlatformTypes["ProduceCheckingProcessRecordList"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12443,7 +12423,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceCheckingStock对象»": {
-    data?: definitions["ProduceCheckingStock对象"];
+    data?: cloudPlatformTypes["ProduceCheckingStock对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12453,7 +12433,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceCheckingStoreRecordList»": {
-    data?: definitions["ProduceCheckingStoreRecordList"];
+    data?: cloudPlatformTypes["ProduceCheckingStoreRecordList"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12463,7 +12443,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceDynamicFieldTable»": {
-    data?: definitions["ProduceDynamicFieldTable"];
+    data?: cloudPlatformTypes["ProduceDynamicFieldTable"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12473,7 +12453,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceLineCapacityManageModel»": {
-    data?: definitions["ProduceLineCapacityManageModel"];
+    data?: cloudPlatformTypes["ProduceLineCapacityManageModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12483,7 +12463,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceOrderItemResp»": {
-    data?: definitions["ProduceOrderItemResp"];
+    data?: cloudPlatformTypes["ProduceOrderItemResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12493,7 +12473,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProducePaperRollInfo对象»": {
-    data?: definitions["ProducePaperRollInfo对象"];
+    data?: cloudPlatformTypes["ProducePaperRollInfo对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12503,7 +12483,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProducePathResp对象»": {
-    data?: definitions["ProducePathResp对象"];
+    data?: cloudPlatformTypes["ProducePathResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12513,7 +12493,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceProgressData»": {
-    data?: definitions["ProduceProgressData"];
+    data?: cloudPlatformTypes["ProduceProgressData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12523,7 +12503,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceSheetFileDownload»": {
-    data?: definitions["ProduceSheetFileDownload"];
+    data?: cloudPlatformTypes["ProduceSheetFileDownload"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12533,7 +12513,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceTaskLossAreaResp»": {
-    data?: definitions["ProduceTaskLossAreaResp"];
+    data?: cloudPlatformTypes["ProduceTaskLossAreaResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12543,7 +12523,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceTaskOutputData»": {
-    data?: definitions["ProduceTaskOutputData"];
+    data?: cloudPlatformTypes["ProduceTaskOutputData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12553,7 +12533,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceTaskTemplate对象»": {
-    data?: definitions["ProduceTaskTemplate对象"];
+    data?: cloudPlatformTypes["ProduceTaskTemplate对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12563,7 +12543,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceTask对象»": {
-    data?: definitions["ProduceTask对象"];
+    data?: cloudPlatformTypes["ProduceTask对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12573,7 +12553,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProduceTraceShemeConfig对象»": {
-    data?: definitions["ProduceTraceShemeConfig对象"];
+    data?: cloudPlatformTypes["ProduceTraceShemeConfig对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12583,7 +12563,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ProductOutputData»": {
-    data?: definitions["ProductOutputData"];
+    data?: cloudPlatformTypes["ProductOutputData"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12593,7 +12573,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QrcodeGenerateRecordDetailResp»": {
-    data?: definitions["QrcodeGenerateRecordDetailResp"];
+    data?: cloudPlatformTypes["QrcodeGenerateRecordDetailResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12603,7 +12583,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QrcodeRecordEntryResp»": {
-    data?: definitions["QrcodeRecordEntryResp"];
+    data?: cloudPlatformTypes["QrcodeRecordEntryResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12613,7 +12593,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QrcodeSheetRecordResp»": {
-    data?: definitions["QrcodeSheetRecordResp"];
+    data?: cloudPlatformTypes["QrcodeSheetRecordResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12623,7 +12603,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QrcodeTemplateImportInfoResp»": {
-    data?: definitions["QrcodeTemplateImportInfoResp"];
+    data?: cloudPlatformTypes["QrcodeTemplateImportInfoResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12633,7 +12613,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QrcodeTemplateParameterResp»": {
-    data?: definitions["QrcodeTemplateParameterResp"];
+    data?: cloudPlatformTypes["QrcodeTemplateParameterResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12643,7 +12623,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QrcodeTemplateResp»": {
-    data?: definitions["QrcodeTemplateResp"];
+    data?: cloudPlatformTypes["QrcodeTemplateResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12653,7 +12633,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QualityUnqualifiedNumByTypeQuality»": {
-    data?: definitions["QualityUnqualifiedNumByTypeQuality"];
+    data?: cloudPlatformTypes["QualityUnqualifiedNumByTypeQuality"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12663,7 +12643,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«QueryTaskMessageResp»": {
-    data?: definitions["QueryTaskMessageResp"];
+    data?: cloudPlatformTypes["QueryTaskMessageResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12673,7 +12653,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ReportCustomTemplateConfigResp»": {
-    data?: definitions["ReportCustomTemplateConfigResp"];
+    data?: cloudPlatformTypes["ReportCustomTemplateConfigResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12683,7 +12663,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ReportResp»": {
-    data?: definitions["ReportResp"];
+    data?: cloudPlatformTypes["ReportResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12693,7 +12673,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«RuleParameterRespDto»": {
-    data?: definitions["RuleParameterRespDto"];
+    data?: cloudPlatformTypes["RuleParameterRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12703,7 +12683,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SaveDivideRecordItemReq_Attach»": {
-    data?: definitions["SaveDivideRecordItemReq_Attach"];
+    data?: cloudPlatformTypes["SaveDivideRecordItemReq_Attach"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12713,7 +12693,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SaveEnteryDataDetailResp»": {
-    data?: definitions["SaveEnteryDataDetailResp"];
+    data?: cloudPlatformTypes["SaveEnteryDataDetailResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12723,7 +12703,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«ScanQrcodeResp»": {
-    data?: definitions["ScanQrcodeResp"];
+    data?: cloudPlatformTypes["ScanQrcodeResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12733,7 +12713,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SchedulePlanAddReq»": {
-    data?: definitions["SchedulePlanAddReq"];
+    data?: cloudPlatformTypes["SchedulePlanAddReq"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12743,7 +12723,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SelectProjectModel»": {
-    data?: definitions["SelectProjectModel"];
+    data?: cloudPlatformTypes["SelectProjectModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12763,7 +12743,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SheetEntryDetailResp»": {
-    data?: definitions["SheetEntryDetailResp"];
+    data?: cloudPlatformTypes["SheetEntryDetailResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12773,7 +12753,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SheetFormFields»": {
-    data?: definitions["SheetFormFields"];
+    data?: cloudPlatformTypes["SheetFormFields"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12783,7 +12763,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SheetMaterialTypeConfig»": {
-    data?: definitions["SheetMaterialTypeConfig"];
+    data?: cloudPlatformTypes["SheetMaterialTypeConfig"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12793,7 +12773,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SheetRecordTable»": {
-    data?: definitions["SheetRecordTable"];
+    data?: cloudPlatformTypes["SheetRecordTable"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12803,7 +12783,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SheetToStoreResp»": {
-    data?: definitions["SheetToStoreResp"];
+    data?: cloudPlatformTypes["SheetToStoreResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12813,7 +12793,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SheetToStoreSelectResp»": {
-    data?: definitions["SheetToStoreSelectResp"];
+    data?: cloudPlatformTypes["SheetToStoreSelectResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12823,7 +12803,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SopExecutionListResp»": {
-    data?: definitions["SopExecutionListResp"];
+    data?: cloudPlatformTypes["SopExecutionListResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12833,7 +12813,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StatConfig对象»": {
-    data?: definitions["StatConfig对象"];
+    data?: cloudPlatformTypes["StatConfig对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12843,7 +12823,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StockTransferModel对象»": {
-    data?: definitions["StockTransferModel对象"];
+    data?: cloudPlatformTypes["StockTransferModel对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12853,7 +12833,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StorageAccountResp»": {
-    data?: definitions["StorageAccountResp"];
+    data?: cloudPlatformTypes["StorageAccountResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12863,7 +12843,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StoreAndConfigInfo仓库配置请求对象»": {
-    data?: definitions["StoreAndConfigInfo仓库配置请求对象"];
+    data?: cloudPlatformTypes["StoreAndConfigInfo仓库配置请求对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12873,7 +12853,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StoreAndConfig对象»": {
-    data?: definitions["StoreAndConfig对象"];
+    data?: cloudPlatformTypes["StoreAndConfig对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12883,7 +12863,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StoreBillEntryDetailResp»": {
-    data?: definitions["StoreBillEntryDetailResp"];
+    data?: cloudPlatformTypes["StoreBillEntryDetailResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12893,7 +12873,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StoreCheckingCopyModel»": {
-    data?: definitions["StoreCheckingCopyModel"];
+    data?: cloudPlatformTypes["StoreCheckingCopyModel"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12903,7 +12883,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StoreConfigInfo仓库配置请求对象»": {
-    data?: definitions["StoreConfigInfo仓库配置请求对象"];
+    data?: cloudPlatformTypes["StoreConfigInfo仓库配置请求对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12913,7 +12893,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«StoreStock对象»": {
-    data?: definitions["StoreStock对象"];
+    data?: cloudPlatformTypes["StoreStock对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12923,7 +12903,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Store对象»": {
-    data?: definitions["Store对象"];
+    data?: cloudPlatformTypes["Store对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12933,7 +12913,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«SummaryGetResp»": {
-    data?: definitions["SummaryGetResp"];
+    data?: cloudPlatformTypes["SummaryGetResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12945,7 +12925,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«SummaryGroupDataResp»": {
-    data?: definitions["SummaryGroupDataResp"];
+    data?: cloudPlatformTypes["SummaryGroupDataResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12957,7 +12937,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«TaskEnergyReport»": {
-    data?: definitions["TaskEnergyReport"];
+    data?: cloudPlatformTypes["TaskEnergyReport"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12969,7 +12949,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«TaskNoVo»": {
-    data?: definitions["TaskNoVo"];
+    data?: cloudPlatformTypes["TaskNoVo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12979,7 +12959,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«TimeSharePowerConsumeTemplateModelResp对象»": {
-    data?: definitions["TimeSharePowerConsumeTemplateModelResp对象"];
+    data?: cloudPlatformTypes["TimeSharePowerConsumeTemplateModelResp对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12989,7 +12969,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«TotalTaskForm»": {
-    data?: definitions["TotalTaskForm"];
+    data?: cloudPlatformTypes["TotalTaskForm"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -12999,7 +12979,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«TrendPlot»": {
-    data?: definitions["TrendPlot"];
+    data?: cloudPlatformTypes["TrendPlot"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13011,7 +12991,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«TrendRawCalculateDetailResp»": {
-    data?: definitions["TrendRawCalculateDetailResp"];
+    data?: cloudPlatformTypes["TrendRawCalculateDetailResp"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13021,7 +13001,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«Url对象»": {
-    data?: definitions["Url对象"];
+    data?: cloudPlatformTypes["Url对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13031,7 +13011,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«VariableCluster»": {
-    data?: definitions["VariableCluster"];
+    data?: cloudPlatformTypes["VariableCluster"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13043,7 +13023,7 @@ export interface definitions {
     success?: boolean;
   };
   "ApiResp«WorkMaintainTable»": {
-    data?: definitions["WorkMaintainTable"];
+    data?: cloudPlatformTypes["WorkMaintainTable"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13053,7 +13033,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«WorkMaintainTaskInfo»": {
-    data?: definitions["WorkMaintainTaskInfo"];
+    data?: cloudPlatformTypes["WorkMaintainTaskInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13083,7 +13063,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«incoming»": {
-    data?: definitions["incoming"];
+    data?: cloudPlatformTypes["incoming"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13125,7 +13105,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«pc未确认维修经验数据对象»": {
-    data?: definitions["pc未确认维修经验数据对象"];
+    data?: cloudPlatformTypes["pc未确认维修经验数据对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13135,7 +13115,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«pdProduceSheet对象»": {
-    data?: definitions["pdProduceSheet对象"];
+    data?: cloudPlatformTypes["pdProduceSheet对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13155,7 +13135,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«交接事项详情响应参数»": {
-    data?: definitions["交接事项详情响应参数"];
+    data?: cloudPlatformTypes["交接事项详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13165,7 +13145,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«交接记录详情响应参数»": {
-    data?: definitions["交接记录详情响应参数"];
+    data?: cloudPlatformTypes["交接记录详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13175,7 +13155,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«交接项目详情响应参数»": {
-    data?: definitions["交接项目详情响应参数"];
+    data?: cloudPlatformTypes["交接项目详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13185,7 +13165,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«产品质检请求对象»": {
-    data?: definitions["产品质检请求对象"];
+    data?: cloudPlatformTypes["产品质检请求对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13195,7 +13175,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«任务下载数据统计»": {
-    data?: definitions["任务下载数据统计"];
+    data?: cloudPlatformTypes["任务下载数据统计"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13205,7 +13185,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«任务详情响应参数»": {
-    data?: definitions["任务详情响应参数"];
+    data?: cloudPlatformTypes["任务详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13215,7 +13195,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«出库单据详情响应对象»": {
-    data?: definitions["出库单据详情响应对象"];
+    data?: cloudPlatformTypes["出库单据详情响应对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13225,7 +13205,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«分摊模板响应参数»": {
-    data?: definitions["分摊模板响应参数"];
+    data?: cloudPlatformTypes["分摊模板响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13235,7 +13215,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«分析无效原因返回对象»": {
-    data?: definitions["分析无效原因返回对象"];
+    data?: cloudPlatformTypes["分析无效原因返回对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13245,7 +13225,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«分级质检看板列表数据»": {
-    data?: definitions["分级质检看板列表数据"];
+    data?: cloudPlatformTypes["分级质检看板列表数据"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13255,7 +13235,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«分级质检看板筛选项数据»": {
-    data?: definitions["分级质检看板筛选项数据"];
+    data?: cloudPlatformTypes["分级质检看板筛选项数据"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13265,7 +13245,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«制浆模型优化建议»": {
-    data?: definitions["制浆模型优化建议"];
+    data?: cloudPlatformTypes["制浆模型优化建议"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13275,7 +13255,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«单据详情响应对象»": {
-    data?: definitions["单据详情响应对象"];
+    data?: cloudPlatformTypes["单据详情响应对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13285,7 +13265,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«告警规则»": {
-    data?: definitions["告警规则"];
+    data?: cloudPlatformTypes["告警规则"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13295,7 +13275,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«响应参数»": {
-    data?: definitions["响应参数"];
+    data?: cloudPlatformTypes["响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13305,7 +13285,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«定量项目分析返回对象»": {
-    data?: definitions["定量项目分析返回对象"];
+    data?: cloudPlatformTypes["定量项目分析返回对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13315,7 +13295,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«定量项目采集值获取-响应»": {
-    data?: definitions["定量项目采集值获取-响应"];
+    data?: cloudPlatformTypes["定量项目采集值获取-响应"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13325,7 +13305,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«导入排期计划-响应参数»": {
-    data?: definitions["导入排期计划-响应参数"];
+    data?: cloudPlatformTypes["导入排期计划-响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13335,7 +13315,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«导入设备约束响应参数»": {
-    data?: definitions["导入设备约束响应参数"];
+    data?: cloudPlatformTypes["导入设备约束响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13345,7 +13325,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«导出变量响应数据集»": {
-    data?: definitions["导出变量响应数据集"];
+    data?: cloudPlatformTypes["导出变量响应数据集"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13355,7 +13335,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«工作台任务详情»": {
-    data?: definitions["工作台任务详情"];
+    data?: cloudPlatformTypes["工作台任务详情"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13365,7 +13345,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«工厂单元关联指令详情»": {
-    data?: definitions["工厂单元关联指令详情"];
+    data?: cloudPlatformTypes["工厂单元关联指令详情"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13375,7 +13355,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«工艺路径分页实体»": {
-    data?: definitions["工艺路径分页实体"];
+    data?: cloudPlatformTypes["工艺路径分页实体"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13385,7 +13365,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«指令详情响应参数»": {
-    data?: definitions["指令详情响应参数"];
+    data?: cloudPlatformTypes["指令详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13395,7 +13375,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«指标数据»": {
-    data?: definitions["指标数据"];
+    data?: cloudPlatformTypes["指标数据"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13405,7 +13385,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«指标模板可选项»": {
-    data?: definitions["指标模板可选项"];
+    data?: cloudPlatformTypes["指标模板可选项"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13415,7 +13395,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«操作日志实体»": {
-    data?: definitions["操作日志实体"];
+    data?: cloudPlatformTypes["操作日志实体"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13425,7 +13405,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«操作记录详情响应参数»": {
-    data?: definitions["操作记录详情响应参数"];
+    data?: cloudPlatformTypes["操作记录详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13435,7 +13415,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«操作配置详情响应参数»": {
-    data?: definitions["操作配置详情响应参数"];
+    data?: cloudPlatformTypes["操作配置详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13445,7 +13425,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«故障统计汇总数据统计对象»": {
-    data?: definitions["故障统计汇总数据统计对象"];
+    data?: cloudPlatformTypes["故障统计汇总数据统计对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13455,7 +13435,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«最佳推荐响应参数»": {
-    data?: definitions["最佳推荐响应参数"];
+    data?: cloudPlatformTypes["最佳推荐响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13465,7 +13445,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«未来气泡量返回对象»": {
-    data?: definitions["未来气泡量返回对象"];
+    data?: cloudPlatformTypes["未来气泡量返回对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13475,7 +13455,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«机构详情»": {
-    data?: definitions["机构详情"];
+    data?: cloudPlatformTypes["机构详情"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13485,7 +13465,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«查看设备部位备件信息»": {
-    data?: definitions["查看设备部位备件信息"];
+    data?: cloudPlatformTypes["查看设备部位备件信息"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13495,7 +13475,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«查询列表工厂模型列表响应对象»": {
-    data?: definitions["查询列表工厂模型列表响应对象"];
+    data?: cloudPlatformTypes["查询列表工厂模型列表响应对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13505,7 +13485,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«查询工厂车间树响应对象»": {
-    data?: definitions["查询工厂车间树响应对象"];
+    data?: cloudPlatformTypes["查询工厂车间树响应对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13515,7 +13495,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«标准信息详情»": {
-    data?: definitions["标准信息详情"];
+    data?: cloudPlatformTypes["标准信息详情"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13525,7 +13505,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«物料关联工艺路径相应实体»": {
-    data?: definitions["物料关联工艺路径相应实体"];
+    data?: cloudPlatformTypes["物料关联工艺路径相应实体"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13535,7 +13515,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«班次对象»": {
-    data?: definitions["班次对象"];
+    data?: cloudPlatformTypes["班次对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13545,7 +13525,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«球磨模型历史-价值体现响应»": {
-    data?: definitions["球磨模型历史-价值体现响应"];
+    data?: cloudPlatformTypes["球磨模型历史-价值体现响应"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13555,7 +13535,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«生产指令详情响应参数»": {
-    data?: definitions["生产指令详情响应参数"];
+    data?: cloudPlatformTypes["生产指令详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13565,7 +13545,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«生产日历详情响应»": {
-    data?: definitions["生产日历详情响应"];
+    data?: cloudPlatformTypes["生产日历详情响应"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13575,7 +13555,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«粉仓报表分页返回对象«动态行数据»»": {
-    data?: definitions["粉仓报表分页返回对象«动态行数据»"];
+    data?: cloudPlatformTypes["粉仓报表分页返回对象«动态行数据»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13585,7 +13565,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«粉仓报表分页返回对象«粉仓报表数据对象»»": {
-    data?: definitions["粉仓报表分页返回对象«粉仓报表数据对象»"];
+    data?: cloudPlatformTypes["粉仓报表分页返回对象«粉仓报表数据对象»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13595,7 +13575,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«组装好的新增设备部位和备件的数据»": {
-    data?: definitions["组装好的新增设备部位和备件的数据"];
+    data?: cloudPlatformTypes["组装好的新增设备部位和备件的数据"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13605,7 +13585,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«维修经验显示信息»": {
-    data?: definitions["维修经验显示信息"];
+    data?: cloudPlatformTypes["维修经验显示信息"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13615,7 +13595,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«能源报表配置（新）分页对象»": {
-    data?: definitions["能源报表配置（新）分页对象"];
+    data?: cloudPlatformTypes["能源报表配置（新）分页对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13625,7 +13605,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«自动创建任务详情响应参数»": {
-    data?: definitions["自动创建任务详情响应参数"];
+    data?: cloudPlatformTypes["自动创建任务详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13635,7 +13615,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«获取设备属性可选控件类型响应»": {
-    data?: definitions["获取设备属性可选控件类型响应"];
+    data?: cloudPlatformTypes["获取设备属性可选控件类型响应"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13645,7 +13625,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«表格响应数据»": {
-    data?: definitions["表格响应数据"];
+    data?: cloudPlatformTypes["表格响应数据"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13655,7 +13635,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«订单详情响应»": {
-    data?: definitions["订单详情响应"];
+    data?: cloudPlatformTypes["订单详情响应"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13665,7 +13645,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«设备停机日历响应参数»": {
-    data?: definitions["设备停机日历响应参数"];
+    data?: cloudPlatformTypes["设备停机日历响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13675,7 +13655,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«设备文件对象»": {
-    data?: definitions["设备文件对象"];
+    data?: cloudPlatformTypes["设备文件对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13685,7 +13665,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«设备类型部位备件信息返回对象»": {
-    data?: definitions["设备类型部位备件信息返回对象"];
+    data?: cloudPlatformTypes["设备类型部位备件信息返回对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13695,7 +13675,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«设备约束详情响应参数»": {
-    data?: definitions["设备约束详情响应参数"];
+    data?: cloudPlatformTypes["设备约束详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13705,7 +13685,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«详情响应参数»": {
-    data?: definitions["详情响应参数"];
+    data?: cloudPlatformTypes["详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13715,7 +13695,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«质量报告-保存基本信息»": {
-    data?: definitions["质量报告-保存基本信息"];
+    data?: cloudPlatformTypes["质量报告-保存基本信息"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13725,7 +13705,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«费用分摊查询返回对象»": {
-    data?: definitions["费用分摊查询返回对象"];
+    data?: cloudPlatformTypes["费用分摊查询返回对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13735,7 +13715,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«过程检验复制返回对象»": {
-    data?: definitions["过程检验复制返回对象"];
+    data?: cloudPlatformTypes["过程检验复制返回对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13745,7 +13725,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«部门详情»": {
-    data?: definitions["部门详情"];
+    data?: cloudPlatformTypes["部门详情"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13755,7 +13735,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«配方优选_批次选择_模型»": {
-    data?: definitions["配方优选_批次选择_模型"];
+    data?: cloudPlatformTypes["配方优选_批次选择_模型"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13765,7 +13745,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«项目能耗数据录入详情响应参数»": {
-    data?: definitions["项目能耗数据录入详情响应参数"];
+    data?: cloudPlatformTypes["项目能耗数据录入详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13775,7 +13755,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«预测气泡量返回对象»": {
-    data?: definitions["预测气泡量返回对象"];
+    data?: cloudPlatformTypes["预测气泡量返回对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13785,7 +13765,7 @@ export interface definitions {
     retMsg?: string;
   };
   "ApiResp«领用单据详情响应对象»": {
-    data?: definitions["领用单据详情响应对象"];
+    data?: cloudPlatformTypes["领用单据详情响应对象"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -13855,7 +13835,7 @@ export interface definitions {
     /**
      * 审核人列表
      */
-    approver?: definitions["ApproveTemplateModel_Approver对象"][];
+    approver?: cloudPlatformTypes["ApproveTemplateModel_Approver对象"][];
     /**
      * 创建人
      */
@@ -13938,7 +13918,7 @@ export interface definitions {
     /**
      * 审核人列表
      */
-    approver?: definitions["ApproveTemplateModel_Approver对象"][];
+    approver?: cloudPlatformTypes["ApproveTemplateModel_Approver对象"][];
     /**
      * 审核人名字
      */
@@ -13986,13 +13966,13 @@ export interface definitions {
     /**
      * 审核人列表
      */
-    approver?: definitions["ApproveTemplateModel_Approver对象"][];
+    approver?: cloudPlatformTypes["ApproveTemplateModel_Approver对象"][];
   };
   ApproveTemplateModel对象: {
     /**
      * 附加参数，审核人信息
      */
-    attachInfo?: definitions["ApproveTemplateModel_AttachInfo对象"];
+    attachInfo?: cloudPlatformTypes["ApproveTemplateModel_AttachInfo对象"];
     /**
      * 创建人
      */
@@ -14031,7 +14011,7 @@ export interface definitions {
     /**
      * 子节点列表
      */
-    children?: definitions["AreaAlarmTreeNode"][];
+    children?: cloudPlatformTypes["AreaAlarmTreeNode"][];
     /**
      * 区域ID
      */
@@ -14087,11 +14067,11 @@ export interface definitions {
   AreaEquipment: {
     areaId?: string;
     areaName?: string;
-    children?: definitions["AreaEquipment"][];
+    children?: cloudPlatformTypes["AreaEquipment"][];
     equipment?: boolean;
   };
   AreaEquipmentTreeResp: {
-    areaEquipments?: definitions["AreaEquipment"][];
+    areaEquipments?: cloudPlatformTypes["AreaEquipment"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -14183,11 +14163,11 @@ export interface definitions {
     /**
      * 子区域列表
      */
-    children?: definitions["AreaNode"][];
+    children?: cloudPlatformTypes["AreaNode"][];
     /**
      * 区域下的班组
      */
-    courses?: definitions["Course"][];
+    courses?: cloudPlatformTypes["Course"][];
     /**
      * 设备编号
      */
@@ -14236,7 +14216,7 @@ export interface definitions {
   AreaShiftCourseItem: {
     areaId?: string;
     areaName?: string;
-    children?: definitions["AreaShiftCourseItem"][];
+    children?: cloudPlatformTypes["AreaShiftCourseItem"][];
     courseGroupId?: string;
     shiftGroupId?: string;
   };
@@ -14550,7 +14530,7 @@ export interface definitions {
   AreaTree: {
     areaId?: string;
     areaName?: string;
-    children?: definitions["AreaTree"][];
+    children?: cloudPlatformTypes["AreaTree"][];
     equipment?: boolean;
     equipmentId?: string;
     /**
@@ -14559,7 +14539,7 @@ export interface definitions {
     reasonTreeId?: string;
   };
   AreaTreeResp: {
-    areaTrees?: definitions["AreaTree"][];
+    areaTrees?: cloudPlatformTypes["AreaTree"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -14608,7 +14588,7 @@ export interface definitions {
     /**
      * 检修内容列表
      */
-    itemList: definitions["MaintainTaskItem"][];
+    itemList: cloudPlatformTypes["MaintainTaskItem"][];
     /**
      * 项目检修人员ID信息，支持来自不同班组，如：[[大班组ID, 小班组ID, 人员ID]]
      */
@@ -15193,7 +15173,7 @@ export interface definitions {
     /**
      * 工厂单元信息
      */
-    factoryAreaLists?: definitions["PrintPlanCodeTemplateResp更新请求对象"][];
+    factoryAreaLists?: cloudPlatformTypes["PrintPlanCodeTemplateResp更新请求对象"][];
     /**
      * 打印机名字
      */
@@ -15201,7 +15181,7 @@ export interface definitions {
     /**
      * 模板信息
      */
-    templateLists?: definitions["PrintPlanCodeTemplateResp更新请求对象"][];
+    templateLists?: cloudPlatformTypes["PrintPlanCodeTemplateResp更新请求对象"][];
   };
   /**
    * 球磨能效分析明细列表实体
@@ -15834,19 +15814,19 @@ export interface definitions {
     /**
      * 比重
      */
-    bizhong?: definitions["BallMillingCheckProcessInfo"];
+    bizhong?: cloudPlatformTypes["BallMillingCheckProcessInfo"];
     /**
      * 结胶剂投入量
      */
-    gellingDistributeList?: definitions["BallMillingMaterial"][];
+    gellingDistributeList?: cloudPlatformTypes["BallMillingMaterial"][];
     /**
      * 流速
      */
-    liushu?: definitions["BallMillingCheckProcessInfo"];
+    liushu?: cloudPlatformTypes["BallMillingCheckProcessInfo"];
     /**
      * 预测筛余
      */
-    predictShaiyu?: definitions["BallMillingCheckProcessInfo"];
+    predictShaiyu?: cloudPlatformTypes["BallMillingCheckProcessInfo"];
     /**
      * 质检ID
      */
@@ -15858,21 +15838,21 @@ export interface definitions {
     /**
      * 筛余
      */
-    shaiyu?: definitions["BallMillingCheckProcessInfo"];
+    shaiyu?: cloudPlatformTypes["BallMillingCheckProcessInfo"];
     /**
      * 水分
      */
-    shuifen?: definitions["BallMillingCheckProcessInfo"];
+    shuifen?: cloudPlatformTypes["BallMillingCheckProcessInfo"];
     /**
      * 水
      */
-    waterDistribute?: definitions["BallMillingMaterial"];
+    waterDistribute?: cloudPlatformTypes["BallMillingMaterial"];
   };
   BallMillingRunningModel: {
     /**
      * 实际筛余
      */
-    actualShaiyu?: definitions["BallMillingCheckProcessInfo"];
+    actualShaiyu?: cloudPlatformTypes["BallMillingCheckProcessInfo"];
     /**
      * 建议关停时间，MM-dd HH:mm:ss
      */
@@ -15912,7 +15892,7 @@ export interface definitions {
     /**
      * 预测筛余
      */
-    predictShaiyu?: definitions["BallMillingCheckProcessInfo"];
+    predictShaiyu?: cloudPlatformTypes["BallMillingCheckProcessInfo"];
     /**
      * 生产任务ID
      */
@@ -15924,7 +15904,7 @@ export interface definitions {
     /**
      * 原料量，3位小数，四舍五入
      */
-    rawMaterialTotal?: definitions["BallMillingMaterial"];
+    rawMaterialTotal?: cloudPlatformTypes["BallMillingMaterial"];
     /**
      * 已经球磨时长,分钟
      */
@@ -15950,7 +15930,7 @@ export interface definitions {
     /**
      * 入球配方量
      */
-    ballCountDataList?: definitions["BallCountData"][];
+    ballCountDataList?: cloudPlatformTypes["BallCountData"][];
     /**
      * 当日放浆数
      */
@@ -15958,7 +15938,7 @@ export interface definitions {
     /**
      * 放浆配方量
      */
-    slurryCountDataList?: definitions["SlurryCountData"][];
+    slurryCountDataList?: cloudPlatformTypes["SlurryCountData"][];
     /**
      * 当日放浆数
      */
@@ -15975,11 +15955,11 @@ export interface definitions {
     /**
      * 球磨运行相关信息
      */
-    ballStatusInfoDataList?: definitions["BallStatusInfoData"][];
+    ballStatusInfoDataList?: cloudPlatformTypes["BallStatusInfoData"][];
     /**
      * 球磨时长相关信息
      */
-    ballTimeInfoDataList?: definitions["BallTimeInfoData"][];
+    ballTimeInfoDataList?: cloudPlatformTypes["BallTimeInfoData"][];
   };
   BallStatusInfoData: {
     /**
@@ -15993,7 +15973,7 @@ export interface definitions {
     /**
      * 状态信息
      */
-    infoData?: definitions["InfoData"][];
+    infoData?: cloudPlatformTypes["InfoData"][];
     /**
      * 近7日平均球磨时长
      */
@@ -16079,11 +16059,11 @@ export interface definitions {
     /**
      * 基本信息
      */
-    baseMsg?: definitions["NodeDetail"][];
+    baseMsg?: cloudPlatformTypes["NodeDetail"][];
     /**
      * 下拉选项数据
      */
-    data?: definitions["NodeDetail"][];
+    data?: cloudPlatformTypes["NodeDetail"][];
     /**
      * 模块排序
      */
@@ -16192,7 +16172,7 @@ export interface definitions {
     /**
      * 物料类别下的物料信息
      */
-    materialInfoBasics?: definitions["MaterialInfoBasic"][];
+    materialInfoBasics?: cloudPlatformTypes["MaterialInfoBasic"][];
     /**
      * 企业物料类别ID
      */
@@ -16220,7 +16200,7 @@ export interface definitions {
     /**
      * 存放基本信息数据
      */
-    baseInfoData?: definitions["ProcessOrIncomingBaseInfoData"];
+    baseInfoData?: cloudPlatformTypes["ProcessOrIncomingBaseInfoData"];
     /**
      * 控件id
      */
@@ -16322,7 +16302,7 @@ export interface definitions {
     /**
      * 生产任务
      */
-    protasks?: definitions["Protask"][];
+    protasks?: cloudPlatformTypes["Protask"][];
   };
   BatchDynamicFieldModel: {
     alias?: string;
@@ -16371,7 +16351,7 @@ export interface definitions {
     rateUnit?: string;
   };
   BatchInsertOrUpdateReq: {
-    addOrUpdateCloudConfigDockReqs?: definitions["CloudConfigDock新增或者编辑请求对象"][];
+    addOrUpdateCloudConfigDockReqs?: cloudPlatformTypes["CloudConfigDock新增或者编辑请求对象"][];
     /**
      * 请求版本
      */
@@ -16463,7 +16443,7 @@ export interface definitions {
     /**
      * 子级批次
      */
-    children?: definitions["BatchResult"][];
+    children?: cloudPlatformTypes["BatchResult"][];
     /**
      * 层级数
      */
@@ -16540,7 +16520,7 @@ export interface definitions {
     /**
      * 报工数据
      */
-    batchData?: definitions["SubmitSheetReq"][];
+    batchData?: cloudPlatformTypes["SubmitSheetReq"][];
     /**
      * eid:企业id
      */
@@ -16686,15 +16666,15 @@ export interface definitions {
     /**
      * 审核人列表
      */
-    approver?: definitions["ApproveTemplateModel_Approver对象"][];
+    approver?: cloudPlatformTypes["ApproveTemplateModel_Approver对象"][];
     /**
      * 单据体字段
      */
-    bodyField?: definitions["BillTemplateFieldDto"][];
+    bodyField?: cloudPlatformTypes["BillTemplateFieldDto"][];
     /**
      * 用户自定义字段
      */
-    customField?: definitions["BillTemplateFieldDto"][];
+    customField?: cloudPlatformTypes["BillTemplateFieldDto"][];
   };
   /**
    * 单据模板dto
@@ -16703,7 +16683,7 @@ export interface definitions {
     /**
      * 审批模板信息
      */
-    approveTemplate?: definitions["ApproveTemplateModel对象"];
+    approveTemplate?: cloudPlatformTypes["ApproveTemplateModel对象"];
     /**
      * 审批模板信息
      */
@@ -16711,7 +16691,7 @@ export interface definitions {
     /**
      * 审核人列表
      */
-    approver?: definitions["ApproveTemplateModel_Approver对象"][];
+    approver?: cloudPlatformTypes["ApproveTemplateModel_Approver对象"][];
     /**
      * 审核人名字
      */
@@ -16719,7 +16699,7 @@ export interface definitions {
     /**
      * 单据模板附加信息
      */
-    attachInfo?: definitions["BillTemplateDto_AttachInfo"];
+    attachInfo?: cloudPlatformTypes["BillTemplateDto_AttachInfo"];
     /**
      * 编码前缀, 入库（RK）、出库（CK）、盘点（PD）、调拨（DB）、领用（LY）、用户自定义
      */
@@ -16777,19 +16757,19 @@ export interface definitions {
     /**
      * 单据体字段
      */
-    bodyField?: definitions["BillTemplateFieldDto"][];
+    bodyField?: cloudPlatformTypes["BillTemplateFieldDto"][];
     /**
      * 用户自定义字段
      */
-    customField?: definitions["BillTemplateFieldDto"][];
+    customField?: cloudPlatformTypes["BillTemplateFieldDto"][];
     /**
      * 用户自定义字段支持页面，前端使用
      */
-    customFieldSupportPage?: definitions["BillTemplateFieldDto_SupportOperation"][];
+    customFieldSupportPage?: cloudPlatformTypes["BillTemplateFieldDto_SupportOperation"][];
     /**
      * 单据头字段
      */
-    headerField?: definitions["BillTemplateFieldDto"][];
+    headerField?: cloudPlatformTypes["BillTemplateFieldDto"][];
   };
   /**
    * 模板支持字段数据
@@ -16806,7 +16786,7 @@ export interface definitions {
     /**
      * 字段类型
      */
-    supportPage?: definitions["BillTemplateFieldDto_SupportOperation"][];
+    supportPage?: cloudPlatformTypes["BillTemplateFieldDto_SupportOperation"][];
   };
   /**
    * 模板支持操作权限
@@ -17008,7 +16988,7 @@ export interface definitions {
     /**
      * 公司标志图片地址
      */
-    logoImg?: definitions["Attachment"];
+    logoImg?: cloudPlatformTypes["Attachment"];
     /**
      * 状态，0-停用，1-正常，默认为1
      */
@@ -17989,7 +17969,7 @@ export interface definitions {
     /**
      * 操作数据列表
      */
-    dataList?: definitions["CarbonEmissionSourceVo"][];
+    dataList?: cloudPlatformTypes["CarbonEmissionSourceVo"][];
     /**
      * eid:企业id
      */
@@ -18172,11 +18152,11 @@ export interface definitions {
     /**
      * 熟料明细
      */
-    carbonateGrog?: definitions["CarbonateGrog"][];
+    carbonateGrog?: cloudPlatformTypes["CarbonateGrog"][];
     /**
      * 熟料碳酸盐
      */
-    clinkerCarbonate?: definitions["ClinkerCarbonate"][];
+    clinkerCarbonate?: cloudPlatformTypes["ClinkerCarbonate"][];
     /**
      * 熟料名称
      */
@@ -18213,7 +18193,7 @@ export interface definitions {
     type?: number;
   };
   CellPreview: {
-    cellStyle?: definitions["MyCellStyle"];
+    cellStyle?: cloudPlatformTypes["MyCellStyle"];
     colNumber?: number;
     colSpan?: number;
     content?: { [key: string]: any };
@@ -18223,18 +18203,18 @@ export interface definitions {
   CellTemplate: {
     cellContent?: string;
     cellId?: string;
-    cellStyle?: definitions["MyCellStyle"];
+    cellStyle?: cloudPlatformTypes["MyCellStyle"];
     cellValueType?: "SIMPLE" | "DATASET" | "FORMULA";
     colNumber?: number;
     colSpan?: number;
-    dataSetCellValue?: definitions["DataSetCellValue"];
+    dataSetCellValue?: cloudPlatformTypes["DataSetCellValue"];
     expandingDirection?: "HORIZONTAL" | "VERTICAL" | "NONE";
-    formulaCellValue?: definitions["FormulaCellValue"];
-    leftParentCell?: definitions["ParentCell"];
+    formulaCellValue?: cloudPlatformTypes["FormulaCellValue"];
+    leftParentCell?: cloudPlatformTypes["ParentCell"];
     rowNumber?: number;
     rowSpan?: number;
-    simpleCellValue?: definitions["SimpleCellValue"];
-    topParentCell?: definitions["ParentCell"];
+    simpleCellValue?: cloudPlatformTypes["SimpleCellValue"];
+    topParentCell?: cloudPlatformTypes["ParentCell"];
   };
   Center: {
     /**
@@ -18379,7 +18359,7 @@ export interface definitions {
     /**
      * 标签详情数据
      */
-    pointDataList?: definitions["PointData"][];
+    pointDataList?: cloudPlatformTypes["PointData"][];
     /**
      * 单位
      */
@@ -18419,7 +18399,7 @@ export interface definitions {
     /**
      * 检查项目记录
      */
-    checkItems?: definitions["MaterialCheckRecord"][];
+    checkItems?: cloudPlatformTypes["MaterialCheckRecord"][];
     /**
      * 检验时间
      */
@@ -18457,7 +18437,7 @@ export interface definitions {
     /**
      * 检查项目记录
      */
-    checkItems?: definitions["MaterialCheckRecord"][];
+    checkItems?: cloudPlatformTypes["MaterialCheckRecord"][];
     /**
      * 检验时间
      */
@@ -18604,7 +18584,7 @@ export interface definitions {
     /**
      * 定量判断标准
      */
-    quantityJudgementStandard?: definitions["QuantityJudgementStandard"];
+    quantityJudgementStandard?: cloudPlatformTypes["QuantityJudgementStandard"];
     /**
      * 传感器
      */
@@ -18707,7 +18687,7 @@ export interface definitions {
     /**
      * 子类别
      */
-    children?: definitions["CheckProjectType"][];
+    children?: cloudPlatformTypes["CheckProjectType"][];
     /**
      * 检验项目ID
      */
@@ -18721,7 +18701,7 @@ export interface definitions {
     /**
      * 子类别
      */
-    children?: definitions["CheckProjectTypeAndProject"][];
+    children?: cloudPlatformTypes["CheckProjectTypeAndProject"][];
     /**
      * 控件类型
      */
@@ -18980,7 +18960,7 @@ export interface definitions {
     /**
      * 子菜单列表
      */
-    children?: definitions["CheckingMaterial"][];
+    children?: cloudPlatformTypes["CheckingMaterial"][];
     /**
      * 编号
      */
@@ -19006,11 +18986,11 @@ export interface definitions {
     /**
      * 班组类别列表
      */
-    courseGroupList?: definitions["班组类别"][];
+    courseGroupList?: cloudPlatformTypes["班组类别"][];
     /**
      * 用户列表
      */
-    userItemList?: definitions["EntUser"][];
+    userItemList?: cloudPlatformTypes["EntUser"][];
   };
   CheckingProjectFormula: {
     /**
@@ -19056,7 +19036,7 @@ export interface definitions {
     /**
      * 告警规则列表
      */
-    ruleList?: definitions["AlarmRule"][];
+    ruleList?: cloudPlatformTypes["AlarmRule"][];
   };
   ClinkerCarbonate: {
     /**
@@ -19383,7 +19363,7 @@ export interface definitions {
     /**
      * 比较条件
      */
-    conditions?: definitions["Condition"][];
+    conditions?: cloudPlatformTypes["Condition"][];
     /**
      * 结束时间，格式yyyy-MM-dd HH:mm:ss
      */
@@ -19438,8 +19418,8 @@ export interface definitions {
      * 用户ID
      */
     uid?: string;
-    variableConditions?: definitions["VariableFilterConditionItem"][];
-    variables?: definitions["ClusterAnalyseItem"][];
+    variableConditions?: cloudPlatformTypes["VariableFilterConditionItem"][];
+    variables?: cloudPlatformTypes["ClusterAnalyseItem"][];
   };
   ClusterCenterPoint: { count?: number; point?: { [key: string]: number } };
   ClusterPoint: {
@@ -19451,11 +19431,11 @@ export interface definitions {
     /**
      * 等级
      */
-    level?: definitions["EnumCodeDesc"][];
+    level?: cloudPlatformTypes["EnumCodeDesc"][];
     /**
      * 类型
      */
-    type?: definitions["EnumCodeDesc"][];
+    type?: cloudPlatformTypes["EnumCodeDesc"][];
   };
   CoefficientFormulaInfo: {
     /**
@@ -19469,7 +19449,7 @@ export interface definitions {
     /**
      * 公式参数
      */
-    projectArr?: definitions["ProjectFormulaInfo_VariableParam"][];
+    projectArr?: cloudPlatformTypes["ProjectFormulaInfo_VariableParam"][];
   };
   CollectTagConfig: {
     /**
@@ -19521,7 +19501,7 @@ export interface definitions {
     /**
      * 报表列数据
      */
-    values?: definitions["Number"][];
+    values?: cloudPlatformTypes["Number"][];
   };
   ColumnData: { code?: string; desc?: string };
   ComeProject: {
@@ -19557,7 +19537,7 @@ export interface definitions {
     /**
      * 返回的数据组
      */
-    mapList?: definitions["Map«string,object»"][];
+    mapList?: cloudPlatformTypes["Map«string,object»"][];
     requestId?: string;
     /**
      * 返回编码
@@ -19648,7 +19628,7 @@ export interface definitions {
     /**
      * 表计或者设备
      */
-    equMeterTagModel?: definitions["EquMeterTagModel"];
+    equMeterTagModel?: cloudPlatformTypes["EquMeterTagModel"];
     /**
      * 工艺参数规则id
      */
@@ -19782,7 +19762,7 @@ export interface definitions {
     /**
      * 绑定详细信息
      */
-    configBindingDetails?: definitions["ConfigBindingDetails"][];
+    configBindingDetails?: cloudPlatformTypes["ConfigBindingDetails"][];
     /**
      * 工艺参数绑定主键ID
      */
@@ -19815,7 +19795,7 @@ export interface definitions {
     /**
      * 表计或者设备
      */
-    equMeterTagModel?: definitions["EquMeterTagModel"];
+    equMeterTagModel?: cloudPlatformTypes["EquMeterTagModel"];
     /**
      * 逻辑运算符关系
      */
@@ -19837,7 +19817,7 @@ export interface definitions {
     /**
      * 配方下发历史信息配置信息
      */
-    craftConfigSync?: definitions["CraftConfigSync对象"];
+    craftConfigSync?: cloudPlatformTypes["CraftConfigSync对象"];
     /**
      * 湿料总重
      */
@@ -19853,16 +19833,16 @@ export interface definitions {
     /**
      * 配方明细列表
      */
-    formulaItemList?: definitions["FormulaItem对象"][];
+    formulaItemList?: cloudPlatformTypes["FormulaItem对象"][];
     /**
      * 原料明细列表
      */
-    rawItemList?: definitions["FormulaItem对象"][];
+    rawItemList?: cloudPlatformTypes["FormulaItem对象"][];
     /**
      * 理论水分
      */
     theoryMoistureRate?: number;
-    unrawItemList?: definitions["FormulaItem对象"][];
+    unrawItemList?: cloudPlatformTypes["FormulaItem对象"][];
     /**
      * 补水量
      */
@@ -19953,7 +19933,7 @@ export interface definitions {
   ConfigTarget: {
     code?: number;
     desc?: string;
-    items?: definitions["TreeNode"][];
+    items?: cloudPlatformTypes["TreeNode"][];
   };
   ConnectProjectListResp: {
     /**
@@ -19985,23 +19965,23 @@ export interface definitions {
     /**
      * 检验结果状态
      */
-    checkResultTypes?: definitions["BaseTypeInfo"][];
+    checkResultTypes?: cloudPlatformTypes["BaseTypeInfo"][];
     /**
      * 检测时间状态
      */
-    checkTimeTypes?: definitions["BaseTypeInfo"][];
+    checkTimeTypes?: cloudPlatformTypes["BaseTypeInfo"][];
     /**
      * 完成状态
      */
-    completeStatusTypes?: definitions["BaseTypeInfo"][];
+    completeStatusTypes?: cloudPlatformTypes["BaseTypeInfo"][];
     /**
      * 备注类型
      */
-    remarkTypes?: definitions["BaseTypeInfo"][];
+    remarkTypes?: cloudPlatformTypes["BaseTypeInfo"][];
     /**
      * 支持的条件
      */
-    supportConditions?: definitions["BaseTypeInfo"][];
+    supportConditions?: cloudPlatformTypes["BaseTypeInfo"][];
   };
   ConsumeCalculateFormulaMaterialReq: {
     /**
@@ -20258,7 +20238,7 @@ export interface definitions {
     /**
      * 目标用户类型id
      */
-    target?: definitions["TargetDto"];
+    target?: cloudPlatformTypes["TargetDto"];
     /**
      * 目标用户类型，1:全平台，2:部分行业， 3:部分企业， 4:企业全部用户， 5:企业部分用户
      */
@@ -20331,11 +20311,11 @@ export interface definitions {
     /**
      * 发布状态列表
      */
-    publishStatus?: definitions["StatusRespDto"][];
+    publishStatus?: cloudPlatformTypes["StatusRespDto"][];
     /**
      * 目标用户类型id
      */
-    target?: definitions["TargetDto"];
+    target?: cloudPlatformTypes["TargetDto"];
     /**
      * 目标用户类型，1:全平台，2:部分行业， 3:部分企业， 4:企业全部用户， 5:企业部分用户
      */
@@ -20394,7 +20374,7 @@ export interface definitions {
     /**
      * 比较条件
      */
-    conditions?: definitions["Condition"][];
+    conditions?: cloudPlatformTypes["Condition"][];
     /**
      * 检验项目id
      */
@@ -20456,7 +20436,7 @@ export interface definitions {
     /**
      * 分析项Y
      */
-    oneItem: definitions["CorrelationAnalysisItem"];
+    oneItem: cloudPlatformTypes["CorrelationAnalysisItem"];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -20468,7 +20448,7 @@ export interface definitions {
     /**
      * 分析项X列表
      */
-    otherItemList: definitions["CorrelationAnalysisItem"][];
+    otherItemList: cloudPlatformTypes["CorrelationAnalysisItem"][];
     /**
      * 时间间隙 (数据频率)
      */
@@ -20482,7 +20462,7 @@ export interface definitions {
     /**
      * 各分析项 相关系数 列表
      */
-    corrList?: definitions["Number"][];
+    corrList?: cloudPlatformTypes["Number"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -20500,7 +20480,7 @@ export interface definitions {
     /**
      * 散点图列表
      */
-    scatterPlotList?: definitions["散点图"][];
+    scatterPlotList?: cloudPlatformTypes["散点图"][];
   };
   /**
    * 成本计算
@@ -20619,7 +20599,7 @@ export interface definitions {
     /**
      * 成本计算对象，物料类别对象列表
      */
-    materialTypes?: definitions["CostMaterialType成本规则计算对象"][];
+    materialTypes?: cloudPlatformTypes["CostMaterialType成本规则计算对象"][];
     /**
      * 名称
      */
@@ -20795,7 +20775,7 @@ export interface definitions {
     /**
      * 子节点
      */
-    childList?: definitions["CostItemCategoryNode对象"][];
+    childList?: cloudPlatformTypes["CostItemCategoryNode对象"][];
     /**
      * 作为数据的唯一标识
      */
@@ -21384,10 +21364,10 @@ export interface definitions {
     name?: string;
   };
   CourseBubbleExpressResp: {
-    grade?: definitions["Number"];
+    grade?: cloudPlatformTypes["Number"];
     parameterName?: string;
-    totalGrade?: definitions["Number"];
-    totalNum?: definitions["Number"];
+    totalGrade?: cloudPlatformTypes["Number"];
+    totalNum?: cloudPlatformTypes["Number"];
   };
   CourseData: {
     /**
@@ -21418,9 +21398,9 @@ export interface definitions {
   CourseExpression: {
     courseId?: string;
     courseName?: string;
-    outPut?: definitions["Number"];
-    steamConsume?: definitions["Number"];
-    steamEnergy?: definitions["Number"];
+    outPut?: cloudPlatformTypes["Number"];
+    steamConsume?: cloudPlatformTypes["Number"];
+    steamEnergy?: cloudPlatformTypes["Number"];
   };
   CourseGroupItem: {
     /**
@@ -21440,7 +21420,7 @@ export interface definitions {
     /**
      * 班组信息
      */
-    courseOpsByCourseInfos?: definitions["CourseOpsByCourseInfo"][];
+    courseOpsByCourseInfos?: cloudPlatformTypes["CourseOpsByCourseInfo"][];
     /**
      * 日期
      */
@@ -21480,7 +21460,7 @@ export interface definitions {
      * 开始时间
      */
     beginTime?: string;
-    boutputDetails?: definitions["OutputDetail"][];
+    boutputDetails?: cloudPlatformTypes["OutputDetail"][];
     bsumOutput?: number;
     /**
      * 记录时间
@@ -21510,7 +21490,7 @@ export interface definitions {
      * 设备名称
      */
     equipName?: string;
-    goutputDetails?: definitions["OutputDetail"][];
+    goutputDetails?: cloudPlatformTypes["OutputDetail"][];
     gsumOutput?: number;
     /**
      * 产量
@@ -21623,9 +21603,9 @@ export interface definitions {
   CoursePulpModel: {
     courseId?: string;
     courseName?: string;
-    energyUsage?: definitions["Number"];
-    useRatio?: definitions["Number"];
-    weightingElePrice?: definitions["Number"];
+    energyUsage?: cloudPlatformTypes["Number"];
+    useRatio?: cloudPlatformTypes["Number"];
+    weightingElePrice?: cloudPlatformTypes["Number"];
   };
   /**
    * CourseSchedulePlan分页记录对象
@@ -21928,7 +21908,7 @@ export interface definitions {
     /**
      * 维修班组用户对象
      */
-    userItemList?: definitions["UserItem"][];
+    userItemList?: cloudPlatformTypes["UserItem"][];
   };
   CpkRateRule: {
     relationalOperatorType?:
@@ -22402,7 +22382,7 @@ export interface definitions {
     /**
      * 子级别
      */
-    children?: definitions["CraftFormulaTreeVO"][];
+    children?: cloudPlatformTypes["CraftFormulaTreeVO"][];
     /**
      * 配方名称
      */
@@ -22644,7 +22624,7 @@ export interface definitions {
     /**
      * Bom子树
      */
-    childrenList?: definitions["CraftMaintainItemRespDto"][];
+    childrenList?: cloudPlatformTypes["CraftMaintainItemRespDto"][];
     /**
      * 配方名称
      */
@@ -22712,7 +22692,7 @@ export interface definitions {
     /**
      * 物料下的半成品配方选择集合
      */
-    semiFinishedProduct?: definitions["CraftOptionReq"][];
+    semiFinishedProduct?: cloudPlatformTypes["CraftOptionReq"][];
     /**
      * 租户ID
      */
@@ -22851,7 +22831,7 @@ export interface definitions {
     /**
      * 分析结果
      */
-    intervals?: definitions["CraftParameterInterval"][];
+    intervals?: cloudPlatformTypes["CraftParameterInterval"][];
     /**
      * 分析项单位
      */
@@ -22927,7 +22907,7 @@ export interface definitions {
     /**
      * 时间
      */
-    points?: definitions["TimeData"][];
+    points?: cloudPlatformTypes["TimeData"][];
     /**
      * 产品
      */
@@ -23067,11 +23047,11 @@ export interface definitions {
     /**
      * 动态字段结果值
      */
-    variableDateList?: definitions["Map«string,DynamicExtendVo»"][];
+    variableDateList?: cloudPlatformTypes["Map«string,DynamicExtendVo»"][];
     /**
      * 动态头部字段
      */
-    variableList?: definitions["Variable"][];
+    variableList?: cloudPlatformTypes["Variable"][];
   };
   /**
    * 工艺模板表
@@ -23249,7 +23229,7 @@ export interface definitions {
     /**
      * 总览列表
      */
-    pandectsMapList?: definitions["Map«string,object»"][];
+    pandectsMapList?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 备注
      */
@@ -23324,7 +23304,7 @@ export interface definitions {
     /**
      * 总览列表
      */
-    pandectsMapList?: definitions["Map«string,object»"][];
+    pandectsMapList?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 备注
      */
@@ -23469,7 +23449,7 @@ export interface definitions {
     /**
      * 客户信息
      */
-    customerModelList?: definitions["CustomerModel"][];
+    customerModelList?: cloudPlatformTypes["CustomerModel"][];
     /**
      * 客户类别id
      */
@@ -23623,7 +23603,7 @@ export interface definitions {
     /**
      * 背景图片
      */
-    backgroundImg?: definitions["Attachment"];
+    backgroundImg?: cloudPlatformTypes["Attachment"];
     /**
      * 是否显示默认背景图片 （0：显示默认名称；1：显示自定义名称）
      */
@@ -23665,7 +23645,7 @@ export interface definitions {
     /**
      * 子菜单
      */
-    children?: definitions["CustomizedMenu"][];
+    children?: cloudPlatformTypes["CustomizedMenu"][];
     /**
      * 菜单编码
      */
@@ -23983,19 +23963,19 @@ export interface definitions {
     dataIndexList?: number[];
     dataSetColumn?: string;
     dataSetId?: string;
-    filterCondition?: definitions["FilterCondition"];
+    filterCondition?: cloudPlatformTypes["FilterCondition"];
     filterExpression?: string;
-    handledDataList?: definitions["KeyValuePair«object,List«int»»"][];
+    handledDataList?: cloudPlatformTypes["KeyValuePair«object,List«int»»"][];
     limit?: number;
     offset?: number;
     orderType?: "ASC" | "DESC" | "NONE";
-    originalDataSet?: definitions["Map«string,object»"][];
+    originalDataSet?: cloudPlatformTypes["Map«string,object»"][];
   };
   DataSourceAndParams: {
     /**
      * 可选关键参数列表
      */
-    keyParams?: definitions["KeyParameter"][];
+    keyParams?: cloudPlatformTypes["KeyParameter"][];
     /**
      * 名称
      */
@@ -24025,7 +24005,7 @@ export interface definitions {
     /**
      * 产线产量比例数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
     /**
      * 单位
      */
@@ -25045,7 +25025,7 @@ export interface definitions {
     /**
      * 部门子节点
      */
-    childList?: definitions["Department对象"][];
+    childList?: cloudPlatformTypes["Department对象"][];
     /**
      * 部门id
      */
@@ -25231,7 +25211,7 @@ export interface definitions {
     /**
      * 子级配方的相关信息
      */
-    childFormulaList?: definitions["MaterialFormula"][];
+    childFormulaList?: cloudPlatformTypes["MaterialFormula"][];
     /**
      * 物料编码
      */
@@ -25281,7 +25261,7 @@ export interface definitions {
     /**
      * 区域告警树根节点
      */
-    rootNode?: definitions["AreaAlarmTreeNode"];
+    rootNode?: cloudPlatformTypes["AreaAlarmTreeNode"];
   };
   DescribeAreaElecStatResp: {
     /**
@@ -25412,7 +25392,7 @@ export interface definitions {
     /**
      * 峰谷平用电信息列表
      */
-    fgps?: definitions["AreaFgpInfo"][];
+    fgps?: cloudPlatformTypes["AreaFgpInfo"][];
     /**
      * 主要能源名称
      */
@@ -25435,7 +25415,7 @@ export interface definitions {
     /**
      * 对标指标数据
      */
-    bmDatas?: definitions["BmData"][];
+    bmDatas?: cloudPlatformTypes["BmData"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -25494,7 +25474,7 @@ export interface definitions {
     /**
      * 节点信息对象列表
      */
-    egInfoList?: definitions["EgInfo"][];
+    egInfoList?: cloudPlatformTypes["EgInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -25527,7 +25507,7 @@ export interface definitions {
     /**
      * 报表模板配置信息
      */
-    template?: definitions["EnergyReportTemplateDetail"];
+    template?: cloudPlatformTypes["EnergyReportTemplateDetail"];
   };
   /**
    * 获取设备台帐详情返回对象
@@ -25537,7 +25517,7 @@ export interface definitions {
     /**
      * 设备台帐
      */
-    equipmentFile?: definitions["EquipmentFile"];
+    equipmentFile?: cloudPlatformTypes["EquipmentFile"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -25610,11 +25590,11 @@ export interface definitions {
     /**
      * 关联管理数据列表
      */
-    links?: definitions["TopoLink"][];
+    links?: cloudPlatformTypes["TopoLink"][];
     /**
      * 节点数据列表
      */
-    nodes?: definitions["MtTopoNode"][];
+    nodes?: cloudPlatformTypes["MtTopoNode"][];
     requestId?: string;
     /**
      * 返回编码
@@ -25634,7 +25614,7 @@ export interface definitions {
     /**
      * 报表数据信息对象
      */
-    report?: definitions["EnergyReport"];
+    report?: cloudPlatformTypes["EnergyReport"];
     requestId?: string;
     /**
      * 返回编码
@@ -25913,7 +25893,7 @@ export interface definitions {
     /**
      * 已选物料列表
      */
-    materials?: definitions["SelectMaterialInfo"][];
+    materials?: cloudPlatformTypes["SelectMaterialInfo"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -26115,7 +26095,7 @@ export interface definitions {
     /**
      * 变量信息
      */
-    dataList?: definitions["VariableData"][];
+    dataList?: cloudPlatformTypes["VariableData"][];
     /**
      * 公式信息
      */
@@ -26125,7 +26105,7 @@ export interface definitions {
     /**
      * 自动抄表数数据
      */
-    actualMeterData?: definitions["DivideProjectReq_ActualMeterData"];
+    actualMeterData?: cloudPlatformTypes["DivideProjectReq_ActualMeterData"];
     /**
      * 实际抄表数来源, 1:自动计算, 2:人工录入
      */
@@ -26141,7 +26121,7 @@ export interface definitions {
     /**
      * 分摊调整数数据
      */
-    divideAdjustData?: definitions["DivideProjectReq_ActualMeterData"];
+    divideAdjustData?: cloudPlatformTypes["DivideProjectReq_ActualMeterData"];
     /**
      * 分摊调整数数据来源， 1:自动计算, 2:实际抄表数, 3:项目
      */
@@ -26215,7 +26195,7 @@ export interface definitions {
     /**
      * 转换后的实际抄表数的公式信息， 人工录入时为空
      */
-    projectFormula?: definitions["ProjectFormulaInfo"];
+    projectFormula?: cloudPlatformTypes["ProjectFormulaInfo"];
     /**
      * 项目id
      */
@@ -26666,7 +26646,7 @@ export interface definitions {
     /**
      * 自定义模板数据列表
      */
-    dataList?: definitions["CustomTemplateData"][];
+    dataList?: cloudPlatformTypes["CustomTemplateData"][];
     /**
      * eid:企业id
      */
@@ -26783,7 +26763,7 @@ export interface definitions {
     /**
      * 已选物料列表
      */
-    materials?: definitions["DpSelectMaterialInfo"][];
+    materials?: cloudPlatformTypes["DpSelectMaterialInfo"][];
     /**
      * 原始组织id
      */
@@ -27030,7 +27010,7 @@ export interface definitions {
      * 规格
      */
     spec?: string;
-    stockModelList?: definitions["StockEntry对象"][];
+    stockModelList?: cloudPlatformTypes["StockEntry对象"][];
     /**
      * 库位编号
      */
@@ -27114,7 +27094,7 @@ export interface definitions {
     /**
      * 已选物料列表
      */
-    materials?: definitions["DpSelectMaterialInfo"][];
+    materials?: cloudPlatformTypes["DpSelectMaterialInfo"][];
     /**
      * 原始组织id
      */
@@ -27173,7 +27153,7 @@ export interface definitions {
      * 工厂单元Id
      */
     factoryAreaId?: number;
-    materialList?: definitions["DpMaterialDistributionDetails"][];
+    materialList?: cloudPlatformTypes["DpMaterialDistributionDetails"][];
     /**
      * 企业Id
      */
@@ -27276,7 +27256,7 @@ export interface definitions {
     /**
      * 物料下拉数据
      */
-    dropdownMaterials?: definitions["DropdownMaterial"][];
+    dropdownMaterials?: cloudPlatformTypes["DropdownMaterial"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -27309,7 +27289,7 @@ export interface definitions {
     /**
      * 点检卡名称下拉列表
      */
-    dropdownRegularCheckCards?: definitions["DropdownRegularCheckCard"][];
+    dropdownRegularCheckCards?: cloudPlatformTypes["DropdownRegularCheckCard"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -27328,7 +27308,7 @@ export interface definitions {
     /**
      * 历史优化趋势
      */
-    dryerModelSaveCostRecordList?: definitions["DryerModelSaveCostRecord"][];
+    dryerModelSaveCostRecordList?: cloudPlatformTypes["DryerModelSaveCostRecord"][];
     /**
      * 累计实际成本
      */
@@ -27361,10 +27341,10 @@ export interface definitions {
     preCost?: number;
   };
   DryerParameterJson: {
-    actualValue?: definitions["Number"];
+    actualValue?: cloudPlatformTypes["Number"];
     code?: string;
     name?: string;
-    optimizeValue?: definitions["Number"];
+    optimizeValue?: cloudPlatformTypes["Number"];
     parameter?: string;
     tagName?: string;
     type?: string;
@@ -27385,7 +27365,7 @@ export interface definitions {
     /**
      * 子列数据
      */
-    subColumnList?: definitions["DynamicColumn"][];
+    subColumnList?: cloudPlatformTypes["DynamicColumn"][];
   };
   DynamicColumnRegion: {
     /**
@@ -27510,7 +27490,7 @@ export interface definitions {
     /**
      * 存储前端展示的数据
      */
-    dataList?: definitions["DynamicFieldMetaData"][];
+    dataList?: cloudPlatformTypes["DynamicFieldMetaData"][];
     /**
      * 企业id【必填】
      */
@@ -27581,7 +27561,7 @@ export interface definitions {
     /**
      * 信息块动态表头
      */
-    header?: definitions["Variable"][];
+    header?: cloudPlatformTypes["Variable"][];
     /**
      * 信息块名称
      */
@@ -27605,15 +27585,15 @@ export interface definitions {
     /**
      * 动态表头集合
      */
-    columnList?: definitions["DynamicColumn"][];
+    columnList?: cloudPlatformTypes["DynamicColumn"][];
     /**
      * 需要合并单元格的列的多个静态字段名称或者动态字段id集合
      */
-    mergeCellIndexList?: definitions["DynamicColumnRegion"][];
+    mergeCellIndexList?: cloudPlatformTypes["DynamicColumnRegion"][];
     /**
      * 分页数据
      */
-    pageData?: definitions["IPage«ExcelTestModel»"];
+    pageData?: cloudPlatformTypes["IPage«ExcelTestModel»"];
   };
   DynamicRow: {
     /**
@@ -27629,11 +27609,11 @@ export interface definitions {
     /**
      * 节点数据
      */
-    data?: definitions["EnergyNodeData"][];
+    data?: cloudPlatformTypes["EnergyNodeData"][];
     /**
      * 节点等级map
      */
-    levelList?: definitions["Map«string,object»"][];
+    levelList?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 数据单位
      */
@@ -27875,7 +27855,7 @@ export interface definitions {
     /**
      * 设备清单
      */
-    equManifest?: definitions["Node"][];
+    equManifest?: cloudPlatformTypes["Node"][];
     id?: number;
     /**
      * 中位负荷
@@ -27955,7 +27935,7 @@ export interface definitions {
     /**
      * 子节点
      */
-    children?: definitions["EnableMeterEquipmentNode"][];
+    children?: cloudPlatformTypes["EnableMeterEquipmentNode"][];
     /**
      * 节点id
      */
@@ -27997,7 +27977,7 @@ export interface definitions {
     /**
      * 子节点
      */
-    children?: definitions["EnableMonitorNode"][];
+    children?: cloudPlatformTypes["EnableMonitorNode"][];
     /**
      * 节点名
      */
@@ -28104,7 +28084,7 @@ export interface definitions {
     /**
      * 基准值列表
      */
-    energyList?: definitions["energyTypeBaseValue"][];
+    energyList?: cloudPlatformTypes["energyTypeBaseValue"][];
   };
   EnergyColumn: {
     /**
@@ -28338,11 +28318,11 @@ export interface definitions {
     /**
      * 表头
      */
-    columnDataList?: definitions["ColumnData"][];
+    columnDataList?: cloudPlatformTypes["ColumnData"][];
     /**
      * 数据行
      */
-    rows?: definitions["Map«string,string»"][];
+    rows?: cloudPlatformTypes["Map«string,string»"][];
   };
   EnergyConsumptionDock对象: {
     /**
@@ -28390,7 +28370,7 @@ export interface definitions {
     /**
      * 子级列数据
      */
-    columnChildList?: definitions["ColumnChild"][];
+    columnChildList?: cloudPlatformTypes["ColumnChild"][];
     /**
      * 第一列数据
      */
@@ -28400,7 +28380,7 @@ export interface definitions {
     /**
      * 报表列数据
      */
-    columnReportList?: definitions["EnergyCustomDayColumnReport"][];
+    columnReportList?: cloudPlatformTypes["EnergyCustomDayColumnReport"][];
     /**
      * 日期表头数据
      */
@@ -28502,7 +28482,7 @@ export interface definitions {
     /**
      * 价格信息
      */
-    priceList?: definitions["EnergyPricePlanModel_PriceInfo对象"][];
+    priceList?: cloudPlatformTypes["EnergyPricePlanModel_PriceInfo对象"][];
   };
   EnergyPricePlanModel_PriceInfo对象: {
     /**
@@ -28521,7 +28501,7 @@ export interface definitions {
     /**
      * 价格信息
      */
-    content?: definitions["EnergyPricePlanModel_ContentData对象"];
+    content?: cloudPlatformTypes["EnergyPricePlanModel_ContentData对象"];
     /**
      * 创建时间
      */
@@ -28547,7 +28527,7 @@ export interface definitions {
     /**
      * 报表列数据列表
      */
-    columns?: definitions["EnergyReportColumn"][];
+    columns?: cloudPlatformTypes["EnergyReportColumn"][];
     /**
      * 统计日期
      */
@@ -28836,7 +28816,7 @@ export interface definitions {
     /**
      * 报表模板列定义
      */
-    columns?: definitions["Column"][];
+    columns?: cloudPlatformTypes["Column"][];
     /**
      * 日期类型
      */
@@ -28871,7 +28851,7 @@ export interface definitions {
     /**
      * 报表模板列定义
      */
-    columns?: definitions["EnergyColumn"][];
+    columns?: cloudPlatformTypes["EnergyColumn"][];
     /**
      * 日期类型
      */
@@ -28936,7 +28916,7 @@ export interface definitions {
     /**
      * 表计列表
      */
-    meters?: definitions["ShareMeter"][];
+    meters?: cloudPlatformTypes["ShareMeter"][];
     /**
      * 方案名称
      */
@@ -28944,7 +28924,7 @@ export interface definitions {
     /**
      * 表计列表
      */
-    shareAreas?: definitions["ShareArea"][];
+    shareAreas?: cloudPlatformTypes["ShareArea"][];
     /**
      * 创建人ID
      */
@@ -28955,7 +28935,7 @@ export interface definitions {
     uname?: string;
   };
   EnergyTrend: {
-    energyDatas?: definitions["DateEnergyData"][];
+    energyDatas?: cloudPlatformTypes["DateEnergyData"][];
     title?: string;
     unit?: string;
   };
@@ -29048,7 +29028,7 @@ export interface definitions {
     /**
      * 部位备件信息
      */
-    entEquipmentTypePartSpareList?: definitions["EntEquipmentTypePartSpare"][];
+    entEquipmentTypePartSpareList?: cloudPlatformTypes["EntEquipmentTypePartSpare"][];
     /**
      * 部位名称
      */
@@ -29062,7 +29042,7 @@ export interface definitions {
     /**
      * 子级设备类型
      */
-    entEquipmentTypeChildren?: definitions["EntEquipmentTypeModel"][];
+    entEquipmentTypeChildren?: cloudPlatformTypes["EntEquipmentTypeModel"][];
     /**
      * 设备类型名称
      */
@@ -29217,7 +29197,7 @@ export interface definitions {
     /**
      * 物料（备件）ID
      */
-    spareParts?: definitions["PartSpareReq"][];
+    spareParts?: cloudPlatformTypes["PartSpareReq"][];
     /**
      * 用户ID
      */
@@ -29251,7 +29231,7 @@ export interface definitions {
     /**
      * 物料（备件）ID
      */
-    spareParts?: definitions["PartSpareReq"][];
+    spareParts?: cloudPlatformTypes["PartSpareReq"][];
     /**
      * 用户ID
      */
@@ -29411,7 +29391,7 @@ export interface definitions {
     /**
      * 登录背景图片
      */
-    backgroundImg?: definitions["Attachment"];
+    backgroundImg?: cloudPlatformTypes["Attachment"];
     /**
      * 0:基地,1：集团
      */
@@ -29467,11 +29447,11 @@ export interface definitions {
     /**
      * 能源列表
      */
-    energy?: definitions["Energy"][];
+    energy?: cloudPlatformTypes["Energy"][];
     /**
      * 峰谷平列表
      */
-    fgp?: definitions["Fgp"][];
+    fgp?: cloudPlatformTypes["Fgp"][];
     /**
      * 企业全名
      */
@@ -29487,7 +29467,7 @@ export interface definitions {
     /**
      * 企业logo
      */
-    logoImg?: definitions["Attachment"];
+    logoImg?: cloudPlatformTypes["Attachment"];
     /**
      * 企业名称
      */
@@ -29503,7 +29483,7 @@ export interface definitions {
     /**
      * 产品列表
      */
-    product?: definitions["Product"][];
+    product?: cloudPlatformTypes["Product"][];
     /**
      * 省份Code
      */
@@ -29564,7 +29544,7 @@ export interface definitions {
     /**
      * 录入指标列表
      */
-    indexes?: definitions["EnteryDataDetailIndex"][];
+    indexes?: cloudPlatformTypes["EnteryDataDetailIndex"][];
     /**
      * 记录ID
      */
@@ -29610,7 +29590,7 @@ export interface definitions {
     /**
      * 录入指标选择列表
      */
-    indexSelections?: definitions["InputIndexSelectionReq"][];
+    indexSelections?: cloudPlatformTypes["InputIndexSelectionReq"][];
     /**
      * 执行对象ID，根据objType处理
      */
@@ -29710,7 +29690,7 @@ export interface definitions {
     /**
      * 自定义字段
      */
-    customField?: definitions["DynamicObject"][];
+    customField?: cloudPlatformTypes["DynamicObject"][];
     /**
      * 规格型号
      */
@@ -29843,7 +29823,7 @@ export interface definitions {
     /**
      * 工厂单元:生产工序id
      */
-    ruleList?: definitions["告警规则"][];
+    ruleList?: cloudPlatformTypes["告警规则"][];
   };
   EqpParameter设备参数: {
     /**
@@ -29939,7 +29919,7 @@ export interface definitions {
     /**
      * 设备参数信息
      */
-    eqpParameterList: definitions["EqpParameter设备参数"][];
+    eqpParameterList: cloudPlatformTypes["EqpParameter设备参数"][];
     /**
      * 工厂单元【必填】
      */
@@ -29947,7 +29927,7 @@ export interface definitions {
     /**
      * 设备指标
      */
-    indexInfoList: definitions["EqpQuotaIndex"][];
+    indexInfoList: cloudPlatformTypes["EqpQuotaIndex"][];
   };
   EqpQuotaStat: {
     /**
@@ -29957,11 +29937,11 @@ export interface definitions {
     /**
      * 设备指标列表
      */
-    eqpQuotaList?: definitions["EqpQuota"][];
+    eqpQuotaList?: cloudPlatformTypes["EqpQuota"][];
     /**
      * 设备运行参数-实时数据-列表
      */
-    eqpRunParamList?: definitions["EqpRunParameter"][];
+    eqpRunParamList?: cloudPlatformTypes["EqpRunParameter"][];
     /**
      * 设备id
      */
@@ -30065,7 +30045,7 @@ export interface definitions {
     /**
      * 保养内容
      */
-    upkeepContentModelList?: definitions["UpkeepContentModel"][];
+    upkeepContentModelList?: cloudPlatformTypes["UpkeepContentModel"][];
     /**
      * 使用状态:1：启用的enable，0：停用的disable
      */
@@ -30167,7 +30147,7 @@ export interface definitions {
     /**
      * 子节点
      */
-    children?: definitions["EqpShutdownReasonNode"][];
+    children?: cloudPlatformTypes["EqpShutdownReasonNode"][];
     /**
      * 是否拥有子节点
      */
@@ -30295,7 +30275,7 @@ export interface definitions {
     /**
      * 表计或设备的参数配置
      */
-    paramModel?: definitions["ParamModelDto"];
+    paramModel?: cloudPlatformTypes["ParamModelDto"];
     /**
      * 表计或设备的别名
      */
@@ -30332,7 +30312,7 @@ export interface definitions {
     /**
      * 备件更换记录
      */
-    equSpareChangeRecordList?: definitions["EquSpareChangeRecord"][];
+    equSpareChangeRecordList?: cloudPlatformTypes["EquSpareChangeRecord"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -30340,7 +30320,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -30364,7 +30344,7 @@ export interface definitions {
      * 设备名称
      */
     eqName?: string;
-    freasonEqpList?: definitions["Map«string,object»"][];
+    freasonEqpList?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 开机率（%）
      */
@@ -30389,7 +30369,7 @@ export interface definitions {
     /**
      * 批次信息列表
      */
-    batchInfos?: definitions["BatchInfo"][];
+    batchInfos?: cloudPlatformTypes["BatchInfo"][];
     /**
      * 设备ID
      */
@@ -30426,7 +30406,7 @@ export interface definitions {
     /**
      * 产线列表
      */
-    equipProductLine?: definitions["EquipProductLine"][];
+    equipProductLine?: cloudPlatformTypes["EquipProductLine"][];
     /**
      * 全厂ID
      */
@@ -30495,7 +30475,7 @@ export interface definitions {
     /**
      * 部位备件信息
      */
-    spareMsgList?: definitions["spareMsg"][];
+    spareMsgList?: cloudPlatformTypes["spareMsg"][];
     /**
      * 用户ID
      */
@@ -30513,7 +30493,7 @@ export interface definitions {
     /**
      * 部位备件信息
      */
-    spareList?: definitions["PartSpareItem"][];
+    spareList?: cloudPlatformTypes["PartSpareItem"][];
   };
   /**
    * 基于生命周期的设备部位备件树请求对象
@@ -30571,7 +30551,7 @@ export interface definitions {
     /**
      * 工段列表
      */
-    equipSections?: definitions["EquipSection"][];
+    equipSections?: cloudPlatformTypes["EquipSection"][];
     /**
      * 工序ID
      */
@@ -30588,7 +30568,7 @@ export interface definitions {
     /**
      * 工序列表
      */
-    equipProcedures?: definitions["EquipProcedure"][];
+    equipProcedures?: cloudPlatformTypes["EquipProcedure"][];
     /**
      * 产线ID
      */
@@ -30605,7 +30585,7 @@ export interface definitions {
     /**
      * 设备列表
      */
-    equipments?: definitions["Equipment"][];
+    equipments?: cloudPlatformTypes["Equipment"][];
     /**
      * 工段ID
      */
@@ -30840,7 +30820,7 @@ export interface definitions {
     /**
      * 设备分析设备数据
      */
-    equipmentDataList?: definitions["EquipmentData"][];
+    equipmentDataList?: cloudPlatformTypes["EquipmentData"][];
   };
   /**
    * 设备档案实体
@@ -30865,7 +30845,7 @@ export interface definitions {
     /**
      * 设备图片
      */
-    equipmentImg?: definitions["Attachment"][];
+    equipmentImg?: cloudPlatformTypes["Attachment"][];
     /**
      * 设备型号
      */
@@ -30881,7 +30861,7 @@ export interface definitions {
     /**
      * 基本属性字段
      */
-    equipmentTypePropertyList?: definitions["EquipmentTypeProperty"][];
+    equipmentTypePropertyList?: cloudPlatformTypes["EquipmentTypeProperty"][];
     /**
      * 设备所属的上级区域ID
      */
@@ -31149,7 +31129,7 @@ export interface definitions {
     /**
      * 设备部位备件列表数据
      */
-    equipmentPartSpareInfoList?: definitions["EquipmentPartSpareInfo"][];
+    equipmentPartSpareInfoList?: cloudPlatformTypes["EquipmentPartSpareInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -31157,7 +31137,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -31256,7 +31236,7 @@ export interface definitions {
     /**
      * 备件集合
      */
-    spareList?: definitions["SpareMsgItem"][];
+    spareList?: cloudPlatformTypes["SpareMsgItem"][];
     /**
      * 用户ID
      */
@@ -31297,7 +31277,7 @@ export interface definitions {
     /**
      * 区域列表
      */
-    areas?: definitions["EquipmentPerfItem"][];
+    areas?: cloudPlatformTypes["EquipmentPerfItem"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -31419,7 +31399,7 @@ export interface definitions {
      */
     width?: number;
   };
-  EquipmentQrcodeRecord: definitions["QrcodePageRecord"] & {
+  EquipmentQrcodeRecord: cloudPlatformTypes["QrcodePageRecord"] & {
     /**
      * 车间
      */
@@ -31754,92 +31734,6 @@ export interface definitions {
      * 用户ID
      */
     uid?: string;
-  };
-  EquipmentRunningStopResp: {
-    /**
-     * 实际持续时长(min)
-     */
-    actualDuration?: number;
-    /**
-     * 开始时间
-     */
-    beginTime?: string;
-    /**
-     * 明细id
-     */
-    detailId?: number;
-    /**
-     * 持续时长(min)
-     */
-    duration?: number;
-    /**
-     * 结束时间
-     */
-    endTime?: string;
-    /**
-     * 设备id
-     */
-    equipmentId?: string;
-    /**
-     * 设备名称
-     */
-    equipmentName?: string;
-    /**
-     * 预防措施
-     */
-    measure?: string;
-    /**
-     * 部位名称
-     */
-    partName?: string;
-    /**
-     * 上一次运行状态
-     */
-    previousStatus?: string;
-    /**
-     * 上一次运行状态名称
-     */
-    previousStatusName?: string;
-    /**
-     * 原因
-     */
-    reason?: string;
-    /**
-     * 责任部门id
-     */
-    reasonDepartmentId?: number;
-    /**
-     * 责任部门名称
-     */
-    reasonDepartmentName?: string;
-    /**
-     * 原因id
-     */
-    reasonId?: number;
-    /**
-     * 记录id
-     */
-    recordId?: number;
-    /**
-     * 原因分析
-     */
-    remark?: string;
-    /**
-     * 录入状态：1已录入，0未录入
-     */
-    state?: number;
-    /**
-     * 录入状态名称
-     */
-    stateName?: string;
-    /**
-     * 运行状态
-     */
-    status?: string;
-    /**
-     * 运行状态名称
-     */
-    statusName?: string;
   };
   EquipmentShutdownReason: {
     /**
@@ -32354,7 +32248,7 @@ export interface definitions {
     /**
      * 备件上下机操作明细
      */
-    detailReqs?: definitions["EquipmentSparePartUpDownDetail对象"][];
+    detailReqs?: cloudPlatformTypes["EquipmentSparePartUpDownDetail对象"][];
     /**
      * 所属企业id
      */
@@ -32652,11 +32546,11 @@ export interface definitions {
     /**
      * 设备采集参数
      */
-    equipmentTypeParameterList?: definitions["EquipmentTypeParameter"][];
+    equipmentTypeParameterList?: cloudPlatformTypes["EquipmentTypeParameter"][];
     /**
      * 设备属性参数
      */
-    equipmentTypePropertyList?: definitions["EquipmentTypeProperty"][];
+    equipmentTypePropertyList?: cloudPlatformTypes["EquipmentTypeProperty"][];
   };
   EquipmentTypeParameter: {
     /**
@@ -32841,7 +32735,7 @@ export interface definitions {
     /**
      * 动态列数据集合
      */
-    rowDataList?: definitions["DynamicRow"][];
+    rowDataList?: cloudPlatformTypes["DynamicRow"][];
   };
   ExhibitionBoardConfigModel: {
     /**
@@ -32855,7 +32749,7 @@ export interface definitions {
     /**
      * 配置值列表
      */
-    configItems?: definitions["ExhibitionItemVO"][];
+    configItems?: cloudPlatformTypes["ExhibitionItemVO"][];
     /**
      * eid:企业id
      */
@@ -33352,14 +33246,14 @@ export interface definitions {
     uid?: string;
   };
   FactoryAreaOrderResp: {
-    areaList?: definitions["FactoryArea"][];
+    areaList?: cloudPlatformTypes["FactoryArea"][];
     factoryId?: number;
   };
   FactoryAreaProcess: {
     /**
      * 子工厂列表
      */
-    childFactory?: definitions["FactoryAreaProcess"][];
+    childFactory?: cloudPlatformTypes["FactoryAreaProcess"][];
     /**
      * 工厂ID
      */
@@ -33473,7 +33367,7 @@ export interface definitions {
     /**
      * 子单元列表
      */
-    childFactory?: definitions["FactoryAreaTemplateVo"][];
+    childFactory?: cloudPlatformTypes["FactoryAreaTemplateVo"][];
     /**
      * 班组分组ID
      */
@@ -33636,12 +33530,12 @@ export interface definitions {
      */
     useStatus?: number;
   };
-  FactoryBillboardPayload: { data?: definitions["Data"] };
+  FactoryBillboardPayload: { data?: cloudPlatformTypes["Data"] };
   FactoryLineOutputData: {
     /**
      * 产线产量比例数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
     /**
      * 单位
      */
@@ -33929,7 +33823,7 @@ export interface definitions {
     /**
      * 主体信息
      */
-    content?: definitions["FeaturePropertiesModel_ContentInfo对象"][];
+    content?: cloudPlatformTypes["FeaturePropertiesModel_ContentInfo对象"][];
     /**
      * 主键
      */
@@ -34085,7 +33979,7 @@ export interface definitions {
     /**
      * 字段列表
      */
-    columns?: definitions["Column"][];
+    columns?: cloudPlatformTypes["Column"][];
     /**
      * 产品编码
      */
@@ -34235,7 +34129,7 @@ export interface definitions {
     /**
      * 数据列表
      */
-    list?: definitions["FieldValueDto"][];
+    list?: cloudPlatformTypes["FieldValueDto"][];
   };
   FiguresEventDate: {
     /**
@@ -34249,9 +34143,9 @@ export interface definitions {
   };
   File: {
     absolute?: boolean;
-    absoluteFile?: definitions["File"];
+    absoluteFile?: cloudPlatformTypes["File"];
     absolutePath?: string;
-    canonicalFile?: definitions["File"];
+    canonicalFile?: cloudPlatformTypes["File"];
     canonicalPath?: string;
     directory?: boolean;
     executable?: boolean;
@@ -34261,7 +34155,7 @@ export interface definitions {
     lastModified?: number;
     name?: string;
     parent?: string;
-    parentFile?: definitions["File"];
+    parentFile?: cloudPlatformTypes["File"];
     path?: string;
     readable?: boolean;
     totalSpace?: number;
@@ -34428,8 +34322,8 @@ export interface definitions {
     uploadTime?: string;
   };
   FilterCondition: {
-    bracketsPositionList?: definitions["BracketsPosition"][];
-    conditionItemList?: definitions["FilterConditionItem"][];
+    bracketsPositionList?: cloudPlatformTypes["BracketsPosition"][];
+    conditionItemList?: cloudPlatformTypes["FilterConditionItem"][];
     filterByParent?: boolean;
   };
   FilterConditionItem: {
@@ -34486,7 +34380,7 @@ export interface definitions {
     /**
      * 多个备件消耗对象
      */
-    moreSpareConsumeList?: definitions["SpareConsumeItem"][];
+    moreSpareConsumeList?: cloudPlatformTypes["SpareConsumeItem"][];
     /**
      * 维修说明
      */
@@ -34494,7 +34388,7 @@ export interface definitions {
     /**
      * 报修图片路径 保存时只需要 保存原始文件名，保存文件名
      */
-    repairImagePath?: definitions["Attachment"][];
+    repairImagePath?: cloudPlatformTypes["Attachment"][];
     /**
      * 维修结果.   HARD("无法维修"),SUCCESS("恢复正常")
      */
@@ -34506,7 +34400,7 @@ export interface definitions {
     /**
      * 报修声音路径  保存时只需要 保存原始文件名，保存文件名
      */
-    repairVoicePath?: definitions["Attachment"][];
+    repairVoicePath?: cloudPlatformTypes["Attachment"][];
   };
   FinishRepairTaskResp: {
     data?: { [key: string]: any };
@@ -34575,7 +34469,7 @@ export interface definitions {
     /**
      * 质检不合格列表
      */
-    qualityPassRateList?: definitions["产品质检通过率对象"][];
+    qualityPassRateList?: cloudPlatformTypes["产品质检通过率对象"][];
   };
   FormField: {
     /**
@@ -34652,7 +34546,7 @@ export interface definitions {
     /**
      * 检查项目记录
      */
-    checkItems?: definitions["MaterialCheckRecord"][];
+    checkItems?: cloudPlatformTypes["MaterialCheckRecord"][];
     /**
      * 物料名称
      */
@@ -34673,7 +34567,7 @@ export interface definitions {
     /**
      * 副产品比率列表
      */
-    coproductRatioList: definitions["CraftCoproductRatio对象"][];
+    coproductRatioList: cloudPlatformTypes["CraftCoproductRatio对象"][];
     /**
      * 物料允许误差数量【必填】
      */
@@ -34726,7 +34620,7 @@ export interface definitions {
     /**
      * 副产品列表
      */
-    coproductRatioList?: definitions["CraftCoproductRatio对象"][];
+    coproductRatioList?: cloudPlatformTypes["CraftCoproductRatio对象"][];
     /**
      * 工艺配方配置id
      */
@@ -34851,7 +34745,7 @@ export interface definitions {
     /**
      * 配方明细列表
      */
-    itemDataList: definitions["FormulaItemData对象"][];
+    itemDataList: cloudPlatformTypes["FormulaItemData对象"][];
     /**
      * 物料id
      */
@@ -34907,7 +34801,7 @@ export interface definitions {
     /**
      * 表计列表
      */
-    meterList?: definitions["Meter"][];
+    meterList?: cloudPlatformTypes["Meter"][];
   };
   /**
    * 配方优选
@@ -35129,7 +35023,7 @@ export interface definitions {
     /**
      * 比较条件
      */
-    conditions?: definitions["Condition"][];
+    conditions?: cloudPlatformTypes["Condition"][];
     /**
      * 检验项目id
      */
@@ -35141,7 +35035,7 @@ export interface definitions {
     /**
      * 工艺参数分析参数
      */
-    craftParam?: definitions["工艺参数分析"];
+    craftParam?: cloudPlatformTypes["工艺参数分析"];
     /**
      * 数据源类型，1-采集数据、2-质量检测数据、3-工艺参数
      */
@@ -35165,7 +35059,7 @@ export interface definitions {
     /**
      * 物料组+物料组合(底层用)
      */
-    groupedMaterials?: definitions["GroupedMaterial"][];
+    groupedMaterials?: cloudPlatformTypes["GroupedMaterial"][];
     /**
      * 物料组ID列表
      */
@@ -35250,8 +35144,8 @@ export interface definitions {
      * 用户ID
      */
     uid?: string;
-    variableConditions?: definitions["VariableFilterConditionItem"][];
-    variables?: definitions["FrequencyAnalyseItem"][];
+    variableConditions?: cloudPlatformTypes["VariableFilterConditionItem"][];
+    variables?: cloudPlatformTypes["FrequencyAnalyseItem"][];
   };
   FrequencyItem: { lowerBound?: number; times?: number; upperBound?: number };
   /**
@@ -35416,7 +35310,7 @@ export interface definitions {
      * eid:企业id
      */
     eid?: string;
-    list?: definitions["AnalysisParam"][];
+    list?: cloudPlatformTypes["AnalysisParam"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -35468,11 +35362,11 @@ export interface definitions {
     /**
      * 表头
      */
-    columns?: definitions["ColumnData"][];
+    columns?: cloudPlatformTypes["ColumnData"][];
     /**
      * 分析参数列表
      */
-    params?: definitions["Map«string,AnalysisTableCell»"][];
+    params?: cloudPlatformTypes["Map«string,AnalysisTableCell»"][];
   };
   /**
    * 获取区域能源基准值
@@ -35481,7 +35375,7 @@ export interface definitions {
     /**
      * 区域能源基准值
      */
-    bodies?: definitions["EnergyBaseline"][];
+    bodies?: cloudPlatformTypes["EnergyBaseline"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -35499,11 +35393,11 @@ export interface definitions {
     /**
      * 节能基准值
      */
-    saveEnergies?: definitions["SaveEnergy"][];
+    saveEnergies?: cloudPlatformTypes["SaveEnergy"][];
     /**
      * 表头
      */
-    titleList?: definitions["title"][];
+    titleList?: cloudPlatformTypes["title"][];
   };
   GetAreaEnergyResp: {
     data?: { [key: string]: any };
@@ -35543,7 +35437,7 @@ export interface definitions {
     /**
      * 方案
      */
-    scheme?: definitions["公式方案"];
+    scheme?: cloudPlatformTypes["公式方案"];
   };
   GetAreaFormulaTaskResp: {
     /**
@@ -35912,7 +35806,7 @@ export interface definitions {
     /**
      * 总体能效指标列表
      */
-    indexInfos?: definitions["IndexInfo"][];
+    indexInfos?: cloudPlatformTypes["IndexInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -35927,7 +35821,7 @@ export interface definitions {
     /**
      * 检测明细信息
      */
-    courseOutput?: definitions["CourseOutput"];
+    courseOutput?: cloudPlatformTypes["CourseOutput"];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -35950,7 +35844,7 @@ export interface definitions {
     /**
      * 个性化配置信息列表
      */
-    customizedConfigs?: definitions["CustomizedConfig"][];
+    customizedConfigs?: cloudPlatformTypes["CustomizedConfig"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -35959,7 +35853,7 @@ export interface definitions {
     /**
      * 监控配置列表
      */
-    monitorSortConfigs?: definitions["MonitorSortConfig"][];
+    monitorSortConfigs?: cloudPlatformTypes["MonitorSortConfig"][];
     requestId?: string;
     /**
      * 返回编码
@@ -35977,7 +35871,7 @@ export interface definitions {
     /**
      * 服务商详情信息
      */
-    brokerDetail?: definitions["BrokerDetailResp"];
+    brokerDetail?: cloudPlatformTypes["BrokerDetailResp"];
     /**
      * 是否定制化（0：默认，1：定制化）
      */
@@ -35998,11 +35892,11 @@ export interface definitions {
     /**
      * 登陆页背景图片
      */
-    loginImg?: definitions["Attachment"];
+    loginImg?: cloudPlatformTypes["Attachment"];
     /**
      * 企业Logo
      */
-    logoImg?: definitions["Attachment"];
+    logoImg?: cloudPlatformTypes["Attachment"];
     /**
      * 企业全称
      */
@@ -36045,7 +35939,7 @@ export interface definitions {
     /**
      * 数据源和关键参数列表
      */
-    list?: definitions["DataSourceAndParams"][];
+    list?: cloudPlatformTypes["DataSourceAndParams"][];
   };
   GetDayAreaAlarmAmountTreeResp: {
     data?: { [key: string]: any };
@@ -36065,7 +35959,7 @@ export interface definitions {
     /**
      * 根节点
      */
-    rootNode?: definitions["AlarmAmountAreaNode"];
+    rootNode?: cloudPlatformTypes["AlarmAmountAreaNode"];
   };
   GetDefaultAreaFormulaResp: {
     data?: { [key: string]: any };
@@ -36076,7 +35970,7 @@ export interface definitions {
     /**
      * 默认公式涉及的表计列表
      */
-    meterList?: definitions["FormulaMeter"][];
+    meterList?: cloudPlatformTypes["FormulaMeter"][];
     requestId?: string;
     /**
      * 返回编码
@@ -36188,7 +36082,7 @@ export interface definitions {
     /**
      * 选择的列表Id
      */
-    productBenchmarkList?: definitions["productBenchmark"][];
+    productBenchmarkList?: cloudPlatformTypes["productBenchmark"][];
     requestId?: string;
     /**
      * 返回编码
@@ -36242,7 +36136,7 @@ export interface definitions {
     /**
      * 能源数据
      */
-    energyDataList?: definitions["EnergyData"][];
+    energyDataList?: cloudPlatformTypes["EnergyData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -36266,7 +36160,7 @@ export interface definitions {
     /**
      * 能源数据
      */
-    energyDataList?: definitions["EnergyData"][];
+    energyDataList?: cloudPlatformTypes["EnergyData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -36290,7 +36184,7 @@ export interface definitions {
     /**
      * 能耗分摊信息详情
      */
-    energyShareInfo?: definitions["EnergyShareInfo"];
+    energyShareInfo?: cloudPlatformTypes["EnergyShareInfo"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -36412,16 +36306,16 @@ export interface definitions {
     /**
      * 企业全厂区域
      */
-    areaNode?: definitions["AreaNode"];
+    areaNode?: cloudPlatformTypes["AreaNode"];
     data?: { [key: string]: any };
     /**
      * 企业能源类型信息
      */
-    energyTypes?: definitions["Energy"][];
+    energyTypes?: cloudPlatformTypes["Energy"][];
     /**
      * 企业基本信息
      */
-    enterprise?: definitions["Enterprise"];
+    enterprise?: cloudPlatformTypes["Enterprise"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -36495,7 +36389,7 @@ export interface definitions {
     /**
      * 设备停机原因详情
      */
-    shutdownReason?: definitions["EqpShutdownReason"];
+    shutdownReason?: cloudPlatformTypes["EqpShutdownReason"];
   };
   /**
    * 查询停机原因树详情响应对象
@@ -36517,7 +36411,7 @@ export interface definitions {
     /**
      * 停机原因树
      */
-    reasonTrees?: definitions["EqpShutdownReasonNode"][];
+    reasonTrees?: cloudPlatformTypes["EqpShutdownReasonNode"][];
     requestId?: string;
     /**
      * 返回编码
@@ -36563,7 +36457,7 @@ export interface definitions {
     /**
      * 总体运行情况指标列表
      */
-    indexInfos?: definitions["IndexInfo"][];
+    indexInfos?: cloudPlatformTypes["IndexInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -36607,7 +36501,7 @@ export interface definitions {
     /**
      * 个性化配置信息列表
      */
-    customizedConfigs?: definitions["CustomizedConfig"][];
+    customizedConfigs?: cloudPlatformTypes["CustomizedConfig"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -36710,7 +36604,7 @@ export interface definitions {
     /**
      * 附件信息地址
      */
-    accessoryPathList?: definitions["Attachment"][];
+    accessoryPathList?: cloudPlatformTypes["Attachment"][];
     /**
      * 均值校验 true:校验，false:不校验
      */
@@ -36734,7 +36628,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson?: definitions["IncomingHtmlDataJson"];
+    htmlDataJson?: cloudPlatformTypes["IncomingHtmlDataJson"];
     /**
      * 是否入库， 0：不入库，1：入库
      */
@@ -36792,15 +36686,15 @@ export interface definitions {
     /**
      * 基本信息项列表
      */
-    basicMsgProjectList?: definitions["TemplateStandardItem"][];
+    basicMsgProjectList?: cloudPlatformTypes["TemplateStandardItem"][];
     /**
      * 定性项列表
      */
-    definePropertyProjectList?: definitions["TemplateStandardItem"][];
+    definePropertyProjectList?: cloudPlatformTypes["TemplateStandardItem"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectList?: definitions["TemplateStandardItem"][];
+    defineQuantityProjectList?: cloudPlatformTypes["TemplateStandardItem"][];
     /**
      * 是否提供入库，0：不提供入库，1：提供入库
      */
@@ -36875,16 +36769,16 @@ export interface definitions {
     /**
      * 基本信息项列表
      */
-    basicMsgProjectList?: definitions["IncomingTemplateProject"][];
+    basicMsgProjectList?: cloudPlatformTypes["IncomingTemplateProject"][];
     data?: { [key: string]: any };
     /**
      * 定性项列表
      */
-    definePropertyProjectList?: definitions["IncomingTemplateProject"][];
+    definePropertyProjectList?: cloudPlatformTypes["IncomingTemplateProject"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectList?: definitions["IncomingTemplateProject"][];
+    defineQuantityProjectList?: cloudPlatformTypes["IncomingTemplateProject"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -37008,7 +36902,7 @@ export interface definitions {
     /**
      * 目标模板列表
      */
-    templateReqs?: definitions["TemplateReq"][];
+    templateReqs?: cloudPlatformTypes["TemplateReq"][];
     /**
      * 用户ID
      */
@@ -37066,7 +36960,7 @@ export interface definitions {
     /**
      * 检修计划附件路径列表
      */
-    attachmentList?: definitions["Attachment"][];
+    attachmentList?: cloudPlatformTypes["Attachment"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -37083,7 +36977,7 @@ export interface definitions {
     /**
      * 检修项目列表
      */
-    maintainTaskList: definitions["检修项目"][];
+    maintainTaskList: cloudPlatformTypes["检修项目"][];
     /**
      * 检修计划开始时间,时间格式yyyy-MM-dd HH:mm
      */
@@ -37112,7 +37006,7 @@ export interface definitions {
     exceptCauseIp?: string;
     exceptClass?: string;
     extFields?: { [key: string]: any };
-    maintainSche?: definitions["MaintainSche"];
+    maintainSche?: cloudPlatformTypes["MaintainSche"];
     requestId?: string;
     /**
      * 返回编码
@@ -37134,7 +37028,7 @@ export interface definitions {
     /**
      * 备件消耗
      */
-    consumptionSpareList?: definitions["备件消耗"][];
+    consumptionSpareList?: cloudPlatformTypes["备件消耗"][];
     /**
      * 检修设备编号
      */
@@ -37166,7 +37060,7 @@ export interface definitions {
     /**
      * 检修内容列表
      */
-    itemList?: definitions["MaintainTaskItem"][];
+    itemList?: cloudPlatformTypes["MaintainTaskItem"][];
     /**
      * 项目检修人员ID信息，支持来自不同班组，如：[[大班组ID, 小班组ID, 人员ID]]
      */
@@ -37237,7 +37131,7 @@ export interface definitions {
     /**
      * 维护任务
      */
-    maintainTask?: definitions["MaintainTask"];
+    maintainTask?: cloudPlatformTypes["MaintainTask"];
     requestId?: string;
     /**
      * 返回编码
@@ -37253,7 +37147,7 @@ export interface definitions {
     /**
      * 设备列表
      */
-    equipmentList?: definitions["MaintenanceScheEquipment"][];
+    equipmentList?: cloudPlatformTypes["MaintenanceScheEquipment"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -37280,7 +37174,7 @@ export interface definitions {
     /**
      * 物料相关数据
      */
-    materialItemList?: definitions["MaterialItem"][];
+    materialItemList?: cloudPlatformTypes["MaterialItem"][];
     requestId?: string;
     /**
      * 返回编码
@@ -37303,7 +37197,7 @@ export interface definitions {
     /**
      * 检测项目列表
      */
-    materialCheckItems?: definitions["MaterialCheckItem"][];
+    materialCheckItems?: cloudPlatformTypes["MaterialCheckItem"][];
     requestId?: string;
     /**
      * 返回编码
@@ -37322,7 +37216,7 @@ export interface definitions {
     /**
      * 基本信息项列表
      */
-    basicMsgProjectList?: definitions["BasicProcessStandardTemplateData"][];
+    basicMsgProjectList?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 检验方案id
      */
@@ -37330,11 +37224,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectList?: definitions["ProcessProjectData"][];
+    definePropertyProjectList?: cloudPlatformTypes["ProcessProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectList?: definitions["ProcessProjectData"][];
+    defineQuantityProjectList?: cloudPlatformTypes["ProcessProjectData"][];
     /**
      * 是否提供入库，0：不提供入库，1：提供入库
      */
@@ -37371,7 +37265,7 @@ export interface definitions {
     /**
      * 过程基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 检验计划名称
      */
@@ -37379,11 +37273,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 生产任务投料检 false:不开启，true:开启
      */
@@ -37417,7 +37311,7 @@ export interface definitions {
     /**
      * 物料二维码列表
      */
-    data?: definitions["MaterialQrCodeInfo"][];
+    data?: cloudPlatformTypes["MaterialQrCodeInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -37444,7 +37338,7 @@ export interface definitions {
     /**
      * 原料批次质量列表
      */
-    materialQualitys?: definitions["MaterialQuality"][];
+    materialQualitys?: cloudPlatformTypes["MaterialQuality"][];
     requestId?: string;
     /**
      * 返回编码
@@ -37543,7 +37437,7 @@ export interface definitions {
     /**
      * 消息
      */
-    message?: definitions["Message"];
+    message?: cloudPlatformTypes["Message"];
     requestId?: string;
     /**
      * 返回编码
@@ -37563,7 +37457,7 @@ export interface definitions {
     /**
      * 历史数据
      */
-    historyDataList?: definitions["Map«string,object»"][];
+    historyDataList?: cloudPlatformTypes["Map«string,object»"][];
     requestId?: string;
     retCode?: string;
     retMsg?: string;
@@ -37581,7 +37475,7 @@ export interface definitions {
     /**
      * 监测节点
      */
-    monitor: definitions["监测"];
+    monitor: cloudPlatformTypes["监测"];
     requestId?: string;
     /**
      * 返回编码
@@ -37801,7 +37695,7 @@ export interface definitions {
     /**
      * 生产任务列表
      */
-    addProTasks?: definitions["AddProTask"][];
+    addProTasks?: cloudPlatformTypes["AddProTask"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -37824,7 +37718,7 @@ export interface definitions {
     /**
      * 中心线
      */
-    controllerLimit?: definitions["Number"];
+    controllerLimit?: cloudPlatformTypes["Number"];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -37833,7 +37727,7 @@ export interface definitions {
     /**
      * 控制下限值
      */
-    lowerControllerLimit?: definitions["Number"];
+    lowerControllerLimit?: cloudPlatformTypes["Number"];
     /**
      * 下限值
      */
@@ -37841,7 +37735,7 @@ export interface definitions {
     /**
      * 定量检验项目样本平均值列表
      */
-    processQualityAnalyses?: definitions["ProcessQualityAnalysis"][];
+    processQualityAnalyses?: cloudPlatformTypes["ProcessQualityAnalysis"][];
     requestId?: string;
     /**
      * 返回编码
@@ -37858,7 +37752,7 @@ export interface definitions {
     /**
      * 控制上限值
      */
-    upperControllerLimit?: definitions["Number"];
+    upperControllerLimit?: cloudPlatformTypes["Number"];
     /**
      * 上限值
      */
@@ -37920,7 +37814,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson?: definitions["ProcessHtmlDataJson"];
+    htmlDataJson?: cloudPlatformTypes["ProcessHtmlDataJson"];
     /**
      * 是否通知班组  0：不通知，1：通知
      */
@@ -37973,7 +37867,7 @@ export interface definitions {
     /**
      * 过程基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 检验计划名称
      */
@@ -37981,11 +37875,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 任务生成时间
      */
@@ -38006,7 +37900,7 @@ export interface definitions {
     /**
      * 过程基本模板列表
      */
-    basicProcessTemplateProjects?: definitions["BasicProcessTemplateProject"][];
+    basicProcessTemplateProjects?: cloudPlatformTypes["BasicProcessTemplateProject"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -38033,7 +37927,7 @@ export interface definitions {
      * 返回信息
      */
     retMsg?: string;
-    sequenceProcessTemplates?: definitions["SequenceProcessTemplate"][];
+    sequenceProcessTemplates?: cloudPlatformTypes["SequenceProcessTemplate"][];
   };
   GetProduceCheckingRecordReq: {
     /**
@@ -38141,7 +38035,7 @@ export interface definitions {
     /**
      * 产品类别等级
      */
-    productGrades?: definitions["ProductGrade"][];
+    productGrades?: cloudPlatformTypes["ProductGrade"][];
     requestId?: string;
     /**
      * 返回编码
@@ -38263,7 +38157,7 @@ export interface definitions {
     /**
      * 总体能效指标列表
      */
-    indexInfos?: definitions["IndexInfo"][];
+    indexInfos?: cloudPlatformTypes["IndexInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -38286,7 +38180,7 @@ export interface definitions {
     /**
      * 组件列表
      */
-    projectComponents?: definitions["ProjectComponent"][];
+    projectComponents?: cloudPlatformTypes["ProjectComponent"][];
     requestId?: string;
     /**
      * 返回编码
@@ -38346,7 +38240,7 @@ export interface definitions {
     /**
      * 单位类型列表
      */
-    projectUnitTypes?: definitions["ProjectUnitType"][];
+    projectUnitTypes?: cloudPlatformTypes["ProjectUnitType"][];
     requestId?: string;
     /**
      * 返回编码
@@ -38361,29 +38255,29 @@ export interface definitions {
     /**
      * 实际用电和系统调度之前的对比数据
      */
-    pulpCostContrastList?: definitions["PulpCostContrast"][];
+    pulpCostContrastList?: cloudPlatformTypes["PulpCostContrast"][];
     /**
      * 可节约成本
      */
-    thriftEleCost?: definitions["Number"];
+    thriftEleCost?: cloudPlatformTypes["Number"];
     /**
      * 实际耗电成本
      */
-    totalActualEleCost?: definitions["Number"];
+    totalActualEleCost?: cloudPlatformTypes["Number"];
     /**
      * 系统调度耗电成本
      */
-    totalForecastEleCost?: definitions["Number"];
+    totalForecastEleCost?: cloudPlatformTypes["Number"];
   };
   GetPulpDispatchContrastResp: {
     /**
      * 实际运行时间
      */
-    actualRunTimeList?: definitions["PulpRunTimeResp"][];
+    actualRunTimeList?: cloudPlatformTypes["PulpRunTimeResp"][];
     /**
      * 优化运行时间
      */
-    optimizeRunTimeList?: definitions["PulpRunTimeResp"][];
+    optimizeRunTimeList?: cloudPlatformTypes["PulpRunTimeResp"][];
     /**
      * 状态 1：正常，2：转浆，3：损纸  状态默认为1，表示正常状态下
      */
@@ -38462,7 +38356,7 @@ export interface definitions {
     /**
      * 检测明细信息
      */
-    prodQualityInfo?: definitions["ProdQualityInfo"];
+    prodQualityInfo?: cloudPlatformTypes["ProdQualityInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -38524,7 +38418,7 @@ export interface definitions {
     /**
      * 操作记录列表
      */
-    operateRecords?: definitions["OperateRecord"][];
+    operateRecords?: cloudPlatformTypes["OperateRecord"][];
     requestId?: string;
     /**
      * 返回编码
@@ -38576,7 +38470,7 @@ export interface definitions {
     /**
      * 点检卡详情
      */
-    regularCheckCard?: definitions["点检卡信息"];
+    regularCheckCard?: cloudPlatformTypes["点检卡信息"];
     requestId?: string;
     /**
      * 返回编码
@@ -38624,7 +38518,7 @@ export interface definitions {
     /**
      * 计划详情
      */
-    descRegularCheckPlan?: definitions["DescRegularCheckPlan"];
+    descRegularCheckPlan?: cloudPlatformTypes["DescRegularCheckPlan"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -38646,7 +38540,7 @@ export interface definitions {
     /**
      * 主键id
      */
-    collectTagConfigs?: definitions["CheckPlanTagConfigItem"][];
+    collectTagConfigs?: cloudPlatformTypes["CheckPlanTagConfigItem"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -38714,7 +38608,7 @@ export interface definitions {
     /**
      * 受理人集合  只有isCaptainMark 为true 才会有受理人集合
      */
-    acceptUserList?: definitions["AcceptUser"][];
+    acceptUserList?: cloudPlatformTypes["AcceptUser"][];
     /**
      * 维修人名称
      */
@@ -38734,7 +38628,7 @@ export interface definitions {
     /**
      * 报修图片地址 , 报修图片路径
      */
-    commitImagePathList?: definitions["Attachment"][];
+    commitImagePathList?: cloudPlatformTypes["Attachment"][];
     /**
      * 报修人的电话号码
      */
@@ -38742,7 +38636,7 @@ export interface definitions {
     /**
      * 报修声音地址,报修声音路径
      */
-    commitSoundPathList?: definitions["Attachment"][];
+    commitSoundPathList?: cloudPlatformTypes["Attachment"][];
     /**
      * 报修时间
      */
@@ -38759,7 +38653,7 @@ export interface definitions {
     /**
      * 故障报修备件消耗列表
      */
-    eqpSpareConsumeInfoList?: definitions["设备备件消耗对象"][];
+    eqpSpareConsumeInfoList?: cloudPlatformTypes["设备备件消耗对象"][];
     /**
      * 设备编号
      */
@@ -38823,7 +38717,7 @@ export interface definitions {
     /**
      * 维修图片地址，维修图片路径
      */
-    repairImagePathList?: definitions["Attachment"][];
+    repairImagePathList?: cloudPlatformTypes["Attachment"][];
     /**
      * 维修结果 英文
      */
@@ -38855,7 +38749,7 @@ export interface definitions {
     /**
      * 维修音频地址，维修音频路径
      */
-    repairVoicePathList?: definitions["Attachment"][];
+    repairVoicePathList?: cloudPlatformTypes["Attachment"][];
     requestId?: string;
     /**
      * 响应时长
@@ -38876,7 +38770,7 @@ export interface definitions {
     /**
      * 推送班组记录
      */
-    taskAssignmentCourseList?: definitions["TaskAssignmentCourse"][];
+    taskAssignmentCourseList?: cloudPlatformTypes["TaskAssignmentCourse"][];
     /**
      * 任务完成时间
      */
@@ -38899,7 +38793,7 @@ export interface definitions {
     /**
      * 维修任务
      */
-    repairTask?: definitions["RepairTask"];
+    repairTask?: cloudPlatformTypes["RepairTask"];
     requestId?: string;
     /**
      * 返回编码
@@ -38919,7 +38813,7 @@ export interface definitions {
     /**
      * 定制报表
      */
-    reportInfo: definitions["ReportTemplate"];
+    reportInfo: cloudPlatformTypes["ReportTemplate"];
     requestId?: string;
     /**
      * 返回编码
@@ -39013,8 +38907,8 @@ export interface definitions {
     /**
      * 报工附加项
      */
-    sheetAdditionItems?: definitions["SheetAdditionItem"][];
-    taskSheet?: definitions["TaskSheet"];
+    sheetAdditionItems?: cloudPlatformTypes["SheetAdditionItem"][];
+    taskSheet?: cloudPlatformTypes["TaskSheet"];
   };
   /**
    * 根据班组工厂单元关联排班表获取班次
@@ -39078,7 +38972,7 @@ export interface definitions {
     /**
      * 备件消耗列表
      */
-    spareConsumptionStatistics?: definitions["SpareConsumptionStatistics"][];
+    spareConsumptionStatistics?: cloudPlatformTypes["SpareConsumptionStatistics"][];
   };
   /**
    * 获取备件列表响应对象
@@ -39101,7 +38995,7 @@ export interface definitions {
     /**
      * 备件列表
      */
-    sparePartList?: definitions["SparePart"][];
+    sparePartList?: cloudPlatformTypes["SparePart"][];
   };
   GetStandarDetailResp: {
     data?: { [key: string]: any };
@@ -39120,7 +39014,7 @@ export interface definitions {
     /**
      * 质量检测标准明细
      */
-    qSdItems?: definitions["StandarItem"][];
+    qSdItems?: cloudPlatformTypes["StandarItem"][];
     requestId?: string;
     /**
      * 返回编码
@@ -39176,7 +39070,7 @@ export interface definitions {
     /**
      * 过程基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 检验方案id
      */
@@ -39184,11 +39078,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 复合计算检验项目 false:不开启，true:开启')
      */
@@ -39278,7 +39172,7 @@ export interface definitions {
     /**
      * 指标列表
      */
-    indexs?: definitions["NumberIndex"][];
+    indexs?: cloudPlatformTypes["NumberIndex"][];
     requestId?: string;
     /**
      * 返回编码
@@ -39302,7 +39196,7 @@ export interface definitions {
     /**
      * 故障类型列表
      */
-    rates?: definitions["FaultNumberRate"][];
+    rates?: cloudPlatformTypes["FaultNumberRate"][];
     /**
      * 百分比单位
      */
@@ -39339,7 +39233,7 @@ export interface definitions {
     /**
      * 任务类型列表
      */
-    tasks?: definitions["TaskRate"][];
+    tasks?: cloudPlatformTypes["TaskRate"][];
     /**
      * 用时单位
      */
@@ -39354,7 +39248,7 @@ export interface definitions {
     /**
      * 故障类型列表
      */
-    rates?: definitions["FaultTimeRate"][];
+    rates?: cloudPlatformTypes["FaultTimeRate"][];
     /**
      * 百分比单位
      */
@@ -39536,7 +39430,7 @@ export interface definitions {
     /**
      * 图表数据列表
      */
-    list?: definitions["AnalysisData"][];
+    list?: cloudPlatformTypes["AnalysisData"][];
   };
   GradeInfo: {
     /**
@@ -39556,7 +39450,7 @@ export interface definitions {
     /**
      * 等级对象数据
      */
-    gradeManageItemList: definitions["GradeManageItem"][];
+    gradeManageItemList: cloudPlatformTypes["GradeManageItem"][];
     /**
      * 物料类别id
      */
@@ -39605,7 +39499,7 @@ export interface definitions {
     /**
      * 产品分级比例数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
     /**
      * 单位
      */
@@ -39633,7 +39527,7 @@ export interface definitions {
     /**
      * 数据列表
      */
-    values?: definitions["TransCapacityRatioInfo"][];
+    values?: cloudPlatformTypes["TransCapacityRatioInfo"][];
   };
   /**
    * 山鹰国际_物料组表_
@@ -39793,7 +39687,7 @@ export interface definitions {
      * 导出表头配置
      */
     exportConfig?: string;
-    handoffs?: definitions["Handoff"][];
+    handoffs?: cloudPlatformTypes["Handoff"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -39815,13 +39709,13 @@ export interface definitions {
     associatedId?: string;
     associatedName?: string;
     associatedType?: string;
-    parametersList?: definitions["HeatDispersionParameter"][];
+    parametersList?: cloudPlatformTypes["HeatDispersionParameter"][];
   };
   HeatDispersionParameter: {
-    actualValue?: definitions["Number"];
+    actualValue?: cloudPlatformTypes["Number"];
     code?: string;
     name?: string;
-    optimizeValue?: definitions["Number"];
+    optimizeValue?: cloudPlatformTypes["Number"];
     parameter?: string;
     tagName?: string;
     type?: string;
@@ -39928,294 +39822,294 @@ export interface definitions {
   "IPage«AutoPrintPlanConfig更新请求对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["AutoPrintPlanConfig更新请求对象"][];
+    records?: cloudPlatformTypes["AutoPrintPlanConfig更新请求对象"][];
     size?: number;
     total?: number;
   };
   "IPage«CheckMaterialBatch»": {
     current?: number;
     pages?: number;
-    records?: definitions["CheckMaterialBatch"][];
+    records?: cloudPlatformTypes["CheckMaterialBatch"][];
     size?: number;
     total?: number;
   };
   "IPage«CostCalculateActionLogResp对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CostCalculateActionLogResp对象"][];
+    records?: cloudPlatformTypes["CostCalculateActionLogResp对象"][];
     size?: number;
     total?: number;
   };
   "IPage«CostCalculateDetailResp对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CostCalculateDetailResp对象"][];
+    records?: cloudPlatformTypes["CostCalculateDetailResp对象"][];
     size?: number;
     total?: number;
   };
   "IPage«CostCalculateRuleResp对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CostCalculateRuleResp对象"][];
+    records?: cloudPlatformTypes["CostCalculateRuleResp对象"][];
     size?: number;
     total?: number;
   };
   "IPage«CostCenterPage对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CostCenterPage对象"][];
+    records?: cloudPlatformTypes["CostCenterPage对象"][];
     size?: number;
     total?: number;
   };
   "IPage«CostItem对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CostItem对象"][];
+    records?: cloudPlatformTypes["CostItem对象"][];
     size?: number;
     total?: number;
   };
   "IPage«CostShareResp对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CostShareResp对象"][];
+    records?: cloudPlatformTypes["CostShareResp对象"][];
     size?: number;
     total?: number;
   };
   "IPage«CraftAlarmRecord»": {
     current?: number;
     pages?: number;
-    records?: definitions["CraftAlarmRecord"][];
+    records?: cloudPlatformTypes["CraftAlarmRecord"][];
     size?: number;
     total?: number;
   };
   "IPage«CyclePageEquipSpareCycle»": {
     current?: number;
     pages?: number;
-    records?: definitions["CyclePageEquipSpareCycle"][];
+    records?: cloudPlatformTypes["CyclePageEquipSpareCycle"][];
     size?: number;
     total?: number;
   };
   "IPage«DpMaterialDistribution»": {
     current?: number;
     pages?: number;
-    records?: definitions["DpMaterialDistribution"][];
+    records?: cloudPlatformTypes["DpMaterialDistribution"][];
     size?: number;
     total?: number;
   };
   "IPage«DpProduceSheetModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["DpProduceSheetModel"][];
+    records?: cloudPlatformTypes["DpProduceSheetModel"][];
     size?: number;
     total?: number;
   };
   "IPage«EnteryDataTaskConfPageInfo»": {
     current?: number;
     pages?: number;
-    records?: definitions["EnteryDataTaskConfPageInfo"][];
+    records?: cloudPlatformTypes["EnteryDataTaskConfPageInfo"][];
     size?: number;
     total?: number;
   };
   "IPage«EquipmentTraceablePageResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["EquipmentTraceablePageResp"][];
+    records?: cloudPlatformTypes["EquipmentTraceablePageResp"][];
     size?: number;
     total?: number;
   };
   "IPage«ExcelTestModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["ExcelTestModel"][];
+    records?: cloudPlatformTypes["ExcelTestModel"][];
     size?: number;
     total?: number;
   };
   "IPage«ExportReportJobResult»": {
     current?: number;
     pages?: number;
-    records?: definitions["ExportReportJobResult"][];
+    records?: cloudPlatformTypes["ExportReportJobResult"][];
     size?: number;
     total?: number;
   };
   "IPage«List»": {
     current?: number;
     pages?: number;
-    records?: definitions["List"][];
+    records?: cloudPlatformTypes["List"][];
     size?: number;
     total?: number;
   };
   "IPage«MaterialModulationStatProduce»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialModulationStatProduce"][];
+    records?: cloudPlatformTypes["MaterialModulationStatProduce"][];
     size?: number;
     total?: number;
   };
   "IPage«MaterialStatProduceTask»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialStatProduceTask"][];
+    records?: cloudPlatformTypes["MaterialStatProduceTask"][];
     size?: number;
     total?: number;
   };
   "IPage«MaterialTypeOrgRecord»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialTypeOrgRecord"][];
+    records?: cloudPlatformTypes["MaterialTypeOrgRecord"][];
     size?: number;
     total?: number;
   };
   "IPage«Param»": {
     current?: number;
     pages?: number;
-    records?: definitions["Param"][];
+    records?: cloudPlatformTypes["Param"][];
     size?: number;
     total?: number;
   };
   "IPage«ProdEnteryDataTaskRecordPageInfo»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProdEnteryDataTaskRecordPageInfo"][];
+    records?: cloudPlatformTypes["ProdEnteryDataTaskRecordPageInfo"][];
     size?: number;
     total?: number;
   };
   "IPage«ProdFormulaPreferList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProdFormulaPreferList"][];
+    records?: cloudPlatformTypes["ProdFormulaPreferList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProdGrQaRecordListInfo»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProdGrQaRecordListInfo"][];
+    records?: cloudPlatformTypes["ProdGrQaRecordListInfo"][];
     size?: number;
     total?: number;
   };
   "IPage«ProdMaterialPreferBatchList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProdMaterialPreferBatchList"][];
+    records?: cloudPlatformTypes["ProdMaterialPreferBatchList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProdMaterialPreferList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProdMaterialPreferList"][];
+    records?: cloudPlatformTypes["ProdMaterialPreferList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProdMonthPlanList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProdMonthPlanList"][];
+    records?: cloudPlatformTypes["ProdMonthPlanList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProduceCheckingPlanList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceCheckingPlanList"][];
+    records?: cloudPlatformTypes["ProduceCheckingPlanList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProduceCheckingProcessRecordList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceCheckingProcessRecordList"][];
+    records?: cloudPlatformTypes["ProduceCheckingProcessRecordList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProduceCheckingStoreRecordList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceCheckingStoreRecordList"][];
+    records?: cloudPlatformTypes["ProduceCheckingStoreRecordList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProduceCheckingTaskList»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceCheckingTaskList"][];
+    records?: cloudPlatformTypes["ProduceCheckingTaskList"][];
     size?: number;
     total?: number;
   };
   "IPage«ProduceMaterialDistribution对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceMaterialDistribution对象"][];
+    records?: cloudPlatformTypes["ProduceMaterialDistribution对象"][];
     size?: number;
     total?: number;
   };
   "IPage«ProduceSheetFile»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceSheetFile"][];
+    records?: cloudPlatformTypes["ProduceSheetFile"][];
     size?: number;
     total?: number;
   };
   "IPage«ProduceTaskLossResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceTaskLossResp"][];
+    records?: cloudPlatformTypes["ProduceTaskLossResp"][];
     size?: number;
     total?: number;
   };
   "IPage«QrcodeTemplatePageResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["QrcodeTemplatePageResp"][];
+    records?: cloudPlatformTypes["QrcodeTemplatePageResp"][];
     size?: number;
     total?: number;
   };
   "IPage«StorePage对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["StorePage对象"][];
+    records?: cloudPlatformTypes["StorePage对象"][];
     size?: number;
     total?: number;
   };
   "IPage«TargetConfig对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["TargetConfig对象"][];
+    records?: cloudPlatformTypes["TargetConfig对象"][];
     size?: number;
     total?: number;
   };
   "IPage«TraceableSpareCycleResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["TraceableSpareCycleResp"][];
+    records?: cloudPlatformTypes["TraceableSpareCycleResp"][];
     size?: number;
     total?: number;
   };
   "IPage«动态行数据»": {
     current?: number;
     pages?: number;
-    records?: definitions["动态行数据"][];
+    records?: cloudPlatformTypes["动态行数据"][];
     size?: number;
     total?: number;
   };
   "IPage«告警处理记录»": {
     current?: number;
     pages?: number;
-    records?: definitions["告警处理记录"][];
+    records?: cloudPlatformTypes["告警处理记录"][];
     size?: number;
     total?: number;
   };
   "IPage«粉仓报表数据对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["粉仓报表数据对象"][];
+    records?: cloudPlatformTypes["粉仓报表数据对象"][];
     size?: number;
     total?: number;
   };
   "IPage«费用分摊分页返回对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["费用分摊分页返回对象"][];
+    records?: cloudPlatformTypes["费用分摊分页返回对象"][];
     size?: number;
     total?: number;
   };
@@ -40724,9 +40618,9 @@ export interface definitions {
     retMsg?: string;
   };
   ImportStoreResp: {
-    storeHouseList?: definitions["StoreHouseImport"][];
+    storeHouseList?: cloudPlatformTypes["StoreHouseImport"][];
     storeHouseMap?: { [key: string]: ref };
-    storeLocationList?: definitions["StoreLocationImport"][];
+    storeLocationList?: cloudPlatformTypes["StoreLocationImport"][];
   };
   /**
    * 生产任务导入请求对象
@@ -40778,7 +40672,7 @@ export interface definitions {
     /**
      * 来料质量统计数据
      */
-    countDatas?: definitions["CountDatas"][];
+    countDatas?: cloudPlatformTypes["CountDatas"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -40801,7 +40695,7 @@ export interface definitions {
     /**
      * 来料质量统计数据
      */
-    countDatas?: definitions["CountDatas"][];
+    countDatas?: cloudPlatformTypes["CountDatas"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -40821,15 +40715,15 @@ export interface definitions {
     /**
      * 基本信息项列表
      */
-    basicMsgProjectList?: definitions["BasicProcessStandardTemplateData"][];
+    basicMsgProjectList?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 定性项列表
      */
-    definePropertyProjectList?: definitions["IncomingProjectResult"][];
+    definePropertyProjectList?: cloudPlatformTypes["IncomingProjectResult"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectList?: definitions["IncomingProjectResult"][];
+    defineQuantityProjectList?: cloudPlatformTypes["IncomingProjectResult"][];
     /**
      * 备注
      */
@@ -40842,7 +40736,7 @@ export interface definitions {
     /**
      * 来料质量统计数据
      */
-    countDatas?: definitions["CountDatas"][];
+    countDatas?: cloudPlatformTypes["CountDatas"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -40894,7 +40788,7 @@ export interface definitions {
     /**
      * 存放基本信息数据
      */
-    baseInfoData?: definitions["IncomingBaseInfoData"];
+    baseInfoData?: cloudPlatformTypes["IncomingBaseInfoData"];
     /**
      * 定量检测项目-检验次数
      */
@@ -40984,7 +40878,7 @@ export interface definitions {
     /**
      * 标准图片 json数据
      */
-    standardImgData?: definitions["Attachment"][];
+    standardImgData?: cloudPlatformTypes["Attachment"][];
     /**
      * 定性检测项目-图片显示
      */
@@ -41022,7 +40916,7 @@ export interface definitions {
      */
     upperLimitShow?: boolean;
   };
-  IncomingQrcodeRecord: definitions["QrcodePageRecord"] & {
+  IncomingQrcodeRecord: cloudPlatformTypes["QrcodePageRecord"] & {
     /**
      * 来料批次号
      */
@@ -41260,7 +41154,7 @@ export interface definitions {
     /**
      * 参数列表
      */
-    parameterList?: definitions["Parameter"][];
+    parameterList?: cloudPlatformTypes["Parameter"][];
   };
   IndexDataItem: {
     /**
@@ -41280,11 +41174,11 @@ export interface definitions {
     /**
      * 支持的维度列表
      */
-    fields?: definitions["指标维度信息"][];
+    fields?: cloudPlatformTypes["指标维度信息"][];
     /**
      * 指标标识集
      */
-    indexList?: definitions["指标标识集"][];
+    indexList?: cloudPlatformTypes["指标标识集"][];
   };
   /**
    * 通用指标信息实体
@@ -41490,7 +41384,7 @@ export interface definitions {
     unit?: string;
   };
   IndexTreeNode: {
-    children?: definitions["IndexTreeNode"][];
+    children?: cloudPlatformTypes["IndexTreeNode"][];
     id?: string;
     label?: string;
     optional?: boolean;
@@ -41710,11 +41604,11 @@ export interface definitions {
     /**
      * 表头
      */
-    headers?: definitions["ColumnData"][];
+    headers?: cloudPlatformTypes["ColumnData"][];
     /**
      * 数据行
      */
-    rowList?: definitions["Map«string,string»"][];
+    rowList?: cloudPlatformTypes["Map«string,string»"][];
   };
   InputEquipment: {
     /**
@@ -41837,11 +41731,11 @@ export interface definitions {
     /**
      * 可录入能耗列表
      */
-    sureEnergyDataList?: definitions["ParameterData"][];
+    sureEnergyDataList?: cloudPlatformTypes["ParameterData"][];
     /**
      * 可录入参数列表
      */
-    sureParameterDataList?: definitions["ParameterData"][];
+    sureParameterDataList?: cloudPlatformTypes["ParameterData"][];
   };
   /**
    * 录入参数配置表
@@ -42288,7 +42182,7 @@ export interface definitions {
     /**
      * 原因明细列表
      */
-    reasonRecordDetailList?: definitions["ReasonRecordDetail"][];
+    reasonRecordDetailList?: cloudPlatformTypes["ReasonRecordDetail"][];
     /**
      * 原因树id
      */
@@ -42318,109 +42212,11 @@ export interface definitions {
      */
     type?: number;
   };
-  InvalidReasonRecordLatestResp: {
-    /**
-     * 实际持续时长(min)
-     */
-    actualDuration?: number;
-    /**
-     * 开始时间
-     */
-    beginTime?: string;
-    /**
-     * 班组id
-     */
-    courseId?: string;
-    /**
-     * 班组名称
-     */
-    courseName?: string;
-    /**
-     * 明细id
-     */
-    detailId?: number;
-    /**
-     * 结束时间
-     */
-    endTime?: string;
-    /**
-     * 设备id
-     */
-    equipmentId?: string;
-    /**
-     * 设备名称
-     */
-    equipmentName?: string;
-    /**
-     * 故障类型 1:停机2:断纸
-     */
-    invalidType?: number;
-    /**
-     * 故障类型名称
-     */
-    invalidTypeName?: string;
-    /**
-     * 物料id
-     */
-    materialId?: number;
-    /**
-     * 物料名称
-     */
-    materialName?: string;
-    /**
-     * 预防措施
-     */
-    measure?: string;
-    /**
-     * 部位名称
-     */
-    partName?: string;
-    /**
-     * 原因
-     */
-    reason?: string;
-    /**
-     * 责任部门id
-     */
-    reasonDepartmentId?: number;
-    /**
-     * 责任部门名称
-     */
-    reasonDepartmentName?: string;
-    /**
-     * 原因id
-     */
-    reasonId?: number;
-    /**
-     * 记录id
-     */
-    recordId?: number;
-    /**
-     * 原因分析
-     */
-    remark?: string;
-    /**
-     * 班次id
-     */
-    shiftId?: string;
-    /**
-     * 班次名称
-     */
-    shiftName?: string;
-    /**
-     * 录入状态：1已录入，0未录入
-     */
-    state?: number;
-    /**
-     * 录入状态名称
-     */
-    stateName?: string;
-  };
   InvalidReasonTree: {
     /**
      * 子级原因
      */
-    childReason?: definitions["InvalidReasonTree"][];
+    childReason?: cloudPlatformTypes["InvalidReasonTree"][];
     /**
      * 启用禁用 1:启用 2:禁用
      */
@@ -42514,7 +42310,7 @@ export interface definitions {
     /**
      * 异常事件
      */
-    eventDateList?: definitions["FiguresEventDate"][];
+    eventDateList?: cloudPlatformTypes["FiguresEventDate"][];
     /**
      * 是否默认展示告警信息
      */
@@ -42536,13 +42332,13 @@ export interface definitions {
     /**
      * 设备分析班组数据
      */
-    keyFiguresDataList?: definitions["CourseData"][];
+    keyFiguresDataList?: cloudPlatformTypes["CourseData"][];
   };
   KeyFiguresEventData: {
     /**
      * 关键指标数据集合
      */
-    keyFiguresList?: definitions["KeyFigures"][];
+    keyFiguresList?: cloudPlatformTypes["KeyFigures"][];
   };
   KeyParameter: {
     /**
@@ -42760,7 +42556,7 @@ export interface definitions {
     /**
      * 报工附加项列表
      */
-    sheetAdditionItems?: definitions["SheetAdditionItem"][];
+    sheetAdditionItems?: cloudPlatformTypes["SheetAdditionItem"][];
   };
   /**
    * 获取节能目标列表返回对象
@@ -42769,7 +42565,7 @@ export interface definitions {
     /**
      * 节能目标列表
      */
-    aims?: definitions["AimInfo"][];
+    aims?: cloudPlatformTypes["AimInfo"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -42778,7 +42574,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -42793,7 +42589,7 @@ export interface definitions {
     /**
      * 告警类型列表（按大类）
      */
-    alarmCategorys?: definitions["AlarmCategoryInfo"][];
+    alarmCategorys?: cloudPlatformTypes["AlarmCategoryInfo"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -42813,7 +42609,7 @@ export interface definitions {
     /**
      * 告警分类列表
      */
-    categoryList?: definitions["RuleCategory"][];
+    categoryList?: cloudPlatformTypes["RuleCategory"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -42982,7 +42778,7 @@ export interface definitions {
     /**
      * 告警规则列表
      */
-    alarmRecordList?: definitions["AlarmRecord"][];
+    alarmRecordList?: cloudPlatformTypes["AlarmRecord"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -42991,7 +42787,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43006,7 +42802,7 @@ export interface definitions {
     /**
      * 告警规则列表
      */
-    alarmRecordList?: definitions["AlarmRecord"][];
+    alarmRecordList?: cloudPlatformTypes["AlarmRecord"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43015,7 +42811,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43094,7 +42890,7 @@ export interface definitions {
   };
   ListAlarmRuleDataResp: {
     data?: { [key: string]: any };
-    eqpIAlarmRuleList?: definitions["告警规则-实体"][];
+    eqpIAlarmRuleList?: cloudPlatformTypes["告警规则-实体"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -43114,7 +42910,7 @@ export interface definitions {
     /**
      * 数据列表
      */
-    dataList?: definitions["TimeData"][];
+    dataList?: cloudPlatformTypes["TimeData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -43158,7 +42954,7 @@ export interface definitions {
     /**
      * 规则状态列表
      */
-    ruleStatuses?: definitions["AlarmRuleStatus"][];
+    ruleStatuses?: cloudPlatformTypes["AlarmRuleStatus"][];
   };
   ListAlarmSelectionReq: {
     /**
@@ -43258,7 +43054,7 @@ export interface definitions {
     /**
      * 告警对象列表
      */
-    targetList?: definitions["Target"][];
+    targetList?: cloudPlatformTypes["Target"][];
   };
   ListAlarmTargetResp: {
     data?: { [key: string]: any };
@@ -43278,13 +43074,13 @@ export interface definitions {
     /**
      * 告警对象列表
      */
-    targetList?: definitions["Target"][];
+    targetList?: cloudPlatformTypes["Target"][];
   };
   ListAlarmsResp: {
     /**
      * 告警信息列表
      */
-    alarms?: definitions["Alarm"][];
+    alarms?: cloudPlatformTypes["Alarm"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43293,7 +43089,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43319,13 +43115,13 @@ export interface definitions {
      * 返回信息
      */
     retMsg?: string;
-    schemeList?: definitions["Scheme"][];
+    schemeList?: cloudPlatformTypes["Scheme"][];
   };
   ListAllAreaResp: {
     /**
      * 区域列表
      */
-    areaList?: definitions["Area"][];
+    areaList?: cloudPlatformTypes["Area"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43346,7 +43142,7 @@ export interface definitions {
     /**
      * 工厂列表
      */
-    equipFactorys?: definitions["EquipFactory"][];
+    equipFactorys?: cloudPlatformTypes["EquipFactory"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -43365,7 +43161,7 @@ export interface definitions {
     /**
      * 变压器、变啊呀器分组列表
      */
-    data?: definitions["TransAndGroupRecord"][];
+    data?: cloudPlatformTypes["TransAndGroupRecord"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -43387,7 +43183,7 @@ export interface definitions {
     /**
      * 区域
      */
-    areas?: definitions["Area"][];
+    areas?: cloudPlatformTypes["Area"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43412,7 +43208,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43425,7 +43221,7 @@ export interface definitions {
     /**
      * 方案列表
      */
-    schemeList?: definitions["AreaFormulaScheme"][];
+    schemeList?: cloudPlatformTypes["AreaFormulaScheme"][];
   };
   ListAreaFormulaTaskResp: {
     data?: { [key: string]: any };
@@ -43436,7 +43232,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43449,7 +43245,7 @@ export interface definitions {
     /**
      * 公式任务列表
      */
-    taskList?: definitions["公式任务"][];
+    taskList?: cloudPlatformTypes["公式任务"][];
   };
   /**
    * 仓库_车间(工厂单元)关联关系
@@ -43496,7 +43292,7 @@ export interface definitions {
     /**
      * 区域树形结构
      */
-    areaTree?: definitions["AreaNode"];
+    areaTree?: cloudPlatformTypes["AreaNode"];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43521,7 +43317,7 @@ export interface definitions {
     /**
      * 关联分析参数列表
      */
-    paramList?: definitions["Param"][];
+    paramList?: cloudPlatformTypes["Param"][];
     requestId?: string;
     /**
      * 返回编码
@@ -43592,11 +43388,11 @@ export interface definitions {
     /**
      * 球磨能效分析明细列表单位
      */
-    bmEffDetailUnit?: definitions["BMEffDetailUnit"];
+    bmEffDetailUnit?: cloudPlatformTypes["BMEffDetailUnit"];
     /**
      * 球磨能效分析明细列表
      */
-    bmEffDetails?: definitions["BMEffDetail"][];
+    bmEffDetails?: cloudPlatformTypes["BMEffDetail"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43605,7 +43401,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43623,7 +43419,7 @@ export interface definitions {
     /**
      * 指标信息列表
      */
-    bmEffIndices?: definitions["BMEffIndex"][];
+    bmEffIndices?: cloudPlatformTypes["BMEffIndex"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43650,7 +43446,7 @@ export interface definitions {
     /**
      * 球磨设备列表
      */
-    bmEquips?: definitions["BMEquip"][];
+    bmEquips?: cloudPlatformTypes["BMEquip"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43673,7 +43469,7 @@ export interface definitions {
     /**
      * 球磨设备作业状态列表
      */
-    bmEquipStatuses?: definitions["BMEquipStatus"][];
+    bmEquipStatuses?: cloudPlatformTypes["BMEquipStatus"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43682,7 +43478,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43700,11 +43496,11 @@ export interface definitions {
     /**
      * 球磨峰谷分析明细列表单位
      */
-    bmFgpDetailUnit?: definitions["BMFgpDetailUnit"];
+    bmFgpDetailUnit?: cloudPlatformTypes["BMFgpDetailUnit"];
     /**
      * 球磨峰谷分析明细列表
      */
-    bmFgpDetails?: definitions["BMFgpDetail"][];
+    bmFgpDetails?: cloudPlatformTypes["BMFgpDetail"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43713,7 +43509,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43731,7 +43527,7 @@ export interface definitions {
     /**
      * 指标信息列表
      */
-    bmFgpIndices?: definitions["BMFgpIndex"][];
+    bmFgpIndices?: cloudPlatformTypes["BMFgpIndex"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43758,7 +43554,7 @@ export interface definitions {
     /**
      * 球磨运行记录列表
      */
-    bmOperationRecords?: definitions["BMOperationRecord"][];
+    bmOperationRecords?: cloudPlatformTypes["BMOperationRecord"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43767,7 +43563,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43785,7 +43581,7 @@ export interface definitions {
     /**
      * 球磨产品质量列表
      */
-    bmProductQualities?: definitions["BMProductQuality"][];
+    bmProductQualities?: cloudPlatformTypes["BMProductQuality"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43794,7 +43590,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -43812,7 +43608,7 @@ export interface definitions {
     /**
      * 球磨质检信息列表
      */
-    bmQualityDetails?: definitions["BMQualityDetail"][];
+    bmQualityDetails?: cloudPlatformTypes["BMQualityDetail"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43837,7 +43633,7 @@ export interface definitions {
     /**
      * 球磨统计列表
      */
-    recordList?: definitions["Item"][];
+    recordList?: cloudPlatformTypes["Item"][];
     requestId?: string;
     /**
      * 返回编码
@@ -43852,7 +43648,7 @@ export interface definitions {
     /**
      * 球磨机列表
      */
-    ballMillingConfList?: definitions["BallMillingConfModel"][];
+    ballMillingConfList?: cloudPlatformTypes["BallMillingConfModel"][];
     /**
      * 刷新频率，分钟
      */
@@ -43867,7 +43663,7 @@ export interface definitions {
     /**
      * 原料下的批次信息列表
      */
-    materialBatchs?: definitions["MaterialBatch"][];
+    materialBatchs?: cloudPlatformTypes["MaterialBatch"][];
     requestId?: string;
     /**
      * 返回编码
@@ -43886,7 +43682,7 @@ export interface definitions {
     /**
      * 设备批次层级信息列表
      */
-    equipBatchInfos?: definitions["EquipBatchInfo"][];
+    equipBatchInfos?: cloudPlatformTypes["EquipBatchInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -43908,7 +43704,7 @@ export interface definitions {
     /**
      * 标杆信息列表
      */
-    bms?: definitions["BmInfo"][];
+    bms?: cloudPlatformTypes["BmInfo"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -43917,7 +43713,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44063,7 +43859,7 @@ export interface definitions {
     /**
      * 指标列表
      */
-    data?: definitions["CapacityNeedType"][];
+    data?: cloudPlatformTypes["CapacityNeedType"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -44133,7 +43929,7 @@ export interface definitions {
     /**
      * 项目列表
      */
-    checkProjects?: definitions["CheckProject"][];
+    checkProjects?: cloudPlatformTypes["CheckProject"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44142,7 +43938,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44160,7 +43956,7 @@ export interface definitions {
     /**
      * 检验项目类别列表
      */
-    checkProjectTypeAndProjects?: definitions["CheckProjectTypeAndProject"][];
+    checkProjectTypeAndProjects?: cloudPlatformTypes["CheckProjectTypeAndProject"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44183,7 +43979,7 @@ export interface definitions {
     /**
      * 检验项目类别列表
      */
-    checkProjectTypes?: definitions["CheckProjectType"][];
+    checkProjectTypes?: cloudPlatformTypes["CheckProjectType"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44209,7 +44005,7 @@ export interface definitions {
      */
     eid?: string;
     /**
-     * 检验类型，INCOMING-来料，PROCESS-过程，STORE-仓库，FINISH-完工
+     * 检验类型，INCOMING-来料，PROCESS-过程，STORE-仓库，FINISH-完工，AUDIT-质检审核
      */
     exportType?: string;
     /**
@@ -44240,7 +44036,7 @@ export interface definitions {
     /**
      * 物料列表
      */
-    checkingMaterialList?: definitions["CheckingMaterial"][];
+    checkingMaterialList?: cloudPlatformTypes["CheckingMaterial"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44262,13 +44058,13 @@ export interface definitions {
     /**
      * 已选择物料列表
      */
-    selectedMaterials?: definitions["selectedMaterial"][];
+    selectedMaterials?: cloudPlatformTypes["selectedMaterial"][];
   };
   ListClassifyHasRuleResp: {
     /**
      * 分类及其下规则
      */
-    classifyHasRuleList?: definitions["ClassifyHasRule"][];
+    classifyHasRuleList?: cloudPlatformTypes["ClassifyHasRule"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44293,7 +44089,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44306,7 +44102,7 @@ export interface definitions {
     /**
      * 规则列表
      */
-    rules?: definitions["AlarmRule"][];
+    rules?: cloudPlatformTypes["AlarmRule"][];
   };
   ListCloudConfigDock列表请求对象: {
     /**
@@ -44354,7 +44150,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44367,7 +44163,7 @@ export interface definitions {
     /**
      * 角色列表
      */
-    roles?: definitions["OpenRole"][];
+    roles?: cloudPlatformTypes["OpenRole"][];
   };
   ListCloudEntUserReq: {
     /**
@@ -44477,7 +44273,7 @@ export interface definitions {
     /**
      * 用户信息
      */
-    cloudUserList?: definitions["CloudUser"][];
+    cloudUserList?: cloudPlatformTypes["CloudUser"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44486,7 +44282,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44509,7 +44305,7 @@ export interface definitions {
     /**
      * 属性列表
      */
-    props?: definitions["CommonProp"][];
+    props?: cloudPlatformTypes["CommonProp"][];
     requestId?: string;
     /**
      * 返回编码
@@ -44680,11 +44476,11 @@ export interface definitions {
     /**
      * 响应数据
      */
-    fieldDataList?: definitions["FieldData"][];
+    fieldDataList?: cloudPlatformTypes["FieldData"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44793,12 +44589,12 @@ export interface definitions {
     /**
      * 指标标题列表
      */
-    indexTitles?: definitions["IndexTitle"][];
+    indexTitles?: cloudPlatformTypes["IndexTitle"][];
     /**
      * 指标值列表
      */
-    indexValues?: definitions["IndexValue"][];
-    pageInfo?: definitions["PageInfo"];
+    indexValues?: cloudPlatformTypes["IndexValue"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44813,7 +44609,7 @@ export interface definitions {
     /**
      * 班组产量信息
      */
-    courseOpsByCourseByDays?: definitions["CourseOpsByCourseByDay"][];
+    courseOpsByCourseByDays?: cloudPlatformTypes["CourseOpsByCourseByDay"][];
     /**
      * 班组信息
      */
@@ -44841,7 +44637,7 @@ export interface definitions {
     /**
      * 班组产量列表
      */
-    courseOutputs?: definitions["CourseOutput"][];
+    courseOutputs?: cloudPlatformTypes["CourseOutput"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44850,7 +44646,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -44865,7 +44661,7 @@ export interface definitions {
     /**
      * 班组列表
      */
-    courses?: definitions["Course"][];
+    courses?: cloudPlatformTypes["Course"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -44984,7 +44780,7 @@ export interface definitions {
     /**
      * 班组类别列表
      */
-    courseGroupList?: definitions["班组类别"][];
+    courseGroupList?: cloudPlatformTypes["班组类别"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -45336,7 +45132,7 @@ export interface definitions {
     /**
      * 自定义菜单保存
      */
-    customizedMenus?: definitions["CustomizedMenu"][];
+    customizedMenus?: cloudPlatformTypes["CustomizedMenu"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -45361,7 +45157,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -45374,14 +45170,14 @@ export interface definitions {
     /**
      * 模板列表
      */
-    templateList?: definitions["CustomizedReportTemplate"][];
+    templateList?: cloudPlatformTypes["CustomizedReportTemplate"][];
   };
   ListDataAnalysisResp: {
     data?: { [key: string]: any };
     /**
      * 数据列表
      */
-    datas?: definitions["EnergyData"][];
+    datas?: cloudPlatformTypes["EnergyData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -45389,7 +45185,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -45453,7 +45249,7 @@ export interface definitions {
     /**
      * 指标列表
      */
-    dataTargets?: definitions["DataTarget"][];
+    dataTargets?: cloudPlatformTypes["DataTarget"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -45472,7 +45268,7 @@ export interface definitions {
     /**
      * 告警信息列表
      */
-    alarms?: definitions["Alarm"][];
+    alarms?: cloudPlatformTypes["Alarm"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -45481,7 +45277,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -45493,7 +45289,7 @@ export interface definitions {
     retMsg?: string;
   };
   ListDayAlarmAmountResp: {
-    alarmAmounts?: definitions["Amount"][];
+    alarmAmounts?: cloudPlatformTypes["Amount"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -45539,7 +45335,7 @@ export interface definitions {
     /**
      * 部门列表
      */
-    departments?: definitions["DepartmentResp"][];
+    departments?: cloudPlatformTypes["DepartmentResp"][];
     /**
      * 邮箱
      */
@@ -45551,7 +45347,7 @@ export interface definitions {
     /**
      * 工厂单元集合
      */
-    factoryList?: definitions["FactoryResp"][];
+    factoryList?: cloudPlatformTypes["FactoryResp"][];
     /**
      * 是否短信开启状态，1：开启，0：关闭
      */
@@ -45571,11 +45367,11 @@ export interface definitions {
     /**
      * 岗位列表
      */
-    positions?: definitions["PositionResp"][];
+    positions?: cloudPlatformTypes["PositionResp"][];
     /**
      * 角色列表
      */
-    roles?: definitions["RoleResp"][];
+    roles?: cloudPlatformTypes["RoleResp"][];
     /**
      * 状态【用户状态。0：注销，1：正常】
      */
@@ -45956,7 +45752,7 @@ export interface definitions {
     /**
      * 损耗和损耗率信息列表
      */
-    lossRates?: definitions["LossRate"][];
+    lossRates?: cloudPlatformTypes["LossRate"][];
     /**
      * 损耗单位
      */
@@ -45972,7 +45768,7 @@ export interface definitions {
     retMsg?: string;
   };
   ListElectricAnalyseIndexResp: {
-    data?: definitions["ElectricAnalyseType"][];
+    data?: cloudPlatformTypes["ElectricAnalyseType"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46018,7 +45814,7 @@ export interface definitions {
     objName?: string;
   };
   ListElectricAnalyseResp: {
-    data?: definitions["ListElectricAnalyseItem"][];
+    data?: cloudPlatformTypes["ListElectricAnalyseItem"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46042,7 +45838,7 @@ export interface definitions {
     /**
      * 监测设备/表计节点列表
      */
-    nodeList?: definitions["EnableMeterEquipmentNode"][];
+    nodeList?: cloudPlatformTypes["EnableMeterEquipmentNode"][];
     requestId?: string;
     /**
      * 返回编码
@@ -46084,7 +45880,7 @@ export interface definitions {
     /**
      * 监测节点列表
      */
-    monitorNodeList?: definitions["EnableMonitorNode"][];
+    monitorNodeList?: cloudPlatformTypes["EnableMonitorNode"][];
     requestId?: string;
     /**
      * 返回编码
@@ -46166,11 +45962,11 @@ export interface definitions {
     /**
      * 预测数据
      */
-    prophetDataList?: definitions["DataPoint"][];
+    prophetDataList?: cloudPlatformTypes["DataPoint"][];
     /**
      * 实际数据
      */
-    realDataList?: definitions["DataPoint"][];
+    realDataList?: cloudPlatformTypes["DataPoint"][];
     requestId?: string;
     /**
      * 返回编码
@@ -46190,7 +45986,7 @@ export interface definitions {
     /**
      * 能源质量指标列表
      */
-    indexList?: definitions["能源质量指标"][];
+    indexList?: cloudPlatformTypes["能源质量指标"][];
     requestId?: string;
     /**
      * 返回编码
@@ -46219,7 +46015,7 @@ export interface definitions {
     /**
      * 折线列表
      */
-    timelineList?: definitions["时间线"][];
+    timelineList?: cloudPlatformTypes["时间线"][];
     /**
      * 单位
      */
@@ -46234,7 +46030,7 @@ export interface definitions {
     /**
      * 报表指标类型列表
      */
-    indexs?: definitions["EnergyReportIndex"][];
+    indexs?: cloudPlatformTypes["EnergyReportIndex"][];
     requestId?: string;
     /**
      * 返回编码
@@ -46250,7 +46046,7 @@ export interface definitions {
     /**
      * 报表模板列表
      */
-    energyReportTemplateInfoList?: definitions["EnergyReportTemplateInfo"][];
+    energyReportTemplateInfoList?: cloudPlatformTypes["EnergyReportTemplateInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46270,7 +46066,7 @@ export interface definitions {
     /**
      * 能源列表
      */
-    energyList?: definitions["Energy"][];
+    energyList?: cloudPlatformTypes["Energy"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46290,7 +46086,7 @@ export interface definitions {
     /**
      * 能耗分摊方案列表
      */
-    energyShareInfos?: definitions["EnergyShareInfo"][];
+    energyShareInfos?: cloudPlatformTypes["EnergyShareInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46298,7 +46094,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -46314,7 +46110,7 @@ export interface definitions {
     /**
      * 能源类型
      */
-    energyTypeList?: definitions["EnergyType"][];
+    energyTypeList?: cloudPlatformTypes["EnergyType"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46336,7 +46132,7 @@ export interface definitions {
     /**
      * 生产批次列表
      */
-    batchs?: definitions["Batch"][];
+    batchs?: cloudPlatformTypes["Batch"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -46485,14 +46281,14 @@ export interface definitions {
     /**
      * 企业用户
      */
-    userList?: definitions["EntUser"][];
+    userList?: cloudPlatformTypes["EntUser"][];
   };
   ListEqStatusesResp: {
     data?: { [key: string]: any };
     /**
      * 设备运行状态对象列表
      */
-    equipStatuses?: definitions["EquipmentStatusRecord"][];
+    equipStatuses?: cloudPlatformTypes["EquipmentStatusRecord"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46500,7 +46296,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -46655,8 +46451,8 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
-    reasonRecords?: definitions["EqpShutdownReasonRecord"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
+    reasonRecords?: cloudPlatformTypes["EqpShutdownReasonRecord"][];
     requestId?: string;
     /**
      * 返回编码
@@ -46679,11 +46475,11 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 停机原因ID
      */
-    reasonList?: definitions["EqpShutdownReason"][];
+    reasonList?: cloudPlatformTypes["EqpShutdownReason"][];
     requestId?: string;
     /**
      * 返回编码
@@ -46738,7 +46534,7 @@ export interface definitions {
     /**
      * 停机原因树列表
      */
-    treeBriefList: definitions["ReasonTreeBrief"][];
+    treeBriefList: cloudPlatformTypes["ReasonTreeBrief"][];
   };
   ListEquByTypeReq: {
     /**
@@ -46828,7 +46624,7 @@ export interface definitions {
     /**
      * 设备指标值
      */
-    equipAnalysisList?: definitions["EquipAnalysis"][];
+    equipAnalysisList?: cloudPlatformTypes["EquipAnalysis"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46856,7 +46652,7 @@ export interface definitions {
     /**
      * 设备台帐二维码列表
      */
-    equipFileRQs?: definitions["EquipFileRQ"][];
+    equipFileRQs?: cloudPlatformTypes["EquipFileRQ"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46876,7 +46672,7 @@ export interface definitions {
     /**
      * 设备参数列表
      */
-    equipParams?: definitions["EquipParam"][];
+    equipParams?: cloudPlatformTypes["EquipParam"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46896,7 +46692,7 @@ export interface definitions {
     /**
      * 设备状态数量（按天统计）
      */
-    equipStatuses?: definitions["EquipStatus"][];
+    equipStatuses?: cloudPlatformTypes["EquipStatus"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -46973,7 +46769,7 @@ export interface definitions {
     /**
      * 设备类型列表
      */
-    equipmentTypeList?: definitions["设备类型"][];
+    equipmentTypeList?: cloudPlatformTypes["设备类型"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -47090,7 +46886,7 @@ export interface definitions {
     /**
      * 设备台帐列表
      */
-    equipmentFiles?: definitions["EquipmentSimpleFile"][];
+    equipmentFiles?: cloudPlatformTypes["EquipmentSimpleFile"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -47098,7 +46894,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -47159,11 +46955,11 @@ export interface definitions {
     /**
      * 设备部位备件列表数据
      */
-    list?: definitions["Data"][];
+    list?: cloudPlatformTypes["Data"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -47232,7 +47028,7 @@ export interface definitions {
     /**
      * 设备列表
      */
-    list?: definitions["EquipmentInfo"][];
+    list?: cloudPlatformTypes["EquipmentInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -47255,12 +47051,12 @@ export interface definitions {
     /**
      * 指标标题列表
      */
-    indexTitles?: definitions["IndexTitle"][];
+    indexTitles?: cloudPlatformTypes["IndexTitle"][];
     /**
      * 指标值列表
      */
-    indexValues?: definitions["IndexValue"][];
-    pageInfo?: definitions["PageInfo"];
+    indexValues?: cloudPlatformTypes["IndexValue"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -47360,7 +47156,7 @@ export interface definitions {
     /**
      * 设备状态列表
      */
-    equipmentStatuses?: definitions["EquipmentStatusHistory"][];
+    equipmentStatuses?: cloudPlatformTypes["EquipmentStatusHistory"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -47368,7 +47164,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -47387,7 +47183,7 @@ export interface definitions {
     /**
      * 设备状态列表
      */
-    equipmentStatuses?: definitions["EquipmentStatusInfo"][];
+    equipmentStatuses?: cloudPlatformTypes["EquipmentStatusInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -47395,7 +47191,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -47414,7 +47210,7 @@ export interface definitions {
     /**
      * 工厂列表
      */
-    equipFactorys?: definitions["EquipFactory"][];
+    equipFactorys?: cloudPlatformTypes["EquipFactory"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -47479,7 +47275,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -47492,7 +47288,7 @@ export interface definitions {
     /**
      * 设备使用记录列表
      */
-    useRecords?: definitions["EquipmentUseRecord"][];
+    useRecords?: cloudPlatformTypes["EquipmentUseRecord"][];
   };
   /**
    * 查询生产任务导出字段列表
@@ -47590,7 +47386,7 @@ export interface definitions {
     /**
      * 模型列表
      */
-    items?: definitions["Item"][];
+    items?: cloudPlatformTypes["Item"][];
   };
   /**
    * 查询工厂模型列表请求对象
@@ -47663,7 +47459,7 @@ export interface definitions {
     /**
      * 故障等级列表
      */
-    faultLevelList?: definitions["FaultLevel"][];
+    faultLevelList?: cloudPlatformTypes["FaultLevel"][];
     requestId?: string;
     /**
      * 返回编码
@@ -47683,7 +47479,7 @@ export interface definitions {
     /**
      * 故障类型列表
      */
-    faultTypeList?: definitions["FaultType"][];
+    faultTypeList?: cloudPlatformTypes["FaultType"][];
     requestId?: string;
     /**
      * 返回编码
@@ -47735,27 +47531,27 @@ export interface definitions {
     /**
      * 水泥磨峰谷平利用率分析
      */
-    cementMillFgpAvailabilityList?: definitions["FgpAvailability"][];
+    cementMillFgpAvailabilityList?: cloudPlatformTypes["FgpAvailability"][];
     /**
      * 水泥磨峰谷平用电量分析
      */
-    cementMillFgpUsageList?: definitions["FgpUsage"][];
+    cementMillFgpUsageList?: cloudPlatformTypes["FgpUsage"][];
     /**
      * 煤磨峰谷平利用率分析
      */
-    coalMillFgpAvailabilityList?: definitions["FgpAvailability"][];
+    coalMillFgpAvailabilityList?: cloudPlatformTypes["FgpAvailability"][];
     /**
      * 煤磨峰谷平用电量分析
      */
-    coalMillFgpUsageList?: definitions["FgpUsage"][];
+    coalMillFgpUsageList?: cloudPlatformTypes["FgpUsage"][];
     /**
      * 生料磨峰谷平利用率分析
      */
-    rawMaterialMillFgpAvailabilityList?: definitions["FgpAvailability"][];
+    rawMaterialMillFgpAvailabilityList?: cloudPlatformTypes["FgpAvailability"][];
     /**
      * 生料磨峰谷平用电量分析
      */
-    rawMaterialMillFgpUsageList?: definitions["FgpUsage"][];
+    rawMaterialMillFgpUsageList?: cloudPlatformTypes["FgpUsage"][];
   };
   /**
    * 峰谷平电价列表价格配置列表响应对象
@@ -47764,11 +47560,11 @@ export interface definitions {
     /**
      * 能源列表
      */
-    energy?: definitions["Energy"][];
+    energy?: cloudPlatformTypes["Energy"][];
     /**
      * 峰谷平列表
      */
-    fgp?: definitions["Fgp"][];
+    fgp?: cloudPlatformTypes["Fgp"][];
   };
   /**
    * 完工查询列表响应对象
@@ -47782,8 +47578,8 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
-    productTaskSheets?: definitions["ProductTaskClose"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
+    productTaskSheets?: cloudPlatformTypes["ProductTaskClose"][];
     requestId?: string;
     /**
      * 返回编码
@@ -47803,7 +47599,7 @@ export interface definitions {
     /**
      * 公式组列表
      */
-    formulaGroupList?: definitions["公式组"][];
+    formulaGroupList?: cloudPlatformTypes["公式组"][];
     requestId?: string;
     /**
      * 返回编码
@@ -47893,7 +47689,7 @@ export interface definitions {
     /**
      * 配方的相关信息
      */
-    formulaProjectList?: definitions["FormulaProject"][];
+    formulaProjectList?: cloudPlatformTypes["FormulaProject"][];
     requestId?: string;
     /**
      * 返回编码
@@ -47957,11 +47753,11 @@ export interface definitions {
     /**
      * 响应数据
      */
-    fieldDataList?: definitions["FieldData"][];
+    fieldDataList?: cloudPlatformTypes["FieldData"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -47981,7 +47777,7 @@ export interface definitions {
     /**
      * 数据列表
      */
-    groupData?: definitions["GroupCapacityInfo"][];
+    groupData?: cloudPlatformTypes["GroupCapacityInfo"][];
     /**
      * 最大值
      */
@@ -48157,11 +47953,11 @@ export interface definitions {
     /**
      * 来料检验列表
      */
-    incomings?: definitions["incoming"][];
+    incomings?: cloudPlatformTypes["incoming"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -48490,7 +48286,7 @@ export interface definitions {
     /**
      * 图表参数
      */
-    graphParams?: definitions["分析设备原因图型分页参数请求对象"][];
+    graphParams?: cloudPlatformTypes["分析设备原因图型分页参数请求对象"][];
     /**
      * 故障类型 1:停机2:断纸
      */
@@ -48592,7 +48388,7 @@ export interface definitions {
     /**
      * 月度节能量列表
      */
-    jnls?: definitions["MonJnlInfo"][];
+    jnls?: cloudPlatformTypes["MonJnlInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -48707,19 +48503,23 @@ export interface definitions {
     /**
      * 上一次运行状态
      */
-    previousStatus?: string;
+    previousRunningStatus?: string;
+    /**
+     * 运行状态
+     */
+    runningStatus?: string;
+    /**
+     * 已选字段
+     */
+    selectFields?: string[];
     /**
      * debug模式
      */
     selfDebug?: boolean;
     /**
-     * 运行状态
-     */
-    status?: string;
-    /**
      * 时间类型
      */
-    timeType: string;
+    timeState: string;
     /**
      * 业务类型
      */
@@ -48824,11 +48624,11 @@ export interface definitions {
     /**
      * 检修计划列表
      */
-    maintainPlanList?: definitions["MaintainPlan"][];
+    maintainPlanList?: cloudPlatformTypes["MaintainPlan"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -48845,11 +48645,11 @@ export interface definitions {
     exceptCauseIp?: string;
     exceptClass?: string;
     extFields?: { [key: string]: any };
-    maintainScheList?: definitions["MaintainSche"][];
+    maintainScheList?: cloudPlatformTypes["MaintainSche"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -48948,7 +48748,7 @@ export interface definitions {
     /**
      * 原料及其批次列表
      */
-    materialBatchs?: definitions["MaterialBatch"][];
+    materialBatchs?: cloudPlatformTypes["MaterialBatch"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49005,11 +48805,11 @@ export interface definitions {
     /**
      * 物料信息列表
      */
-    materialResultList?: definitions["ListMaterialResult"][];
+    materialResultList?: cloudPlatformTypes["ListMaterialResult"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -49032,7 +48832,7 @@ export interface definitions {
     /**
      * 检测方案列表
      */
-    materialCheckSchemes?: definitions["MaterialCheckScheme"][];
+    materialCheckSchemes?: cloudPlatformTypes["MaterialCheckScheme"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49055,7 +48855,7 @@ export interface definitions {
     /**
      * 物料投放对象数据
      */
-    materialDistributeList?: definitions["MaterialDistribute"][];
+    materialDistributeList?: cloudPlatformTypes["MaterialDistribute"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49191,11 +48991,11 @@ export interface definitions {
     /**
      * 原料批次质量列表
      */
-    materialQualitys?: definitions["MaterialQuality"][];
+    materialQualitys?: cloudPlatformTypes["MaterialQuality"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -49329,7 +49129,7 @@ export interface definitions {
     /**
      * 原料列表
      */
-    materials?: definitions["Material"][];
+    materials?: cloudPlatformTypes["Material"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49465,7 +49265,7 @@ export interface definitions {
      * 物料类型名称
      */
     baseTypeName?: string;
-    materialItemList?: definitions["MaterialItem"][];
+    materialItemList?: cloudPlatformTypes["MaterialItem"][];
   };
   ListMaterialTypeOnCheckingMaterialResp: {
     data?: { [key: string]: any };
@@ -49476,7 +49276,7 @@ export interface definitions {
     /**
      * 物料类型集合
      */
-    materialTypes?: definitions["materialType"][];
+    materialTypes?: cloudPlatformTypes["materialType"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49496,7 +49296,7 @@ export interface definitions {
     /**
      * 物料类型集合
      */
-    listMaterialTypeItemList?: definitions["ListMaterialTypeItem"][];
+    listMaterialTypeItemList?: cloudPlatformTypes["ListMaterialTypeItem"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49519,11 +49319,11 @@ export interface definitions {
     /**
      * 测量单位数据
      */
-    measureUnitList?: definitions["MeasureUnit"][];
+    measureUnitList?: cloudPlatformTypes["MeasureUnit"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -49543,7 +49343,7 @@ export interface definitions {
     /**
      * 消息分类列表
      */
-    messageCategoryList?: definitions["MessageCategory"][];
+    messageCategoryList?: cloudPlatformTypes["MessageCategory"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49563,11 +49363,11 @@ export interface definitions {
     /**
      * 消息列表
      */
-    messageList?: definitions["Message"][];
+    messageList?: cloudPlatformTypes["Message"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -49583,7 +49383,7 @@ export interface definitions {
     /**
      * 表计数据列表
      */
-    datas?: definitions["MeterParamData"][];
+    datas?: cloudPlatformTypes["MeterParamData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -49591,7 +49391,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -49604,7 +49404,7 @@ export interface definitions {
     /**
      * 表计数据标题信息列表
      */
-    titles?: definitions["MeterParamInfo"][];
+    titles?: cloudPlatformTypes["MeterParamInfo"][];
   };
   ListMeterEquipmentByAreaReq: {
     /**
@@ -49641,7 +49441,7 @@ export interface definitions {
     /**
      * 参数列表
      */
-    parameterList?: definitions["Parameter"][];
+    parameterList?: cloudPlatformTypes["Parameter"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49657,7 +49457,7 @@ export interface definitions {
     /**
      * 设备
      */
-    equipmentList?: definitions["Node"][];
+    equipmentList?: cloudPlatformTypes["Node"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -49665,7 +49465,7 @@ export interface definitions {
     /**
      * 表计
      */
-    meterList?: definitions["Node2"][];
+    meterList?: cloudPlatformTypes["Node2"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49685,7 +49485,7 @@ export interface definitions {
     /**
      * 参数列表
      */
-    parameterList?: definitions["Parameter"][];
+    parameterList?: cloudPlatformTypes["Parameter"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49705,7 +49505,7 @@ export interface definitions {
     /**
      * 表计与设备列表
      */
-    meterEquipmentList?: definitions["MeterEquipmentNode"][];
+    meterEquipmentList?: cloudPlatformTypes["MeterEquipmentNode"][];
     requestId?: string;
     /**
      * 返回编码
@@ -49725,7 +49525,7 @@ export interface definitions {
     /**
      * 表计设备
      */
-    meterEquipmentList?: definitions["Node"][];
+    meterEquipmentList?: cloudPlatformTypes["Node"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50005,7 +49805,7 @@ export interface definitions {
     /**
      * 表计原始数据列表
      */
-    datas?: definitions["MeterOriginData"][];
+    datas?: cloudPlatformTypes["MeterOriginData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -50067,7 +49867,7 @@ export interface definitions {
     /**
      * 表计数据列表
      */
-    datas?: definitions["MeterParamData"][];
+    datas?: cloudPlatformTypes["MeterParamData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -50075,7 +49875,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -50088,7 +49888,7 @@ export interface definitions {
     /**
      * 表计数据标题信息列表
      */
-    titles?: definitions["MeterParamInfo"][];
+    titles?: cloudPlatformTypes["MeterParamInfo"][];
   };
   ListMeterTypeResp: {
     data?: { [key: string]: any };
@@ -50099,7 +49899,7 @@ export interface definitions {
     /**
      * 表计类型列表
      */
-    meterTypes?: definitions["MeterType"][];
+    meterTypes?: cloudPlatformTypes["MeterType"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50139,7 +49939,7 @@ export interface definitions {
     /**
      * 表计信息列表
      */
-    meters?: definitions["MeterInfo"][];
+    meters?: cloudPlatformTypes["MeterInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50157,7 +49957,7 @@ export interface definitions {
     /**
      * 告警数量列表
      */
-    alarmAmounts?: definitions["AlarmAmount"][];
+    alarmAmounts?: cloudPlatformTypes["AlarmAmount"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -50182,7 +49982,7 @@ export interface definitions {
     /**
      * 日期告警数量信息列表
      */
-    quantities?: definitions["MonAlarmQuantity"][];
+    quantities?: cloudPlatformTypes["MonAlarmQuantity"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50202,7 +50002,7 @@ export interface definitions {
     /**
      * 监测列表
      */
-    monitorList?: definitions["监测"][];
+    monitorList?: cloudPlatformTypes["监测"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50222,7 +50022,7 @@ export interface definitions {
     /**
      * 监测类型列表
      */
-    monitorTypeList?: definitions["MonitorType"][];
+    monitorTypeList?: cloudPlatformTypes["MonitorType"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50268,7 +50068,7 @@ export interface definitions {
     /**
      * 监测节点
      */
-    monitorValueModelList?: definitions["MonitorValueModel"][];
+    monitorValueModelList?: cloudPlatformTypes["MonitorValueModel"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50404,7 +50204,7 @@ export interface definitions {
    */
   ListOutputTargetResp: {
     data?: { [key: string]: any };
-    dataTargetList?: definitions["DataTarget"][];
+    dataTargetList?: cloudPlatformTypes["DataTarget"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -50412,7 +50212,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -50436,7 +50236,7 @@ export interface definitions {
     /**
      * 参数数据列表
      */
-    paraInfos?: definitions["ParaInfo"][];
+    paraInfos?: cloudPlatformTypes["ParaInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50496,7 +50296,7 @@ export interface definitions {
     /**
      * 上级树列表
      */
-    items?: definitions["Item"][];
+    items?: cloudPlatformTypes["Item"][];
   };
   /**
    * 知识库维修经验记录表
@@ -50597,7 +50397,7 @@ export interface definitions {
     /**
      * 能耗预测设备列表
      */
-    equips?: definitions["ProphetEquipInfo"][];
+    equips?: cloudPlatformTypes["ProphetEquipInfo"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -50621,7 +50421,7 @@ export interface definitions {
     /**
      * 预测数据列表（含实际值）
      */
-    phDatas?: definitions["PhHourData"][];
+    phDatas?: cloudPlatformTypes["PhHourData"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50693,7 +50493,7 @@ export interface definitions {
     /**
      * 生产批次为打开状态响应对象
      */
-    proBatchOpenList?: definitions["ProBatchOpen"][];
+    proBatchOpenList?: cloudPlatformTypes["ProBatchOpen"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50716,11 +50516,11 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 生产任务列表
      */
-    proTasks?: definitions["ProTask"][];
+    proTasks?: cloudPlatformTypes["ProTask"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50785,11 +50585,11 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 来料检验列表
      */
-    processes?: definitions["process"][];
+    processes?: cloudPlatformTypes["process"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50851,7 +50651,7 @@ export interface definitions {
     /**
      * 产品能耗
      */
-    prodEnergies?: definitions["ProdEnergy"][];
+    prodEnergies?: cloudPlatformTypes["ProdEnergy"][];
     requestId?: string;
     /**
      * 返回编码
@@ -50962,7 +50762,7 @@ export interface definitions {
     exceptCauseIp?: string;
     exceptClass?: string;
     extFields?: { [key: string]: any };
-    prodGrades?: definitions["ProdGrade"][];
+    prodGrades?: cloudPlatformTypes["ProdGrade"][];
     requestId?: string;
     /**
      * 返回编码
@@ -51398,7 +51198,7 @@ export interface definitions {
     /**
      * 工厂模型详情对象列表
      */
-    items?: definitions["ProduceFactoryTree"][];
+    items?: cloudPlatformTypes["ProduceFactoryTree"][];
   };
   /**
    * 产线产能
@@ -52194,7 +51994,7 @@ export interface definitions {
     /**
      * 产品成本列表
      */
-    productCostList?: definitions["ProductCost"][];
+    productCostList?: cloudPlatformTypes["ProductCost"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52253,7 +52053,7 @@ export interface definitions {
     exceptCauseIp?: string;
     exceptClass?: string;
     extFields?: { [key: string]: any };
-    productList?: definitions["Product"][];
+    productList?: cloudPlatformTypes["Product"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52307,16 +52107,16 @@ export interface definitions {
    */
   ListProductionAnalysisResp: {
     data?: { [key: string]: any };
-    energies?: definitions["Energy"][];
+    energies?: cloudPlatformTypes["Energy"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
     extFields?: { [key: string]: any };
-    items?: definitions["Item"][];
+    items?: cloudPlatformTypes["Item"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -52334,7 +52134,7 @@ export interface definitions {
     /**
      * 生产批次列表
      */
-    batchResultList?: definitions["BatchResult"][];
+    batchResultList?: cloudPlatformTypes["BatchResult"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -52343,7 +52143,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -52366,7 +52166,7 @@ export interface definitions {
     /**
      * 产线列表
      */
-    productionLines?: definitions["ProductionLine"][];
+    productionLines?: cloudPlatformTypes["ProductionLine"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52447,11 +52247,11 @@ export interface definitions {
     /**
      * 订单列表
      */
-    orderResuleList?: definitions["OrderResult"][];
+    orderResuleList?: cloudPlatformTypes["OrderResult"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -52474,12 +52274,12 @@ export interface definitions {
     /**
      * 指标标题列表
      */
-    indexTitles?: definitions["IndexTitle"][];
+    indexTitles?: cloudPlatformTypes["IndexTitle"][];
     /**
      * 指标值列表
      */
-    indexValues?: definitions["IndexValue"][];
-    pageInfo?: definitions["PageInfo"];
+    indexValues?: cloudPlatformTypes["IndexValue"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -52502,11 +52302,11 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 生产任务列表
      */
-    proTaskResultList?: definitions["ProTaskResult"][];
+    proTaskResultList?: cloudPlatformTypes["ProTaskResult"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52683,7 +52483,7 @@ export interface definitions {
     /**
      * 定量项目列表
      */
-    qualityProjects?: definitions["QualityProject"][];
+    qualityProjects?: cloudPlatformTypes["QualityProject"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52711,7 +52511,7 @@ export interface definitions {
     /**
      * 能效数据列表
      */
-    efccs?: definitions["RangeEfccInfo"][];
+    efccs?: cloudPlatformTypes["RangeEfccInfo"][];
     /**
      * 能源名称
      */
@@ -52743,11 +52543,11 @@ export interface definitions {
     /**
      * 企业设备开机率里列表
      */
-    operatingRates?: definitions["EqOperatingRate"][];
+    operatingRates?: cloudPlatformTypes["EqOperatingRate"][];
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -52770,8 +52570,8 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
-    rawCoalConfigs?: definitions["RawCoalConfig"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
+    rawCoalConfigs?: cloudPlatformTypes["RawCoalConfig"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52794,15 +52594,15 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 物料消耗明细
      */
-    rawMaterialDetails?: definitions["RawMaterialDetail"][];
+    rawMaterialDetails?: cloudPlatformTypes["RawMaterialDetail"][];
     /**
      * 分类汇总
      */
-    rawMaterials?: definitions["RawMaterial"][];
+    rawMaterials?: cloudPlatformTypes["RawMaterial"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52815,7 +52615,7 @@ export interface definitions {
   };
   ListReadMeterDataResp: {
     data?: { [key: string]: any };
-    dataList?: definitions["ManualReadMeterData"][];
+    dataList?: cloudPlatformTypes["ManualReadMeterData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -52823,7 +52623,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -52846,7 +52646,7 @@ export interface definitions {
     /**
      * 抄表目录列表
      */
-    readingCatalogs?: definitions["ReadingCatalog"][];
+    readingCatalogs?: cloudPlatformTypes["ReadingCatalog"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52869,7 +52669,7 @@ export interface definitions {
     /**
      * 抄表数据列表
      */
-    readingDatas?: definitions["ReadingData"][];
+    readingDatas?: cloudPlatformTypes["ReadingData"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52892,11 +52692,11 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 抄表计划列表
      */
-    plen?: definitions["ReadingPlan"][];
+    plen?: cloudPlatformTypes["ReadingPlan"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52919,8 +52719,8 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
-    regularCheckCards?: definitions["点检卡信息"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
+    regularCheckCards?: cloudPlatformTypes["点检卡信息"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52943,8 +52743,8 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
-    regularCheckPlans?: definitions["RegularCheckPlan"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
+    regularCheckPlans?: cloudPlatformTypes["RegularCheckPlan"][];
     requestId?: string;
     /**
      * 返回编码
@@ -52962,7 +52762,7 @@ export interface definitions {
     /**
      * 班组用户列表对象
      */
-    courseUserItemList?: definitions["CourseUserItem"][];
+    courseUserItemList?: cloudPlatformTypes["CourseUserItem"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -52982,7 +52782,7 @@ export interface definitions {
     /**
      * 班组类别列表
      */
-    courseGroupList?: definitions["班组类别"][];
+    courseGroupList?: cloudPlatformTypes["班组类别"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -53010,11 +52810,11 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 维修记录列表
      */
-    repairRecordList?: definitions["RepairRecord"][];
+    repairRecordList?: cloudPlatformTypes["RepairRecord"][];
     requestId?: string;
     /**
      * 返回编码
@@ -53034,7 +52834,7 @@ export interface definitions {
     /**
      * 部件列表
      */
-    repairSpareList?: definitions["RepairSpare"][];
+    repairSpareList?: cloudPlatformTypes["RepairSpare"][];
     requestId?: string;
     /**
      * 返回编码
@@ -53057,11 +52857,11 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 维修任务对象
      */
-    repairTaskList?: definitions["RepairTask"][];
+    repairTaskList?: cloudPlatformTypes["RepairTask"][];
     requestId?: string;
     /**
      * 返回编码
@@ -53081,11 +52881,11 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 维修任务列表
      */
-    repairTaskList?: definitions["RepairTask"][];
+    repairTaskList?: cloudPlatformTypes["RepairTask"][];
     requestId?: string;
     /**
      * 返回编码
@@ -53123,7 +52923,7 @@ export interface definitions {
     /**
      * 权限记录列表
      */
-    list?: definitions["AccessItem"][];
+    list?: cloudPlatformTypes["AccessItem"][];
   };
   /**
    * 新-报表能源配置
@@ -53175,7 +52975,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -53188,7 +52988,7 @@ export interface definitions {
     /**
      * 模板列表
      */
-    simpleRTList?: definitions["SimpleReportTemplate"][];
+    simpleRTList?: cloudPlatformTypes["SimpleReportTemplate"][];
   };
   /**
    * 这是需求产品列表响应对象
@@ -53203,7 +53003,7 @@ export interface definitions {
     /**
      * 需求产品列表
      */
-    requireProductList?: definitions["RequireProduct"][];
+    requireProductList?: cloudPlatformTypes["RequireProduct"][];
     /**
      * 返回编码
      */
@@ -53254,7 +53054,7 @@ export interface definitions {
      */
     uid?: string;
   };
-  "ListResp«IndexFieldList»": { list?: definitions["IndexFieldList"][] };
+  "ListResp«IndexFieldList»": { list?: cloudPlatformTypes["IndexFieldList"][] };
   /**
    * 列表
    */
@@ -53311,7 +53111,7 @@ export interface definitions {
     /**
      * 数据集分类id
      */
-    categories?: definitions["RptDataSetCategory"][];
+    categories?: cloudPlatformTypes["RptDataSetCategory"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -53335,7 +53135,7 @@ export interface definitions {
     /**
      * 数据列表
      */
-    datas?: definitions["TimeData"][];
+    datas?: cloudPlatformTypes["TimeData"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -53363,7 +53163,7 @@ export interface definitions {
    */
   ListSalesSendResp: {
     data?: { [key: string]: any };
-    dataTargetList?: definitions["DataTarget"][];
+    dataTargetList?: cloudPlatformTypes["DataTarget"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -53371,7 +53171,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -53461,7 +53261,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -53474,7 +53274,7 @@ export interface definitions {
     /**
      * 工段状态列表
      */
-    sectionStatuses?: definitions["SectionStatusHistory"][];
+    sectionStatuses?: cloudPlatformTypes["SectionStatusHistory"][];
   };
   /**
    * 获取工段状态列表返回对象
@@ -53488,7 +53288,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -53501,7 +53301,7 @@ export interface definitions {
     /**
      * 工段状态列表
      */
-    sectionStatuses?: definitions["SectionStatusInfo"][];
+    sectionStatuses?: cloudPlatformTypes["SectionStatusInfo"][];
   };
   /**
    * 获取工序工段级联树返回对象
@@ -53515,7 +53315,7 @@ export interface definitions {
     /**
      * 产线列表
      */
-    productLines?: definitions["ProductLine"][];
+    productLines?: cloudPlatformTypes["ProductLine"][];
     requestId?: string;
     /**
      * 返回编码
@@ -53544,7 +53344,7 @@ export interface definitions {
     /**
      * 报工附加项目列表
      */
-    schemeList?: definitions["SheetAdditionScheme"][];
+    schemeList?: cloudPlatformTypes["SheetAdditionScheme"][];
   };
   ListSheetFieldsReq: {
     /**
@@ -53655,7 +53455,7 @@ export interface definitions {
     /**
      * 完工附加信息列表
      */
-    listSheetItems?: definitions["ListSheetItem"][];
+    listSheetItems?: cloudPlatformTypes["ListSheetItem"][];
     requestId?: string;
     /**
      * 返回编码
@@ -53668,7 +53468,7 @@ export interface definitions {
     /**
      * 报工详情
      */
-    sheetItemDetail?: definitions["SheetItemDetail"];
+    sheetItemDetail?: cloudPlatformTypes["SheetItemDetail"];
   };
   ListSheetReq: {
     /**
@@ -53761,7 +53561,7 @@ export interface definitions {
     /**
      * 班次表Id
      */
-    shifts?: definitions["Shift"][];
+    shifts?: cloudPlatformTypes["Shift"][];
   };
   ListShiftScheduleResp: {
     data?: { [key: string]: any };
@@ -53781,7 +53581,7 @@ export interface definitions {
     /**
      * 排班信息列表
      */
-    schedules?: definitions["ShiftSchedule"][];
+    schedules?: cloudPlatformTypes["ShiftSchedule"][];
   };
   /**
    * 获取备件消耗列表响应对象
@@ -53795,7 +53595,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -53808,7 +53608,7 @@ export interface definitions {
     /**
      * 备件消耗列表
      */
-    spareConsumeList?: definitions["SpareConsume"][];
+    spareConsumeList?: cloudPlatformTypes["SpareConsume"][];
   };
   /**
    * 获取备件入库列表响应对象
@@ -53822,7 +53622,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -53835,7 +53635,7 @@ export interface definitions {
     /**
      * 备件入库对象
      */
-    sparePutStorageList?: definitions["SparePutStorage"][];
+    sparePutStorageList?: cloudPlatformTypes["SparePutStorage"][];
   };
   /**
    * 获取备件库存列表响应对象
@@ -53849,7 +53649,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -53862,7 +53662,7 @@ export interface definitions {
     /**
      * 备件库存对象
      */
-    spareStockItemList?: definitions["SpareStockItem"][];
+    spareStockItemList?: cloudPlatformTypes["SpareStockItem"][];
   };
   ListStabilityResp: {
     data?: { [key: string]: any };
@@ -53882,7 +53682,7 @@ export interface definitions {
     /**
      * 每日稳定率列表
      */
-    stabilities?: definitions["StabilityInfo"][];
+    stabilities?: cloudPlatformTypes["StabilityInfo"][];
     /**
      * 总稳定率
      */
@@ -53969,7 +53769,7 @@ export interface definitions {
      * 返回信息
      */
     retMsg?: string;
-    standardList?: definitions["Standard"][];
+    standardList?: cloudPlatformTypes["Standard"][];
   };
   ListStandersResp: {
     data?: { [key: string]: any };
@@ -53989,7 +53789,7 @@ export interface definitions {
     /**
      * 标准列表
      */
-    standerInfos?: definitions["StanderInfo"][];
+    standerInfos?: cloudPlatformTypes["StanderInfo"][];
   };
   ListStockTrendRecord列表请求对象: {
     /**
@@ -54140,7 +53940,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -54153,7 +53953,7 @@ export interface definitions {
     /**
      * 供应商列表
      */
-    supplierList?: definitions["Supplier"][];
+    supplierList?: cloudPlatformTypes["Supplier"][];
   };
   /**
    * 供应商类别查询响应对象
@@ -54176,7 +53976,7 @@ export interface definitions {
     /**
      * 供应商类别列表
      */
-    supplierTypes?: definitions["SupplierType"][];
+    supplierTypes?: cloudPlatformTypes["SupplierType"][];
   };
   /**
    * 供应商查询请求对象，不分页
@@ -54346,7 +54146,7 @@ export interface definitions {
     /**
      * 处理列表
      */
-    finishStatuss?: definitions["FinishStatus"][];
+    finishStatuss?: cloudPlatformTypes["FinishStatus"][];
     requestId?: string;
     /**
      * 返回编码
@@ -54379,7 +54179,7 @@ export interface definitions {
     /**
      * 用时列表
      */
-    timeStatuss?: definitions["TimeStatus"][];
+    timeStatuss?: cloudPlatformTypes["TimeStatus"][];
     /**
      * 用时单位
      */
@@ -54406,7 +54206,7 @@ export interface definitions {
     /**
      * 任务id列表
      */
-    taskMaterialGrades?: definitions["TaskMaterialGrade"][];
+    taskMaterialGrades?: cloudPlatformTypes["TaskMaterialGrade"][];
   };
   ListTaskNoReq: {
     /**
@@ -54478,7 +54278,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -54491,7 +54291,7 @@ export interface definitions {
     /**
      * 任务列表
      */
-    tasks?: definitions["TaskInfo"][];
+    tasks?: cloudPlatformTypes["TaskInfo"][];
   };
   ListTemplateIndexReq: {
     /**
@@ -54560,7 +54360,7 @@ export interface definitions {
     /**
      * 检验模板数据
      */
-    templateModelList?: definitions["TemplateModel"][];
+    templateModelList?: cloudPlatformTypes["TemplateModel"][];
   };
   ListTotalJnlsResp: {
     /**
@@ -54575,7 +54375,7 @@ export interface definitions {
     /**
      * 月度累计节能量列表
      */
-    jnls?: definitions["MonJnlInfo"][];
+    jnls?: cloudPlatformTypes["MonJnlInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -54603,7 +54403,7 @@ export interface definitions {
     /**
      * 企业下变压器分组列表
      */
-    groups?: definitions["TransGroupInfo"][];
+    groups?: cloudPlatformTypes["TransGroupInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -54635,14 +54435,14 @@ export interface definitions {
     /**
      * 单位类别数据
      */
-    unitTypeList?: definitions["UnitType"][];
+    unitTypeList?: cloudPlatformTypes["UnitType"][];
   };
   ListUploadDatasResp: {
     data?: { [key: string]: any };
     /**
      * 上传数据列表
      */
-    datas?: definitions["UploadDataInfo"][];
+    datas?: cloudPlatformTypes["UploadDataInfo"][];
     /**
      * 能源类型
      */
@@ -54774,7 +54574,7 @@ export interface definitions {
      * 用户ID
      */
     uid?: string;
-    variables?: definitions["Variable"][];
+    variables?: cloudPlatformTypes["Variable"][];
   };
   /**
    * 获取企业仓库列表响应对象
@@ -54797,7 +54597,7 @@ export interface definitions {
     /**
      * 仓库列表
      */
-    stores?: definitions["Store"][];
+    stores?: cloudPlatformTypes["Store"][];
   };
   /**
    * 河北视窗源数据表
@@ -55013,7 +54813,7 @@ export interface definitions {
     /**
      * 工序列表
      */
-    workSequences?: definitions["WorkSequence"][];
+    workSequences?: cloudPlatformTypes["WorkSequence"][];
   };
   ListWorkUnitCascadeReq: {
     /**
@@ -55303,7 +55103,7 @@ export interface definitions {
     /**
      * 照片
      */
-    imagePaths?: definitions["文件详情"][];
+    imagePaths?: cloudPlatformTypes["文件详情"][];
     /**
      * 说明
      */
@@ -55323,7 +55123,7 @@ export interface definitions {
     /**
      * 语音
      */
-    voicePaths?: definitions["文件详情"][];
+    voicePaths?: cloudPlatformTypes["文件详情"][];
   };
   /**
    * 分页获取检修任务列表请求对象
@@ -55488,7 +55288,7 @@ export interface definitions {
     /**
      * 原料批次
      */
-    batches?: definitions["Batch"][];
+    batches?: cloudPlatformTypes["Batch"][];
     /**
      * 原料编码
      */
@@ -55641,7 +55441,7 @@ export interface definitions {
      * 物料大类别
      */
     baseType?: number;
-    childrenList?: definitions["MaterialData"][];
+    childrenList?: cloudPlatformTypes["MaterialData"][];
     /**
      * 物料编号
      */
@@ -55689,7 +55489,7 @@ export interface definitions {
     /**
      * 周期内物料需求量
      */
-    materialDemands?: definitions["MaterialDemand"][];
+    materialDemands?: cloudPlatformTypes["MaterialDemand"][];
     /**
      * 周期开始时间
      */
@@ -55699,11 +55499,11 @@ export interface definitions {
     /**
      * 周期内物料需求量集合
      */
-    materialDemandPlans?: definitions["MaterialDemandPlanResp"][];
+    materialDemandPlans?: cloudPlatformTypes["MaterialDemandPlanResp"][];
     /**
      * 物料列表
      */
-    materialHeaders?: definitions["MaterialHeaderResp"][];
+    materialHeaders?: cloudPlatformTypes["MaterialHeaderResp"][];
   };
   MaterialDistribute: {
     /**
@@ -55941,7 +55741,7 @@ export interface definitions {
     /**
      * 配方方案的相关信息
      */
-    projectList?: definitions["FormulaProject"][];
+    projectList?: cloudPlatformTypes["FormulaProject"][];
     /**
      * 单位
      */
@@ -55964,7 +55764,7 @@ export interface definitions {
     /**
      * 物料子组
      */
-    childList?: definitions["MaterialGroupModel对象"][];
+    childList?: cloudPlatformTypes["MaterialGroupModel对象"][];
     /**
      * 物料组编码
      */
@@ -55998,7 +55798,7 @@ export interface definitions {
     /**
      * 物料类别
      */
-    children?: definitions["MaterialTypeRelated"][];
+    children?: cloudPlatformTypes["MaterialTypeRelated"][];
     /**
      * 物料类别组ID
      */
@@ -56263,7 +56063,7 @@ export interface definitions {
     /**
      * 工艺配方配置列表
      */
-    craftFormulaConfigList?: definitions["CraftFormulaConfig对象"][];
+    craftFormulaConfigList?: cloudPlatformTypes["CraftFormulaConfig对象"][];
     /**
      * 规格描述
      */
@@ -56357,7 +56157,7 @@ export interface definitions {
     /**
      * 检验项目
      */
-    projectInfoList?: definitions["MaterialProjectInfo-检查项目值"][];
+    projectInfoList?: cloudPlatformTypes["MaterialProjectInfo-检查项目值"][];
   };
   MaterialInfoBasicByParamsReq: {
     /**
@@ -56409,7 +56209,7 @@ export interface definitions {
     /**
      * 子类别列表
      */
-    list?: definitions["BasicInfo"][];
+    list?: cloudPlatformTypes["BasicInfo"][];
     /**
      * 类别名称
      */
@@ -56427,7 +56227,7 @@ export interface definitions {
     /**
      * 物料等级相关信息
      */
-    materialGradeList?: definitions["MaterialGrade"][];
+    materialGradeList?: cloudPlatformTypes["MaterialGrade"][];
     /**
      * 物料类型id
      */
@@ -56546,7 +56346,7 @@ export interface definitions {
     /**
      * 行数据
      */
-    rowDataList?: definitions["物料统计子列"][];
+    rowDataList?: cloudPlatformTypes["物料统计子列"][];
     /**
      * 班次Id
      */
@@ -56758,7 +56558,7 @@ export interface definitions {
      */
     qrCodeBase64Content?: string;
   };
-  MaterialQrcodeRecord: definitions["QrcodePageRecord"] & {
+  MaterialQrcodeRecord: cloudPlatformTypes["QrcodePageRecord"] & {
     /**
      * 物料编码
      */
@@ -57078,7 +56878,7 @@ export interface definitions {
     /**
      * 物料列表
      */
-    materialList?: definitions["Material对象"][];
+    materialList?: cloudPlatformTypes["Material对象"][];
     /**
      * 物料类型id
      */
@@ -57129,7 +56929,7 @@ export interface definitions {
     /**
      * 标准模板物料列表
      */
-    standardTemplateInfoList?: definitions["StandardTemplateInfo"][];
+    standardTemplateInfoList?: cloudPlatformTypes["StandardTemplateInfo"][];
     /**
      * 标准模板名称
      */
@@ -57191,7 +56991,7 @@ export interface definitions {
     /**
      * 仓库信息
      */
-    storeList?: definitions["StoreModel"][];
+    storeList?: cloudPlatformTypes["StoreModel"][];
     /**
      * 单位(计量)
      */
@@ -57280,7 +57080,7 @@ export interface definitions {
     /**
      * 行数据
      */
-    rowDataList?: definitions["物料统计子列"][];
+    rowDataList?: cloudPlatformTypes["物料统计子列"][];
     /**
      * 任务Id
      */
@@ -57302,8 +57102,8 @@ export interface definitions {
     /**
      * 列名称
      */
-    columnList?: definitions["物料统计列"][];
-    pageData?: definitions["IPage«MaterialModulationStatProduce»"];
+    columnList?: cloudPlatformTypes["物料统计列"][];
+    pageData?: cloudPlatformTypes["IPage«MaterialModulationStatProduce»"];
     /**
      * 统计单位
      */
@@ -57313,8 +57113,8 @@ export interface definitions {
     /**
      * 列名称
      */
-    columnList?: definitions["物料统计列"][];
-    pageData?: definitions["IPage«MaterialStatProduceTask»"];
+    columnList?: cloudPlatformTypes["物料统计列"][];
+    pageData?: cloudPlatformTypes["IPage«MaterialStatProduceTask»"];
     /**
      * 统计单位
      */
@@ -57410,7 +57210,7 @@ export interface definitions {
     /**
      * 等级列表
      */
-    grades?: definitions["MaterialTypeGrade对象"][];
+    grades?: cloudPlatformTypes["MaterialTypeGrade对象"][];
     /**
      * 机构ID
      */
@@ -57575,7 +57375,7 @@ export interface definitions {
     /**
      * 物料列表
      */
-    materials?: definitions["Material对象"][];
+    materials?: cloudPlatformTypes["Material对象"][];
     /**
      * 物料类别名称
      */
@@ -57635,7 +57435,7 @@ export interface definitions {
     /**
      * 子类别列表
      */
-    list?: definitions["BasicInfo"][];
+    list?: cloudPlatformTypes["BasicInfo"][];
     /**
      * 类别名称
      */
@@ -57691,7 +57491,7 @@ export interface definitions {
     /**
      * 机构物料子类别
      */
-    orgMaterialTypes?: definitions["MaterialTypeOrgRecord"][];
+    orgMaterialTypes?: cloudPlatformTypes["MaterialTypeOrgRecord"][];
     /**
      * 使用状态: 1:启用的enable，0:停用的disable
      */
@@ -57702,7 +57502,7 @@ export interface definitions {
      * 基础类型（5个大类） 10:成品 , 20:半成品 , 30:辅料, 40:原料, 50:备件
      */
     baseType?: number;
-    materialTypeOrgRecordData?: definitions["MaterialTypeOrgRecordData"][];
+    materialTypeOrgRecordData?: cloudPlatformTypes["MaterialTypeOrgRecordData"][];
     /**
      * 类别名称
      */
@@ -57874,7 +57674,7 @@ export interface definitions {
     /**
      * 子类别
      */
-    orgMaterialTypes?: definitions["MaterialTypeOrgRecord"][];
+    orgMaterialTypes?: cloudPlatformTypes["MaterialTypeOrgRecord"][];
     /**
      * 等级方案ID，null表示没有关联
      */
@@ -57894,7 +57694,7 @@ export interface definitions {
   };
   MaterialTypeOrgRecordData: {
     baseType?: number;
-    materialInfos?: definitions["MaterialInfo"][];
+    materialInfos?: cloudPlatformTypes["MaterialInfo"][];
     /**
      * 物料类型id
      */
@@ -57908,7 +57708,7 @@ export interface definitions {
     /**
      * 物料列表
      */
-    children?: definitions["Material对象"][];
+    children?: cloudPlatformTypes["Material对象"][];
     /**
      * 物料类别机构ID
      */
@@ -57946,7 +57746,7 @@ export interface definitions {
     /**
      * 特征值数据
      */
-    featureInfos?: definitions["MaterialFeatureInfo对象"][];
+    featureInfos?: cloudPlatformTypes["MaterialFeatureInfo对象"][];
     /**
      * 是否有bom, 1 : 有, 0 : 没有
      */
@@ -58160,7 +57960,7 @@ export interface definitions {
     /**
      * 物料特征列表
      */
-    featureInfos?: definitions["MaterialFeatureInfo对象"][];
+    featureInfos?: cloudPlatformTypes["MaterialFeatureInfo对象"][];
     /**
      * 理论生命周期（d）
      */
@@ -58249,7 +58049,7 @@ export interface definitions {
     /**
      * 物料特征列表
      */
-    featureInfos?: definitions["MaterialFeatureInfo对象"][];
+    featureInfos?: cloudPlatformTypes["MaterialFeatureInfo对象"][];
     /**
      * 理论生命周期（d）
      */
@@ -58391,7 +58191,7 @@ export interface definitions {
     /**
      * 结果分组集合
      */
-    groups?: definitions["结果分组对象"][];
+    groups?: cloudPlatformTypes["结果分组对象"][];
   };
   MeterEquipParamValueHistoryReq: {
     /**
@@ -58405,7 +58205,7 @@ export interface definitions {
     /**
      * 分组集合
      */
-    groups: definitions["分组对象"][];
+    groups: cloudPlatformTypes["分组对象"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -58420,7 +58220,7 @@ export interface definitions {
     uid?: string;
   };
   MeterEquipmentNode: {
-    children?: definitions["MeterEquipmentNode"][];
+    children?: cloudPlatformTypes["MeterEquipmentNode"][];
     /**
      * 设备或表计ID
      */
@@ -58847,7 +58647,7 @@ export interface definitions {
     /**
      * 基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 检验员
      */
@@ -58863,11 +58663,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * eid:企业id
      */
@@ -58901,7 +58701,7 @@ export interface definitions {
     /**
      * 实际抄表数数据，人工录入时为空
      */
-    actualMeterData?: definitions["DivideProjectReq_ActualMeterData"];
+    actualMeterData?: cloudPlatformTypes["DivideProjectReq_ActualMeterData"];
     /**
      * 实际抄表数来源, 1:自动计算, 2:人工录入
      */
@@ -58925,7 +58725,7 @@ export interface definitions {
     /**
      * 分摊调整数数据，实际抄表数时为空
      */
-    divideAdjustData?: definitions["DivideProjectReq_ActualMeterData"];
+    divideAdjustData?: cloudPlatformTypes["DivideProjectReq_ActualMeterData"];
     /**
      * 分摊调整数数据来源， 1:自动计算, 2:实际抄表数, 3:项目
      */
@@ -59023,7 +58823,7 @@ export interface definitions {
     /**
      * 编辑维修描述列表
      */
-    repairDescList: definitions["编辑维修描述对象"][];
+    repairDescList: cloudPlatformTypes["编辑维修描述对象"][];
     /**
      * debug模式
      */
@@ -59235,7 +59035,7 @@ export interface definitions {
     /**
      * 表计状态：0-正常，1-通讯中断，2-数据异常
      */
-    status?: definitions["Number"];
+    status?: cloudPlatformTypes["Number"];
     tagName?: string;
     /**
      * 表计类型：电表、天然气表、柴油表、蒸汽表、变压器、用能位置、接入点
@@ -59252,7 +59052,7 @@ export interface definitions {
     /**
      * 指标数据项列表
      */
-    items?: definitions["指标数据"][];
+    items?: cloudPlatformTypes["指标数据"][];
     /**
      * 指标单位
      */
@@ -59310,7 +59110,7 @@ export interface definitions {
     value?: number;
   };
   NewListAreaEffcResp: {
-    areas?: definitions["ListRangeEfccResp"][];
+    areas?: cloudPlatformTypes["ListRangeEfccResp"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -59406,7 +59206,7 @@ export interface definitions {
     /**
      * 子级节点
      */
-    children?: definitions["Node"][];
+    children?: cloudPlatformTypes["Node"][];
     /**
      * 表计或设备的ID
      */
@@ -59450,11 +59250,11 @@ export interface definitions {
     /**
      * 完工信息
      */
-    completionMsg?: definitions["BaseMsg"];
+    completionMsg?: cloudPlatformTypes["BaseMsg"];
     /**
      * 工艺参数
      */
-    craftParam?: definitions["CraftParamMsg"];
+    craftParam?: cloudPlatformTypes["CraftParamMsg"];
     /**
      * eid:企业id
      */
@@ -59462,11 +59262,11 @@ export interface definitions {
     /**
      * 投料信息
      */
-    feedingMsg?: definitions["BaseMsg"];
+    feedingMsg?: cloudPlatformTypes["BaseMsg"];
     /**
      * 完工检验信息
      */
-    finishInspectionMsg?: definitions["BaseMsg"];
+    finishInspectionMsg?: cloudPlatformTypes["BaseMsg"];
     /**
      * 主键,修改时需要id
      */
@@ -59486,7 +59286,7 @@ export interface definitions {
     /**
      * 完工检验信息
      */
-    processCheckMsg?: definitions["BaseMsg"];
+    processCheckMsg?: cloudPlatformTypes["BaseMsg"];
     /**
      * 追溯方案主键id
      */
@@ -59744,7 +59544,7 @@ export interface definitions {
   };
   OpenStandardTemplateModel: {
     name?: string;
-    quoteStandardTemplateModelList?: definitions["QuoteStandardTemplateModel"][];
+    quoteStandardTemplateModelList?: cloudPlatformTypes["QuoteStandardTemplateModel"][];
     templateId?: string;
   };
   /**
@@ -59881,7 +59681,7 @@ export interface definitions {
     /**
      * 排序参数
      */
-    sortParam?: definitions["排序参数"];
+    sortParam?: cloudPlatformTypes["排序参数"];
     /**
      * 租户ID
      */
@@ -60002,7 +59802,7 @@ export interface definitions {
     /**
      * 步骤排序对象列表
      */
-    sortDetailsList?: definitions["RuleDetails"][];
+    sortDetailsList?: cloudPlatformTypes["RuleDetails"][];
     /**
      * 租户ID
      */
@@ -60044,11 +59844,11 @@ export interface definitions {
     /**
      * 纸机工艺参数
      */
-    paperCraftParameterList?: definitions["DryerParameterJson"][];
+    paperCraftParameterList?: cloudPlatformTypes["DryerParameterJson"][];
     /**
      * 优化前，优化后数据对比记录
      */
-    resultComparisonList?: definitions["DryerParameterJson"][];
+    resultComparisonList?: cloudPlatformTypes["DryerParameterJson"][];
   };
   OptimizeHeatDispersionModel: {
     /**
@@ -60062,11 +59862,11 @@ export interface definitions {
     /**
      * 纸机工艺参数
      */
-    paperCraftParameterList?: definitions["HeatDispersionAssociate"][];
+    paperCraftParameterList?: cloudPlatformTypes["HeatDispersionAssociate"][];
     /**
      * 优化前，优化后数据对比记录
      */
-    resultComparisonList?: definitions["HeatDispersionParameter"][];
+    resultComparisonList?: cloudPlatformTypes["HeatDispersionParameter"][];
   };
   OptimizeRecordModel: {
     /**
@@ -60539,7 +60339,7 @@ export interface definitions {
     /**
      * 产品分析班组数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
     /**
      * 单位
      */
@@ -60557,7 +60357,7 @@ export interface definitions {
     /**
      * 异常事件
      */
-    eventDateList?: definitions["EventDate"][];
+    eventDateList?: cloudPlatformTypes["EventDate"][];
     /**
      * 等级名称
      */
@@ -60601,7 +60401,7 @@ export interface definitions {
     /**
      * 班次/班组+单耗/能耗数据
      */
-    outputEnergyDataList?: definitions["OutputEnergyData"][];
+    outputEnergyDataList?: cloudPlatformTypes["OutputEnergyData"][];
     /**
      * 单位
      */
@@ -60611,7 +60411,7 @@ export interface definitions {
     /**
      * 表头
      */
-    columnDataList?: definitions["ColumnData"][];
+    columnDataList?: cloudPlatformTypes["ColumnData"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -60620,7 +60420,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -60633,7 +60433,7 @@ export interface definitions {
     /**
      * 数据行
      */
-    rows?: definitions["Map«string,string»"][];
+    rows?: cloudPlatformTypes["Map«string,string»"][];
   };
   OutputEnergyByGroupData: {
     /**
@@ -60643,17 +60443,17 @@ export interface definitions {
     /**
      * 数据行
      */
-    rows?: definitions["ValueData"][];
+    rows?: cloudPlatformTypes["ValueData"][];
   };
   OutputEnergyData: {
     /**
      * 表头
      */
-    columnDataList?: definitions["ColumnData"][];
+    columnDataList?: cloudPlatformTypes["ColumnData"][];
     /**
      * 数据行
      */
-    rows?: definitions["Map«string,string»"][];
+    rows?: cloudPlatformTypes["Map«string,string»"][];
   };
   OutputEnergyIndex: {
     /**
@@ -60673,7 +60473,7 @@ export interface definitions {
     /**
      * 产品分析日产量曲线数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
     /**
      * 单位
      */
@@ -60683,13 +60483,13 @@ export interface definitions {
     /**
      * 产品分析等级数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
   };
   OutputProductData: {
     /**
      * 产品分析产品产量数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
     /**
      * 单位
      */
@@ -60733,7 +60533,7 @@ export interface definitions {
     /**
      * 下级选项
      */
-    options?: definitions["PC-APP任务卡片配置-选项内容"][];
+    options?: cloudPlatformTypes["PC-APP任务卡片配置-选项内容"][];
   };
   /**
    * 分页查询审核模板请求入参
@@ -60750,7 +60550,7 @@ export interface definitions {
     /**
      * 审核人信息
      */
-    approver?: definitions["ApproveTemplateModel_Approver对象"][];
+    approver?: cloudPlatformTypes["ApproveTemplateModel_Approver对象"][];
     /**
      * eid:企业id
      */
@@ -60825,11 +60625,11 @@ export interface definitions {
     /**
      * 仓库入库分页
      */
-    list?: definitions["AreaStoreEntry对象"][];
+    list?: cloudPlatformTypes["AreaStoreEntry对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -60852,11 +60652,11 @@ export interface definitions {
     /**
      * 仓库出库分页
      */
-    list?: definitions["AreaStoreOut对象"][];
+    list?: cloudPlatformTypes["AreaStoreOut对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -60879,11 +60679,11 @@ export interface definitions {
     /**
      * 仓库库存分页
      */
-    list?: definitions["AreaStoreStock对象"][];
+    list?: cloudPlatformTypes["AreaStoreStock对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -62550,11 +62350,11 @@ export interface definitions {
     /**
      * 广纸完工批次列表
      */
-    list?: definitions["ProdSErpGuangzhiOutputDay对象"][];
+    list?: cloudPlatformTypes["ProdSErpGuangzhiOutputDay对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -62930,11 +62730,11 @@ export interface definitions {
     /**
      * 生产工序下生产任务操作日志列表
      */
-    list?: definitions["ProduceTaskRecord对象"][];
+    list?: cloudPlatformTypes["ProduceTaskRecord对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -63047,11 +62847,11 @@ export interface definitions {
     /**
      * 生产任务
      */
-    list?: definitions["ProduceTask对象"][];
+    list?: cloudPlatformTypes["ProduceTask对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -63074,11 +62874,11 @@ export interface definitions {
     /**
      * 任务模板
      */
-    list?: definitions["ProduceTaskTemplate对象"][];
+    list?: cloudPlatformTypes["ProduceTaskTemplate对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -63292,11 +63092,11 @@ export interface definitions {
     workUnit?: string;
   };
   PageRecordResp: {
-    headerList?: definitions["TableHeader"][];
-    qrcodePage?: definitions["Page«QrcodePageRecord»"];
+    headerList?: cloudPlatformTypes["TableHeader"][];
+    qrcodePage?: cloudPlatformTypes["Page«QrcodePageRecord»"];
   };
   PageSheetPageModelResp: {
-    data?: definitions["ProduceSheetResp"][];
+    data?: cloudPlatformTypes["ProduceSheetResp"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -63304,7 +63104,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -63404,7 +63204,7 @@ export interface definitions {
     /**
      * 选择查询的字段
      */
-    select?: definitions["Node"][];
+    select?: cloudPlatformTypes["Node"][];
     /**
      * debug模式
      */
@@ -63438,9 +63238,9 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
-    res?: definitions["Map«string,object»"][];
+    res?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 返回编码
      */
@@ -63593,7 +63393,7 @@ export interface definitions {
    * 库存盘点分页
    */
   PageStockCheckResp: {
-    data?: definitions["StockCheckModel对象,仓库盘点"][];
+    data?: cloudPlatformTypes["StockCheckModel对象,仓库盘点"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -63601,7 +63401,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -63674,7 +63474,7 @@ export interface definitions {
    * 库存初始化分页
    */
   PageStockInitResp: {
-    data?: definitions["StockInitModel对象,仓库初始化"][];
+    data?: cloudPlatformTypes["StockInitModel对象,仓库初始化"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -63682,7 +63482,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -63804,7 +63604,7 @@ export interface definitions {
    * 库存调拨分页
    */
   PageStockTransferResp: {
-    data?: definitions["StockTransferModel对象"][];
+    data?: cloudPlatformTypes["StockTransferModel对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -63812,7 +63612,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -63945,7 +63745,7 @@ export interface definitions {
    * 用户列表分页
    */
   PageUserRespDto: {
-    data?: definitions["User对象"][];
+    data?: cloudPlatformTypes["User对象"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -63953,7 +63753,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -64113,637 +63913,637 @@ export interface definitions {
   "Page«ApproveTemplateListDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["ApproveTemplateListDto"][];
+    records?: cloudPlatformTypes["ApproveTemplateListDto"][];
     size?: number;
     total?: number;
   };
   "Page«AreaConsumePowerConfigModel对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["AreaConsumePowerConfigModel对象"][];
+    records?: cloudPlatformTypes["AreaConsumePowerConfigModel对象"][];
     size?: number;
     total?: number;
   };
   "Page«AttentionPointRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["AttentionPointRespDto"][];
+    records?: cloudPlatformTypes["AttentionPointRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«AutoDistributionConfigResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["AutoDistributionConfigResp"][];
+    records?: cloudPlatformTypes["AutoDistributionConfigResp"][];
     size?: number;
     total?: number;
   };
   "Page«AutoFinishWorkConfigResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["AutoFinishWorkConfigResp"][];
+    records?: cloudPlatformTypes["AutoFinishWorkConfigResp"][];
     size?: number;
     total?: number;
   };
   "Page«AutoFinishWorkLogResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["AutoFinishWorkLogResp"][];
+    records?: cloudPlatformTypes["AutoFinishWorkLogResp"][];
     size?: number;
     total?: number;
   };
   "Page«BillRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["BillRespDto"][];
+    records?: cloudPlatformTypes["BillRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«BillTemplateDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["BillTemplateDto"][];
+    records?: cloudPlatformTypes["BillTemplateDto"][];
     size?: number;
     total?: number;
   };
   "Page«CloudConfigDock对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CloudConfigDock对象"][];
+    records?: cloudPlatformTypes["CloudConfigDock对象"][];
     size?: number;
     total?: number;
   };
   "Page«ConfigBindingRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["ConfigBindingRespDto"][];
+    records?: cloudPlatformTypes["ConfigBindingRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«ConnectProjectListResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ConnectProjectListResp"][];
+    records?: cloudPlatformTypes["ConnectProjectListResp"][];
     size?: number;
     total?: number;
   };
   "Page«ContentListRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["ContentListRespDto"][];
+    records?: cloudPlatformTypes["ContentListRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«CourseSchedulePlan分页记录对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CourseSchedulePlan分页记录对象"][];
+    records?: cloudPlatformTypes["CourseSchedulePlan分页记录对象"][];
     size?: number;
     total?: number;
   };
   "Page«CraftConfigSync对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CraftConfigSync对象"][];
+    records?: cloudPlatformTypes["CraftConfigSync对象"][];
     size?: number;
     total?: number;
   };
   "Page«CraftFormulaConfig对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CraftFormulaConfig对象"][];
+    records?: cloudPlatformTypes["CraftFormulaConfig对象"][];
     size?: number;
     total?: number;
   };
   "Page«CraftTemplate对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["CraftTemplate对象"][];
+    records?: cloudPlatformTypes["CraftTemplate对象"][];
     size?: number;
     total?: number;
   };
   "Page«CustomerInfo»": {
     current?: number;
     pages?: number;
-    records?: definitions["CustomerInfo"][];
+    records?: cloudPlatformTypes["CustomerInfo"][];
     size?: number;
     total?: number;
   };
   "Page«CycleEquipSpareCycle»": {
     current?: number;
     pages?: number;
-    records?: definitions["CycleEquipSpareCycle"][];
+    records?: cloudPlatformTypes["CycleEquipSpareCycle"][];
     size?: number;
     total?: number;
   };
   "Page«CyclePageEquipSpareCycle»": {
     current?: number;
     pages?: number;
-    records?: definitions["CyclePageEquipSpareCycle"][];
+    records?: cloudPlatformTypes["CyclePageEquipSpareCycle"][];
     size?: number;
     total?: number;
   };
   "Page«DetailedPageSpareStatistics»": {
     current?: number;
     pages?: number;
-    records?: definitions["DetailedPageSpareStatistics"][];
+    records?: cloudPlatformTypes["DetailedPageSpareStatistics"][];
     size?: number;
     total?: number;
   };
   "Page«DivideProjectListResp分摊项目列表返回»": {
     current?: number;
     pages?: number;
-    records?: definitions["DivideProjectListResp分摊项目列表返回"][];
+    records?: cloudPlatformTypes["DivideProjectListResp分摊项目列表返回"][];
     size?: number;
     total?: number;
   };
   "Page«DivideRecordListResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["DivideRecordListResp"][];
+    records?: cloudPlatformTypes["DivideRecordListResp"][];
     size?: number;
     total?: number;
   };
   "Page«ElectricityLoadSchemeResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ElectricityLoadSchemeResp"][];
+    records?: cloudPlatformTypes["ElectricityLoadSchemeResp"][];
     size?: number;
     total?: number;
   };
   "Page«EnergyMeterReadingRecord对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["EnergyMeterReadingRecord对象"][];
+    records?: cloudPlatformTypes["EnergyMeterReadingRecord对象"][];
     size?: number;
     total?: number;
   };
   "Page«EnergyPricePlanModel对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["EnergyPricePlanModel对象"][];
+    records?: cloudPlatformTypes["EnergyPricePlanModel对象"][];
     size?: number;
     total?: number;
   };
   "Page«EquipmentInvalidReasonTree对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["EquipmentInvalidReasonTree对象"][];
+    records?: cloudPlatformTypes["EquipmentInvalidReasonTree对象"][];
     size?: number;
     total?: number;
   };
   "Page«EquipmentInvalidReason对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["EquipmentInvalidReason对象"][];
+    records?: cloudPlatformTypes["EquipmentInvalidReason对象"][];
     size?: number;
     total?: number;
   };
   "Page«EquipmentMeterTagConfig对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["EquipmentMeterTagConfig对象"][];
+    records?: cloudPlatformTypes["EquipmentMeterTagConfig对象"][];
     size?: number;
     total?: number;
   };
   "Page«EquipmentReasonDepartment对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["EquipmentReasonDepartment对象"][];
+    records?: cloudPlatformTypes["EquipmentReasonDepartment对象"][];
     size?: number;
     total?: number;
   };
   "Page«EquipmentReasonPartModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["EquipmentReasonPartModel"][];
+    records?: cloudPlatformTypes["EquipmentReasonPartModel"][];
     size?: number;
     total?: number;
   };
   "Page«EquipmentSparePartUpDownPageResp对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["EquipmentSparePartUpDownPageResp对象"][];
+    records?: cloudPlatformTypes["EquipmentSparePartUpDownPageResp对象"][];
     size?: number;
     total?: number;
   };
   "Page«FeaturePropertiesModel对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["FeaturePropertiesModel对象"][];
+    records?: cloudPlatformTypes["FeaturePropertiesModel对象"][];
     size?: number;
     total?: number;
   };
   "Page«FileInfoRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["FileInfoRespDto"][];
+    records?: cloudPlatformTypes["FileInfoRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«GatherPageSpareStatistics»": {
     current?: number;
     pages?: number;
-    records?: definitions["GatherPageSpareStatistics"][];
+    records?: cloudPlatformTypes["GatherPageSpareStatistics"][];
     size?: number;
     total?: number;
   };
   "Page«InputCustomFieldVo对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["InputCustomFieldVo对象"][];
+    records?: cloudPlatformTypes["InputCustomFieldVo对象"][];
     size?: number;
     total?: number;
   };
   "Page«InputParameterInfoVo对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["InputParameterInfoVo对象"][];
+    records?: cloudPlatformTypes["InputParameterInfoVo对象"][];
     size?: number;
     total?: number;
   };
   "Page«InstrumentRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["InstrumentRespDto"][];
+    records?: cloudPlatformTypes["InstrumentRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«InvalidReasonRecordExt»": {
     current?: number;
     pages?: number;
-    records?: definitions["InvalidReasonRecordExt"][];
+    records?: cloudPlatformTypes["InvalidReasonRecordExt"][];
     size?: number;
     total?: number;
   };
   "Page«ListDepartUserResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ListDepartUserResp"][];
+    records?: cloudPlatformTypes["ListDepartUserResp"][];
     size?: number;
     total?: number;
   };
   "Page«ListInspectionRoomResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ListInspectionRoomResp"][];
+    records?: cloudPlatformTypes["ListInspectionRoomResp"][];
     size?: number;
     total?: number;
   };
   "Page«MaintainTaskRecordResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaintainTaskRecordResp"][];
+    records?: cloudPlatformTypes["MaintainTaskRecordResp"][];
     size?: number;
     total?: number;
   };
   "Page«Map«string,DynamicExtendVo»»": {
     current?: number;
     pages?: number;
-    records?: definitions["Map«string,DynamicExtendVo»"][];
+    records?: cloudPlatformTypes["Map«string,DynamicExtendVo»"][];
     size?: number;
     total?: number;
   };
   "Page«Map«string,object»»": {
     current?: number;
     pages?: number;
-    records?: definitions["Map«string,object»"][];
+    records?: cloudPlatformTypes["Map«string,object»"][];
     size?: number;
     total?: number;
   };
   "Page«MaterialGroupModel对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialGroupModel对象"][];
+    records?: cloudPlatformTypes["MaterialGroupModel对象"][];
     size?: number;
     total?: number;
   };
   "Page«MaterialGroupRelationInfo对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialGroupRelationInfo对象"][];
+    records?: cloudPlatformTypes["MaterialGroupRelationInfo对象"][];
     size?: number;
     total?: number;
   };
   "Page«MaterialInfo»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialInfo"][];
+    records?: cloudPlatformTypes["MaterialInfo"][];
     size?: number;
     total?: number;
   };
   "Page«MaterialRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialRespDto"][];
+    records?: cloudPlatformTypes["MaterialRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«MaterialStat»": {
     current?: number;
     pages?: number;
-    records?: definitions["MaterialStat"][];
+    records?: cloudPlatformTypes["MaterialStat"][];
     size?: number;
     total?: number;
   };
   "Page«Material对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["Material对象"][];
+    records?: cloudPlatformTypes["Material对象"][];
     size?: number;
     total?: number;
   };
   "Page«Message»": {
     current?: number;
     pages?: number;
-    records?: definitions["Message"][];
+    records?: cloudPlatformTypes["Message"][];
     size?: number;
     total?: number;
   };
   "Page«OrgPositionResp对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["OrgPositionResp对象"][];
+    records?: cloudPlatformTypes["OrgPositionResp对象"][];
     size?: number;
     total?: number;
   };
   "Page«PageEnergyCalorificValueResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["PageEnergyCalorificValueResp"][];
+    records?: cloudPlatformTypes["PageEnergyCalorificValueResp"][];
     size?: number;
     total?: number;
   };
   "Page«PageOperateLogResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["PageOperateLogResp"][];
+    records?: cloudPlatformTypes["PageOperateLogResp"][];
     size?: number;
     total?: number;
   };
   "Page«ParamVariableSearchResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ParamVariableSearchResp"][];
+    records?: cloudPlatformTypes["ParamVariableSearchResp"][];
     size?: number;
     total?: number;
   };
   "Page«PersonnelRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["PersonnelRespDto"][];
+    records?: cloudPlatformTypes["PersonnelRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«PlanTaskResultDto对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["PlanTaskResultDto对象"][];
+    records?: cloudPlatformTypes["PlanTaskResultDto对象"][];
     size?: number;
     total?: number;
   };
   "Page«PreferTemplateMaterialModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["PreferTemplateMaterialModel"][];
+    records?: cloudPlatformTypes["PreferTemplateMaterialModel"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceBestOperateHistoryRecordModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceBestOperateHistoryRecordModel"][];
+    records?: cloudPlatformTypes["ProduceBestOperateHistoryRecordModel"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceCheckingAuditModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceCheckingAuditModel"][];
+    records?: cloudPlatformTypes["ProduceCheckingAuditModel"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceLineCapacityManageModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceLineCapacityManageModel"][];
+    records?: cloudPlatformTypes["ProduceLineCapacityManageModel"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceOrderListResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceOrderListResp"][];
+    records?: cloudPlatformTypes["ProduceOrderListResp"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceSchedulePlanDto对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceSchedulePlanDto对象"][];
+    records?: cloudPlatformTypes["ProduceSchedulePlanDto对象"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceTaskFile对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceTaskFile对象"][];
+    records?: cloudPlatformTypes["ProduceTaskFile对象"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceTaskOperateRecordModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceTaskOperateRecordModel"][];
+    records?: cloudPlatformTypes["ProduceTaskOperateRecordModel"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceTaskTotalModel对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceTaskTotalModel对象"][];
+    records?: cloudPlatformTypes["ProduceTaskTotalModel对象"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceTask对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceTask对象"][];
+    records?: cloudPlatformTypes["ProduceTask对象"][];
     size?: number;
     total?: number;
   };
   "Page«ProduceTraceShemeConfig对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["ProduceTraceShemeConfig对象"][];
+    records?: cloudPlatformTypes["ProduceTraceShemeConfig对象"][];
     size?: number;
     total?: number;
   };
   "Page«PulpProductionLineConfigResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["PulpProductionLineConfigResp"][];
+    records?: cloudPlatformTypes["PulpProductionLineConfigResp"][];
     size?: number;
     total?: number;
   };
   "Page«QrcodePageRecord»": {
     current?: number;
     pages?: number;
-    records?: definitions["QrcodePageRecord"][];
+    records?: cloudPlatformTypes["QrcodePageRecord"][];
     size?: number;
     total?: number;
   };
   "Page«QualityAnalyzeModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["QualityAnalyzeModel"][];
+    records?: cloudPlatformTypes["QualityAnalyzeModel"][];
     size?: number;
     total?: number;
   };
   "Page«QualityTraceListRespVo»": {
     current?: number;
     pages?: number;
-    records?: definitions["QualityTraceListRespVo"][];
+    records?: cloudPlatformTypes["QualityTraceListRespVo"][];
     size?: number;
     total?: number;
   };
   "Page«ReasonAnalyzeModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["ReasonAnalyzeModel"][];
+    records?: cloudPlatformTypes["ReasonAnalyzeModel"][];
     size?: number;
     total?: number;
   };
   "Page«RecordResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["RecordResp"][];
+    records?: cloudPlatformTypes["RecordResp"][];
     size?: number;
     total?: number;
   };
   "Page«ReportItemResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ReportItemResp"][];
+    records?: cloudPlatformTypes["ReportItemResp"][];
     size?: number;
     total?: number;
   };
   "Page«ResultResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["ResultResp"][];
+    records?: cloudPlatformTypes["ResultResp"][];
     size?: number;
     total?: number;
   };
   "Page«SchedulePlanCalculateResultDto对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["SchedulePlanCalculateResultDto对象"][];
+    records?: cloudPlatformTypes["SchedulePlanCalculateResultDto对象"][];
     size?: number;
     total?: number;
   };
   "Page«SchedulePlanPageResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["SchedulePlanPageResp"][];
+    records?: cloudPlatformTypes["SchedulePlanPageResp"][];
     size?: number;
     total?: number;
   };
   "Page«StockEoStat»": {
     current?: number;
     pages?: number;
-    records?: definitions["StockEoStat"][];
+    records?: cloudPlatformTypes["StockEoStat"][];
     size?: number;
     total?: number;
   };
   "Page«StockOutModel»": {
     current?: number;
     pages?: number;
-    records?: definitions["StockOutModel"][];
+    records?: cloudPlatformTypes["StockOutModel"][];
     size?: number;
     total?: number;
   };
   "Page«StockStat»": {
     current?: number;
     pages?: number;
-    records?: definitions["StockStat"][];
+    records?: cloudPlatformTypes["StockStat"][];
     size?: number;
     total?: number;
   };
   "Page«StockStat对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["StockStat对象"][];
+    records?: cloudPlatformTypes["StockStat对象"][];
     size?: number;
     total?: number;
   };
   "Page«StoreBillRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["StoreBillRespDto"][];
+    records?: cloudPlatformTypes["StoreBillRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«StoreOutBillRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["StoreOutBillRespDto"][];
+    records?: cloudPlatformTypes["StoreOutBillRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«StoreTrendStat»": {
     current?: number;
     pages?: number;
-    records?: definitions["StoreTrendStat"][];
+    records?: cloudPlatformTypes["StoreTrendStat"][];
     size?: number;
     total?: number;
   };
   "Page«TargetDetailDayResp对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["TargetDetailDayResp对象"][];
+    records?: cloudPlatformTypes["TargetDetailDayResp对象"][];
     size?: number;
     total?: number;
   };
   "Page«TargetDetailItem»": {
     current?: number;
     pages?: number;
-    records?: definitions["TargetDetailItem"][];
+    records?: cloudPlatformTypes["TargetDetailItem"][];
     size?: number;
     total?: number;
   };
   "Page«TaskFileDownloadRecordResp»": {
     current?: number;
     pages?: number;
-    records?: definitions["TaskFileDownloadRecordResp"][];
+    records?: cloudPlatformTypes["TaskFileDownloadRecordResp"][];
     size?: number;
     total?: number;
   };
   "Page«ThirdAccountRelationRespDto»": {
     current?: number;
     pages?: number;
-    records?: definitions["ThirdAccountRelationRespDto"][];
+    records?: cloudPlatformTypes["ThirdAccountRelationRespDto"][];
     size?: number;
     total?: number;
   };
   "Page«WorkUnitConfig对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["WorkUnitConfig对象"][];
+    records?: cloudPlatformTypes["WorkUnitConfig对象"][];
     size?: number;
     total?: number;
   };
   "Page«pc已确认维修经验分页数据对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["pc已确认维修经验分页数据对象"][];
+    records?: cloudPlatformTypes["pc已确认维修经验分页数据对象"][];
     size?: number;
     total?: number;
   };
   "Page«pc未确认维修经验数据对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["pc未确认维修经验数据对象"][];
+    records?: cloudPlatformTypes["pc未确认维修经验数据对象"][];
     size?: number;
     total?: number;
   };
@@ -64757,224 +64557,224 @@ export interface definitions {
   "Page«交接事项响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["交接事项响应参数"][];
+    records?: cloudPlatformTypes["交接事项响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«产品切换记录响应实体»": {
     current?: number;
     pages?: number;
-    records?: definitions["产品切换记录响应实体"][];
+    records?: cloudPlatformTypes["产品切换记录响应实体"][];
     size?: number;
     total?: number;
   };
   "Page«产品质检请求对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["产品质检请求对象"][];
+    records?: cloudPlatformTypes["产品质检请求对象"][];
     size?: number;
     total?: number;
   };
   "Page«产量约束响应实体»": {
     current?: number;
     pages?: number;
-    records?: definitions["产量约束响应实体"][];
+    records?: cloudPlatformTypes["产量约束响应实体"][];
     size?: number;
     total?: number;
   };
   "Page«任务管理状态列表响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["任务管理状态列表响应参数"][];
+    records?: cloudPlatformTypes["任务管理状态列表响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«企业指标列表响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["企业指标列表响应参数"][];
+    records?: cloudPlatformTypes["企业指标列表响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«保养任务请求对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["保养任务请求对象"][];
+    records?: cloudPlatformTypes["保养任务请求对象"][];
     size?: number;
     total?: number;
   };
   "Page«保养计划详情»": {
     current?: number;
     pages?: number;
-    records?: definitions["保养计划详情"][];
+    records?: cloudPlatformTypes["保养计划详情"][];
     size?: number;
     total?: number;
   };
   "Page«分摊模板列表响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["分摊模板列表响应参数"][];
+    records?: cloudPlatformTypes["分摊模板列表响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«分页查询标准操作流程基础信息表响应»": {
     current?: number;
     pages?: number;
-    records?: definitions["分页查询标准操作流程基础信息表响应"][];
+    records?: cloudPlatformTypes["分页查询标准操作流程基础信息表响应"][];
     size?: number;
     total?: number;
   };
   "Page«告警规则»": {
     current?: number;
     pages?: number;
-    records?: definitions["告警规则"][];
+    records?: cloudPlatformTypes["告警规则"][];
     size?: number;
     total?: number;
   };
   "Page«响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["响应参数"][];
+    records?: cloudPlatformTypes["响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«安全库存响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["安全库存响应参数"][];
+    records?: cloudPlatformTypes["安全库存响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«工艺路径分页实体»": {
     current?: number;
     pages?: number;
-    records?: definitions["工艺路径分页实体"][];
+    records?: cloudPlatformTypes["工艺路径分页实体"][];
     size?: number;
     total?: number;
   };
   "Page«批次分析对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["批次分析对象"][];
+    records?: cloudPlatformTypes["批次分析对象"][];
     size?: number;
     total?: number;
   };
   "Page«指令关联工厂单元列表响应»": {
     current?: number;
     pages?: number;
-    records?: definitions["指令关联工厂单元列表响应"][];
+    records?: cloudPlatformTypes["指令关联工厂单元列表响应"][];
     size?: number;
     total?: number;
   };
   "Page«指令配置列表响应»": {
     current?: number;
     pages?: number;
-    records?: definitions["指令配置列表响应"][];
+    records?: cloudPlatformTypes["指令配置列表响应"][];
     size?: number;
     total?: number;
   };
   "Page«操作记录列表响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["操作记录列表响应参数"][];
+    records?: cloudPlatformTypes["操作记录列表响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«操作配置列表响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["操作配置列表响应参数"][];
+    records?: cloudPlatformTypes["操作配置列表响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«故障统计分页实体对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["故障统计分页实体对象"][];
+    records?: cloudPlatformTypes["故障统计分页实体对象"][];
     size?: number;
     total?: number;
   };
   "Page«最佳操作产品列表响应»": {
     current?: number;
     pages?: number;
-    records?: definitions["最佳操作产品列表响应"][];
+    records?: cloudPlatformTypes["最佳操作产品列表响应"][];
     size?: number;
     total?: number;
   };
   "Page«最佳操作参数响应结构»": {
     current?: number;
     pages?: number;
-    records?: definitions["最佳操作参数响应结构"][];
+    records?: cloudPlatformTypes["最佳操作参数响应结构"][];
     size?: number;
     total?: number;
   };
   "Page«生产指令列表响应»": {
     current?: number;
     pages?: number;
-    records?: definitions["生产指令列表响应"][];
+    records?: cloudPlatformTypes["生产指令列表响应"][];
     size?: number;
     total?: number;
   };
   "Page«生产日历响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["生产日历响应参数"][];
+    records?: cloudPlatformTypes["生产日历响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«维修记录详情»": {
     current?: number;
     pages?: number;
-    records?: definitions["维修记录详情"][];
+    records?: cloudPlatformTypes["维修记录详情"][];
     size?: number;
     total?: number;
   };
   "Page«能源报表配置（新）分页对象»": {
     current?: number;
     pages?: number;
-    records?: definitions["能源报表配置（新）分页对象"][];
+    records?: cloudPlatformTypes["能源报表配置（新）分页对象"][];
     size?: number;
     total?: number;
   };
   "Page«自动创建任务方案列表»": {
     current?: number;
     pages?: number;
-    records?: definitions["自动创建任务方案列表"][];
+    records?: cloudPlatformTypes["自动创建任务方案列表"][];
     size?: number;
     total?: number;
   };
   "Page«订单列表响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["订单列表响应参数"][];
+    records?: cloudPlatformTypes["订单列表响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«设备任务统计下钻返回对应»": {
     current?: number;
     pages?: number;
-    records?: definitions["设备任务统计下钻返回对应"][];
+    records?: cloudPlatformTypes["设备任务统计下钻返回对应"][];
     size?: number;
     total?: number;
   };
   "Page«设备约束响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["设备约束响应参数"][];
+    records?: cloudPlatformTypes["设备约束响应参数"][];
     size?: number;
     total?: number;
   };
   "Page«质量报告-列表信息»": {
     current?: number;
     pages?: number;
-    records?: definitions["质量报告-列表信息"][];
+    records?: cloudPlatformTypes["质量报告-列表信息"][];
     size?: number;
     total?: number;
   };
   "Page«项目录入列表响应参数»": {
     current?: number;
     pages?: number;
-    records?: definitions["项目录入列表响应参数"][];
+    records?: cloudPlatformTypes["项目录入列表响应参数"][];
     size?: number;
     total?: number;
   };
@@ -65217,7 +65017,7 @@ export interface definitions {
     /**
      * 配置
      */
-    configDetails?: definitions["Config"][];
+    configDetails?: cloudPlatformTypes["Config"][];
     extFields?: { [key: string]: any };
     /**
      * 应用实例ID
@@ -65251,7 +65051,7 @@ export interface definitions {
     /**
      * 配置
      */
-    configDetails?: definitions["ConfigDetails"][];
+    configDetails?: cloudPlatformTypes["ConfigDetails"][];
     /**
      * ，操作步骤id
      */
@@ -65372,7 +65172,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson?: definitions["StoreHtmlDataJson"];
+    htmlDataJson?: cloudPlatformTypes["StoreHtmlDataJson"];
     /**
      * 是否通知班组  0：不通知，1：通知
      */
@@ -65844,7 +65644,7 @@ export interface definitions {
     /**
      * 尖峰平谷类型
      */
-    infoList?: definitions["PowerConsumeTemplateModel_ContentInfo对象"][];
+    infoList?: cloudPlatformTypes["PowerConsumeTemplateModel_ContentInfo对象"][];
   };
   PowerConsumeTemplateModel_ContentInfo对象: {
     /**
@@ -65867,7 +65667,7 @@ export interface definitions {
     /**
      * 模板信息
      */
-    content?: definitions["PowerConsumeTemplateModel_ContentData对象"];
+    content?: cloudPlatformTypes["PowerConsumeTemplateModel_ContentData对象"];
     /**
      * 创建时间
      */
@@ -65937,7 +65737,7 @@ export interface definitions {
     /**
      * 报表预览
      */
-    reportInfo?: definitions["ReportInfo"];
+    reportInfo?: cloudPlatformTypes["ReportInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -66160,7 +65960,7 @@ export interface definitions {
     /**
      * 工段列表
      */
-    sections?: definitions["Section"][];
+    sections?: cloudPlatformTypes["Section"][];
     /**
      * 排序序号
      */
@@ -66170,11 +65970,11 @@ export interface definitions {
     /**
      * 未选字段列表,左侧列表
      */
-    optionals?: definitions["ProcessBasicTitleSelect"][];
+    optionals?: cloudPlatformTypes["ProcessBasicTitleSelect"][];
     /**
      * 已选字段列表，右侧列表
      */
-    selecteds?: definitions["ProcessBasicTitleSelect"][];
+    selecteds?: cloudPlatformTypes["ProcessBasicTitleSelect"][];
   };
   ProcessBasicTitleSelect: {
     /**
@@ -66197,7 +65997,7 @@ export interface definitions {
     /**
      * 过程质量统计数据
      */
-    countDatas?: definitions["CountDatas"][];
+    countDatas?: cloudPlatformTypes["CountDatas"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -66220,7 +66020,7 @@ export interface definitions {
     /**
      * 过程质量统计数据
      */
-    countDatas?: definitions["CountDatas"][];
+    countDatas?: cloudPlatformTypes["CountDatas"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -66243,7 +66043,7 @@ export interface definitions {
     /**
      * 过程质量统计数据
      */
-    countDatas?: definitions["CountDatas"][];
+    countDatas?: cloudPlatformTypes["CountDatas"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -66263,15 +66063,15 @@ export interface definitions {
     /**
      * 过程基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 备注
      */
@@ -66285,7 +66085,7 @@ export interface definitions {
     /**
      * 节点工作中心详情
      */
-    centerDetails?: definitions["Center"][];
+    centerDetails?: cloudPlatformTypes["Center"][];
     /**
      * 工艺路径ID
      */
@@ -66537,7 +66337,7 @@ export interface definitions {
     /**
      * 标准图片 json数据
      */
-    standardImgData?: definitions["Attachment"][];
+    standardImgData?: cloudPlatformTypes["Attachment"][];
     /**
      * 标准图片显示
      */
@@ -66644,7 +66444,7 @@ export interface definitions {
     /**
      * 工序项目
      */
-    processProjectSortList?: definitions["ProcessProjectSort"][];
+    processProjectSortList?: cloudPlatformTypes["ProcessProjectSort"][];
     /**
      * 过程id
      */
@@ -66658,7 +66458,7 @@ export interface definitions {
     /**
      * 工序项目列表
      */
-    processProjectData?: definitions["ProcessProjectData"][];
+    processProjectData?: cloudPlatformTypes["ProcessProjectData"][];
     /**
      * 工序ID
      */
@@ -66774,15 +66574,15 @@ export interface definitions {
     /**
      * 副产品标题列表
      */
-    coproductTitles?: definitions["ProdCoproductTitle"][];
+    coproductTitles?: cloudPlatformTypes["ProdCoproductTitle"][];
     /**
      * 物料列表
      */
-    items?: definitions["ProdCoproductStatItem"][];
+    items?: cloudPlatformTypes["ProdCoproductStatItem"][];
     /**
      * 总数列表
      */
-    totals?: definitions["ProdCoproductStatTotal"][];
+    totals?: cloudPlatformTypes["ProdCoproductStatTotal"][];
   };
   ProdCoproductStatItem: {
     /**
@@ -66820,7 +66620,7 @@ export interface definitions {
     /**
      * 副产品产量列表
      */
-    outputs?: definitions["ProdCoproductOutput"][];
+    outputs?: cloudPlatformTypes["ProdCoproductOutput"][];
     /**
      * 日期
      */
@@ -66965,7 +66765,7 @@ export interface definitions {
     /**
      * 录入指标选择
      */
-    indexSeles?: definitions["InputIndexSelectionReq"][];
+    indexSeles?: cloudPlatformTypes["InputIndexSelectionReq"][];
     /**
      * 当执行对象是班组则传班组ID列表，是指定用户则传用户ID列表
      */
@@ -67046,7 +66846,7 @@ export interface definitions {
     /**
      * 录入指标选择
      */
-    indexSeles?: definitions["InputIndexSelectionReq"][];
+    indexSeles?: cloudPlatformTypes["InputIndexSelectionReq"][];
     /**
      * 当执行对象是班组则传班组ID列表，是指定用户则传用户ID列表
      */
@@ -67176,7 +66976,7 @@ export interface definitions {
     /**
      * 检查项目记录
      */
-    checkItems?: definitions["MaterialCheckRecord"][];
+    checkItems?: cloudPlatformTypes["MaterialCheckRecord"][];
     /**
      * 质检时间
      */
@@ -67409,7 +67209,7 @@ export interface definitions {
     /**
      * 检查项目记录
      */
-    checkItems?: definitions["MaterialCheckRecord"][];
+    checkItems?: cloudPlatformTypes["MaterialCheckRecord"][];
     /**
      * 质检时间
      */
@@ -67675,11 +67475,11 @@ export interface definitions {
     /**
      * 失败列表-检验项目列表
      */
-    checkReses?: definitions["ProdFormulaResCheckRes"][];
+    checkReses?: cloudPlatformTypes["ProdFormulaResCheckRes"][];
     /**
      * 成分结果值列表
      */
-    componentRes?: definitions["ProdFormulaResComponentRes"][];
+    componentRes?: cloudPlatformTypes["ProdFormulaResComponentRes"][];
     /**
      * 配方优选ID
      */
@@ -67687,7 +67487,7 @@ export interface definitions {
     /**
      * 成功列表-物料成分列表
      */
-    ingrs?: definitions["ProdFormulaMaterialRes"][];
+    ingrs?: cloudPlatformTypes["ProdFormulaMaterialRes"][];
     /**
      * 优选结果状态  1 : 优选成功  2 : 优选失败
      */
@@ -67699,7 +67499,7 @@ export interface definitions {
     /**
      * 配方优选配置
      */
-    setting?: definitions["ProdFormulaPreferSetting"];
+    setting?: cloudPlatformTypes["ProdFormulaPreferSetting"];
   };
   ProdFormulaPreferSaveReq: {
     /**
@@ -67717,7 +67517,7 @@ export interface definitions {
     /**
      * 批次选择列表
      */
-    batches?: definitions["ProdFormulaBatchSelReq"][];
+    batches?: cloudPlatformTypes["ProdFormulaBatchSelReq"][];
     /**
      * 钙镁之和基准值
      */
@@ -67745,7 +67545,7 @@ export interface definitions {
     /**
      * 成分列表
      */
-    ingredidents?: definitions["ProdFormulaIngredientReq"][];
+    ingredidents?: cloudPlatformTypes["ProdFormulaIngredientReq"][];
     /**
      * 物料ID
      */
@@ -67823,7 +67623,7 @@ export interface definitions {
     /**
      * 批次选择列表
      */
-    batches?: definitions["ProdFormulaBatchSelReq"][];
+    batches?: cloudPlatformTypes["ProdFormulaBatchSelReq"][];
     /**
      * 钙镁之和基准值
      */
@@ -67847,7 +67647,7 @@ export interface definitions {
     /**
      * 成分列表
      */
-    ingredidents?: definitions["ProdFormulaIngredientReq"][];
+    ingredidents?: cloudPlatformTypes["ProdFormulaIngredientReq"][];
     /**
      * 物料ID
      */
@@ -68237,11 +68037,11 @@ export interface definitions {
     /**
      * 柱形图列表
      */
-    graphs?: definitions["ProdGrQaKanbanGraph"][];
+    graphs?: cloudPlatformTypes["ProdGrQaKanbanGraph"][];
     /**
      * 表格数据
      */
-    table?: definitions["ProdGrQaKanbanTable"];
+    table?: cloudPlatformTypes["ProdGrQaKanbanTable"];
   };
   ProdGrQaKanbanDefect: {
     /**
@@ -68333,7 +68133,7 @@ export interface definitions {
     /**
      * 缺陷列表
      */
-    defects?: definitions["ProdGrQaKanbanDefect"][];
+    defects?: cloudPlatformTypes["ProdGrQaKanbanDefect"][];
     /**
      * 生产工序ID
      */
@@ -68351,7 +68151,7 @@ export interface definitions {
     /**
      * 表格行列表
      */
-    rows?: definitions["ProdGrQaKanbanProcess"][];
+    rows?: cloudPlatformTypes["ProdGrQaKanbanProcess"][];
     /**
      * 时间标题
      */
@@ -68585,7 +68385,7 @@ export interface definitions {
     /**
      * 缺陷数据
      */
-    data?: definitions["ProdGrQaRecordItemSaveReq"][];
+    data?: cloudPlatformTypes["ProdGrQaRecordItemSaveReq"][];
     /**
      * eid:企业id
      */
@@ -68681,11 +68481,11 @@ export interface definitions {
     /**
      * 部门列表
      */
-    departments?: definitions["ProdGrQaDepartment对象"][];
+    departments?: cloudPlatformTypes["ProdGrQaDepartment对象"][];
     /**
      * 等级列表
      */
-    grades?: definitions["MaterialTypeGrade对象"][];
+    grades?: cloudPlatformTypes["MaterialTypeGrade对象"][];
     /**
      * 检验员名称
      */
@@ -68755,7 +68555,7 @@ export interface definitions {
     /**
      * 缺陷列表
      */
-    defects?: definitions["ProdGrQaRecordDefectSaveReq"][];
+    defects?: cloudPlatformTypes["ProdGrQaRecordDefectSaveReq"][];
     /**
      * 部门ID
      */
@@ -68939,7 +68739,7 @@ export interface definitions {
     /**
      * 缺陷数据
      */
-    data?: definitions["ProdGrQaRecordItemSaveReq"][];
+    data?: cloudPlatformTypes["ProdGrQaRecordItemSaveReq"][];
     /**
      * eid:企业id
      */
@@ -69009,17 +68809,17 @@ export interface definitions {
     /**
      * 等级合计列表,与gradeTitles横向对应
      */
-    gradeTotals?: definitions["RatioNum"][];
+    gradeTotals?: cloudPlatformTypes["RatioNum"][];
     /**
      * 占比列表，与statTitles横向对应
      */
-    ratios?: definitions["RatioNum"][];
+    ratios?: cloudPlatformTypes["RatioNum"][];
   };
   ProdGrQaSegDefectItem: {
     /**
      * 缺陷数据列表
      */
-    defects?: definitions["ProdGrQaSegDefect"][];
+    defects?: cloudPlatformTypes["ProdGrQaSegDefect"][];
     /**
      * 部门ID
      */
@@ -69041,17 +68841,17 @@ export interface definitions {
     /**
      * 占比列表，与statTitles横向对应
      */
-    ratios?: definitions["RatioNum"][];
+    ratios?: cloudPlatformTypes["RatioNum"][];
   };
   ProdGrQaSegStat: {
     /**
      * 缺陷分级细项
      */
-    defectItems?: definitions["ProdGrQaSegDefectItem"][];
+    defectItems?: cloudPlatformTypes["ProdGrQaSegDefectItem"][];
     /**
      * 等级分级细项
      */
-    gradeItems?: definitions["ProdGrQaSegGradeItem"][];
+    gradeItems?: cloudPlatformTypes["ProdGrQaSegGradeItem"][];
     /**
      * 合计标题列表
      */
@@ -69211,11 +69011,11 @@ export interface definitions {
     /**
      * 分级细项
      */
-    segStat?: definitions["ProdGrQaSegStat"];
+    segStat?: cloudPlatformTypes["ProdGrQaSegStat"];
     /**
      * 折线图数据点
      */
-    stats?: definitions["ProdGrQaStat"][];
+    stats?: cloudPlatformTypes["ProdGrQaStat"][];
   };
   ProdGrQaTempAddReq: {
     /**
@@ -69305,7 +69105,7 @@ export interface definitions {
     /**
      * 缺陷列表
      */
-    defects?: definitions["ProdGrQaDefect对象"][];
+    defects?: cloudPlatformTypes["ProdGrQaDefect对象"][];
     /**
      * 部门ID
      */
@@ -69423,7 +69223,7 @@ export interface definitions {
     /**
      * 部门列表
      */
-    departments?: definitions["ProdGrQaTempDepartmentResp"][];
+    departments?: cloudPlatformTypes["ProdGrQaTempDepartmentResp"][];
     /**
      * 物料类别名称
      */
@@ -69972,7 +69772,7 @@ export interface definitions {
     /**
      * 批次列表
      */
-    items?: definitions["ProdMaterialPreferResItemInfo"][];
+    items?: cloudPlatformTypes["ProdMaterialPreferResItemInfo"][];
     /**
      * 原料优选ID
      */
@@ -70070,7 +69870,7 @@ export interface definitions {
     /**
      * 勾选的成分基准配置
      */
-    baseConfs?: definitions["MaterialPreferBaseConf"][];
+    baseConfs?: cloudPlatformTypes["MaterialPreferBaseConf"][];
     /**
      * eid:企业id
      */
@@ -70082,7 +69882,7 @@ export interface definitions {
     /**
      * 勾选的批次范围选择
      */
-    batchRanges?: definitions["CheckMaterialBatchRangeJson"][];
+    batchRanges?: cloudPlatformTypes["CheckMaterialBatchRangeJson"][];
     /**
      * 每组包含批次
      */
@@ -70136,11 +69936,11 @@ export interface definitions {
     /**
      * 勾选的成分基准配置
      */
-    baseConfs?: definitions["MaterialPreferBaseConf"][];
+    baseConfs?: cloudPlatformTypes["MaterialPreferBaseConf"][];
     /**
      * 勾选的批次范围选择
      */
-    batchRanges?: definitions["CheckMaterialBatchRangeJson"][];
+    batchRanges?: cloudPlatformTypes["CheckMaterialBatchRangeJson"][];
     /**
      * 每组包含批次
      */
@@ -70410,7 +70210,7 @@ export interface definitions {
     /**
      * 勾选的成分基准配置
      */
-    baseConfs?: definitions["MaterialPreferBaseConf"][];
+    baseConfs?: cloudPlatformTypes["MaterialPreferBaseConf"][];
     /**
      * 原始组织id
      */
@@ -70487,7 +70287,7 @@ export interface definitions {
     /**
      * 检测明细列表
      */
-    qualityDetailList?: definitions["QualityDetail"][];
+    qualityDetailList?: cloudPlatformTypes["QualityDetail"][];
     /**
      * 记录状态
      */
@@ -70714,7 +70514,7 @@ export interface definitions {
     /**
      * 表头
      */
-    headers?: definitions["TableColumnHeader"][];
+    headers?: cloudPlatformTypes["TableColumnHeader"][];
   };
   /**
    * 质量统计请求对象
@@ -70774,9 +70574,9 @@ export interface definitions {
     uid?: string;
   };
   ProduceAreaList: {
-    lines?: definitions["WorkMaintainVo"][];
-    processIds?: definitions["WorkMaintainVo"][];
-    workUnits?: definitions["WorkMaintainVo"][];
+    lines?: cloudPlatformTypes["WorkMaintainVo"][];
+    processIds?: cloudPlatformTypes["WorkMaintainVo"][];
+    workUnits?: cloudPlatformTypes["WorkMaintainVo"][];
   };
   ProduceBatchAnalyzeConfigReq: {
     /**
@@ -70886,11 +70686,11 @@ export interface definitions {
     /**
      * 附加基础字段
      */
-    attachBasicsFieldList?: definitions["AttachBasicsField"][];
+    attachBasicsFieldList?: cloudPlatformTypes["AttachBasicsField"][];
     /**
      * 投料信息
      */
-    batchMaterialInfoList?: definitions["BatchMaterialInfo"][];
+    batchMaterialInfoList?: cloudPlatformTypes["BatchMaterialInfo"][];
     /**
      * 检验平均值【必填】
      */
@@ -70922,7 +70722,7 @@ export interface definitions {
     /**
      * 投料类别信息
      */
-    materialCategoryInfoList?: definitions["MaterialCategoryInfo"][];
+    materialCategoryInfoList?: cloudPlatformTypes["MaterialCategoryInfo"][];
     /**
      * 干湿重换算【必填】
      */
@@ -70972,7 +70772,7 @@ export interface definitions {
     /**
      * 设备和参数信息
      */
-    equipmentVariableList?: definitions["EquipmentParam"][];
+    equipmentVariableList?: cloudPlatformTypes["EquipmentParam"][];
     /**
      * 主键id
      */
@@ -70980,7 +70780,7 @@ export interface definitions {
     /**
      * 物料信息
      */
-    materialInfoList?: definitions["MaterialInfoBasic"][];
+    materialInfoList?: cloudPlatformTypes["MaterialInfoBasic"][];
     /**
      * 企业id 或者 机构id , 当为系统类别则为 0
      */
@@ -70988,7 +70788,7 @@ export interface definitions {
     /**
      * 产出物料信息
      */
-    outputMaterialList?: definitions["MaterialInfoBasic"][];
+    outputMaterialList?: cloudPlatformTypes["MaterialInfoBasic"][];
     /**
      * 产出物料名称
      */
@@ -71031,7 +70831,7 @@ export interface definitions {
     /**
      * 设备和参数信息
      */
-    equipmentVariableList?: definitions["EquipmentParam"][];
+    equipmentVariableList?: cloudPlatformTypes["EquipmentParam"][];
     /**
      * 是否最佳
      */
@@ -71039,11 +70839,11 @@ export interface definitions {
     /**
      * 物料信息
      */
-    materialParamInfoList?: definitions["MaterialInfoBasic"][];
+    materialParamInfoList?: cloudPlatformTypes["MaterialInfoBasic"][];
     /**
      * 产出物料信息
      */
-    outputMaterialInfo?: definitions["MaterialInfoBasic"][];
+    outputMaterialInfo?: cloudPlatformTypes["MaterialInfoBasic"][];
     /**
      * 产出数量
      */
@@ -71104,8 +70904,8 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
-    produceCapacityManageModelList?: definitions["ProduceCapacityManageModel"][];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
+    produceCapacityManageModelList?: cloudPlatformTypes["ProduceCapacityManageModel"][];
     requestId?: string;
     /**
      * 返回编码
@@ -71124,7 +70924,7 @@ export interface definitions {
     /**
      * 产能信息
      */
-    capacityInfos?: definitions["产能信息参数"][];
+    capacityInfos?: cloudPlatformTypes["产能信息参数"][];
     /**
      * 工厂单元
      */
@@ -71210,7 +71010,7 @@ export interface definitions {
     /**
      * 产能信息
      */
-    capacityInfos: definitions["产能信息参数"][];
+    capacityInfos: cloudPlatformTypes["产能信息参数"][];
     /**
      * eid:企业id
      */
@@ -71256,7 +71056,7 @@ export interface definitions {
     /**
      * 周期内产线利用率集
      */
-    produceLineRatios?: definitions["ProduceLineRatio"][];
+    produceLineRatios?: cloudPlatformTypes["ProduceLineRatio"][];
     /**
      * 周期开始时间
      */
@@ -71309,11 +71109,11 @@ export interface definitions {
     /**
      * 周期内生产线利用率集
      */
-    produceCapacityVerifies?: definitions["ProduceCapacityVerify"][];
+    produceCapacityVerifies?: cloudPlatformTypes["ProduceCapacityVerify"][];
     /**
      * 生产线集
      */
-    produceLineList?: definitions["ProduceLineNamesResp"][];
+    produceLineList?: cloudPlatformTypes["ProduceLineNamesResp"][];
   };
   ProduceCheckTemplate: {
     /**
@@ -71327,7 +71127,7 @@ export interface definitions {
     /**
      * 基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 检验员
      */
@@ -71355,11 +71155,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 工厂单元id
      */
@@ -71580,7 +71380,7 @@ export interface definitions {
     /**
      * 基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 检验员
      */
@@ -71596,11 +71396,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 备注
      */
@@ -71696,7 +71496,7 @@ export interface definitions {
     /**
      * 质检cpk配置对象信息
      */
-    addOrUpdateCheckingCpkModelList?: definitions["AddOrUpdateCheckingCpkModel"][];
+    addOrUpdateCheckingCpkModelList?: cloudPlatformTypes["AddOrUpdateCheckingCpkModel"][];
     /**
      * 请求版本
      */
@@ -73138,8 +72938,8 @@ export interface definitions {
     /**
      * 配方
      */
-    formulas?: definitions["完工检验配方"][];
-    htmlDataJson?: definitions["ProductHtmlDataJson"];
+    formulas?: cloudPlatformTypes["完工检验配方"][];
+    htmlDataJson?: cloudPlatformTypes["ProductHtmlDataJson"];
     /**
      * 是否是第一次提交，前端判断
      */
@@ -73213,11 +73013,11 @@ export interface definitions {
     /**
      * 表格表头列表
      */
-    headers?: definitions["SheetRecordHeader"][];
+    headers?: cloudPlatformTypes["SheetRecordHeader"][];
     /**
      * 表格表头配置
      */
-    taskList?: definitions["FieldConfigText"][];
+    taskList?: cloudPlatformTypes["FieldConfigText"][];
   };
   ProduceEntryDetailResp: {
     /**
@@ -73277,7 +73077,7 @@ export interface definitions {
     /**
      * 子单元列表
      */
-    childFactory?: definitions["ProduceFactoryTree"][];
+    childFactory?: cloudPlatformTypes["ProduceFactoryTree"][];
     /**
      * 工厂单元id
      */
@@ -73383,7 +73183,7 @@ export interface definitions {
     /**
      * 工厂设备信息
      */
-    factoryEquipmentInfos?: definitions["ProduceLineCapacityManageModel_FactoryEquipmentInfo"][];
+    factoryEquipmentInfos?: cloudPlatformTypes["ProduceLineCapacityManageModel_FactoryEquipmentInfo"][];
     /**
      * Id
      */
@@ -73970,7 +73770,7 @@ export interface definitions {
     /**
      * 生产线最早可开始时间
      */
-    produceLinePioneerBeginTime?: definitions["ProduceLineResp"][];
+    produceLinePioneerBeginTime?: cloudPlatformTypes["ProduceLineResp"][];
     /**
      * 生产任务下发时间
      */
@@ -74104,7 +73904,7 @@ export interface definitions {
     /**
      * 订单拆分批次
      */
-    splitOrderReqs?: definitions["SplitOrderReq"][];
+    splitOrderReqs?: cloudPlatformTypes["SplitOrderReq"][];
     /**
      * 用户ID
      */
@@ -74387,7 +74187,7 @@ export interface definitions {
     /**
      * 生产路径列表
      */
-    producePaths?: definitions["ProducePathResp对象"][];
+    producePaths?: cloudPlatformTypes["ProducePathResp对象"][];
   };
   /**
    * 生产路径-物料记录表
@@ -74474,7 +74274,7 @@ export interface definitions {
     /**
      * 产线列表
      */
-    produceLines?: definitions["ProducePathNodeLineRelationReq"][];
+    produceLines?: cloudPlatformTypes["ProducePathNodeLineRelationReq"][];
     /**
      * 节点唯一ID,新增时可不传
      */
@@ -74507,7 +74307,7 @@ export interface definitions {
     /**
      * 产线列表
      */
-    produceLines?: definitions["ProducePathNodeLineRelationResp对象"][];
+    produceLines?: cloudPlatformTypes["ProducePathNodeLineRelationResp对象"][];
     /**
      * 路径ID
      */
@@ -74536,7 +74336,7 @@ export interface definitions {
     /**
      * 节点列表
      */
-    produceNodes?: definitions["ProducePathNodeResp对象"][];
+    produceNodes?: cloudPlatformTypes["ProducePathNodeResp对象"][];
     /**
      * 路径唯一ID
      */
@@ -74582,7 +74382,7 @@ export interface definitions {
     /**
      * 生产路径节点列表
      */
-    produceNodes?: definitions["ProducePathNodeReq"][];
+    produceNodes?: cloudPlatformTypes["ProducePathNodeReq"][];
     /**
      * 新增不传，编辑必传
      */
@@ -74689,11 +74489,11 @@ export interface definitions {
     /**
      * 表头
      */
-    headers?: definitions["ColumnData"][];
+    headers?: cloudPlatformTypes["ColumnData"][];
     /**
      * 数据行
      */
-    rowList?: definitions["Map«string,object»"][];
+    rowList?: cloudPlatformTypes["Map«string,object»"][];
   };
   ProduceSchedulePlanDto对象: {
     /**
@@ -74756,7 +74556,7 @@ export interface definitions {
     /**
      * 【必填】
      */
-    configReqList: definitions["ProduceSheetSchemeConfig新增或者编辑请求对象"][];
+    configReqList: cloudPlatformTypes["ProduceSheetSchemeConfig新增或者编辑请求对象"][];
     /**
      * eid:企业id
      */
@@ -74983,11 +74783,11 @@ export interface definitions {
     /**
      * 报工字段
      */
-    text?: definitions["SheetFields"][];
+    text?: cloudPlatformTypes["SheetFields"][];
     /**
      * 工作单元集合
      */
-    workUnitVoList?: definitions["WorkUnitVo"][];
+    workUnitVoList?: cloudPlatformTypes["WorkUnitVo"][];
   };
   /**
    * 生产报工-工作单元配置字段表
@@ -75000,7 +74800,7 @@ export interface definitions {
     /**
      * 报工字段【必填】
      */
-    text: definitions["SheetFields"][];
+    text: cloudPlatformTypes["SheetFields"][];
     /**
      * 工作单元【必填】
      */
@@ -75168,15 +74968,15 @@ export interface definitions {
     /**
      * 产线列表
      */
-    lineList?: definitions["ProduceLossArea"][];
+    lineList?: cloudPlatformTypes["ProduceLossArea"][];
     /**
      * 工序列表
      */
-    processList?: definitions["ProduceLossArea"][];
+    processList?: cloudPlatformTypes["ProduceLossArea"][];
     /**
      * 工作单元列表
      */
-    workUnitList?: definitions["ProduceLossArea"][];
+    workUnitList?: cloudPlatformTypes["ProduceLossArea"][];
   };
   ProduceTaskLossExportReq: {
     /**
@@ -75199,7 +74999,7 @@ export interface definitions {
      * 录入人
      */
     createUsers?: number[];
-    dynamicFieldList?: definitions["DynamicFieldMetaData"][];
+    dynamicFieldList?: cloudPlatformTypes["DynamicFieldMetaData"][];
     eid?: string;
     endDate?: string;
     /**
@@ -75880,7 +75680,7 @@ export interface definitions {
     /**
      * 表头
      */
-    columnDataList?: definitions["ColumnData"][];
+    columnDataList?: cloudPlatformTypes["ColumnData"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -75889,7 +75689,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -75902,7 +75702,7 @@ export interface definitions {
     /**
      * 数据行
      */
-    rows?: definitions["Map«string,string»"][];
+    rows?: cloudPlatformTypes["Map«string,string»"][];
   };
   /**
    * 4.0生产任务状态记录表
@@ -76017,7 +75817,7 @@ export interface definitions {
     /**
      * 生产线列表
      */
-    lineList?: definitions["ProduceTaskTemplateLine对象"][];
+    lineList?: cloudPlatformTypes["ProduceTaskTemplateLine对象"][];
     /**
      * 最后修改者user_id
      */
@@ -76037,7 +75837,7 @@ export interface definitions {
     /**
      * 报工选择项目
      */
-    sheetList?: definitions["FieldText"][];
+    sheetList?: cloudPlatformTypes["FieldText"][];
     /**
      * 完工类型字段
      */
@@ -76045,7 +75845,7 @@ export interface definitions {
     /**
      * 完工类型选择项目
      */
-    sheetTypeList?: definitions["FieldText"][];
+    sheetTypeList?: cloudPlatformTypes["FieldText"][];
     /**
      * 生产任务已选字段
      */
@@ -76053,7 +75853,7 @@ export interface definitions {
     /**
      * 任务选择项目
      */
-    taskList?: definitions["FieldText"][];
+    taskList?: cloudPlatformTypes["FieldText"][];
     /**
      * 生产任务规则前缀
      */
@@ -76085,7 +75885,7 @@ export interface definitions {
     /**
      * 总任务选择项目
      */
-    totalTaskList?: definitions["FieldText"][];
+    totalTaskList?: cloudPlatformTypes["FieldText"][];
     /**
      * 总任务规则前缀
      */
@@ -76142,7 +75942,7 @@ export interface definitions {
     /**
      * 生产线列表
      */
-    lineList?: definitions["ProduceTaskTemplateLine对象"][];
+    lineList?: cloudPlatformTypes["ProduceTaskTemplateLine对象"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -76356,7 +76156,7 @@ export interface definitions {
      * 指标卡
      */
     indexCard?: string;
-    materialList: definitions["ProduceTaskTotalMaterial对象"][];
+    materialList: cloudPlatformTypes["ProduceTaskTotalMaterial对象"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -76368,7 +76168,7 @@ export interface definitions {
     /**
      * 子任务集合
      */
-    produceTaskList?: definitions["ProduceTaskModel对象"][];
+    produceTaskList?: cloudPlatformTypes["ProduceTaskModel对象"][];
     /**
      * 总任务备注
      */
@@ -77045,11 +76845,11 @@ export interface definitions {
     /**
      * 产品信息明细
      */
-    product?: definitions["Product"];
+    product?: cloudPlatformTypes["Product"];
     /**
      * 产品属性明细
      */
-    property?: definitions["ProductPropertyModel"][];
+    property?: cloudPlatformTypes["ProductPropertyModel"][];
     requestId?: string;
     /**
      * 返回编码
@@ -77082,15 +76882,15 @@ export interface definitions {
     /**
      * 基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 备注
      */
@@ -77111,13 +76911,13 @@ export interface definitions {
     /**
      * 工序列表
      */
-    procedures?: definitions["Procedure"][];
+    procedures?: cloudPlatformTypes["Procedure"][];
   };
   ProductOutputData: {
     /**
      * 产品分级比例数据
      */
-    outputDataList?: definitions["OutputData"][];
+    outputDataList?: cloudPlatformTypes["OutputData"][];
     /**
      * 单位
      */
@@ -77166,7 +76966,7 @@ export interface definitions {
     /**
      * 优先级别
      */
-    sequenceLevels?: definitions["SequenceLevel"][];
+    sequenceLevels?: cloudPlatformTypes["SequenceLevel"][];
     /**
      * 租户ID
      */
@@ -77553,7 +77353,7 @@ export interface definitions {
      * 指标code,指标服务code
      */
     indexCode?: string;
-    itemList?: definitions["Item"][];
+    itemList?: cloudPlatformTypes["Item"][];
     /**
      * 工作台自命名指标关系id
      */
@@ -77631,7 +77431,7 @@ export interface definitions {
     /**
      * 公式参数
      */
-    projectArr?: definitions["ProjectFormulaInfo_VariableParam"][];
+    projectArr?: cloudPlatformTypes["ProjectFormulaInfo_VariableParam"][];
   };
   ProjectFormulaInfo_VariableParam: {
     /**
@@ -77683,7 +77483,7 @@ export interface definitions {
     /**
      * 单位名称列表
      */
-    projectUnits?: definitions["ProjectUnit"][];
+    projectUnits?: cloudPlatformTypes["ProjectUnit"][];
     /**
      * 单位类型ID
      */
@@ -77811,7 +77611,7 @@ export interface definitions {
     /**
      * 产线基准电价配置
      */
-    pulpAreaElePriceList?: definitions["PulpAreaElePriceData"][];
+    pulpAreaElePriceList?: cloudPlatformTypes["PulpAreaElePriceData"][];
     /**
      * 请求版本
      */
@@ -77821,7 +77621,7 @@ export interface definitions {
     /**
      * 实际成本
      */
-    actualEleCost?: definitions["Number"];
+    actualEleCost?: cloudPlatformTypes["Number"];
     /**
      * 日期 格式：yyyy-MM-dd
      */
@@ -77829,7 +77629,7 @@ export interface definitions {
     /**
      * 系统成本
      */
-    forecastEleCost?: definitions["Number"];
+    forecastEleCost?: cloudPlatformTypes["Number"];
   };
   PulpEquModel: {
     /**
@@ -77855,7 +77655,7 @@ export interface definitions {
     /**
      * 实时参数
      */
-    runParameterList?: definitions["RunParameter"][];
+    runParameterList?: cloudPlatformTypes["RunParameter"][];
     /**
      * 异常切换类型 1：无 2：采集参数切换
      */
@@ -77863,7 +77663,7 @@ export interface definitions {
     /**
      * 异常判断条件
      */
-    unusualCondition?: definitions["UnusualCondition"];
+    unusualCondition?: cloudPlatformTypes["UnusualCondition"];
     /**
      * 异常判断名称
      */
@@ -77935,7 +77735,7 @@ export interface definitions {
     /**
      * 制浆设备信息
      */
-    pulpEquModelList?: definitions["PulpEquModel"][];
+    pulpEquModelList?: cloudPlatformTypes["PulpEquModel"][];
     /**
      * 类型 1：制浆调度
      */
@@ -78024,7 +77824,7 @@ export interface definitions {
     /**
      * 子码信息
      */
-    entries?: definitions["QrcodeRecordEntryResp"][];
+    entries?: cloudPlatformTypes["QrcodeRecordEntryResp"][];
     /**
      * 生成方式 0：批量生成；1：单独生成
      */
@@ -78198,7 +77998,7 @@ export interface definitions {
     /**
      * 字段信息
      */
-    items?: definitions["FieldItem"][];
+    items?: cloudPlatformTypes["FieldItem"][];
     /**
      * 企业id
      */
@@ -78233,8 +78033,8 @@ export interface definitions {
     used?: number;
   };
   QrcodeSheetRecordResp: {
-    entries?: definitions["SheetQrcodeRecordWrap"][];
-    qrcodeTemplate?: definitions["QrcodeTemplate"];
+    entries?: cloudPlatformTypes["SheetQrcodeRecordWrap"][];
+    qrcodeTemplate?: cloudPlatformTypes["QrcodeTemplate"];
   };
   /**
    * 条码管理模版存储表
@@ -78501,7 +78301,7 @@ export interface definitions {
     /**
      * 标签列表
      */
-    labels?: definitions["QrcodeTemplateLabelResp"][];
+    labels?: cloudPlatformTypes["QrcodeTemplateLabelResp"][];
     /**
      * 备注
      */
@@ -78513,7 +78313,7 @@ export interface definitions {
     /**
      * 扫码信息列表
      */
-    qrCodeInfos?: definitions["QrcodeTemplateLabelResp"][];
+    qrCodeInfos?: cloudPlatformTypes["QrcodeTemplateLabelResp"][];
     /**
      * 扫码信息备注
      */
@@ -78663,7 +78463,7 @@ export interface definitions {
     /**
      * 标签列表
      */
-    labels?: definitions["QrcodeTemplateLabelResp"][];
+    labels?: cloudPlatformTypes["QrcodeTemplateLabelResp"][];
     /**
      * 备注
      */
@@ -78675,7 +78475,7 @@ export interface definitions {
     /**
      * 扫码信息列表
      */
-    qrCodeInfos?: definitions["QrcodeTemplateLabelResp"][];
+    qrCodeInfos?: cloudPlatformTypes["QrcodeTemplateLabelResp"][];
     /**
      * 扫码信息备注
      */
@@ -78735,7 +78535,7 @@ export interface definitions {
     /**
      * 附加参数，用于打通质检分析与质检报告
      */
-    analyzeAttach?: definitions["AnalyzeAttach"];
+    analyzeAttach?: cloudPlatformTypes["AnalyzeAttach"];
     avgValue?: number;
     batchNumber?: string;
     checkCountList?: string;
@@ -78917,7 +78717,7 @@ export interface definitions {
     /**
      * 不合格次数列表
      */
-    unqualifiedNumList?: definitions["UnqualifiedNum"][];
+    unqualifiedNumList?: cloudPlatformTypes["UnqualifiedNum"][];
   };
   /**
    * 产品质检不合格次数请求对象
@@ -78982,7 +78782,7 @@ export interface definitions {
   };
   QuantityJudgementStandard: {
     connectOperatorType?: string;
-    items?: definitions["Item"][];
+    items?: cloudPlatformTypes["Item"][];
   };
   QueryBmDataResp: {
     /**
@@ -79192,11 +78992,11 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     /**
      * 完工列表
      */
-    productTaskSheets?: definitions["ProductTaskClose"][];
+    productTaskSheets?: cloudPlatformTypes["ProductTaskClose"][];
     requestId?: string;
     /**
      * 返回编码
@@ -79271,7 +79071,7 @@ export interface definitions {
     /**
      * 图表
      */
-    charts?: definitions["chart"][];
+    charts?: cloudPlatformTypes["chart"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -79339,7 +79139,7 @@ export interface definitions {
     /**
      * 点检内容
      */
-    checkContents?: definitions["点检任务内容详情"][];
+    checkContents?: cloudPlatformTypes["点检任务内容详情"][];
     /**
      * 点检任务id
      */
@@ -79351,12 +79151,12 @@ export interface definitions {
     /**
      * 现场点检照片
      */
-    sceneImages?: definitions["文件详情"][];
+    sceneImages?: cloudPlatformTypes["文件详情"][];
   };
   QuoteStandardTemplateModel: {
     standardTemplateName?: string;
     templateId?: string;
-    templateVersionList?: definitions["TemplateVersion"][];
+    templateVersionList?: cloudPlatformTypes["TemplateVersion"][];
   };
   RangeEfccInfo: {
     /**
@@ -79377,9 +79177,9 @@ export interface definitions {
     tec?: number;
   };
   Rates: {
-    jnlRate?: definitions["Number"];
-    loadRate?: definitions["Number"];
-    pf?: definitions["Number"];
+    jnlRate?: cloudPlatformTypes["Number"];
+    loadRate?: cloudPlatformTypes["Number"];
+    pf?: cloudPlatformTypes["Number"];
   };
   RatioNum: {
     /**
@@ -79587,7 +79387,7 @@ export interface definitions {
     /**
      * 抄表目录列表
      */
-    readings?: definitions["Reading"][];
+    readings?: cloudPlatformTypes["Reading"][];
   };
   ReadingData: {
     /**
@@ -79630,7 +79430,7 @@ export interface definitions {
     /**
      * 抄表计划配置
      */
-    config?: definitions["ReadingPlanConfig"];
+    config?: cloudPlatformTypes["ReadingPlanConfig"];
     /**
      * 说明
      */
@@ -79752,7 +79552,7 @@ export interface definitions {
     /**
      * 细项
      */
-    children?: definitions["ReasonGraph"][];
+    children?: cloudPlatformTypes["ReasonGraph"][];
     /**
      * 参数名称
      */
@@ -80022,7 +79822,7 @@ export interface definitions {
     /**
      * 数据集合
      */
-    mapList: definitions["AreaShiftCourseItem"][];
+    mapList: cloudPlatformTypes["AreaShiftCourseItem"][];
   };
   RegionTmpDockReq: {
     /**
@@ -80186,7 +79986,7 @@ export interface definitions {
     /**
      * 关联订单对象
      */
-    relevanceOrderList?: definitions["RelevanceOrder"][];
+    relevanceOrderList?: cloudPlatformTypes["RelevanceOrder"][];
     requestId?: string;
     /**
      * 返回编码
@@ -80464,7 +80264,7 @@ export interface definitions {
     /**
      * 引用的报表列表
      */
-    reportList?: definitions["ReportInfo"][];
+    reportList?: cloudPlatformTypes["ReportInfo"][];
     /**
      * 时间选项，0：年月日-年月日，1：年月日，2：年月-年月
      */
@@ -80567,7 +80367,7 @@ export interface definitions {
     /**
      * 可操作列表
      */
-    operates?: definitions["OperateItem"][];
+    operates?: cloudPlatformTypes["OperateItem"][];
   };
   /**
    * 新-报表能源配置
@@ -80604,7 +80404,7 @@ export interface definitions {
     /**
      * 表格行列表
      */
-    reportColumnList?: definitions["能源报表配置（新）行对象"][];
+    reportColumnList?: cloudPlatformTypes["能源报表配置（新）行对象"][];
     /**
      * 报表id 新增不传，编辑必传
      */
@@ -80637,7 +80437,7 @@ export interface definitions {
     /**
      * 报表数据集,格式：[{key1:xxx,key2:xxx}]
      */
-    data: definitions["Map«string,string»"][];
+    data: cloudPlatformTypes["Map«string,string»"][];
     /**
      * eid:企业id
      */
@@ -80649,7 +80449,7 @@ export interface definitions {
     /**
      * 动态头部信息集
      */
-    header: definitions["ReportNewEnergyHeaderResp"][];
+    header: cloudPlatformTypes["ReportNewEnergyHeaderResp"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -80702,7 +80502,7 @@ export interface definitions {
     /**
      * 单元格
      */
-    cellTemplates: definitions["CellTemplate"][][];
+    cellTemplates: cloudPlatformTypes["CellTemplate"][][];
     /**
      * 报表名称
      */
@@ -80739,7 +80539,7 @@ export interface definitions {
     /**
      * 用电时段模板信息
      */
-    templateModel?: definitions["PowerConsumeTemplateModel对象"];
+    templateModel?: cloudPlatformTypes["PowerConsumeTemplateModel对象"];
     /**
      * 用电时段模板名称
      */
@@ -80752,7 +80552,7 @@ export interface definitions {
     /**
      * 信息列表
      */
-    infoList?: definitions["ReqContentData_ContentInfo对象"][];
+    infoList?: cloudPlatformTypes["ReqContentData_ContentInfo对象"][];
   };
   RequireProduct: {
     /**
@@ -80786,13 +80586,13 @@ export interface definitions {
   };
   Resource: {
     description?: string;
-    file?: definitions["File"];
+    file?: cloudPlatformTypes["File"];
     filename?: string;
-    inputStream?: definitions["InputStream"];
+    inputStream?: cloudPlatformTypes["InputStream"];
     open?: boolean;
     readable?: boolean;
-    uri?: definitions["URI"];
-    url?: definitions["URL"];
+    uri?: cloudPlatformTypes["URI"];
+    url?: cloudPlatformTypes["URL"];
   };
   ResourcesModel: {
     /**
@@ -80802,7 +80602,7 @@ export interface definitions {
     /**
      * 子级资源集合
      */
-    childResources?: definitions["ResourcesModel"][];
+    childResources?: cloudPlatformTypes["ResourcesModel"][];
     /**
      * 是否可用，默认可用
      */
@@ -80897,7 +80697,7 @@ export interface definitions {
     sort?: number;
   };
   "RestResponse«ContentRespDto»": {
-    data?: definitions["ContentRespDto"];
+    data?: cloudPlatformTypes["ContentRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -80907,7 +80707,7 @@ export interface definitions {
     retMsg?: string;
   };
   "RestResponse«ContentUserRespDto»": {
-    data?: definitions["ContentUserRespDto"];
+    data?: cloudPlatformTypes["ContentUserRespDto"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -80917,7 +80717,7 @@ export interface definitions {
     retMsg?: string;
   };
   "RestResponse«List«ContentListRespDto»»": {
-    data?: definitions["ContentListRespDto"][];
+    data?: cloudPlatformTypes["ContentListRespDto"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -80927,7 +80727,7 @@ export interface definitions {
     retMsg?: string;
   };
   "RestResponse«List«帮助手册列表响应参数»»": {
-    data?: definitions["帮助手册列表响应参数"][];
+    data?: cloudPlatformTypes["帮助手册列表响应参数"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -80937,7 +80737,7 @@ export interface definitions {
     retMsg?: string;
   };
   "RestResponse«Page«ContentListRespDto»»": {
-    data?: definitions["Page«ContentListRespDto»"];
+    data?: cloudPlatformTypes["Page«ContentListRespDto»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -80947,7 +80747,7 @@ export interface definitions {
     retMsg?: string;
   };
   "RestResponse«Page«Message»»": {
-    data?: definitions["Page«Message»"];
+    data?: cloudPlatformTypes["Page«Message»"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -80986,7 +80786,7 @@ export interface definitions {
     retMsg?: string;
   };
   "RestResponse«帮助手册详情响应参数»": {
-    data?: definitions["帮助手册详情响应参数"];
+    data?: cloudPlatformTypes["帮助手册详情响应参数"];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -81151,7 +80951,7 @@ export interface definitions {
     /**
      * 退料记录列表
      */
-    materials?: definitions["ReturnMaterialInfo"][];
+    materials?: cloudPlatformTypes["ReturnMaterialInfo"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -81355,7 +81155,7 @@ export interface definitions {
     /**
      * 数据集分类名称
      */
-    rptDataSetInfos?: definitions["RptDataSetInfo"][];
+    rptDataSetInfos?: cloudPlatformTypes["RptDataSetInfo"][];
   };
   RptDataSetInfo: {
     /**
@@ -81365,11 +81165,11 @@ export interface definitions {
     /**
      * 数据集列
      */
-    columns?: definitions["KeyValueInfo"][];
+    columns?: cloudPlatformTypes["KeyValueInfo"][];
     /**
      * 数据集条件
      */
-    conditions?: definitions["KeyValueInfo"][];
+    conditions?: cloudPlatformTypes["KeyValueInfo"][];
     /**
      * 数据集定义
      */
@@ -81391,7 +81191,7 @@ export interface definitions {
     /**
      * 指标/参数列表
      */
-    indexList?: definitions["Index"][];
+    indexList?: cloudPlatformTypes["Index"][];
     /**
      * 告警分类. 如: COMMUNICATION, QUOTA, PARAMETER
      */
@@ -81477,7 +81277,7 @@ export interface definitions {
      * 步骤id
      */
     operatingProcedureId?: number;
-    ruleList?: definitions["RuleDetails"][];
+    ruleList?: cloudPlatformTypes["RuleDetails"][];
     /**
      * 租户ID
      */
@@ -81495,7 +81295,7 @@ export interface definitions {
      * 步骤id
      */
     operatingProcedureId?: number;
-    ruleList?: definitions["RuleDetails"][];
+    ruleList?: cloudPlatformTypes["RuleDetails"][];
   };
   RunParameter: {
     /**
@@ -81564,7 +81364,7 @@ export interface definitions {
     /**
      * 基准单耗
      */
-    baseLine?: definitions["SaveEnergyBaseline"][];
+    baseLine?: cloudPlatformTypes["SaveEnergyBaseline"][];
     /**
      * eid:企业id
      */
@@ -81597,7 +81397,7 @@ export interface definitions {
     /**
      * 自定义菜单保存
      */
-    customizedMenus?: definitions["CustomizedMenu"][];
+    customizedMenus?: cloudPlatformTypes["CustomizedMenu"][];
     /**
      * eid:企业id
      */
@@ -81646,7 +81446,7 @@ export interface definitions {
     /**
      * 分摊系数公式数据
      */
-    coefficientFormula: definitions["CoefficientFormulaInfo"];
+    coefficientFormula: cloudPlatformTypes["CoefficientFormulaInfo"];
     /**
      * 分摊系数值
      */
@@ -81671,7 +81471,7 @@ export interface definitions {
     /**
      * 分摊数据列表
      */
-    projectList: definitions["DivideRecordItemModelResp"][];
+    projectList: cloudPlatformTypes["DivideRecordItemModelResp"][];
     /**
      * 记录id
      */
@@ -81697,7 +81497,7 @@ export interface definitions {
     /**
      * 分摊系数公式数据
      */
-    coefficientFormula: definitions["CoefficientFormulaInfo"];
+    coefficientFormula: cloudPlatformTypes["CoefficientFormulaInfo"];
     /**
      * 分摊系数值
      */
@@ -81705,7 +81505,7 @@ export interface definitions {
     /**
      * 分摊数据列表
      */
-    projectList: definitions["DivideRecordItemModelResp"][];
+    projectList: cloudPlatformTypes["DivideRecordItemModelResp"][];
     /**
      * 记录id
      */
@@ -81782,7 +81582,7 @@ export interface definitions {
     /**
      * 表计列表
      */
-    meters: definitions["ShareMeter"][];
+    meters: cloudPlatformTypes["ShareMeter"][];
     /**
      * 方案名称
      */
@@ -81798,7 +81598,7 @@ export interface definitions {
     /**
      * 表计列表
      */
-    shareAreas: definitions["ShareArea"][];
+    shareAreas: cloudPlatformTypes["ShareArea"][];
     /**
      * 用户id
      */
@@ -81840,7 +81640,7 @@ export interface definitions {
     /**
      * 录入指标列表
      */
-    indexes?: definitions["EnteryDataDetailIndex"][];
+    indexes?: cloudPlatformTypes["EnteryDataDetailIndex"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -81892,7 +81692,7 @@ export interface definitions {
      * 机构不能为空
      */
     orgId?: number;
-    treeApplyInfoList?: definitions["ReasonTreeApplyInfo"][];
+    treeApplyInfoList?: cloudPlatformTypes["ReasonTreeApplyInfo"][];
     /**
      * 用户ID
      */
@@ -81995,15 +81795,15 @@ export interface definitions {
     /**
      * 基本信息项列表
      */
-    basicMsgProjectList?: definitions["TemplateStandardItem"][];
+    basicMsgProjectList?: cloudPlatformTypes["TemplateStandardItem"][];
     /**
      * 定性项列表
      */
-    definePropertyProjectList?: definitions["TemplateStandardItem"][];
+    definePropertyProjectList?: cloudPlatformTypes["TemplateStandardItem"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectList?: definitions["TemplateStandardItem"][];
+    defineQuantityProjectList?: cloudPlatformTypes["TemplateStandardItem"][];
     /**
      * eid:企业id
      */
@@ -82064,7 +81864,7 @@ export interface definitions {
     /**
      * 保存物料投放的相关信息
      */
-    saveMaterialInfoList?: definitions["SaveMaterialInfo"][];
+    saveMaterialInfoList?: cloudPlatformTypes["SaveMaterialInfo"][];
     /**
      * 对应班次的ID
      */
@@ -82111,7 +81911,7 @@ export interface definitions {
     /**
      * 添加或者更新的班次记录
      */
-    itemList?: definitions["SaveOrUpdateScheduleItem"][];
+    itemList?: cloudPlatformTypes["SaveOrUpdateScheduleItem"][];
   };
   SaveOrUpdateFormula: {
     /**
@@ -82125,7 +81925,7 @@ export interface definitions {
     /**
      * 子级配方项目
      */
-    childrenFormulaList?: definitions["ChildrenFormula"][];
+    childrenFormulaList?: cloudPlatformTypes["ChildrenFormula"][];
     /**
      * 物料id
      */
@@ -82181,7 +81981,7 @@ export interface definitions {
     /**
      * 物料类别信息
      */
-    materialTypeItemList?: definitions["MaterialTypeItem"][];
+    materialTypeItemList?: cloudPlatformTypes["MaterialTypeItem"][];
   };
   SaveOrUpdateScheduleItem: {
     /**
@@ -82251,15 +82051,15 @@ export interface definitions {
     /**
      * 过程基本模板数据
      */
-    basicProcessStandardTemplateData: definitions["BasicProcessData"][];
+    basicProcessStandardTemplateData: cloudPlatformTypes["BasicProcessData"][];
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessProjectData"][];
     /**
      * eid:企业id
      */
@@ -82296,7 +82096,7 @@ export interface definitions {
     /**
      * 【来料】模板项目的顺序
      */
-    comeProjectSortList?: definitions["ComeProjectSort"][];
+    comeProjectSortList?: cloudPlatformTypes["ComeProjectSort"][];
     /**
      * eid:企业id
      */
@@ -82344,7 +82144,7 @@ export interface definitions {
     /**
      * 【过程】基本信息项目的顺序
      */
-    baseProjectSortList?: definitions["BaseProjectSort"][];
+    baseProjectSortList?: cloudPlatformTypes["BaseProjectSort"][];
     /**
      * eid:企业id
      */
@@ -82360,7 +82160,7 @@ export interface definitions {
     /**
      * 【过程】工序项目的顺序
      */
-    processSortList?: definitions["ProcessSort"][];
+    processSortList?: cloudPlatformTypes["ProcessSort"][];
     /**
      * 用户ID
      */
@@ -82412,7 +82212,7 @@ export interface definitions {
     /**
      * 记录列表
      */
-    reasonRecords: definitions["EqpShutdownReasonRecord"][];
+    reasonRecords: cloudPlatformTypes["EqpShutdownReasonRecord"][];
     /**
      * 用户ID
      */
@@ -82460,7 +82260,7 @@ export interface definitions {
     /**
      * 模板物料列表
      */
-    templateMaterialData?: definitions["TemplateMaterialData"][];
+    templateMaterialData?: cloudPlatformTypes["TemplateMaterialData"][];
     /**
      * 模板标准ID
      */
@@ -82594,7 +82394,7 @@ export interface definitions {
     /**
      * 日期班次
      */
-    schedule?: definitions["排班明细-日程详细"][];
+    schedule?: cloudPlatformTypes["排班明细-日程详细"][];
   };
   /**
    * 下载错误文件请求参数
@@ -82656,7 +82456,7 @@ export interface definitions {
     /**
      * 班组循环顺序
      */
-    courseSequence: definitions["班组排序"][];
+    courseSequence: cloudPlatformTypes["班组排序"][];
     /**
      * 每班组工作天数
      */
@@ -82688,7 +82488,7 @@ export interface definitions {
     /**
      * 排班配置
      */
-    shiftCourseRel: definitions["排班配置"][];
+    shiftCourseRel: cloudPlatformTypes["排班配置"][];
     /**
      * 班次制度id
      */
@@ -82922,7 +82722,7 @@ export interface definitions {
     /**
      * 物料列表数据集合
      */
-    materialInfoList?: definitions["MaterialInfo"][];
+    materialInfoList?: cloudPlatformTypes["MaterialInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -83244,7 +83044,7 @@ export interface definitions {
     /**
      * 用户信息列表
      */
-    schemes?: definitions["Scheme"][];
+    schemes?: cloudPlatformTypes["Scheme"][];
   };
   /**
    * 选择列表树
@@ -83261,7 +83061,7 @@ export interface definitions {
     /**
      * 仓位
      */
-    childList?: definitions["SelectTree选择对象"][];
+    childList?: cloudPlatformTypes["SelectTree选择对象"][];
     /**
      * 创建者
      */
@@ -83486,7 +83286,7 @@ export interface definitions {
     /**
      * 工序项目列表
      */
-    sequenceProcesses?: definitions["SequenceProcess"][];
+    sequenceProcesses?: cloudPlatformTypes["SequenceProcess"][];
   };
   SetAllMessageHasReadReq: {
     /**
@@ -83635,7 +83435,7 @@ export interface definitions {
     widgetType?: string;
   };
   SheetAdditionScheme: {
-    itemList?: definitions["SheetAdditionSchemeItem"][];
+    itemList?: cloudPlatformTypes["SheetAdditionSchemeItem"][];
     /**
      * 方案ID
      */
@@ -83673,8 +83473,8 @@ export interface definitions {
       | "RADIO_BUTTON";
   };
   SheetEntryDetailResp: {
-    dataList?: definitions["ProduceEntryDetailResp"][];
-    headList?: definitions["TableHeader"][];
+    dataList?: cloudPlatformTypes["ProduceEntryDetailResp"][];
+    headList?: cloudPlatformTypes["TableHeader"][];
   };
   SheetFields: {
     /**
@@ -83722,7 +83522,7 @@ export interface definitions {
     /**
      * 报工表单字段列表
      */
-    sheetFields?: definitions["SheetFields"][];
+    sheetFields?: cloudPlatformTypes["SheetFields"][];
     /**
      * 模板id
      */
@@ -83801,7 +83601,7 @@ export interface definitions {
      */
     sheetSchemeId?: string;
   };
-  SheetQrcodeRecord: definitions["QrcodePageRecord"] & {
+  SheetQrcodeRecord: cloudPlatformTypes["QrcodePageRecord"] & {
     /**
      * 完工批次号
      */
@@ -84072,7 +83872,7 @@ export interface definitions {
     /**
      * 条码模板字段
      */
-    items?: definitions["FieldItem"][];
+    items?: cloudPlatformTypes["FieldItem"][];
     /**
      * 模板标签名称
      */
@@ -84136,11 +83936,11 @@ export interface definitions {
     /**
      * 表格表头列表
      */
-    headers?: definitions["SheetRecordHeader"][];
+    headers?: cloudPlatformTypes["SheetRecordHeader"][];
     /**
      * 报工记录列表, sheetId为记录ID
      */
-    records?: definitions["Map«string,object»"][];
+    records?: cloudPlatformTypes["Map«string,object»"][];
   };
   SheetSchemeInfo: {
     /**
@@ -84206,18 +84006,18 @@ export interface definitions {
     /**
      * 报工字段
      */
-    sheetList?: definitions["FieldText"][];
+    sheetList?: cloudPlatformTypes["FieldText"][];
   };
   /**
    * 完工入库筛选条件
    */
   SheetToStoreSelectResp: {
-    course?: definitions["Map«string,string»"][];
-    factoryArea?: definitions["Map«string,string»"][];
-    mainCourse?: definitions["Map«string,string»"][];
-    mainFactoryArea?: definitions["Map«string,string»"][];
-    mainShift?: definitions["Map«string,string»"][];
-    shift?: definitions["Map«string,string»"][];
+    course?: cloudPlatformTypes["Map«string,string»"][];
+    factoryArea?: cloudPlatformTypes["Map«string,string»"][];
+    mainCourse?: cloudPlatformTypes["Map«string,string»"][];
+    mainFactoryArea?: cloudPlatformTypes["Map«string,string»"][];
+    mainShift?: cloudPlatformTypes["Map«string,string»"][];
+    shift?: cloudPlatformTypes["Map«string,string»"][];
   };
   Shift: {
     /**
@@ -84355,7 +84155,7 @@ export interface definitions {
     /**
      * 班次列表
      */
-    shifts?: definitions["Shift"][];
+    shifts?: cloudPlatformTypes["Shift"][];
     /**
      * 班次类型名称
      */
@@ -84406,7 +84206,7 @@ export interface definitions {
     /**
      * 班次信息列表
      */
-    details?: definitions["ShiftDetail"][];
+    details?: cloudPlatformTypes["ShiftDetail"][];
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
@@ -84429,7 +84229,7 @@ export interface definitions {
     /**
      * 产品产量/单耗/能耗
      */
-    productDataList?: definitions["ProductData"][];
+    productDataList?: cloudPlatformTypes["ProductData"][];
   };
   ShiftSchedule: {
     /**
@@ -84531,13 +84331,13 @@ export interface definitions {
      * 返回信息
      */
     retMsg?: string;
-    shutdownReasonParent?: definitions["ShutdownReasonParent"][];
+    shutdownReasonParent?: cloudPlatformTypes["ShutdownReasonParent"][];
   };
   ShutdownReasonParent: {
     /**
      * 区域列表
      */
-    areaChildren?: definitions["AreaChildren"][];
+    areaChildren?: cloudPlatformTypes["AreaChildren"][];
     /**
      * 停机原因ID
      */
@@ -84568,7 +84368,7 @@ export interface definitions {
     /**
      * 统计停机原因数据
      */
-    statShutdownReasons?: definitions["StatShutdownReason"][];
+    statShutdownReasons?: cloudPlatformTypes["StatShutdownReason"][];
   };
   ShutdownStatistics: {
     /**
@@ -84582,7 +84382,7 @@ export interface definitions {
     /**
      * 停机原因饼图数据
      */
-    shutdownReasons?: definitions["ShutdownReason"][];
+    shutdownReasons?: cloudPlatformTypes["ShutdownReason"][];
     /**
      * 停机总时长
      */
@@ -84600,7 +84400,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -84613,11 +84413,11 @@ export interface definitions {
     /**
      * 设备明细
      */
-    shutdownDetails?: definitions["ShutdownDetail"][];
+    shutdownDetails?: cloudPlatformTypes["ShutdownDetail"][];
     /**
      * 停机统计
      */
-    shutdownStatistics?: definitions["ShutdownStatistics"][];
+    shutdownStatistics?: cloudPlatformTypes["ShutdownStatistics"][];
   };
   SimpleCellValue: { content?: string };
   SimpleReportTemplate: {
@@ -84875,7 +84675,7 @@ export interface definitions {
     /**
      * 排序参数
      */
-    sortParam?: definitions["排序参数"];
+    sortParam?: cloudPlatformTypes["排序参数"];
     /**
      * 标准类型1：工序操作规范、2：产品生产规范、3：设备维护规范、4：其他
      */
@@ -85051,7 +84851,7 @@ export interface definitions {
     /**
      * 生产执行数据
      */
-    sopExecutionList?: definitions["SopExecutionRespDto"][];
+    sopExecutionList?: cloudPlatformTypes["SopExecutionRespDto"][];
   };
   /**
    * SOP执行记录请求入参
@@ -85174,7 +84974,7 @@ export interface definitions {
     /**
      * 是否达标， true:达标， false: 未达标
      */
-    paramModels?: definitions["ParamModel"][];
+    paramModels?: cloudPlatformTypes["ParamModel"][];
     /**
      * 作业标准id
      */
@@ -85310,7 +85110,7 @@ export interface definitions {
     /**
      * 产线名称
      */
-    loadInfos?: definitions["SourceLoadDiagramDto_LoadInfoDto"][];
+    loadInfos?: cloudPlatformTypes["SourceLoadDiagramDto_LoadInfoDto"][];
   };
   /**
    * 负荷图加载
@@ -85549,7 +85349,7 @@ export interface definitions {
     /**
      * 子级相关信息
      */
-    children?: definitions["SparePart"][];
+    children?: cloudPlatformTypes["SparePart"][];
     /**
      * 物料类别id  或者物料id
      */
@@ -85592,7 +85392,7 @@ export interface definitions {
     /**
      * 消耗金额
      */
-    consumeMoney?: definitions["Number"];
+    consumeMoney?: cloudPlatformTypes["Number"];
     /**
      * 消耗数量
      */
@@ -85626,7 +85426,7 @@ export interface definitions {
     /**
      * 备件分析列表
      */
-    sparePartAnalyzeList?: definitions["SparePartAnalyze"][];
+    sparePartAnalyzeList?: cloudPlatformTypes["SparePartAnalyze"][];
   };
   SparePutStorage: {
     /**
@@ -85731,7 +85531,7 @@ export interface definitions {
      * 返回信息
      */
     retMsg?: string;
-    specialEquipments?: definitions["特种设备列表"][];
+    specialEquipments?: cloudPlatformTypes["特种设备列表"][];
   };
   SplitOrderReq: {
     /**
@@ -85825,7 +85625,7 @@ export interface definitions {
     /**
      * 标准明细列表
      */
-    standardItems?: definitions["StandardItem"][];
+    standardItems?: cloudPlatformTypes["StandardItem"][];
   };
   StandardItem: {
     /**
@@ -86178,7 +85978,7 @@ export interface definitions {
     /**
      * 停机原因柱状图数据
      */
-    equipmentShutdownReasons?: definitions["EquipmentShutdownReason"][];
+    equipmentShutdownReasons?: cloudPlatformTypes["EquipmentShutdownReason"][];
     /**
      * 停机原因名称
      */
@@ -86192,7 +85992,7 @@ export interface definitions {
     /**
      * 原料日期数据
      */
-    rawMaterials?: definitions["RawMaterial"][];
+    rawMaterials?: cloudPlatformTypes["RawMaterial"][];
   };
   /**
    * 原料消耗柱状图接口响应对象
@@ -86219,7 +86019,7 @@ export interface definitions {
     /**
      * 原料消耗日期统计数据
      */
-    statisticsDates?: definitions["StatisticsDate"][];
+    statisticsDates?: cloudPlatformTypes["StatisticsDate"][];
   };
   /**
    * 成本项目
@@ -86884,7 +86684,7 @@ export interface definitions {
     /**
      * 初始化物料列表
      */
-    data?: definitions["AddStockInit对象,仓库初始化"][];
+    data?: cloudPlatformTypes["AddStockInit对象,仓库初始化"][];
     /**
      * eid:企业id
      */
@@ -87000,7 +86800,7 @@ export interface definitions {
     /**
      * 动态字段
      */
-    dynamicFieldList?: definitions["DynamicField"][];
+    dynamicFieldList?: cloudPlatformTypes["DynamicField"][];
     /**
      * 特征值
      */
@@ -87069,7 +86869,7 @@ export interface definitions {
     /**
      * 公式参数列表:屏蔽不传输出去
      */
-    formulaList?: definitions["StoreFormula对象"][];
+    formulaList?: cloudPlatformTypes["StoreFormula对象"][];
     /**
      * 公式计算当前库存值
      */
@@ -87121,7 +86921,7 @@ export interface definitions {
     /**
      * 统计信息,给个默认值防止遍历的时候空针
      */
-    storeStockList?: definitions["StoreStock对象"][];
+    storeStockList?: cloudPlatformTypes["StoreStock对象"][];
     /**
      * 可视化 占比 取整数
      */
@@ -87261,7 +87061,7 @@ export interface definitions {
     /**
      * 自定义字段
      */
-    customField?: definitions["DynamicObject"][];
+    customField?: cloudPlatformTypes["DynamicObject"][];
     /**
      * 规格型号
      */
@@ -87356,7 +87156,7 @@ export interface definitions {
     /**
      * 动态字段
      */
-    dynamicFieldList?: definitions["DynamicField"][];
+    dynamicFieldList?: cloudPlatformTypes["DynamicField"][];
     /**
      * 物料等级名称
      */
@@ -87516,7 +87316,7 @@ export interface definitions {
     /**
      * 仓位列表
      */
-    locations?: definitions["Location"][];
+    locations?: cloudPlatformTypes["Location"][];
     /**
      * 仓库名称
      */
@@ -87529,19 +87329,19 @@ export interface definitions {
     /**
      * 出入库公式信息列表
      */
-    eoFormulaList?: definitions["StoreFormula对象"][];
+    eoFormulaList?: cloudPlatformTypes["StoreFormula对象"][];
     /**
      * 库存公式信息列表
      */
-    stockFormulaList?: definitions["StoreFormula对象"][];
+    stockFormulaList?: cloudPlatformTypes["StoreFormula对象"][];
     /**
      * 配置信息
      */
-    storeConfig?: definitions["StoreConfig对象"];
+    storeConfig?: cloudPlatformTypes["StoreConfig对象"];
     /**
      * 库位信息
      */
-    storeInfo?: definitions["Store对象"];
+    storeInfo?: cloudPlatformTypes["Store对象"];
   };
   /**
    * 库位属性
@@ -87668,7 +87468,7 @@ export interface definitions {
     /**
      * 审核信息
      */
-    approves?: definitions["审核流程的节点信息"][];
+    approves?: cloudPlatformTypes["审核流程的节点信息"][];
     /**
      * 单据模板ID
      */
@@ -87676,15 +87476,15 @@ export interface definitions {
     /**
      * 单据头字段
      */
-    headerField?: definitions["表格响应数据"];
+    headerField?: cloudPlatformTypes["表格响应数据"];
     /**
      * 总览表格
      */
-    pandects?: definitions["表格响应数据"];
+    pandects?: cloudPlatformTypes["表格响应数据"];
     /**
      * 记录表格
      */
-    records?: definitions["表格响应数据"];
+    records?: cloudPlatformTypes["表格响应数据"];
   };
   StoreBillEntryList: {
     /**
@@ -87719,7 +87519,7 @@ export interface definitions {
      * 单据id
      */
     storeBillId?: number;
-    storeEntryDetailReqList?: definitions["EntryModel对象"][];
+    storeEntryDetailReqList?: cloudPlatformTypes["EntryModel对象"][];
     /**
      * 用户ID
      */
@@ -87841,7 +87641,7 @@ export interface definitions {
      * 单据id
      */
     storeBillId?: number;
-    storeTransferDetailReqList?: definitions["StockTransfer新增请求对象"][];
+    storeTransferDetailReqList?: cloudPlatformTypes["StockTransfer新增请求对象"][];
     /**
      * 租户ID
      */
@@ -87871,7 +87671,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson?: definitions["StoreHtmlDataJson"];
+    htmlDataJson?: cloudPlatformTypes["StoreHtmlDataJson"];
     /**
      * 是否通知班组  0：不通知，1：通知
      */
@@ -87908,15 +87708,15 @@ export interface definitions {
     /**
      * 出入库公式信息列表
      */
-    eoFormulaList?: definitions["StoreFormula对象"][];
+    eoFormulaList?: cloudPlatformTypes["StoreFormula对象"][];
     /**
      * 库存公式信息列表
      */
-    stockFormulaList?: definitions["StoreFormula对象"][];
+    stockFormulaList?: cloudPlatformTypes["StoreFormula对象"][];
     /**
      * 配置信息
      */
-    storeConfig: definitions["StoreConfig对象"];
+    storeConfig: cloudPlatformTypes["StoreConfig对象"];
   };
   StoreConfig对象: {
     /**
@@ -88034,7 +87834,7 @@ export interface definitions {
     /**
      * 仓库
      */
-    childList?: definitions["StoreExtendTree对象"][];
+    childList?: cloudPlatformTypes["StoreExtendTree对象"][];
     /**
      * 创建者
      */
@@ -88262,15 +88062,15 @@ export interface definitions {
     /**
      * 过程基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 备注
      */
@@ -88930,7 +88730,7 @@ export interface definitions {
     /**
      * 明细列表
      */
-    storeOutDetails?: definitions["StoreOutDetailRespDto"][];
+    storeOutDetails?: cloudPlatformTypes["StoreOutDetailRespDto"][];
     /**
      * 租户ID
      */
@@ -88964,7 +88764,7 @@ export interface definitions {
     /**
      * 自定义字段
      */
-    customField?: definitions["DynamicObject"][];
+    customField?: cloudPlatformTypes["DynamicObject"][];
     /**
      * 客户id.来源自云平台的供应商id
      */
@@ -89243,7 +89043,7 @@ export interface definitions {
     /**
      * 仓库库位
      */
-    storeStocks?: definitions["StoreStock对象"][];
+    storeStocks?: cloudPlatformTypes["StoreStock对象"][];
   };
   /**
    * 仓库库存
@@ -89260,7 +89060,7 @@ export interface definitions {
     /**
      * 动态字段
      */
-    dynamicFieldList?: definitions["DynamicField"][];
+    dynamicFieldList?: cloudPlatformTypes["DynamicField"][];
     /**
      * 特征值
      */
@@ -89345,7 +89145,7 @@ export interface definitions {
     /**
      * 统计信息
      */
-    stockTrendStatList?: definitions["StockTrendStat"][];
+    stockTrendStatList?: cloudPlatformTypes["StockTrendStat"][];
     /**
      * 仓库编码
      */
@@ -89601,11 +89401,11 @@ export interface definitions {
     /**
      * 特征值
      */
-    eigenvalueModelList?: definitions["EigenvalueModel"][];
+    eigenvalueModelList?: cloudPlatformTypes["EigenvalueModel"][];
     /**
      * 出入库公式信息列表
      */
-    eoFormulaList?: definitions["StoreFormula更新请求对象"][];
+    eoFormulaList?: cloudPlatformTypes["StoreFormula更新请求对象"][];
     /**
      * 仓库位置
      */
@@ -89637,7 +89437,7 @@ export interface definitions {
     /**
      * 库存公式信息列表
      */
-    stockFormulaList?: definitions["StoreFormula更新请求对象"][];
+    stockFormulaList?: cloudPlatformTypes["StoreFormula更新请求对象"][];
     /**
      * 仓库编码
      */
@@ -89645,7 +89445,7 @@ export interface definitions {
     /**
      * 配置信息
      */
-    storeConfig: definitions["StoreConfig新增请求对象"];
+    storeConfig: cloudPlatformTypes["StoreConfig新增请求对象"];
     /**
      * 库位id
      */
@@ -90037,7 +89837,7 @@ export interface definitions {
     /**
      * 碳排放能源种类分组总量
      */
-    list?: definitions["SummaryGetItem"][];
+    list?: cloudPlatformTypes["SummaryGetItem"][];
     /**
      * 碳排放总量
      */
@@ -90047,55 +89847,55 @@ export interface definitions {
     /**
      * 替代燃料燃烧碳排放量
      */
-    alternativeFuels?: definitions["替代燃料燃烧碳排放量"];
+    alternativeFuels?: cloudPlatformTypes["替代燃料燃烧碳排放量"];
     /**
      * 废水厌氧处理碳排放量
      */
-    anaerobicWastewater?: definitions["废水厌氧处理碳排放量"];
+    anaerobicWastewater?: cloudPlatformTypes["废水厌氧处理碳排放量"];
     /**
      * 二氧化碳损耗（食品）碳排放量
      */
-    carbonDioxideLoss?: definitions["二氧化碳损耗（食品）碳排放量"];
+    carbonDioxideLoss?: cloudPlatformTypes["二氧化碳损耗（食品）碳排放量"];
     /**
      * 碳酸盐分解（水泥）碳排放量
      */
-    carbonate?: definitions["碳酸盐分解（水泥）碳排放量"];
+    carbonate?: cloudPlatformTypes["碳酸盐分解（水泥）碳排放量"];
     /**
      * 碳酸盐消耗（食品）碳排放量
      */
-    carbonateConsumption?: definitions["碳酸盐消耗（食品) 碳排放量"];
+    carbonateConsumption?: cloudPlatformTypes["碳酸盐消耗（食品) 碳排放量"];
     /**
      * 碳酸盐分解（玻璃）碳排放量
      */
-    carbonateDecomposition?: definitions["碳酸盐分解（玻璃）碳排放量"];
+    carbonateDecomposition?: cloudPlatformTypes["碳酸盐分解（玻璃）碳排放量"];
     /**
      * 碳酸盐分级（陶瓷）碳排放量
      */
-    carbonateGrading?: definitions["碳酸盐分级（陶瓷）碳排放量"];
+    carbonateGrading?: cloudPlatformTypes["碳酸盐分级（陶瓷）碳排放量"];
     /**
      * 化石燃料燃烧碳排放量
      */
-    fossilFuel?: definitions["化石燃料燃烧碳排放量"];
+    fossilFuel?: cloudPlatformTypes["化石燃料燃烧碳排放量"];
     /**
      * 石灰石煅烧（造纸）碳排放量
      */
-    limestone?: definitions["石灰石煅烧（造纸）碳排放量"];
+    limestone?: cloudPlatformTypes["石灰石煅烧（造纸）碳排放量"];
     /**
      * 净外购电力碳排放量
      */
-    netPurchasedElectricity?: definitions["净外购电力碳排放量"];
+    netPurchasedElectricity?: cloudPlatformTypes["净外购电力碳排放量"];
     /**
      * 净外购热力碳排放量
      */
-    netPurchasedHeat?: definitions["净外购热力碳排放量"];
+    netPurchasedHeat?: cloudPlatformTypes["净外购热力碳排放量"];
     /**
      * 生料非燃料碳煅烧（水泥）碳排放量
      */
-    rawMaterialsNotFueled?: definitions["生料非燃料碳煅烧（水泥）碳排放量"];
+    rawMaterialsNotFueled?: cloudPlatformTypes["生料非燃料碳煅烧（水泥）碳排放量"];
     /**
      * 碳粉氧化（玻璃）碳排放量
      */
-    tonerOxidation?: definitions["碳粉氧化（玻璃）碳排放量"];
+    tonerOxidation?: cloudPlatformTypes["碳粉氧化（玻璃）碳排放量"];
   };
   SummaryReq: {
     /**
@@ -90191,7 +89991,7 @@ export interface definitions {
     /**
      * 子菜单列表
      */
-    children?: definitions["SupplierType"][];
+    children?: cloudPlatformTypes["SupplierType"][];
     /**
      * 名称
      */
@@ -90887,7 +90687,7 @@ export interface definitions {
     /**
      * 表头
      */
-    headers?: definitions["ProdTaskEnergyMainHeader"][];
+    headers?: cloudPlatformTypes["ProdTaskEnergyMainHeader"][];
     /**
      * 页数
      */
@@ -90895,7 +90695,7 @@ export interface definitions {
     /**
      * 数据行
      */
-    rows?: definitions["Map«string,object»"][];
+    rows?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 记录数
      */
@@ -90905,19 +90705,19 @@ export interface definitions {
     /**
      * 能源总成本
      */
-    cost?: definitions["IndexItem"];
+    cost?: cloudPlatformTypes["IndexItem"];
     /**
      * 能源单价
      */
-    unitCost?: definitions["IndexItem"];
+    unitCost?: cloudPlatformTypes["IndexItem"];
     /**
      * 能源单耗
      */
-    unitUsage?: definitions["IndexItem"];
+    unitUsage?: cloudPlatformTypes["IndexItem"];
     /**
      * 能源总消耗
      */
-    usage?: definitions["IndexItem"];
+    usage?: cloudPlatformTypes["IndexItem"];
   };
   TaskFileDownloadRecordResp: {
     /**
@@ -91089,7 +90889,7 @@ export interface definitions {
     /**
      * 物料等级列表
      */
-    materialGrades?: definitions["MaterialGrade"][];
+    materialGrades?: cloudPlatformTypes["MaterialGrade"][];
     /**
      * 物料ID
      */
@@ -91166,7 +90966,7 @@ export interface definitions {
     /**
      * 物料等级列表
      */
-    materialGrades?: definitions["MaterialGrade"][];
+    materialGrades?: cloudPlatformTypes["MaterialGrade"][];
     /**
      * 物料id
      */
@@ -91300,13 +91100,13 @@ export interface definitions {
     timeType?: number;
   };
   TemplateResp: {
-    body?: definitions["TemplateTag"][];
+    body?: cloudPlatformTypes["TemplateTag"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
     exceptClass?: string;
     extFields?: { [key: string]: any };
-    head?: definitions["TemplateTag"];
+    head?: cloudPlatformTypes["TemplateTag"];
     requestId?: string;
     /**
      * 返回编码
@@ -91419,7 +91219,7 @@ export interface definitions {
     /**
      * 标准图片 json数据
      */
-    standardImgData?: definitions["Attachment"][];
+    standardImgData?: cloudPlatformTypes["Attachment"][];
     /**
      * 定性检测项目-图片显示
      */
@@ -91461,7 +91261,7 @@ export interface definitions {
     /**
      * 配置项列表
      */
-    data?: definitions["TemplateTagItem"][];
+    data?: cloudPlatformTypes["TemplateTagItem"][];
     /**
      * 配置组名称
      */
@@ -91722,7 +91522,7 @@ export interface definitions {
     /**
      * 模板信息
      */
-    content?: definitions["ReqContentData对象"];
+    content?: cloudPlatformTypes["ReqContentData对象"];
     /**
      * 创建时间
      */
@@ -91804,22 +91604,22 @@ export interface definitions {
     targetId?: string;
   };
   TotalEnergyData: {
-    energyDatas?: definitions["EnergyData"][];
+    energyDatas?: cloudPlatformTypes["EnergyData"][];
     title?: string;
   };
   TotalTaskForm: {
     /**
      * 子任务字段值
      */
-    taskFieldsList?: definitions["ProduceTask对象"][];
+    taskFieldsList?: cloudPlatformTypes["ProduceTask对象"][];
     /**
      * 子任务表头
      */
-    taskheaderList?: definitions["TableHeader"][];
+    taskheaderList?: cloudPlatformTypes["TableHeader"][];
     /**
      * 总任务字段
      */
-    totalTaskFieldList?: definitions["FormField"][];
+    totalTaskFieldList?: cloudPlatformTypes["FormField"][];
   };
   TraceShemeReq: {
     /**
@@ -91979,7 +91779,7 @@ export interface definitions {
     /**
      * 分组下变压器列表
      */
-    children?: definitions["TransformerInfo"][];
+    children?: cloudPlatformTypes["TransformerInfo"][];
     /**
      * 分组id
      */
@@ -92069,21 +91869,21 @@ export interface definitions {
   TreeNode: {
     aliasId?: string;
     aliasName?: string;
-    children?: definitions["TreeNode"][];
+    children?: cloudPlatformTypes["TreeNode"][];
     id?: string;
     label?: string;
     optional?: boolean;
   };
   TrendPlot: {
-    dependentPlot?: definitions["VariablePlot"];
-    independentPlots?: definitions["VariablePlot"][];
+    dependentPlot?: cloudPlatformTypes["VariablePlot"];
+    independentPlots?: cloudPlatformTypes["VariablePlot"][];
   };
   TrendRawCalculateDetailResp: {
     /**
      * 平均值
      */
     average?: number;
-    dataPoints?: definitions["TimeValue"][];
+    dataPoints?: cloudPlatformTypes["TimeValue"][];
     /**
      * 最大值
      */
@@ -92116,7 +91916,7 @@ export interface definitions {
     authority?: string;
     content?: { [key: string]: any };
     defaultPort?: number;
-    deserializedFields?: definitions["URLStreamHandler"];
+    deserializedFields?: cloudPlatformTypes["URLStreamHandler"];
     file?: string;
     host?: string;
     path?: string;
@@ -92190,7 +91990,7 @@ export interface definitions {
     /**
      * 公式依赖的变量信息
      */
-    projectArr?: definitions["ProjectFormulaInfo_VariableParam"][];
+    projectArr?: cloudPlatformTypes["ProjectFormulaInfo_VariableParam"][];
   };
   UnitType: { name?: string; unitTypeId?: string };
   UnqualifiedNum: {
@@ -92205,13 +92005,13 @@ export interface definitions {
     /**
      * 子级不合格次数列表
      */
-    subUnqualifiedNumList?: definitions["SubUnqualifiedNum"][];
+    subUnqualifiedNumList?: cloudPlatformTypes["SubUnqualifiedNum"][];
   };
   UnusualCondition: {
     /**
      * 比较条件
      */
-    condition?: definitions["Condition"];
+    condition?: cloudPlatformTypes["Condition"];
     /**
      * 设备或表计参数
      */
@@ -92298,7 +92098,7 @@ export interface definitions {
     /**
      * 球磨记录
      */
-    record: definitions["BallMillRecord"];
+    record: cloudPlatformTypes["BallMillRecord"];
   };
   UpdateBallMillRecordResp: {
     data?: { [key: string]: any };
@@ -92475,7 +92275,7 @@ export interface definitions {
     /**
      * 生产配置
      */
-    productConfigs?: definitions["ProductConfig"][];
+    productConfigs?: cloudPlatformTypes["ProductConfig"][];
     /**
      * 用户ID
      */
@@ -92564,7 +92364,7 @@ export interface definitions {
     /**
      * 批量更新
      */
-    updateDataTargets?: definitions["UpdateDataTarget"][];
+    updateDataTargets?: cloudPlatformTypes["UpdateDataTarget"][];
   };
   /**
    * 更新指标
@@ -92641,7 +92441,7 @@ export interface definitions {
     /**
      * 价格信息
      */
-    content?: definitions["EnergyPricePlanModel_ContentData对象"];
+    content?: cloudPlatformTypes["EnergyPricePlanModel_ContentData对象"];
     /**
      * eid:企业id
      */
@@ -92758,7 +92558,7 @@ export interface definitions {
     /**
      * 停机原因树列表
      */
-    reasonTrees?: definitions["EqpShutdownReasonNode"][];
+    reasonTrees?: cloudPlatformTypes["EqpShutdownReasonNode"][];
     /**
      * 用户ID
      */
@@ -92814,7 +92614,7 @@ export interface definitions {
     /**
      * 排序项目
      */
-    partItems: definitions["部位项目"][];
+    partItems: cloudPlatformTypes["部位项目"][];
     /**
      * debug模式
      */
@@ -92855,7 +92655,7 @@ export interface definitions {
     /**
      * 设备图片
      */
-    equipmentImg?: definitions["Attachment"][];
+    equipmentImg?: cloudPlatformTypes["Attachment"][];
     /**
      * 设备型号
      */
@@ -92871,7 +92671,7 @@ export interface definitions {
     /**
      * 基本属性字段
      */
-    equipmentTypePropertyList?: definitions["EquipmentTypeProperty"][];
+    equipmentTypePropertyList?: cloudPlatformTypes["EquipmentTypeProperty"][];
     /**
      * 设备所属的上级区域ID
      */
@@ -92944,7 +92744,7 @@ export interface definitions {
     /**
      * 导出字段集合
      */
-    exportFieldList?: definitions["ProduceTaskExportField对象"][];
+    exportFieldList?: cloudPlatformTypes["ProduceTaskExportField对象"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -92977,7 +92777,7 @@ export interface definitions {
     /**
      * 主体信息
      */
-    content?: definitions["FeaturePropertiesModel_ContentInfo对象"][];
+    content?: cloudPlatformTypes["FeaturePropertiesModel_ContentInfo对象"][];
     /**
      * 原始组织id
      */
@@ -93022,7 +92822,7 @@ export interface definitions {
     /**
      * 检修计划附件路径列表
      */
-    attachmentList?: definitions["Attachment"][];
+    attachmentList?: cloudPlatformTypes["Attachment"][];
     /**
      * eid:企业id
      */
@@ -93038,7 +92838,7 @@ export interface definitions {
     /**
      * 检修项目列表
      */
-    maintainTaskList: definitions["检修项目"][];
+    maintainTaskList: cloudPlatformTypes["检修项目"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -93098,7 +92898,7 @@ export interface definitions {
     /**
      * 原料检测结果列表
      */
-    materialCheckResults?: definitions["MaterialCheckResult"][];
+    materialCheckResults?: cloudPlatformTypes["MaterialCheckResult"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -93812,7 +93612,7 @@ export interface definitions {
     /**
      * 更新点检计划信息
      */
-    regularCheckPlan: definitions["UpdateRegularCheckPlan"];
+    regularCheckPlan: cloudPlatformTypes["UpdateRegularCheckPlan"];
     /**
      * 用户ID
      */
@@ -93860,7 +93660,7 @@ export interface definitions {
     /**
      * 采集标签配置
      */
-    collectTagConfigs?: definitions["CollectTagConfig"][];
+    collectTagConfigs?: cloudPlatformTypes["CollectTagConfig"][];
     /**
      * eid:企业id
      */
@@ -93929,7 +93729,7 @@ export interface definitions {
     /**
      * 维修图片地址，维修图片路径
      */
-    repairImagePathList?: definitions["Attachment"][];
+    repairImagePathList?: cloudPlatformTypes["Attachment"][];
     /**
      * 维修结果 英文
      */
@@ -94054,7 +93854,7 @@ export interface definitions {
     /**
      * 班次相关信息
      */
-    shiftInfoItemList: definitions["ShiftInfoItem"][];
+    shiftInfoItemList: cloudPlatformTypes["ShiftInfoItem"][];
     /**
      * 班次制度id
      */
@@ -94121,7 +93921,7 @@ export interface definitions {
     /**
      * 数据源和关键参数列表
      */
-    list?: definitions["DataSourceAndParams"][];
+    list?: cloudPlatformTypes["DataSourceAndParams"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -94275,7 +94075,7 @@ export interface definitions {
     /**
      * 文件路径
      */
-    attachment?: definitions["Attachment"];
+    attachment?: cloudPlatformTypes["Attachment"];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -94647,8 +94447,8 @@ export interface definitions {
     sort?: number;
   };
   VariableCluster: {
-    centerPoints?: definitions["ClusterCenterPoint"][];
-    clusterPoints?: definitions["ClusterPoint"][];
+    centerPoints?: cloudPlatformTypes["ClusterCenterPoint"][];
+    clusterPoints?: cloudPlatformTypes["ClusterPoint"][];
     distances?: number[][];
   };
   VariableCondition: {
@@ -94659,7 +94459,7 @@ export interface definitions {
     /**
      * 比较条件
      */
-    conditions?: definitions["Condition"][];
+    conditions?: cloudPlatformTypes["Condition"][];
     /**
      * 过滤条件类型，1-产品、2-参数
      */
@@ -94724,13 +94524,13 @@ export interface definitions {
     varName?: string;
   };
   VariableFilterConditionItem: {
-    detail?: definitions["VariableCondition"];
+    detail?: cloudPlatformTypes["VariableCondition"];
     logicOperation?: string;
   };
   VariableFrequency: {
     avg?: number;
     count?: number;
-    frequencyItems?: definitions["FrequencyItem"][];
+    frequencyItems?: cloudPlatformTypes["FrequencyItem"][];
     max?: number;
     middle?: number;
     min?: number;
@@ -94756,7 +94556,7 @@ export interface definitions {
      * 下限值
      */
     lowerLimit?: number;
-    points?: definitions["TimeInfoPoint"][];
+    points?: cloudPlatformTypes["TimeInfoPoint"][];
     unit?: string;
     /**
      * 上限值
@@ -94774,7 +94574,7 @@ export interface definitions {
      * 下限值
      */
     lowerLimit?: number;
-    points?: definitions["TimePoint"][];
+    points?: cloudPlatformTypes["TimePoint"][];
     unit?: string;
     /**
      * 上限值
@@ -94878,7 +94678,7 @@ export interface definitions {
     /**
      * 告警信息
      */
-    homeAlarmList?: definitions["HomeAlarm"][];
+    homeAlarmList?: cloudPlatformTypes["HomeAlarm"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -95009,7 +94809,7 @@ export interface definitions {
     /**
      * 最佳实践指标列表
      */
-    practiceList?: definitions["Practice"][];
+    practiceList?: cloudPlatformTypes["Practice"][];
     /**
      * debug模式
      */
@@ -95176,11 +94976,11 @@ export interface definitions {
     /**
      * 完工维护表头
      */
-    headers?: definitions["SheetRecordHeader"][];
+    headers?: cloudPlatformTypes["SheetRecordHeader"][];
     /**
      * 分页数据信息， sheetId为记录ID
      */
-    pageResult?: definitions["Page«Map«string,object»»"];
+    pageResult?: cloudPlatformTypes["Page«Map«string,object»»"];
   };
   WorkMaintainTaskInfo: {
     /**
@@ -95432,7 +95232,7 @@ export interface definitions {
   };
   WorkUnitVo: { workUnitId?: number; workUnitName?: string };
   chart: {
-    chartBodies?: definitions["ChartData"][];
+    chartBodies?: cloudPlatformTypes["ChartData"][];
     title?: string;
     unit?: string;
   };
@@ -95744,7 +95544,7 @@ export interface definitions {
     /**
      * 生产批次id
      */
-    batchList?: definitions["Batch"][];
+    batchList?: cloudPlatformTypes["Batch"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -95764,7 +95564,7 @@ export interface definitions {
     /**
      * 子集
      */
-    childrenList?: definitions["materialType"][];
+    childrenList?: cloudPlatformTypes["materialType"][];
     /**
      * id
      */
@@ -95852,11 +95652,11 @@ export interface definitions {
     /**
      * 故障描述列表
      */
-    faultDescList?: definitions["故障描述"][];
+    faultDescList?: cloudPlatformTypes["故障描述"][];
     /**
      * 故障原因列表
      */
-    faultReasonList?: definitions["故障原因"][];
+    faultReasonList?: cloudPlatformTypes["故障原因"][];
     /**
      * 故障类型：MACHINE-机械，ELECTRIC-电气，METER-仪表，PROGRAM-程序，OTHER-其他
      */
@@ -96339,7 +96139,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["CarbonDioxideLossItem"][];
+    list?: cloudPlatformTypes["CarbonDioxideLossItem"][];
     /**
      * 碳排能源类型code
      */
@@ -96464,7 +96264,7 @@ export interface definitions {
     /**
      * 项目分类集
      */
-    categorys?: definitions["项目分类参数"][];
+    categorys?: cloudPlatformTypes["项目分类参数"][];
     /**
      * eid:企业id
      */
@@ -96531,7 +96331,7 @@ export interface definitions {
     /**
      * 项目分类
      */
-    categorys?: definitions["项目分类参数"][];
+    categorys?: cloudPlatformTypes["项目分类参数"][];
     /**
      * 交接日期
      */
@@ -96833,7 +96633,7 @@ export interface definitions {
      * 机构ID
      */
     orgId?: number;
-    productReplaceTimeList?: definitions["切换时长配置请求对象"][];
+    productReplaceTimeList?: cloudPlatformTypes["切换时长配置请求对象"][];
     /**
      * 租户ID
      */
@@ -97438,7 +97238,7 @@ export interface definitions {
     /**
      * 变量项约束条件
      */
-    constraint?: definitions["约束参数"];
+    constraint?: cloudPlatformTypes["约束参数"];
     /**
      * 设备/表计 类型
      */
@@ -97446,7 +97246,7 @@ export interface definitions {
     /**
      * 变量参数集
      */
-    params?: definitions["变量参数"][];
+    params?: cloudPlatformTypes["变量参数"][];
     /**
      * 变量项类型：INCOMING: 来料，PROCESS：过程, STORE：仓库，FINISH 完工,EQUIPMENT:设备,TABLE:表计，CRAFT:工艺
      */
@@ -97476,7 +97276,7 @@ export interface definitions {
     /**
      * 变量项详情集
      */
-    taskVariables?: definitions["任务详情-变量项参数"][];
+    taskVariables?: cloudPlatformTypes["任务详情-变量项参数"][];
     /**
      * 文件大小单位
      */
@@ -97910,7 +97710,7 @@ export interface definitions {
     /**
      * 照片
      */
-    imagePaths?: definitions["文件详情"][];
+    imagePaths?: cloudPlatformTypes["文件详情"][];
     /**
      * 保养等级 1一级,2:二级3:三级
      */
@@ -97966,7 +97766,7 @@ export interface definitions {
     /**
      * 语音
      */
-    voicePaths?: definitions["文件详情"][];
+    voicePaths?: cloudPlatformTypes["文件详情"][];
   };
   保养计划详情: {
     /**
@@ -98078,7 +97878,7 @@ export interface definitions {
     /**
      * 产品类别等级
      */
-    productGrades: definitions["ProductGrade"][];
+    productGrades: cloudPlatformTypes["ProductGrade"][];
     /**
      * 用户ID
      */
@@ -98218,7 +98018,7 @@ export interface definitions {
     /**
      * 字段配置
      */
-    configs?: definitions["CardConfig"][];
+    configs?: cloudPlatformTypes["CardConfig"][];
     /**
      * 企业id
      */
@@ -98635,7 +98435,7 @@ export interface definitions {
     /**
      * 区域列表
      */
-    areaList?: definitions["区域"][];
+    areaList?: cloudPlatformTypes["区域"][];
     /**
      * 能源类型
      */
@@ -98643,11 +98443,11 @@ export interface definitions {
     /**
      * 公式组列表
      */
-    formulaGroupList?: definitions["公式"][][];
+    formulaGroupList?: cloudPlatformTypes["公式"][][];
     /**
      * 表计列表
      */
-    meterList?: definitions["Meter"][];
+    meterList?: cloudPlatformTypes["Meter"][];
     /**
      * 方案id
      */
@@ -98662,7 +98462,7 @@ export interface definitions {
     /**
      * 公式列表
      */
-    formulaList?: definitions["AreaFormula"][];
+    formulaList?: cloudPlatformTypes["AreaFormula"][];
     /**
      * 公式组id
      */
@@ -98690,7 +98490,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["NetPurchasedHeatItem"][];
+    list?: cloudPlatformTypes["NetPurchasedHeatItem"][];
     /**
      * 碳排能源类型code
      */
@@ -98708,7 +98508,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["NetPurchasedElectricityItem"][];
+    list?: cloudPlatformTypes["NetPurchasedElectricityItem"][];
     /**
      * 碳排能源类型code
      */
@@ -98766,7 +98566,7 @@ export interface definitions {
     /**
      * 总览列表
      */
-    pandectsMapList?: definitions["Map«string,object»"][];
+    pandectsMapList?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 备注
      */
@@ -98796,19 +98596,19 @@ export interface definitions {
     /**
      * 审核信息
      */
-    approves?: definitions["审核流程的节点信息"][];
+    approves?: cloudPlatformTypes["审核流程的节点信息"][];
     /**
      * 单据头字段
      */
-    headerField?: definitions["表格响应数据"];
+    headerField?: cloudPlatformTypes["表格响应数据"];
     /**
      * 总览表格
      */
-    pandects?: definitions["表格响应数据"];
+    pandects?: cloudPlatformTypes["表格响应数据"];
     /**
      * 记录表格
      */
-    records?: definitions["表格响应数据"];
+    records?: cloudPlatformTypes["表格响应数据"];
   };
   分享方案请求实体类: {
     /**
@@ -98886,7 +98686,7 @@ export interface definitions {
     /**
      * 分摊系数
      */
-    coefficient?: definitions["分摊系数请求参数"];
+    coefficient?: cloudPlatformTypes["分摊系数请求参数"];
     /**
      * 模板ID
      */
@@ -98990,7 +98790,7 @@ export interface definitions {
     /**
      * 来源指标集
      */
-    dataList?: definitions["VariableData"][];
+    dataList?: cloudPlatformTypes["VariableData"][];
     /**
      * 小数位
      */
@@ -99012,7 +98812,7 @@ export interface definitions {
     /**
      * 模板信息
      */
-    templateModel?: definitions["PowerConsumeTemplateModel对象"];
+    templateModel?: cloudPlatformTypes["PowerConsumeTemplateModel对象"];
     /**
      * 时间类型
      */
@@ -99022,11 +98822,11 @@ export interface definitions {
     /**
      * 时长TOP10原因列表
      */
-    reasonGraphDurations?: definitions["ReasonGraph"][];
+    reasonGraphDurations?: cloudPlatformTypes["ReasonGraph"][];
     /**
      * 次数TOP10原因列表
      */
-    reasonGraphNums?: definitions["ReasonGraph"][];
+    reasonGraphNums?: cloudPlatformTypes["ReasonGraph"][];
   };
   分析设备原因图型分页参数请求对象: {
     /**
@@ -99070,7 +98870,7 @@ export interface definitions {
     /**
      * 图表参数
      */
-    graphParams?: definitions["分析设备原因图型分页参数请求对象"][];
+    graphParams?: cloudPlatformTypes["分析设备原因图型分页参数请求对象"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -99282,19 +99082,19 @@ export interface definitions {
     /**
      * 柱形图缺陷数据
      */
-    defectItems?: definitions["柱形图缺陷数据"][];
+    defectItems?: cloudPlatformTypes["柱形图缺陷数据"][];
     /**
      * 缺陷数据，数量，占比
      */
-    defectRadio?: definitions["KanbanRadio"][];
+    defectRadio?: cloudPlatformTypes["KanbanRadio"][];
     /**
      * 柱形图等级数据
      */
-    gradeItems?: definitions["柱形图等级数据"][];
+    gradeItems?: cloudPlatformTypes["柱形图等级数据"][];
     /**
      * 等级数据，数量，占比
      */
-    gradeRadios?: definitions["KanbanRadio"][];
+    gradeRadios?: cloudPlatformTypes["KanbanRadio"][];
     /**
      * 物料id
      */
@@ -99312,15 +99112,15 @@ export interface definitions {
     /**
      * 班组列表
      */
-    courseList?: definitions["EntICourse"][];
+    courseList?: cloudPlatformTypes["EntICourse"][];
     /**
      * 缺陷列表
      */
-    defectList?: definitions["ProdGrQaDefect对象"][];
+    defectList?: cloudPlatformTypes["ProdGrQaDefect对象"][];
     /**
      * 等级列表
      */
-    gradeList?: definitions["MaterialTypeGrade对象"][];
+    gradeList?: cloudPlatformTypes["MaterialTypeGrade对象"][];
   };
   分级质检看板请求列表参数: {
     /**
@@ -99388,7 +99188,7 @@ export interface definitions {
     /**
      * 具体项目集合
      */
-    items: definitions["具体项目"][];
+    items: cloudPlatformTypes["具体项目"][];
     /**
      * 全称的显示名称
      */
@@ -99759,11 +99559,11 @@ export interface definitions {
     /**
      * 检修任务列表
      */
-    maintainTaskList?: definitions["检修任务列表"][];
+    maintainTaskList?: cloudPlatformTypes["检修任务列表"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -99843,7 +99643,7 @@ export interface definitions {
     /**
      * 变量项约束集
      */
-    constrains?: definitions["约束参数"][];
+    constrains?: cloudPlatformTypes["约束参数"][];
     /**
      * 原始组织id
      */
@@ -99867,7 +99667,7 @@ export interface definitions {
     /**
      * 变量项集
      */
-    variableItems?: definitions["变量项"][];
+    variableItems?: cloudPlatformTypes["变量项"][];
     /**
      * 请求版本
      */
@@ -100117,7 +99917,7 @@ export interface definitions {
     /**
      * 判断超时条件集
      */
-    secondConditionList?: definitions["判断超时二级条件"][];
+    secondConditionList?: cloudPlatformTypes["判断超时二级条件"][];
     /**
      * 阈值
      */
@@ -100127,11 +99927,11 @@ export interface definitions {
     /**
      * 实际运行建议时间 取2个点
      */
-    actualSuggestTimeList?: definitions["SuggestTime"][];
+    actualSuggestTimeList?: cloudPlatformTypes["SuggestTime"][];
     /**
      * 优化运行建议时间 取4个点
      */
-    optimizeSuggestTimeList?: definitions["SuggestTime"][];
+    optimizeSuggestTimeList?: cloudPlatformTypes["SuggestTime"][];
     /**
      * 异常切换类型 1：无 2：采集参数切换
      */
@@ -100303,7 +100103,7 @@ export interface definitions {
     /**
      * 动态列数据集合
      */
-    rowDataList?: definitions["DynamicRow"][];
+    rowDataList?: cloudPlatformTypes["DynamicRow"][];
     /**
      * 喷雾塔-报工id
      */
@@ -100335,7 +100135,7 @@ export interface definitions {
     /**
      * 喷雾塔-当前库存列表
      */
-    sprayTowerStoreTrendStat?: definitions["StoreTrendStat"];
+    sprayTowerStoreTrendStat?: cloudPlatformTypes["StoreTrendStat"];
   };
   化石燃料燃烧碳排放量: {
     /**
@@ -100345,7 +100145,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["FossilFuelItem"][];
+    list?: cloudPlatformTypes["FossilFuelItem"][];
     /**
      * 碳排能源类型code
      */
@@ -100370,7 +100170,7 @@ export interface definitions {
      * 区域名称
      */
     areaName?: string;
-    childrenArea?: definitions["区域设备树模型对象"][];
+    childrenArea?: cloudPlatformTypes["区域设备树模型对象"][];
     /**
      * 设备编码
      */
@@ -100562,19 +100362,19 @@ export interface definitions {
     /**
      * 审核信息
      */
-    approves?: definitions["审核流程的节点信息"][];
+    approves?: cloudPlatformTypes["审核流程的节点信息"][];
     /**
      * 单据头字段
      */
-    headerField?: definitions["表格响应数据"];
+    headerField?: cloudPlatformTypes["表格响应数据"];
     /**
      * 总览表格
      */
-    pandects?: definitions["表格响应数据"];
+    pandects?: cloudPlatformTypes["表格响应数据"];
     /**
      * 记录表格
      */
-    records?: definitions["表格响应数据"];
+    records?: cloudPlatformTypes["表格响应数据"];
   };
   原因下的设备类型树: {
     /**
@@ -100606,7 +100406,7 @@ export interface definitions {
     /**
      * 原因树下设备列表数据
      */
-    reasonTreeEquipmentList?: definitions["ReasonTreeEquipment"][];
+    reasonTreeEquipmentList?: cloudPlatformTypes["ReasonTreeEquipment"][];
     /**
      * 原因树id
      */
@@ -100628,7 +100428,7 @@ export interface definitions {
     /**
      * 原料优选结果数据
      */
-    materialPreferResultDataList?: definitions["原料优选结果数据对象"][];
+    materialPreferResultDataList?: cloudPlatformTypes["原料优选结果数据对象"][];
   };
   原料优选结果数据对象: {
     /**
@@ -100650,7 +100450,7 @@ export interface definitions {
     /**
      * 检查项目记录
      */
-    checkItems?: definitions["MaterialCheckRecord"][];
+    checkItems?: cloudPlatformTypes["MaterialCheckRecord"][];
     /**
      * 偏差要求
      */
@@ -100664,7 +100464,7 @@ export interface definitions {
     /**
      * 实际值
      */
-    actValue?: definitions["Number"];
+    actValue?: cloudPlatformTypes["Number"];
     /**
      * 实际值所属区间
      */
@@ -100755,7 +100555,7 @@ export interface definitions {
     /**
      * 变量参数集
      */
-    params?: definitions["变量参数"][];
+    params?: cloudPlatformTypes["变量参数"][];
     /**
      * 变量项类型：INCOMING: 来料，PROCESS：过程, STORE：仓库，FINISH 完工,EQUIPMENT:设备,TABLE:表计，CRAFT:工艺
      */
@@ -100836,7 +100636,7 @@ export interface definitions {
      * 请求版本
      */
     appVersion?: string;
-    classifyList?: definitions["EqpIAlarmClassify"][];
+    classifyList?: cloudPlatformTypes["EqpIAlarmClassify"][];
     /**
      * 企业ID
      */
@@ -100870,7 +100670,7 @@ export interface definitions {
     /**
      * 消息通知人
      */
-    notifyUsers?: definitions["用户"][];
+    notifyUsers?: cloudPlatformTypes["用户"][];
     /**
      * 技工id
      */
@@ -100992,7 +100792,7 @@ export interface definitions {
     /**
      * 告警条件
      */
-    condition?: definitions["AlarmRuleCondition2"];
+    condition?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 工艺项目编码code
      */
@@ -101057,7 +100857,7 @@ export interface definitions {
     /**
      * 告警主体条件
      */
-    mainConditionList?: definitions["AlarmRuleCondition"][];
+    mainConditionList?: cloudPlatformTypes["AlarmRuleCondition"][];
     /**
      * 是否需要app推送，1-是，0-否）
      */
@@ -101077,7 +100877,7 @@ export interface definitions {
     /**
      * 告警前置条件(参数告警使用)
      */
-    preCondition?: definitions["AlarmRuleCondition2"];
+    preCondition?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 是否反复推送
      */
@@ -101090,11 +100890,11 @@ export interface definitions {
     /**
      * 接手班组
      */
-    receiverCourses?: definitions["告警接收人，班组"][];
+    receiverCourses?: cloudPlatformTypes["告警接收人，班组"][];
     /**
      * 接收者列表
      */
-    receiverList?: definitions["告警规则接收人"][];
+    receiverList?: cloudPlatformTypes["告警规则接收人"][];
     /**
      * 接受者类型，--用户、1-班组
      */
@@ -101263,7 +101063,7 @@ export interface definitions {
     updateTime?: string;
   };
   告警规则列别: {
-    alarmRuleList?: definitions["告警规则"][];
+    alarmRuleList?: cloudPlatformTypes["告警规则"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -101272,7 +101072,7 @@ export interface definitions {
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -101363,7 +101163,7 @@ export interface definitions {
     /**
      * 无效操作作用ID集
      */
-    invalidOperations?: definitions["OperationParam"][];
+    invalidOperations?: cloudPlatformTypes["OperationParam"][];
     /**
      * 操作行为ID
      */
@@ -101399,7 +101199,7 @@ export interface definitions {
     /**
      * 有效操作作用ID集
      */
-    validOperations?: definitions["OperationParam"][];
+    validOperations?: cloudPlatformTypes["OperationParam"][];
   };
   响应实体: {
     /**
@@ -101538,7 +101338,7 @@ export interface definitions {
     /**
      * 质检项目配置公式信息
      */
-    checkingProjectFormulaList?: definitions["CheckingProjectFormula"][];
+    checkingProjectFormulaList?: cloudPlatformTypes["CheckingProjectFormula"][];
     /**
      * eid:企业id
      */
@@ -101824,7 +101624,7 @@ export interface definitions {
     /**
      * 基本模板数据
      */
-    basicProcessStandardTemplateData?: definitions["BasicProcessStandardTemplateData"][];
+    basicProcessStandardTemplateData?: cloudPlatformTypes["BasicProcessStandardTemplateData"][];
     /**
      * 质检人员
      */
@@ -101844,11 +101644,11 @@ export interface definitions {
     /**
      * 定性项列表
      */
-    definePropertyProjectData?: definitions["ProcessTemplateProjectData"][];
+    definePropertyProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 定量项列表
      */
-    defineQuantityProjectData?: definitions["ProcessTemplateProjectData"][];
+    defineQuantityProjectData?: cloudPlatformTypes["ProcessTemplateProjectData"][];
     /**
      * 产品质检主键id
      */
@@ -101870,7 +101670,7 @@ export interface definitions {
     /**
      * 配方明细
      */
-    detail?: definitions["配方明细"][];
+    detail?: cloudPlatformTypes["配方明细"][];
     /**
      * id
      */
@@ -102127,11 +101927,11 @@ export interface definitions {
     /**
      * 中心线
      */
-    controllerLimit?: definitions["Number"];
+    controllerLimit?: cloudPlatformTypes["Number"];
     /**
      * 控制下限值
      */
-    lowerControllerLimit?: definitions["Number"];
+    lowerControllerLimit?: cloudPlatformTypes["Number"];
     /**
      * 下限值
      */
@@ -102151,7 +101951,7 @@ export interface definitions {
     /**
      * 控制上限值
      */
-    upperControllerLimit?: definitions["Number"];
+    upperControllerLimit?: cloudPlatformTypes["Number"];
     /**
      * 上限值
      */
@@ -102181,7 +101981,7 @@ export interface definitions {
     /**
      * 数据详情
      */
-    dataDetails?: definitions["定量项目采集值获取-数据"][];
+    dataDetails?: cloudPlatformTypes["定量项目采集值获取-数据"][];
     /**
      * 最近采集时长
      */
@@ -102227,7 +102027,7 @@ export interface definitions {
     /**
      * 项目
      */
-    items?: definitions["定量项目采集值获取-项"][];
+    items?: cloudPlatformTypes["定量项目采集值获取-项"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -102463,7 +102263,7 @@ export interface definitions {
     /**
      * 需要更新的数据(isUpdate为true 时才会有返回)
      */
-    updateData?: definitions["设备约束导入功能-响应需要更新的数据实体"][];
+    updateData?: cloudPlatformTypes["设备约束导入功能-响应需要更新的数据实体"][];
   };
   导入请求参数: {
     /**
@@ -102540,27 +102340,27 @@ export interface definitions {
     /**
      * 完工检验树状数据
      */
-    finish?: definitions["OpenStandardTemplateModel"][];
+    finish?: cloudPlatformTypes["OpenStandardTemplateModel"][];
     /**
      * 来料检验树状数据
      */
-    incoming?: definitions["OpenStandardTemplateModel"][];
+    incoming?: cloudPlatformTypes["OpenStandardTemplateModel"][];
     /**
      * 表计/设备树状数据
      */
-    meterEquipmentList?: definitions["Node"][];
+    meterEquipmentList?: cloudPlatformTypes["Node"][];
     /**
      * 过程检验树状数据
      */
-    process?: definitions["OpenStandardTemplateModel"][];
+    process?: cloudPlatformTypes["OpenStandardTemplateModel"][];
     /**
      * 仓库检验树状数据
      */
-    store?: definitions["OpenStandardTemplateModel"][];
+    store?: cloudPlatformTypes["OpenStandardTemplateModel"][];
     /**
      * 工艺参数树状数据
      */
-    technologyParams?: definitions["TechnologyParamResp"][];
+    technologyParams?: cloudPlatformTypes["TechnologyParamResp"][];
   };
   导出变量数据: {
     /**
@@ -102610,7 +102410,7 @@ export interface definitions {
     /**
      * 导出参数列表
      */
-    variables: definitions["变量"][];
+    variables: cloudPlatformTypes["变量"][];
   };
   导出变量请求参数: {
     /**
@@ -102889,11 +102689,11 @@ export interface definitions {
     /**
      * 指令判断自动结束
      */
-    automaticallyEnd?: definitions["AlarmRuleCondition2"];
+    automaticallyEnd?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 指令判断自动开始
      */
-    automaticallyStart?: definitions["AlarmRuleCondition2"];
+    automaticallyStart?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 指令配置ID
      */
@@ -102923,7 +102723,7 @@ export interface definitions {
     /**
      * 子单元列表
      */
-    childFactory?: definitions["工厂模型详情对象"][];
+    childFactory?: cloudPlatformTypes["工厂模型详情对象"][];
     /**
      * 班组分组id
      */
@@ -103049,7 +102849,7 @@ export interface definitions {
     /**
      * 参数列表
      */
-    parameters?: definitions["CraftParameterConfig"][];
+    parameters?: cloudPlatformTypes["CraftParameterConfig"][];
     /**
      * debug模式
      */
@@ -103080,7 +102880,7 @@ export interface definitions {
      * 主键
      */
     id?: number;
-    materialDetailList?: definitions["物料详情实体"][];
+    materialDetailList?: cloudPlatformTypes["物料详情实体"][];
     /**
      * 机构id
      */
@@ -103088,7 +102888,7 @@ export interface definitions {
     /**
      * 节点列表
      */
-    processNodes?: definitions["ProcessNodeResp"][];
+    processNodes?: cloudPlatformTypes["ProcessNodeResp"][];
   };
   工艺路径响应参数: {
     /**
@@ -103158,7 +102958,7 @@ export interface definitions {
     /**
      * 子节点集
      */
-    children?: definitions["帮助手册列表响应参数"][];
+    children?: cloudPlatformTypes["帮助手册列表响应参数"][];
     /**
      * 节点名称(标题)
      */
@@ -103394,7 +103194,7 @@ export interface definitions {
    *
    */
   应用平台工厂树工厂返回对象: {
-    childFactory?: definitions["应用平台工厂树工厂返回对象"][];
+    childFactory?: cloudPlatformTypes["应用平台工厂树工厂返回对象"][];
     /**
      * 班组分组id
      */
@@ -103428,7 +103228,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["AnaerobicWastewaterItem"][];
+    list?: cloudPlatformTypes["AnaerobicWastewaterItem"][];
     /**
      * 碳排能源类型code
      */
@@ -103472,11 +103272,11 @@ export interface definitions {
     /**
      * 设备部位数据
      */
-    equipmentPartData?: definitions["组装好的新增设备部位的数据"][];
+    equipmentPartData?: cloudPlatformTypes["组装好的新增设备部位的数据"][];
     /**
      * 设备部位备件数据
      */
-    equipmentPartSpareData?: definitions["组装好的新增设备部位备件的数据"][];
+    equipmentPartSpareData?: cloudPlatformTypes["组装好的新增设备部位备件的数据"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -103627,7 +103427,7 @@ export interface definitions {
     /**
      * 库存数据结合
      */
-    materialStockList?: definitions["库存数据入参"][];
+    materialStockList?: cloudPlatformTypes["库存数据入参"][];
     /**
      * 请求操作者id
      */
@@ -103749,11 +103549,11 @@ export interface definitions {
     /**
      * 指令判断自动结束,未后续传null
      */
-    automaticallyEnd?: definitions["AlarmRuleCondition2"];
+    automaticallyEnd?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 指令判断自动开始,未勾选传null
      */
-    automaticallyStart?: definitions["AlarmRuleCondition2"];
+    automaticallyStart?: cloudPlatformTypes["AlarmRuleCondition2"];
     /**
      * 指令配置ID
      */
@@ -103863,7 +103663,7 @@ export interface definitions {
     /**
      * 自定义字段集
      */
-    instructCustomFields?: definitions["自定义字段"][];
+    instructCustomFields?: cloudPlatformTypes["自定义字段"][];
     /**
      * 指令名称
      */
@@ -103975,7 +103775,7 @@ export interface definitions {
     /**
      * 自定义字段集
      */
-    instructCustomFields?: definitions["自定义字段"][];
+    instructCustomFields?: cloudPlatformTypes["自定义字段"][];
     /**
      * 指令名称
      */
@@ -104063,7 +103863,7 @@ export interface definitions {
     /**
      * 指标数据项列表
      */
-    items?: definitions["IndexDataItem"][];
+    items?: cloudPlatformTypes["IndexDataItem"][];
     /**
      * 指标单位
      */
@@ -104083,15 +103883,15 @@ export interface definitions {
     /**
      * 统计维度
      */
-    statDimenssions?: definitions["选项«int»"][];
+    statDimenssions?: cloudPlatformTypes["选项«int»"][];
     /**
      * 统计方式
      */
-    statModes?: definitions["选项«int»"][];
+    statModes?: cloudPlatformTypes["选项«int»"][];
     /**
      * 统计周期
      */
-    statPeriods?: definitions["选项«int»"][];
+    statPeriods?: cloudPlatformTypes["选项«int»"][];
   };
   指标维度信息: {
     /**
@@ -104209,7 +104009,7 @@ export interface definitions {
     /**
      * 排序好的节点列表 【必填】
      */
-    sortProcessNodeList?: definitions["排序好的节点列表"][];
+    sortProcessNodeList?: cloudPlatformTypes["排序好的节点列表"][];
     /**
      * 用户ID
      */
@@ -104794,7 +104594,7 @@ export interface definitions {
     /**
      * 操作作用
      */
-    operation?: definitions["OperationParam"][];
+    operation?: cloudPlatformTypes["OperationParam"][];
     /**
      * 作用效果 1：无效  2：有效 0：不选(默认为0)
      */
@@ -104916,7 +104716,7 @@ export interface definitions {
     /**
      * 无效操作作用ID集
      */
-    invalidOperations?: definitions["OperationParam"][];
+    invalidOperations?: cloudPlatformTypes["OperationParam"][];
     /**
      * 操作目的ID
      */
@@ -104948,7 +104748,7 @@ export interface definitions {
     /**
      * 有效操作作用ID集
      */
-    validOperations?: definitions["OperationParam"][];
+    validOperations?: cloudPlatformTypes["OperationParam"][];
   };
   操作配置详情请求参数: {
     /**
@@ -105511,7 +105311,7 @@ export interface definitions {
     /**
      * 分摊系数
      */
-    coefficient?: definitions["分摊系数请求参数"];
+    coefficient?: cloudPlatformTypes["分摊系数请求参数"];
     /**
      * eid:企业id
      */
@@ -106005,7 +105805,7 @@ export interface definitions {
     /**
      * 数据
      */
-    dataList?: definitions["日期和时间"][];
+    dataList?: cloudPlatformTypes["日期和时间"][];
     /**
      * 指标
      */
@@ -106346,7 +106146,7 @@ export interface definitions {
     /**
      * 设备无效明细记录
      */
-    updateInvalidReasonDetailList?: definitions["ReasonRecordDetail"][];
+    updateInvalidReasonDetailList?: cloudPlatformTypes["ReasonRecordDetail"][];
   };
   替代燃料燃烧碳排放量: {
     /**
@@ -106356,7 +106156,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["AlternativeFuelsItem"][];
+    list?: cloudPlatformTypes["AlternativeFuelsItem"][];
     /**
      * 碳排能源类型code
      */
@@ -106366,15 +106166,15 @@ export interface definitions {
     /**
      * 能耗预测
      */
-    energy?: definitions["能耗预测响应"][];
+    energy?: cloudPlatformTypes["能耗预测响应"][];
     /**
      * 最佳操作参数
      */
-    params?: definitions["最佳操作参数响应结构"][];
+    params?: cloudPlatformTypes["最佳操作参数响应结构"][];
     /**
      * 质量预测
      */
-    quality?: definitions["质量预测结构"][];
+    quality?: cloudPlatformTypes["质量预测结构"][];
   };
   最佳操作产品列表响应: { materialId?: number; materialName?: string };
   最佳操作产品请求: {
@@ -106497,7 +106297,7 @@ export interface definitions {
     /**
      * 操作变量集
      */
-    operations?: definitions["操作变量集"][];
+    operations?: cloudPlatformTypes["操作变量集"][];
   };
   最佳操作参数请求结构: {
     /**
@@ -106549,15 +106349,15 @@ export interface definitions {
     /**
      * 未来1h预测量
      */
-    futureOneNum?: definitions["Number"];
+    futureOneNum?: cloudPlatformTypes["Number"];
     /**
      * 未来3h预测量
      */
-    futureThreeNum?: definitions["Number"];
+    futureThreeNum?: cloudPlatformTypes["Number"];
     /**
      * 未来2h预测量
      */
-    futureTwoNum?: definitions["Number"];
+    futureTwoNum?: cloudPlatformTypes["Number"];
   };
   "机构-分页基础请求入参": {
     /**
@@ -106906,7 +106706,7 @@ export interface definitions {
     /**
      * 备件集合
      */
-    spareMsgList?: definitions["SpareMsg"][];
+    spareMsgList?: cloudPlatformTypes["SpareMsg"][];
   };
   查询产品切换时长列表记录请求参数: {
     /**
@@ -107080,7 +106880,7 @@ export interface definitions {
     /**
      * 返回企业所有的表计类型
      */
-    meterTypeInfoList?: definitions["MeterTypeInfo"][];
+    meterTypeInfoList?: cloudPlatformTypes["MeterTypeInfo"][];
     requestId?: string;
     /**
      * 返回编码
@@ -107131,7 +106931,7 @@ export interface definitions {
     /**
      * 工厂模型详情对象列表
      */
-    items?: definitions["工厂模型详情对象"][];
+    items?: cloudPlatformTypes["工厂模型详情对象"][];
   };
   查询区域设备树请求对象: {
     /**
@@ -107302,7 +107102,7 @@ export interface definitions {
     /**
      * 车间列表
      */
-    items?: definitions["工厂车间树（区域对象）"][];
+    items?: cloudPlatformTypes["工厂车间树（区域对象）"][];
     requestId?: string;
     /**
      * 返回编码
@@ -107859,7 +107659,7 @@ export interface definitions {
     /**
      * 柱形图班组数据
      */
-    data?: definitions["柱形图班次数据"][];
+    data?: cloudPlatformTypes["柱形图班次数据"][];
     /**
      * 等级名称
      */
@@ -107873,7 +107673,7 @@ export interface definitions {
     /**
      * 柱形图班次数据
      */
-    data?: definitions["柱形图班次数据"][];
+    data?: cloudPlatformTypes["柱形图班次数据"][];
     /**
      * 缺陷名称
      */
@@ -107911,7 +107711,7 @@ export interface definitions {
      * 下发方式（1下发工作中心 2下发工作单元, 标准类型为工序操作规范、产品生产规范，必填
      */
     issuedType?: number;
-    materiaList?: definitions["物料信息"][];
+    materiaList?: cloudPlatformTypes["物料信息"][];
     /**
      * 物料id集合
      */
@@ -108297,7 +108097,7 @@ export interface definitions {
     /**
      * 检修内容列表
      */
-    itemList: definitions["MaintainTaskItem"][];
+    itemList: cloudPlatformTypes["MaintainTaskItem"][];
     /**
      * 项目检修人员
      */
@@ -108777,7 +108577,7 @@ export interface definitions {
      * 班组名称
      */
     courseName: string;
-    repairCourseList?: definitions["RepairCourse"][];
+    repairCourseList?: cloudPlatformTypes["RepairCourse"][];
   };
   添加生产质量信息请求对象: {
     /**
@@ -108788,7 +108588,7 @@ export interface definitions {
      * 当前登录请求的用户id,请求操作者
      */
     operateUserId?: number;
-    standardItems?: definitions["StandardItem"][];
+    standardItems?: cloudPlatformTypes["StandardItem"][];
     /**
      * 用户ID
      */
@@ -108908,7 +108708,7 @@ export interface definitions {
     /**
      * 动态基本信息数据
      */
-    produceCheckingBaseInfoList?: definitions["ProduceCheckingBaseInfo"][];
+    produceCheckingBaseInfoList?: cloudPlatformTypes["ProduceCheckingBaseInfo"][];
     /**
      * 标准ID
      */
@@ -108938,7 +108738,7 @@ export interface definitions {
     /**
      * 照片
      */
-    imagePaths?: definitions["文件详情"][];
+    imagePaths?: cloudPlatformTypes["文件详情"][];
     /**
      * 点检结论
      */
@@ -108970,7 +108770,7 @@ export interface definitions {
     /**
      * 语音
      */
-    voicePaths?: definitions["文件详情"][];
+    voicePaths?: cloudPlatformTypes["文件详情"][];
   };
   点检任务查看安排详情请求对象: {
     /**
@@ -109064,7 +108864,7 @@ export interface definitions {
     /**
      * 点检项目列表
      */
-    checkContent: definitions["点检项目"][];
+    checkContent: cloudPlatformTypes["点检项目"][];
     /**
      * 点检卡描述
      */
@@ -109078,7 +108878,7 @@ export interface definitions {
     /**
      * 企业班组类别列表
      */
-    courseGroupList?: definitions["企业班组类别"][];
+    courseGroupList?: cloudPlatformTypes["企业班组类别"][];
     data?: { [key: string]: any };
     exceptCauseApp?: string;
     exceptCauseIp?: string;
@@ -109168,7 +108968,7 @@ export interface definitions {
     /**
      * 定量判断标准
      */
-    quantityJudgementStandard?: definitions["QuantityJudgementStandard"];
+    quantityJudgementStandard?: cloudPlatformTypes["QuantityJudgementStandard"];
     /**
      * 传感器
      */
@@ -109287,7 +109087,7 @@ export interface definitions {
      * eid:企业id
      */
     eid?: string;
-    materialReqs?: definitions["物料详细信息"][];
+    materialReqs?: cloudPlatformTypes["物料详细信息"][];
     /**
      * 当前登录请求的用户id,请求操作者
      */
@@ -109391,7 +109191,7 @@ export interface definitions {
     /**
      * 子列数据
      */
-    subColumnList?: definitions["物料统计列"][];
+    subColumnList?: cloudPlatformTypes["物料统计列"][];
   };
   物料统计子列: {
     /**
@@ -109407,7 +109207,7 @@ export interface definitions {
     /**
      * 行数据
      */
-    rows?: definitions["汇总对象行"][];
+    rows?: cloudPlatformTypes["汇总对象行"][];
     /**
      * 汇总类别：0-按物料类别统计；1-按物料描述统计；2-按物料统计
      */
@@ -109529,7 +109329,7 @@ export interface definitions {
     /**
      * 班组用户对象
      */
-    userItemList?: definitions["UserItem"][];
+    userItemList?: cloudPlatformTypes["UserItem"][];
   };
   班组排序: {
     /**
@@ -109553,7 +109353,7 @@ export interface definitions {
     /**
      * 班组列表
      */
-    courseList?: definitions["班组"][];
+    courseList?: cloudPlatformTypes["班组"][];
     /**
      * 工厂单元名称
      */
@@ -109605,19 +109405,19 @@ export interface definitions {
     /**
      * 准确率
      */
-    accuracyRateList?: definitions["球磨模型历史-价值体现点响应"][];
+    accuracyRateList?: cloudPlatformTypes["球磨模型历史-价值体现点响应"][];
     /**
      * 平均单耗
      */
-    avgEfficiencyList?: definitions["球磨模型历史-价值体现点响应"][];
+    avgEfficiencyList?: cloudPlatformTypes["球磨模型历史-价值体现点响应"][];
     /**
      * 服从率
      */
-    obeyRateList?: definitions["球磨模型历史-价值体现点响应"][];
+    obeyRateList?: cloudPlatformTypes["球磨模型历史-价值体现点响应"][];
     /**
      * 一次合格率
      */
-    qualifiedRateList?: definitions["球磨模型历史-价值体现点响应"][];
+    qualifiedRateList?: cloudPlatformTypes["球磨模型历史-价值体现点响应"][];
   };
   "球磨模型历史-价值体现点响应": {
     /**
@@ -109710,7 +109510,7 @@ export interface definitions {
     /**
      * 生产任务字段配置
      */
-    taskList?: definitions["FieldConfigText"][];
+    taskList?: cloudPlatformTypes["FieldConfigText"][];
     /**
      * 模板ID
      */
@@ -109881,7 +109681,7 @@ export interface definitions {
     /**
      * 自定义字段数据集
      */
-    customFields?: definitions["自定义字段数据集"][];
+    customFields?: cloudPlatformTypes["自定义字段数据集"][];
     /**
      * eid:企业id
      */
@@ -109947,7 +109747,7 @@ export interface definitions {
     /**
      * 自定义字段
      */
-    customFields?: definitions["自定义字段"][];
+    customFields?: cloudPlatformTypes["自定义字段"][];
     /**
      * 工厂单元ID
      */
@@ -110071,7 +109871,7 @@ export interface definitions {
     /**
      * 自定义字段集
      */
-    instructCustomFields?: definitions["自定义字段"][];
+    instructCustomFields?: cloudPlatformTypes["自定义字段"][];
     /**
      * 执行岗位ID
      */
@@ -110139,7 +109939,7 @@ export interface definitions {
     /**
      * 运行时间段
      */
-    operationTimes: definitions["运行时段"][];
+    operationTimes: cloudPlatformTypes["运行时段"][];
   };
   生产线最早生产时间: {
     /**
@@ -110163,7 +109963,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["RawMaterialsNotFueledItem"][];
+    list?: cloudPlatformTypes["RawMaterialsNotFueledItem"][];
     /**
      * 碳排能源类型code
      */
@@ -110194,7 +109994,7 @@ export interface definitions {
     /**
      * 用户权限工厂子树
      */
-    childTree?: definitions["用户权限工厂树"][];
+    childTree?: cloudPlatformTypes["用户权限工厂树"][];
     /**
      * 班组分组ID
      */
@@ -110501,7 +110301,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["LimestoneItem"][];
+    list?: cloudPlatformTypes["LimestoneItem"][];
     /**
      * 碳排能源类型code
      */
@@ -110540,7 +110340,7 @@ export interface definitions {
     /**
      * 总览列表
      */
-    pandectsMapList: definitions["Map«string,object»"][];
+    pandectsMapList: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 租户ID
      */
@@ -110562,7 +110362,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["TonerOxidationItem"][];
+    list?: cloudPlatformTypes["TonerOxidationItem"][];
     /**
      * 碳排能源类型code
      */
@@ -110576,7 +110376,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["CarbonateGradingItem"][];
+    list?: cloudPlatformTypes["CarbonateGradingItem"][];
     /**
      * 碳排能源类型code
      */
@@ -110590,7 +110390,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["CarbonateItem"][];
+    list?: cloudPlatformTypes["CarbonateItem"][];
     /**
      * 碳排能源类型code
      */
@@ -110604,7 +110404,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["CarbonateDecompositionItem"][];
+    list?: cloudPlatformTypes["CarbonateDecompositionItem"][];
     /**
      * 碳排能源类型code
      */
@@ -110618,7 +110418,7 @@ export interface definitions {
     /**
      * 显示表格列表
      */
-    list?: definitions["CarbonateConsumptionItem"][];
+    list?: cloudPlatformTypes["CarbonateConsumptionItem"][];
     /**
      * 碳排能源类型code
      */
@@ -110662,29 +110462,29 @@ export interface definitions {
     /**
      * 动态表头集合
      */
-    columnList?: definitions["DynamicColumn"][];
+    columnList?: cloudPlatformTypes["DynamicColumn"][];
     /**
      * 需要合并单元格的列的多个静态字段名称或者动态字段id集合
      */
-    mergeCellIndexList?: definitions["DynamicColumnRegion"][];
+    mergeCellIndexList?: cloudPlatformTypes["DynamicColumnRegion"][];
     /**
      * 分页数据
      */
-    pageData?: definitions["IPage«动态行数据»"];
+    pageData?: cloudPlatformTypes["IPage«动态行数据»"];
   };
   "粉仓报表分页返回对象«粉仓报表数据对象»": {
     /**
      * 动态表头集合
      */
-    columnList?: definitions["DynamicColumn"][];
+    columnList?: cloudPlatformTypes["DynamicColumn"][];
     /**
      * 需要合并单元格的列的多个静态字段名称或者动态字段id集合
      */
-    mergeCellIndexList?: definitions["DynamicColumnRegion"][];
+    mergeCellIndexList?: cloudPlatformTypes["DynamicColumnRegion"][];
     /**
      * 分页数据
      */
-    pageData?: definitions["IPage«粉仓报表数据对象»"];
+    pageData?: cloudPlatformTypes["IPage«粉仓报表数据对象»"];
   };
   粉仓报表数据对象: {
     /**
@@ -110762,7 +110562,7 @@ export interface definitions {
     /**
      * 动态列数据集合
      */
-    rowDataList?: definitions["DynamicRow"][];
+    rowDataList?: cloudPlatformTypes["DynamicRow"][];
     /**
      * 报工id
      */
@@ -110864,11 +110664,11 @@ export interface definitions {
     /**
      * 设备部位数据
      */
-    equipmentPartData?: definitions["组装好的新增设备部位的数据"][];
+    equipmentPartData?: cloudPlatformTypes["组装好的新增设备部位的数据"][];
     /**
      * 设备部位备件数据
      */
-    equipmentPartSpareData?: definitions["组装好的新增设备部位备件的数据"][];
+    equipmentPartSpareData?: cloudPlatformTypes["组装好的新增设备部位备件的数据"][];
   };
   组装好的新增设备部位备件的数据: {
     /**
@@ -110918,7 +110718,7 @@ export interface definitions {
     /**
      * 历史数据
      */
-    historyDataList?: definitions["Map«string,object»"][];
+    historyDataList?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 数据单位
      */
@@ -110928,7 +110728,7 @@ export interface definitions {
     /**
      * 具体项目集合
      */
-    items: definitions["结果具体项目"][];
+    items: cloudPlatformTypes["结果具体项目"][];
     /**
      * 全称的显示名称
      */
@@ -111012,7 +110812,7 @@ export interface definitions {
     /**
      * 维修描述列表
      */
-    repairDescList?: definitions["维修描述对象"][];
+    repairDescList?: cloudPlatformTypes["维修描述对象"][];
   };
   维修计划类型: {
     data?: { [key: string]: any };
@@ -111134,7 +110934,7 @@ export interface definitions {
     /**
      * 表格行列表
      */
-    reportColumnList?: definitions["能源报表配置（新）行对象"][];
+    reportColumnList?: cloudPlatformTypes["能源报表配置（新）行对象"][];
     /**
      * 报表id
      */
@@ -111274,7 +111074,7 @@ export interface definitions {
     /**
      * 生产任务及判断条件
      */
-    produceJudgingCondition: definitions["自动创建任务方案-生产任务判断条件"][];
+    produceJudgingCondition: cloudPlatformTypes["自动创建任务方案-生产任务判断条件"][];
     /**
      * 生产任务模板
      */
@@ -111312,7 +111112,7 @@ export interface definitions {
     /**
      * 配置参数
      */
-    params: definitions["配置参数"][];
+    params: cloudPlatformTypes["配置参数"][];
   };
   "自动创建任务方案-生产任务判断条件响应": {
     /**
@@ -111346,7 +111146,7 @@ export interface definitions {
     /**
      * 生产任务及判断条件详情
      */
-    params?: definitions["配置参数响应"][];
+    params?: cloudPlatformTypes["配置参数响应"][];
   };
   自动创建任务方案列表: {
     /**
@@ -111408,7 +111208,7 @@ export interface definitions {
     /**
      * 生产任务及判断条件
      */
-    produceJudgingCondition?: definitions["自动创建任务方案-生产任务判断条件响应"][];
+    produceJudgingCondition?: cloudPlatformTypes["自动创建任务方案-生产任务判断条件响应"][];
     /**
      * 生产任务模板ID
      */
@@ -111936,7 +111736,7 @@ export interface definitions {
      * 机构不能为空
      */
     orgId: number;
-    parameters?: definitions["CraftParameterConfig"][];
+    parameters?: cloudPlatformTypes["CraftParameterConfig"][];
     /**
      * debug模式
      */
@@ -112129,7 +111929,7 @@ export interface definitions {
     /**
      * 参数列表
      */
-    parameters?: definitions["公式参数"][];
+    parameters?: cloudPlatformTypes["公式参数"][];
   };
   "获取指标(衍生)公式请求参数": {
     /**
@@ -112303,11 +112103,11 @@ export interface definitions {
     /**
      * 维护任务列表
      */
-    maintainTaskList?: definitions["MaintainTask"][];
+    maintainTaskList?: cloudPlatformTypes["MaintainTask"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -112336,7 +112136,7 @@ export interface definitions {
     /**
      * 维护标准列表
      */
-    standardList?: definitions["MaintainStandard"][];
+    standardList?: cloudPlatformTypes["MaintainStandard"][];
   };
   "获取表计、设备参数在某个时间点前一分钟内的值": {
     /**
@@ -112366,7 +112166,7 @@ export interface definitions {
     /**
      * 参数列表
      */
-    parameters?: definitions["PointData"][];
+    parameters?: cloudPlatformTypes["PointData"][];
     /**
      * debug模式
      */
@@ -112469,7 +112269,7 @@ export interface definitions {
     /**
      * 分页信息
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -112482,13 +112282,13 @@ export interface definitions {
     /**
      * 备品备件列表
      */
-    spares?: definitions["EquipmentSpare"][];
+    spares?: cloudPlatformTypes["EquipmentSpare"][];
   };
   获取设备属性可选控件类型响应: {
     /**
      * 组件列表
      */
-    propertyComponents?: definitions["PropertyComponent"][];
+    propertyComponents?: cloudPlatformTypes["PropertyComponent"][];
   };
   /**
    * 获取设备文件对象
@@ -112613,11 +112413,11 @@ export interface definitions {
     /**
      * 表头
      */
-    columns: definitions["TableColumn"][];
+    columns: cloudPlatformTypes["TableColumn"][];
     /**
      * 行数据
      */
-    rows: definitions["Map«string,object»"][];
+    rows: { [key: string]: any }[];
   };
   解锁用户状态: {
     /**
@@ -113449,7 +113249,7 @@ export interface definitions {
     /**
      * 运行时间段
      */
-    operationTimes: definitions["运行时段"][];
+    operationTimes: cloudPlatformTypes["运行时段"][];
     /**
      * 机构不能为空
      */
@@ -113467,7 +113267,7 @@ export interface definitions {
     /**
      * 该类型设备列表
      */
-    equipmentList?: definitions["设备"][];
+    equipmentList?: cloudPlatformTypes["设备"][];
     /**
      * 类型名称
      */
@@ -113505,7 +113305,7 @@ export interface definitions {
     /**
      * 部位备件信息
      */
-    spareMsgList?: definitions["spareMsg"][];
+    spareMsgList?: cloudPlatformTypes["spareMsg"][];
   };
   设备约束响应参数: {
     /**
@@ -113627,7 +113427,7 @@ export interface definitions {
     /**
      * 比率列表，如果是峰谷平，这里会有三个对象，其他的，则只有一个对象
      */
-    rates?: definitions["统计比率对象"][];
+    rates?: cloudPlatformTypes["统计比率对象"][];
     /**
      * 时间
      */
@@ -113645,7 +113445,7 @@ export interface definitions {
     /**
      * 比率列表，如果是峰谷平，这里会有三个对象，其他的，则只有一个对象
      */
-    rates?: definitions["统计比率对象"][];
+    rates?: cloudPlatformTypes["统计比率对象"][];
   };
   设备统计明细返回对象: {
     data?: { [key: string]: any };
@@ -113656,11 +113456,11 @@ export interface definitions {
     /**
      * 输出物料列表
      */
-    outMaterials?: definitions["输出物料对象"][];
+    outMaterials?: cloudPlatformTypes["输出物料对象"][];
     /**
      * 分页信息对象
      */
-    pageInfo?: definitions["PageInfo"];
+    pageInfo?: cloudPlatformTypes["PageInfo"];
     requestId?: string;
     /**
      * 返回编码
@@ -113673,11 +113473,11 @@ export interface definitions {
     /**
      * 行数据，每个map代表一行，key:表头的code，value:对应的值
      */
-    rows?: definitions["Map«string,object»"][];
+    rows?: cloudPlatformTypes["Map«string,object»"][];
     /**
      * 表头集合
      */
-    titles?: definitions["RowTitle"][];
+    titles?: cloudPlatformTypes["RowTitle"][];
   };
   设备资源删除请求参数: {
     /**
@@ -113769,7 +113569,7 @@ export interface definitions {
     /**
      * 项目分类集
      */
-    categorys?: definitions["项目分类参数"][];
+    categorys?: cloudPlatformTypes["项目分类参数"][];
     /**
      * 异常事项
      */
@@ -113985,7 +113785,7 @@ export interface definitions {
     /**
      * 质检物料统计对象
      */
-    qualityMaterialStatisticsModelList?: definitions["质检统计返回对象"][];
+    qualityMaterialStatisticsModelList?: cloudPlatformTypes["质检统计返回对象"][];
     /**
      * 不合格批次数
      */
@@ -114045,11 +113845,11 @@ export interface definitions {
     /**
      * 班组统计对象
      */
-    qualityCourseStatisticsModelList?: definitions["质检班组统计对象"][];
+    qualityCourseStatisticsModelList?: cloudPlatformTypes["质检班组统计对象"][];
     /**
      * 质检物料统计对象
      */
-    qualityMaterialStatisticsModelList?: definitions["质检统计返回对象"][];
+    qualityMaterialStatisticsModelList?: cloudPlatformTypes["质检统计返回对象"][];
     /**
      * 不合格批次数
      */
@@ -114075,7 +113875,7 @@ export interface definitions {
     /**
      * 质量报告基本信息
      */
-    basicDetail?: definitions["质量报告基本信息字段"][];
+    basicDetail?: cloudPlatformTypes["质量报告基本信息字段"][];
     /**
      * 底部项目列数
      */
@@ -114111,7 +113911,7 @@ export interface definitions {
     /**
      * 质量报告定性信息
      */
-    propertyDetail?: definitions["质量报告定量"]["定性字段"][];
+    propertyDetail?: cloudPlatformTypes["质量报告定量"]["定性字段"][];
     /**
      * 定性项目模板id
      */
@@ -114123,7 +113923,7 @@ export interface definitions {
     /**
      * 质量报告定量信息
      */
-    qualityDetail?: definitions["质量报告定量"]["定性字段"][];
+    qualityDetail?: cloudPlatformTypes["质量报告定量"]["定性字段"][];
     /**
      * 定量项目模板id
      */
@@ -114305,11 +114105,11 @@ export interface definitions {
     /**
      * 定量/定性字段集合
      */
-    data?: definitions["定性"]["定量列表字段"][];
+    data?: cloudPlatformTypes["定性"]["定量列表字段"][];
     /**
      * 表头
      */
-    header?: definitions["定性"]["定量表头字段"][];
+    header?: cloudPlatformTypes["定性"]["定量表头字段"][];
     /**
      * 是否隐藏工序
      */
@@ -114360,7 +114160,7 @@ export interface definitions {
     shareType?: number;
   };
   费用分摊查询返回对象: {
-    costItems?: definitions["费用分摊查询返回对象,成本项目返回内部对象"][];
+    costItems?: cloudPlatformTypes["费用分摊查询返回对象,成本项目返回内部对象"][];
     /**
      * 备注
      */
@@ -114396,7 +114196,7 @@ export interface definitions {
     /**
      * 企业班组类别列表
      */
-    courseGroupList?: definitions["企业班组类别"][];
+    courseGroupList?: cloudPlatformTypes["企业班组类别"][];
     /**
      * 工厂单元id
      */
@@ -114440,7 +114240,7 @@ export interface definitions {
     /**
      * 缓存整个页面的json数据
      */
-    htmlDataJson?: definitions["ProcessHtmlDataJson"];
+    htmlDataJson?: cloudPlatformTypes["ProcessHtmlDataJson"];
     /**
      * 是否通知班组  0：不通知，1：通知
      */
@@ -114926,7 +114726,7 @@ export interface definitions {
     /**
      * 备注
      */
-    factoryResp?: definitions["部门所属的工厂单元对象"][];
+    factoryResp?: cloudPlatformTypes["部门所属的工厂单元对象"][];
     /**
      * 部门主管user_id
      */
@@ -114953,11 +114753,11 @@ export interface definitions {
     /**
      * 批次列表
      */
-    batchInfos?: definitions["ProdFormulaPreferBatchInfo"][];
+    batchInfos?: cloudPlatformTypes["ProdFormulaPreferBatchInfo"][];
     /**
      * 批次表头
      */
-    headers?: definitions["ProdFormulaPreferBatchHeader"][];
+    headers?: cloudPlatformTypes["ProdFormulaPreferBatchHeader"][];
   };
   配方明细: {
     /**
@@ -115059,7 +114859,7 @@ export interface definitions {
     /**
      * 项目参数
      */
-    params?: definitions["项目分类项目"][];
+    params?: cloudPlatformTypes["项目分类项目"][];
     /**
      * 记录规则 0:取班次结束时的值, 1:取班次内的平均值, 2:取班次内的中位数 3: 取指定时间的值
      */
@@ -115121,7 +114921,7 @@ export interface definitions {
     /**
      * 参数名称
      */
-    records?: definitions["记录项"][];
+    records?: cloudPlatformTypes["记录项"][];
     /**
      * 时间格式
      */
@@ -115293,7 +115093,7 @@ export interface definitions {
     /**
      * 实际值
      */
-    actValue?: definitions["Number"];
+    actValue?: cloudPlatformTypes["Number"];
     /**
      * 时间点
      */
@@ -115309,7 +115109,7 @@ export interface definitions {
     /**
      * 预测值
      */
-    predictValue?: definitions["Number"];
+    predictValue?: cloudPlatformTypes["Number"];
   };
   预测气泡量请求对象: {
     /**
@@ -115353,29 +115153,29 @@ export interface definitions {
     /**
      * 平均偏差
      */
-    avgDeviation?: definitions["Number"];
+    avgDeviation?: cloudPlatformTypes["Number"];
     /**
      * 气泡预测量曲线图
      */
-    bubbleForecastNumList?: definitions["预测气泡量"][];
+    bubbleForecastNumList?: cloudPlatformTypes["预测气泡量"][];
     /**
      * 预测精度
      */
-    forecastPrecision?: definitions["Number"];
+    forecastPrecision?: cloudPlatformTypes["Number"];
   };
   领用单据详情响应对象: {
     /**
      * 审核信息
      */
-    approves?: definitions["审核流程的节点信息"][];
+    approves?: cloudPlatformTypes["审核流程的节点信息"][];
     /**
      * 额外审核信息
      */
-    extApproves?: definitions["审核流程的节点信息"][];
+    extApproves?: cloudPlatformTypes["审核流程的节点信息"][];
     /**
      * 单据头字段
      */
-    headerField?: definitions["表格响应数据"];
+    headerField?: cloudPlatformTypes["表格响应数据"];
     /**
      * 是否需要归还(0-否、1-是)
      */
@@ -115383,10 +115183,10 @@ export interface definitions {
     /**
      * 总览表格
      */
-    pandects?: definitions["表格响应数据"];
+    pandects?: cloudPlatformTypes["表格响应数据"];
     /**
      * 记录表格
      */
-    records?: definitions["表格响应数据"];
+    records?: cloudPlatformTypes["表格响应数据"];
   };
 }
