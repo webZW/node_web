@@ -1,6 +1,11 @@
 /*
+    全局插件安装：
     yarn add vue-template-compiler@2.6.11 -g
     yarn add @vue/component-compiler -g
+    yarn add typescript@4.3.5 -g
+
+    增加项目插件：
+    "vue-runtime-helpers": "1.1.2",
 */
 const compileVueFile = require("./compileVueFile");
 const fs = require("fs");
@@ -16,15 +21,15 @@ const compileFile = {
 }
 
 const workspaceList = [
-    '/var/lib/jenkins/workspace/poi-prod-monitor_pre',
-    '/var/lib/jenkins/workspace/poi-cloud-public_pre',
-    '/var/lib/jenkins/workspace/poi-cloud-view_pre',
-    '/var/lib/jenkins/workspace/poi-cloud-config_pre',
-    '/var/lib/jenkins/workspace/poi-cloud-operation_pre',
-    '/var/lib/jenkins/workspace/poi-pretreat_npm_pre',
-    '/var/lib/jenkins/workspace/poi-service_pre',
-    '/var/lib/jenkins/workspace/poi-msg_pre',
-    '/var/lib/jenkins/workspace/poi-union_pre',
+    '/var/lib/jenkins/workspace/poi-prod-monitor_dev',
+    '/var/lib/jenkins/workspace/poi-cloud-public_dev',
+    '/var/lib/jenkins/workspace/poi-cloud-view_dev',
+    '/var/lib/jenkins/workspace/poi-cloud-config_dev',
+    '/var/lib/jenkins/workspace/poi-cloud-operation_dev',
+    '/var/lib/jenkins/workspace/poi-pretreat_npm_dev',
+    '/var/lib/jenkins/workspace/poi-service_dev',
+    '/var/lib/jenkins/workspace/poi-msg_dev',
+    '/var/lib/jenkins/workspace/poi-union_dev',
     // '/Users/poitech/POI_DEVELOP/poi-prod-monitor',
     // '/Users/poitech/POI_DEVELOP/poi-cloud-view',
     // '/Users/poitech/POI_DEVELOP/poi-cloud-public'
@@ -41,7 +46,7 @@ const recursiveWorkspaceFile = (i = 0) => {
     if (projectNameArr.length === 0) projectName = workspacePath.match(/\/(poi-.*)$/)[1].replace(/_[a-zA-Z]+$/, '');
 
     process.exec(`rm -rf ../compileFiles/${projectName}`, (error, stdout, stderr) => {
-        process.exec(`cp -a ${workspacePath}/. ../compileFiles/${projectName}`, (error, stdout, stderr) => {
+        process.exec(`rsync -avz --delete --exclude={"node_modules",".git","dist"} ${workspacePath}/. ../compileFiles/${projectName}/`, (error, stdout, stderr) => {
             console.log('recursiveWorkspaceFile: ', {i, projectNameArr, projectName});
             recursiveWorkspaceFile(++i);
 
