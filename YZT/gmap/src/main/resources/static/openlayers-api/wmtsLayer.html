@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Openlayers地图服务加载</title>
+    <link rel="stylesheet" href="./lib/ol.css">
+    <script src="../lib/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="./lib/ol.js"></script>
+    <script src="../js/Tianditu.js"></script>
+    <style type="text/css">
+        #map {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+<div id="map" class="map"></div>
+<script>
+     var layerUrl = {
+        gdLayerUrl: "/gmap/gateway/serviceCodeYZT1610609202768", //广东2020年7_17级矢量图
+        gdAnnoLayerUrl: "/gmap/gateway/serviceCodeYZT1610609681389", //广东2020年7_17级矢量注记
+    }
+    var projection = new ol.proj.Projection({  
+        code: 'EPSG:4490',  
+        units: 'degrees' 
+    }); 
+    var projectionExtent = [ -180, -90, 180, 90 ];
+    var size = ol.extent.getWidth(projectionExtent) / 256;
+    var resolutions = [];
+    for (var z = 2; z < 19; ++z) {
+        resolutions[z] = size / Math.pow(2, z);
+    }
+    var map = new ol.Map({
+        layers: [
+            new ol.layer.Tile({
+                source: getWMTSLayer(layerUrl.gdLayerUrl)
+            }),
+            new ol.layer.Tile({
+                source: getWMTSLayer(layerUrl.gdAnnoLayerUrl)
+            }), 
+        ],
+        target: "map",
+        view: new ol.View({
+            center: [113.679943564,22.559617265],
+            projection: projection,
+            zoom: 8,
+            maxZoom: 17,
+            minZoom: 1
+        })
+    });
+
+    function getWMTSLayer(serviceUrl){
+    	var xml = getCapabilities(serviceUrl);
+        var format = new ol.format.WMTSCapabilities();
+        var geojson = format.read(xml.documentElement);
+        var data = geojson.Contents.Layer[0];
+        var layerParam = {
+            layerName: data.Abstract,
+            styleName: data.Style[0].Identifier,
+            tilematrixset: data.TileMatrixSetLink[0].TileMatrixSet,
+            format: data.Format[0]
+        };
+        var source = new ol.source.WMTS({
+            url: serviceUrl,
+            layer: layerParam.layerName,
+            style: layerParam.styleName,
+            matrixSet: layerParam.tilematrixset,
+            format: layerParam.format,
+            wrapX: true,
+            tileGrid: new ol.tilegrid.WMTS({
+                origin: ol.extent.getTopLeft(projectionExtent),
+                resolutions: resolutions,
+                matrixIds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+            })
+        });
+        return source;
+    }
+
+    //获取地图服务图层信息
+    function getCapabilities(serviceUrl){
+        var xml;
+        $.ajax({
+            type: "get",
+            url: serviceUrl + "?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+            async: false,
+            success: function(result){
+                xml = result;
+            }
+        });
+        return xml;
+    }
+</script>
+</body>
+</html>

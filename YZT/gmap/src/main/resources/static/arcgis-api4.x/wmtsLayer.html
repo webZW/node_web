@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>arcgis-js-api 4.x 地图服务加载</title>
+    <style>
+        html,
+        body,
+        #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://app.gdeei.cn/arcgis-js-api/library/4.15/esri/themes/light/main.css" />
+    <script src="../lib/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="../lib/jQuery/jquery.xml2json.js"></script>
+    <script src="./layerConfig.js"></script>
+    <script src="../js/Tianditu.js"></script>
+    <script src="https://app.gdeei.cn/arcgis-js-api/library/4.15/init.js"></script>
+
+    <script>
+        require(["esri/Map",
+            "esri/views/MapView",
+            "esri/layers/WebTileLayer",
+            "esri/geometry/SpatialReference",
+            "esri/geometry/Point",
+            "esri/layers/support/TileInfo"
+        ],
+            function (Map, MapView, WebTileLayer, SpatialReference, Point, TileInfo) {
+                var serverLayerUrl = {
+                    mapLayerUrl: "/gmap/gateway/serviceCodeYZT1610609202768", //广东2020年7_17级矢量图
+                    mapAnnoLayerUrl: "/gmap/gateway/serviceCodeYZT1610609681389", //广东2020年7_17级矢量注记
+                }
+                var spatialReference = new SpatialReference({
+                    wkid: 4490
+                });
+                function layerManager(serverLayerUrl) {
+                    var xml;
+                    $.ajax({
+                        type: "get",
+                        url: serverLayerUrl + "?SERVICE=WMTS&VERSION=1.0.0&REQUEST=GetCapabilities",
+                        async: false,
+                        success: function (result) {
+                            xml = result;
+                        }
+                    });
+                    var json = $.xml2json(xml);
+                    var data = json.Contents.Layer;
+                    var layerName = data.Abstract;
+                    var styleName = data.Style.Identifier;
+                    var tilematrixset = data.TileMatrixSetLink[0].TileMatrixSet;
+                    return new WebTileLayer({
+                        urlTemplate: window.location.origin + serverLayerUrl +
+                            "?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=" + layerName + "&STYLE=" + styleName + "&TILEMATRIXSET=" + tilematrixset + "&TILEMATRIX={level}&TILEROW={row}&TILECOL={col}&FORMAT=image/png",
+                        spatialReference: spatialReference,
+                        tileInfo: new TileInfo(LayerConfig.tileInfo)
+                    });
+                }
+                //底图
+                var mapLayer = layerManager(serverLayerUrl.mapLayerUrl);
+                //注记
+                var mapAnnoLayer = layerManager(serverLayerUrl.mapAnnoLayerUrl);
+                var map = new Map({
+                    spatialReference: {
+                        wkid: 4490
+                    },
+                    basemap: {
+                        baseLayers: [mapLayer, mapAnnoLayer]
+                    }
+                });
+                var pt = new Point({
+                    latitude: 23.150817871112068,
+                    longitude: 113.28015136716937,
+                    spatialReference: { wkid: 4490 }
+                });
+                var view = new MapView({
+                    container: "viewDiv",
+                    map: map,
+                    spatialReference: {
+                        wkid: 4490
+                    },
+                    zoom: 8,
+                    center: pt, 
+                });
+ 
+            });
+    </script>
+</head>
+
+<body>
+    <div id="viewDiv"></div>
+</body>
+
+</html>

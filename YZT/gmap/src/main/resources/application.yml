@@ -1,0 +1,10 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /gmap
+gateway:
+   paasId: 应用的PaasId,用于智能网关模式
+   paasToken: 应用的PaasToken,用于智能网关模式
+bus:
+  paasId: 应用的PaasId,用于数据中台模式
+  paasToken: 应用的PaasToken,用于数据中台模式 

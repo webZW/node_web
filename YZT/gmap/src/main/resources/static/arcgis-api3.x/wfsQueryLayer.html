@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>arcgis-js-api 3.x 要素服务加载</title>
+    <link rel="stylesheet" href="./lib/css/esri.css">
+    <style>
+        html,
+        body,
+        #map {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .selected-panel {
+            position: absolute;
+            right: 0px;
+            width: 230px;
+            height: 65px;
+            background: aliceblue;
+            z-index: 1;
+        }
+    </style>
+    <script>
+        //加载自己写的类文件path
+        var package_path = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+        var dojoConfig = {
+            packages: [{
+                name: "layer",
+                location: package_path + '/layer'
+            }]
+        };
+    </script>
+	<script src="../lib/mapbox/js/mapbox-gl.js"></script>
+    <script src="../lib/GeoGlobeSDK/GeoGlobeJS.min.js"></script>
+    <script src="../lib/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="../lib/jQuery/jquery.xml2json.js"></script>
+    <script src="./lib/js/init.js"></script>
+    <script>
+        require([
+            "esri/map",
+            "esri/geometry/Extent",
+            "esri/geometry/Point",
+            "esri/geometry/Polyline",
+            "esri/geometry/Polygon",
+            "esri/InfoTemplate",
+            "esri/graphic",
+            "esri/layers/GraphicsLayer",
+            "esri/symbols/SimpleFillSymbol",
+            "esri/symbols/SimpleLineSymbol",
+            "esri/symbols/SimpleMarkerSymbol",
+            "esri/Color",
+            "dojo/parser",
+            "layer/WMTSLayerClass",
+            "dijit/layout/BorderContainer",
+            "dijit/layout/ContentPane",
+            "dojo/domReady!"
+        ], function (Map, Extent, Point, Polyline, Polygon, InfoTemplate, Graphic, GraphicsLayer, SimpleFillSymbol, SimpleLineSymbol, SimpleMarkerSymbol, Color, parser, WMTSLayerClass) {
+            parser.parse();
+
+            var layerUrl = {
+                gdLayerUrl: "/gmap/gateway/serviceCodeYZT1610609202768", //广东2020年7_17级矢量图
+                gdAnnoLayerUrl: "/gmap/gateway/serviceCodeYZT1610609681389", //广东2020年7_17级矢量注记
+                polygonWfsUrl: "/gmap/gateway/serviceCodeYZT1597746923010",//面要素，广州市县级工作底图界线
+                pointWfsUrl: "/gmap/gateway/serviceCodeYZT1597746931474/",//点要素，广东省际检疫站
+                lineWfsUrl: "/gmap/gateway/serviceCodeYZT1597746941420" //线要素，广东2019年末全省高速公路分布
+            }
+            var pt = new Point({
+                latitude: 23.150817871112068,
+                longitude: 113.28015136716937,
+                spatialReference: { wkid: 4490 }
+            });
+            var map = new Map("map", {
+                spatialReference: {
+                    wkid: 4490
+                },
+                center: pt,
+                zoom: 8
+            });
+            //底图
+            var gdLayer = new WMTSLayerClass(layerUrl.gdLayerUrl);
+            map.addLayer(gdLayer);
+            //注记
+            var gdAnnoLayer = new WMTSLayerClass(layerUrl.gdAnnoLayerUrl);
+            map.addLayer(gdAnnoLayer);
+
+            var graphicLayer = new GraphicsLayer();
+
+            $(document).on("change", "#typeSelect", function () {
+                graphicLayer.clear();
+                var wfsType = $("#typeSelect").val();
+                if (wfsType == "点要素") {
+                    var queryParams = {
+                        url: layerUrl.pointWfsUrl,
+                        typeName: '广东省际检疫站',
+                    }
+                    queryWfs(queryParams, function (result) {
+                        if (result && result.features.length != 0) {
+                            loadPointWfs(result);
+                        }
+                    })
+                } else if (wfsType == "线要素") {
+                    var queryParams = {
+                        url: layerUrl.lineWfsUrl,
+                        typeName: 'JTYST_GSGL2019',
+                        filter: new GeoGlobe.Filter.Comparison({
+                            type: GeoGlobe.Filter.Comparison.LIKE,
+                            property: "XZQH",
+                            value: "4401%"
+                        }),
+                    }
+                    queryWfs(queryParams, function (result) {
+                        if (result && result.features.length != 0) {
+                            loadPolylineWfs(result);
+                        }
+                    })
+                } else if (wfsType == "面要素") {
+                    var queryParams = {
+                        url: layerUrl.polygonWfsUrl,
+                        typeName: 'GZSXJXZQHM',
+                    }
+                    queryWfs(queryParams, function (result) {
+                        if (result && result.features.length != 0) {
+                            loadPolygonWfs(result);
+                        }
+                    })
+                }
+            })
+
+            $("#typeSelect").change();
+
+            function queryWfs(queryParams, callback) {
+                if (!queryParams || !queryParams.url || !queryParams.typeName) {
+                    alert('未获取到查询的配置，无法进行要素查询操作！');
+                } else {
+                    var queryObj = new GeoGlobe.Query.WFSQuery(
+                    	queryParams.url, //服务地址 
+                        queryParams.typeName, //要素分类名 
+                        {
+                            geometryName: "GEOMETRY",
+                            format: new GeoGlobe.Format.GML.v2({ xy: true }),
+                            version: "1.0.0",
+                            maxFeatures: 999999 //限制查询的结果数 
+                        }
+                    );
+                    queryObj.query(queryParams.filter, callback, getFeatureFailFn);
+                }
+            }
+            function getFeatureFailFn() {
+                alert("查询失败！");
+            }
+
+            function loadPointWfs(result) {                
+                var defaultsymbol = new SimpleMarkerSymbol(SimpleMarkerSymbol.STYLE_CIRCLE, 20,
+                    new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID, new dojo.Color([255, 0, 0]), 1), new dojo.Color([0, 255, 0, 1]));
+                for (var i = 0; i < result.features.length; i++) {
+                	var infoTemplate = new InfoTemplate();
+                    infoTemplate.title = "属性信息";
+                    infoTemplate.content = result.features[i].attributes.检疫检查站名称;
+                    var pt = new Point(result.features[i].geometry.x, result.features[i].geometry.y);
+                    var graphic = new Graphic(pt, defaultsymbol, null, infoTemplate);
+                    graphicLayer.add(graphic);
+                }
+                map.addLayer(graphicLayer);
+            }
+
+            function loadPolygonWfs(result) {
+                //用来展示面的symbol
+                var fillSymbol = new SimpleFillSymbol(
+                    SimpleFillSymbol.STYLE_SOLID,
+                    new SimpleLineSymbol(
+                        SimpleLineSymbol.STYLE_SOLID,
+                        new Color('#000'),
+                        1
+                    ),
+                    new Color([255, 0, 0, 0.5])
+                );
+
+                var data = result.geojson.features;
+                for (var i = 0; i < data.length; i++) {
+                	var infoTemplate = new InfoTemplate();
+                    infoTemplate.title = "属性信息";
+                    infoTemplate.content = data[i].properties.XZQMC;
+                    var polygonJson = { "rings": data[i].geometry.coordinates, "spatialReference": { "wkid": 4490 } };
+                    var polygon = new Polygon(polygonJson);
+                    var graphic = new Graphic(polygon, fillSymbol, null, infoTemplate);
+                    graphicLayer.add(graphic);
+                }
+                map.addLayer(graphicLayer);
+            }
+
+            function loadPolylineWfs(result) {
+                //线的样式
+                var lineSymbol = new SimpleLineSymbol(
+                    SimpleLineSymbol.STYLE_DASH,
+                    new Color([255, 0, 0]),
+                    3
+                );
+                //构造线图层
+                var data = result.geojson.features;
+                for (var i = 0; i < data.length; i++) {
+                	 //浮云框信息
+                    var infoTemplate = new InfoTemplate();
+                    infoTemplate.title = "属性信息";
+                    infoTemplate.content = data[i].properties.ROADNAME;
+                    var polylineJson = { "paths": [data[i].geometry.coordinates], "spatialReference": { "wkid": 4490 } };
+                    var polyline = new Polyline(polylineJson);
+                    var graphic = new Graphic(polyline, lineSymbol, null, infoTemplate);
+                    graphicLayer.add(graphic);
+                }
+                map.addLayer(graphicLayer);
+            }
+        });
+
+
+    </script>
+</head>
+
+<body>
+    <div class="selected-panel">
+        <div style="padding: 20px;">
+            <label for="">选择要素类型：</label>
+            <select name="" id="typeSelect">
+                <option value="点要素">点要素</option>
+                <option value="线要素">线要素</option>
+                <option value="面要素">面要素</option>
+            </select>
+        </div>
+    </div>
+    <div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline', gutters:false"
+        style="width: 100%; height: 100%; margin: 0;">
+
+        <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+        </div>
+
+    </div>
+</body>
+
+</html>

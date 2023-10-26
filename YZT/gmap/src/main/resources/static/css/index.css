@@ -1,0 +1,76 @@
+#dcontent>div{
+    margin: 10px;
+}
+#serviceTable{
+    width: 100%;
+}
+#serviceTable td{
+    text-align: center;
+}
+
+.geocodingPanel{
+    display: none;
+}
+
+#service{
+    width: 60%;
+}
+
+#geoCodingUrl{
+    width: 70%;
+}
+
+#geoCodingUrlPanel{
+    margin-top: 10px;
+}
+
+#loadServicesPanel{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#loadServices{
+    height: 30px;
+}
+
+#busUrlPanel{
+    margin-top: 20px;
+}
+
+#busUrl{
+    width: 70%
+}
+
+#zoom{
+    position: absolute;
+    background: #fff;
+    bottom: 150px;
+    right: 10px;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+    text-shadow: #4e8cf4 1.5px 0 0, #4e8cf4 0 1.5px 0, #4e8cf4 -1.5px 0 0, #4e8cf4 0 -1.5px 0, #4e8cf4 1px 1px 0, #4e8cf4 -1px 1px 0, #4e8cf4 1px -1px 0, #4e8cf4 -1px -1px 0;
+    cursor: pointer;
+}
+.Pointmarker {
+    white-space: nowrap;
+    padding: 3px;
+    font-size: 14px;
+    color: #181818;
+    margin-top: -12px;
+}
+.Polygonmarker{
+    white-space: nowrap;
+    padding: 3px;
+    font-size: 16px;
+    color: #0000FF;
+}
+
+.LineStringmarker{
+    white-space: nowrap;
+    padding: 3px;
+    font-size: 16px;
+    color: #00FF00;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>arcgis-js-api 3.x 地图服务加载</title>
+    <link rel="stylesheet" href="./lib/css/esri.css">
+    <style>
+        html,
+        body,
+        #map {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+    <script>
+        //加载自己船舰的天地图文件path
+        var package_path = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/'));
+        var dojoConfig = {
+            packages: [{
+                name: "layer",
+                location: package_path + '/layer'
+            }]
+        };
+    </script>
+    <script src="../lib/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="../lib/jQuery/jquery.xml2json.js"></script>
+    <script src="./lib/js/init.js"></script>
+    <script>
+        require([
+            "esri/map",
+            "esri/layers/WMTSLayer",
+            "esri/layers/WMTSLayerInfo",
+            "esri/geometry/Extent",
+            "esri/geometry/Point",
+            "esri/layers/TileInfo",
+            "esri/SpatialReference",
+            "dojo/parser",
+            "layer/WMTSLayerClass",
+            "dijit/layout/BorderContainer",
+            "dijit/layout/ContentPane",
+            "dojo/domReady!"
+        ], function (Map, WMTSLayer, WMTSLayerInfo, Extent, Point, TileInfo, SpatialReference, parser, WMTSLayerClass) {
+            parser.parse();
+
+            var layerUrl = {
+                gdLayerUrl: "/gmap/gateway/serviceCodeYZT1610609202768", //广东2020年7_17级矢量图
+                gdAnnoLayerUrl: "/gmap/gateway/serviceCodeYZT1610609681389", //广东2020年7_17级矢量注记
+            }
+            var pt = new Point({
+                latitude: 23.150817871112068,
+                longitude: 113.28015136716937,
+                spatialReference: { wkid: 4490 }
+            });
+            var map = new Map("map", {
+                spatialReference: {
+                    wkid: 4490
+                },
+                center: pt,
+                zoom: 7
+            });
+            //底图
+            var gdLayer = new WMTSLayerClass(layerUrl.gdLayerUrl);
+            map.addLayer(gdLayer);
+            //注记
+            var gdAnnoLayer = new WMTSLayerClass(layerUrl.gdAnnoLayerUrl);
+            map.addLayer(gdAnnoLayer);
+        });
+    </script>
+</head>
+
+<body>
+    <div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="design:'headline', gutters:false"
+        style="width: 100%; height: 100%; margin: 0;">
+
+        <div id="map" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'">
+        </div>
+
+    </div>
+</body>
+
+</html>

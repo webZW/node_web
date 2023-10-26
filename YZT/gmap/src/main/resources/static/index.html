@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>粤政图服务接入示范用例</title>
+	<meta http-equiv="cache-control" content="no-cache">
+	<meta http-equiv="expires" content="0">
+
+	<link href="./lib/mapbox/css/mapbox-gl.css" rel="stylesheet" type="text/css" />
+	<link href="./css/common.css" rel="stylesheet" type="text/css" />
+	<link href="./css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="gmap"></div>
+
+	<div id="dialog" style="height: auto; width: 500px;">
+		<div class="dtitle">
+			<table cellspacing="0" cellpadding="0" width="100%">
+				<tbody>
+					<tr>
+						<td style="color: #ffffff; font-weight: bold">地图产品接入管理</td>
+						<td style="text-align: right"> <img style="cursor:hand" onclick="slideToggleDialog('dialog')"
+								src="./img/closeD.png"> </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div id="dcontent" style="height: auto; overflow: auto; max-height: 500px; display: block;">
+			<div>
+				<span>PaasId：</span>
+				<input id="paasId">
+				<span>PaasToken：</span>
+				<input id="paasToken">
+			</div>
+			<div style="color:red">（温馨提示：地图产品接入业务系统使用时，建议将PaasId与PassToken通过后台配置读取，不通过前端参数传递，避免信息泄露）</div>
+			<div id="serverLoadModeDiv">
+				<span>地图产品接入模式：</span>
+				<select id="modeType">
+					<option value="bus">数据中台</option>
+					<option value="gateway">智能网关</option>
+				</select>
+			</div>
+			
+			<div id="busUrlPanel">
+				<span>数据中台接口地址：</span>
+				<input id="busUrl">
+			</div>
+
+			<div id="typeDiv">
+				<span>地图产品类型：</span>
+				<select id="typeSelect">
+					<option value="wmts">地图服务</option>
+					<option value="wfs">要素服务</option>
+					<option value="geocoding">地名地址服务</option>
+					<option value="vts">矢量切片服务</option>
+				</select>
+			</div>
+
+			<div class="serverOpPanel">
+				<div>
+					<span class="serverTipName">服务：</span>
+					<input id="service">
+					<button id="addService">添加</button>
+				</div>
+				<div style="margin:10px" class="wfsResultTypePanel">
+					<div class="select-mark-panel" style="margin: 5px 5px 5px 0px;">
+						<span>选择标注字段：</span>
+						<select name="selectMark" id="selectMark" style="width: 120px;">
+							<option value="0">无</option>
+						</select>
+						<button id="addToList" style="margin-left: 10px;">添加到列表</button>
+					</div>
+					<div class="select-load-way" style="margin: 5px 5px 5px 0px;">
+						<span>标注加载方式：</span>
+						<input name="loadWay" type="radio" value="Symbol" checked="checked">Symbol
+						<input name="loadWay" type="radio" value="Marker">Marker
+					</div>
+					<span>返回数据类型：</span>
+					<input name="resultType" type="radio" value="XML" checked="checked">XML
+					<input name="resultType" type="radio" value="GEOJSON">GEOJSON
+				</div>
+				<div>
+					<table id="serviceTable">
+						<thead>
+							<tr class="wmtsTr">
+								<th width="80%">地图产品</th>
+								<th width="20%">操作</th>
+							</tr>
+							<tr class="vtsTr">
+								<th width="80%">矢量切片产品</th>
+								<th width="20%">操作</th>
+							</tr>
+							<tr class="wfsTr" style="display: none;">
+								<th width="50%">地图产品</th>
+								<th width="20%">标注字段</th>
+								<th width="20%">返回数据类型</th>
+								<th width="10%">操作</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				<div id="loadServicesPanel">
+					<button id="loadServices">加载至地图</button>
+				</div>
+			</div>
+
+			<div class="geocodingPanel">
+				<div style="margin-top: 10px;">
+					<span>地名地址查询方式：</span>
+					<select id="geoCodingType">
+						<option value="addrToLoc">正向匹配</option>
+						<option value="locToaddr">反向匹配</option>
+					</select>
+				</div>
+				
+				<div id="geoCodingUrlPanel">
+					<span class="serverTipName">服务：</span>
+					<input id="geoCodingUrl">
+				</div>
+
+				<!-- 正向匹配 -->
+				<div class="geocodingDiv" id="addrToLocDiv" style="text-align:height:auto;width:350px;overflow:auto;max-height:500px;">
+					<br />
+					<TABLE align="center" cellSpacing="0" cellPadding="1" width="90%" style="line-height:1.5">
+						<TR>
+							<TD>本示例演示地址正向匹配，并且关联查询出该地址上的POI</TD>
+						</TR>
+						<TR>
+							<TD style="height: 30px;"> <input type="text" id="addrToLocQueryText" value="广东省人民政府" style="width:200px;" /> &nbsp;&nbsp;
+								<input type="button" value="查询" id="addrToLoc"/>
+							</TD>
+						</TR>
+						<TR>
+							<td style="height: 30px;">
+								<input type="checkbox" name="params" id="trd" style="vertical-align:middle" checked  />地址关联POI&nbsp;
+							</td>
+						</TR>
+						<TR>
+							<TD> <div id="addrToLocDIVresult"></div>
+							</TD>
+						</TR>
+					</TABLE>
+				</div>
+		
+				<!-- 反向匹配 -->
+				<div class="geocodingDiv" id="locToaddrDiv" style="text-align:height:auto;width:350px;overflow:auto;max-height:500px;display:none">
+					<br />
+					<TABLE align="center" cellSpacing="0" cellPadding="1" width="90%" style="line-height:1.5">
+						<TR>
+							<TD>本示例演示根据坐标反向查询地名</TD>
+						</TR>
+						<TR>
+							<TD style="height: 30px;"> <input type="text" id="locToAddrQueryText" value="113.2612197650001,23.135719477000071"
+									style="width:220px;" /> &nbsp;&nbsp;
+								<input type="button" value="查询" id="locToAddr"/>
+							</TD>
+						</TR>
+						<TR>
+							<TD>
+								<div id="locToAddrDIVresult"></div>
+							</TD>
+						</TR>
+					</TABLE>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="zoom"></div>
+</body>
+<script type="text/javascript" src="./lib/jQuery/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="http://www.jsons.cn/Down/jquery.xml2json.js"></script>
+<script type="text/javascript" src="./js/Tianditu.js"></script>
+<script type="text/javascript" src="./map/js/urlUtil.js"></script>
+<script type="text/javascript" src="./lib/mapbox/js/mapbox-gl.js"></script>
+<script type="text/javascript" src="./lib/GeoGlobeSDK/GeoGlobeJS.min.js"></script>
+<script type="text/javascript" src="./map/js/wmtsUtil.js"></script>
+<script type="text/javascript" src="./map/js/wfsUtil.js"></script>
+<script type="text/javascript" src="./map/js/vtsUtil.js"></script>
+<script type="text/javascript" src="./map/js/geocodingUtil.js"></script>
+<script type="text/javascript" src="./map/js/mapView.js"></script>
+<script type="text/javascript" src="./map/js/index.js"></script>
+
+</html>
