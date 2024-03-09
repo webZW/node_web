@@ -61,7 +61,7 @@ const content = cycle === 0 ? contentArr[i] : contentArr[i].replace('分析绘�
   console.timeEnd("timer");
 
   // 4.3. 点击元素
-  document.querySelector(".lgvvFMU_ZtEgFG2Q14nX").click();
+  document.querySelector('.chat-uikit-chat-input__input-area__send-button .semi-button').click();
 
   console.time("timer1");
 
@@ -70,7 +70,7 @@ const content = cycle === 0 ? contentArr[i] : contentArr[i].replace('分析绘�
     clearInterval(intervalId);
     intervalId = setInterval(() => {
       let isLoading =
-        document.querySelector(".HtE_QDTDO5s6h3FZ5MPz").offsetHeight === 0;
+      document.querySelector('.hheVvrE0VkdtrwVcvARM .semi-button').offsetHeight === 0;
     if (isStop) return;
 
       console.log("是否加载中: ", isLoading);
