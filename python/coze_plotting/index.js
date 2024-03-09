@@ -69,8 +69,7 @@ const content = cycle === 0 ? contentArr[i] : contentArr[i].replace('分析绘�
   await new Promise(async (resolve) => {
     clearInterval(intervalId);
     intervalId = setInterval(() => {
-      let isLoading =
-      document.querySelector('.hheVvrE0VkdtrwVcvARM .semi-button').offsetHeight === 0;
+      let isLoading = !document.querySelector('.hheVvrE0VkdtrwVcvARM');
     if (isStop) return;
 
       console.log("是否加载中: ", isLoading);
